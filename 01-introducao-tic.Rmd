@@ -38,6 +38,12 @@ b)  nâo ? Porque ?\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\
 
 ### Os Sistemas de Informação e o Mundo dos Negócios
 
+Em uma visão global, segundo JOAO, BELMIRO NASCIMENTO (2018) os Sistemas de Informação dentro das organizações são
+
+> soluções para vários problemas e desafios organizacionais. Essa abordagem tem relevância direta para sua carreira, pois **seus futu­ros empregadores contratarão você por sua habilidade em resolver problemas e atingir objetivos**.(JOÃO, BELMIRO NASCIMENTO - 2018)
+
+### A abordagem da resolução de problemas organizacionais
+
 No mundo dos negócios as demandas (ou problemas) podem ser agrupados em 3 categorias:
 
 -   organização;
@@ -48,16 +54,74 @@ No mundo dos negócios as demandas (ou problemas) podem ser agrupados em 3 categ
 
 Segundo *Kenneth C. LAUDON, Jane P. LAUDON,* solucionar probelmas será sempre um processo contínuo de 4 passos:
 
-1.  Identificar [do problema];
+1.  Identificar [do problema ou demanda];
 
-2.  Receber as propostas para Solução [do problema];
+2.  Receber as propostas para Solução [do problema ou demanda];
 
-3.  Avaliar as propostas e escolher a Solução [do problema];
+3.  Avaliar as propostas e escolher a Solução [do problema ou demanda];
 
-4.  Implantar a SOLUÇÂO escolhida [para resolver o problema];
+4.  Implantar a SOLUÇÂO escolhida [para resolver o problema ou demanda];
 
 ![](images/clipboard-3657052893.png)
 
++---------------------------------------------------------+-----------------------------------------------------------------------------------------------------+
+| Os 4 passos para solucionar problemas (LAUDON e LAUDON) | Detalhes                                                                                            |
++=========================================================+=====================================================================================================+
+| 1- Identificar [problema ou demanda]                    | -   Como resolver um problema que não sabemos qual é?                                               |
+|                                                         |                                                                                                     |
+|                                                         | -   Os problemas precisam ser definidos pelas pessoas em uma orga­nização antes de serem resolvidos. |
++---------------------------------------------------------+-----------------------------------------------------------------------------------------------------+
+| 2- Propor Solução [problema ou demanda]                 | -   Identificar soluções viáveis; Custo                                                             |
+|                                                         |                                                                                                     |
+|                                                         | -   Evitar "bazuca para matar um pardal";                                                           |
+|                                                         |                                                                                                     |
+|                                                         | -   Usar tecnologia ou usar melhor o "recurso humano" ?                                             |
++---------------------------------------------------------+-----------------------------------------------------------------------------------------------------+
+| 3- Avaliar Propostas [problema ou demanda]              | -   Eficiência vs Eficácia !                                                                        |
++---------------------------------------------------------+-----------------------------------------------------------------------------------------------------+
+| 4- Implantação [problema ou demanda]                    | -   Qual a melhor solução ? Geralmente aquela que atende e é mais fácil de ser implantada;          |
++---------------------------------------------------------+-----------------------------------------------------------------------------------------------------+
+
 ## Os diferentes Tipos de Sistemas de Informação
+
+**Empresa existe para** (**cumprir seu propósito** que geralmente é) **DAR LUCRO** !
+
+#### Organizações com fins lucrativos - Empresas
+
+Uma empresa é uma organização formal cujo ob­ jetivo é produzir produtos ou prestar serviços a fim de obter lu­ cro. E como obter lucro? A conta é simples: vendem-se produtos a um preço superior aos custos da produção.
+
+#### Organizações sem fins lucrativos - Fundações Autarquicas - ONGs - Assitência Social - Saúde - Educação - Cultura - Direitos Humanos
+
+As entidades sem fins lucrativos (dentre as quais estão ONGs ) são organizações que têm como objetivo principal promover o bem-estar social, defender causas ou oferecer serviços à comunidade, sem visar lucro financeiro.
+
+#### Organograma de uma Empresa: Uma Representação Visual da Estrutura Organizacional
+
+Um organograma é uma representação gráfica da estrutura interna de uma organização, mostrando a hierarquia, os cargos, as funções e os departamentos que a compõem. Ele serve como um **mapa visual** da organização, facilitando a compreensão de **como as diferentes partes se encaixam** e como o **poder e a responsabilidade são distribuídos**.
+
+#### Organograma Conceitual
+
+![](images/organogramas/organograma-genérico.jpg)
+
+**Organograma Empresarial - Varejo**
+
+![](images/organogramas/Organograma-empresarial.jpg)
+
+**Organograma Organizacional - Organização Sem Fins Lucrativos - Orgão Público**
+
+Exemplo: organograma da Superintendência Estadual de São Paulo do IBGE - Fundação pública da esfera do Poder Executivo Federal
+
+![](images/organogramas/SES-SP.jpg)
+
+**Missão** institucional dessa "organização" federal "*Retratar o Brasil com informações necessárias ao conhecimento de sua realidade e ao exercício da cidadania*"
+
+### Organizando uma empresa: funções empresariais básicas
+
+Imagine que você queira abrir seu próprio negócio. Você preci­ sará tomar várias decisões: o que produzir ou qual serviço prestar. Essa é uma escolha estratégica, pois vai determinar seus prováveis consumidores, os funcionários de que precisa, os métodos de pro­ dução c muitos outros aspectos. Depois de decidir o que produzir, você deve definir de que tipo de organização vai necessitar. Primeiro, pense em um arranjo de pessoas, máquinas c processos de negócios capaz de produzir. Em segundo lugar, monte uma equipe de marketing e vendas capaz de atrair clientes e vender o produto. Em terceiro, após as vendas, é preciso organizar uma equipe de contabilidade e finanças para cuidar das transações financeiras correntes, como pedidos, faturas e folhas de pagamento. Calma, ainda não acabou: também são necessárias pessoas para cuidar dos assuntos relativos aos funcio­ nários, como recrutamento e capacitação.
+
+Essas quatro funções básicas - que você poderá ver na figura abaixo são encontradas em qualquer empresa. A figura também ajuda a identificar as princi­ pais entidades que formam uma empresa: fornecedores, clientes, funcionários, os salários que ela paga e, é claro, os produtos e serviços que produz.
+
+![](images/1-dados-info/AreasBasicasEmpresa.jpg)
+
+Fonte: adaptada de Laudon e Laudon (2011, página 37).
 
 ## Sistemas de Informação e Vantagem Competitiva

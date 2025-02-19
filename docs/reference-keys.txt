@@ -1,11 +1,7 @@
 acesso-anotações-de-aula-no-ceular-github
-httpsmiguel7penteado.github.ioads-tecnologiainformacaocomunicacoes2025
-section
 anotações-de-aula-suporte-para-celulares
 moon-reader-google-play---loja-de-aplicativos-oficial-do-google
-httpsplay.google.comstoreappsdetailsidcom.flyersoft.moonreaderpcampaignidweb_share
 epub-reader-appstore---loja-de-aplicativos-oficial-da-apple
-httpsapps.apple.combrappepub-leitor-ler-epub-chm-txtid1296870631platformiphone
 livros-texto-da-disciplina
 bibliografia-básica
 bibliografia-complementar
@@ -15,7 +11,13 @@ o-dado
 conceito-de-informação-segundo-kenneth-c.-laudon-jane-p.-laudon-2011
 as-3-atividades-básicas-de-um-sistema-de-informação-si
 os-sistemas-de-informação-e-o-mundo-dos-negócios
+a-abordagem-da-resolução-de-problemas-organizacionais
 os-diferentes-tipos-de-sistemas-de-informação
+organizações-com-fins-lucrativos---empresas
+organizações-sem-fins-lucrativos---fundações-autarquicas---ongs---assitência-social---saúde---educação---cultura---direitos-humanos
+organograma-de-uma-empresa-uma-representação-visual-da-estrutura-organizacional
+organograma-conceitual
+organizando-uma-empresa-funções-empresariais-básicas
 sistemas-de-informação-e-vantagem-competitiva
 infraestrutura-de-tic
 hardware-e-software
