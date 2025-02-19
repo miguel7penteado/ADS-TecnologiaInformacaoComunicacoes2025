@@ -1,0 +1,27 @@
+# INTRODUÇÃO DA DISCIPLINA {-}
+
+coming soon
+
+## Livros-Texto da disciplina
+
+### Bibliografia Básica
+
+JOÃO, Belmiro N. Informática Aplicada. São Paulo: Pearson Education do Brasil, 2019.
+
+GONÇALVES, G. R. B. Sistemas de informação. Porto Alegre: SAGAH, 2017.
+
+SILVA, K. C. N.; BARBOSA, C.; CÓRDOVA JUNIOR, R. S. Sistemas de informações gerenciais. Porto Alegre: SAGAH, 2018.
+
+### Bibliografia Complementar
+
+LAUDON, Kenneth C; LAUDON, Jane P. Sistemas de Informação Gerenciais. São Paulo: Pearson Education do Brasil, 2014.
+
+MUNHOZ, Antônio S. Fundamentos de Tecnologia da Informação e análise de sistemas para não analistas. Curitiba: Intersaberes, 2017.
+
+MARÇULA, M.; BENINI FILHO, P. A. Informática: Conceitos e Aplicações. 5.Ed. São Paulo: Erica: 2019.
+
+RAINER JUNIOR, R. K.; CEGIELSKI, C. G. Introdução a sistemas de informação. - 5. ed. - Rio de Janeiro: Elsevier, 2016.
+
+STAIR, Ralph M; REYNOLDS, George W. Princípios de sistemas de informação / Ralph M. Stair. São Paulo: Cengage Learning, 2015.
+
+

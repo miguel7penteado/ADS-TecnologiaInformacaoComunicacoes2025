@@ -1,0 +1,7 @@
+# Tomada de Decisão de Gestão do Conhecimento: Business Inteligence
+
+## Ferramentas de B.I. e conceito de DashBoard
+
+### PowerBI
+
+## Bancos de Dados OLTP e OLAP
