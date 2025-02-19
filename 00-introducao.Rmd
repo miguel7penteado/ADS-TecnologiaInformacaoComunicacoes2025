@@ -1,10 +1,14 @@
-# INTRODUÇÃO DA DISCIPLINA {-}
+# INTRODUÇÃO DA DISCIPLINA {.unnumbered}
 
 coming soon
 
 ## Livros-Texto da disciplina
 
 ### Bibliografia Básica
+
+![](images/livros/livro-SistemasDeInformação-BelmiroNascimentoJoao-2ed-person.jpg){width="291"}
+
+( JOÃO, Belmiro N. Sistemas de Informação - São Paulo: Pearson Education do Brasil, 2019.)
 
 JOÃO, Belmiro N. Informática Aplicada. São Paulo: Pearson Education do Brasil, 2019.
 
@@ -23,5 +27,3 @@ MARÇULA, M.; BENINI FILHO, P. A. Informática: Conceitos e Aplicações. 5.Ed. 
 RAINER JUNIOR, R. K.; CEGIELSKI, C. G. Introdução a sistemas de informação. - 5. ed. - Rio de Janeiro: Elsevier, 2016.
 
 STAIR, Ralph M; REYNOLDS, George W. Princípios de sistemas de informação / Ralph M. Stair. São Paulo: Cengage Learning, 2015.
-
-

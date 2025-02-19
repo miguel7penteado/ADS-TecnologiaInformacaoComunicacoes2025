@@ -23,24 +23,23 @@ Estas anotações são apenas lembretes das aulas expostas em sala, durante a di
 
 <https://miguel7penteado.github.io/ADS-TecnologiaInformacaoComunicacoes2025/>
 
- ![](images/qr-code/repositório.jpg)
+![](images/qr-code/repositório.jpg)
 
 ## Anotações de aula: Suporte para Celulares
 
 No celular o conteúdo pode ser lido no formato EPUB, sendo sugerio os seguintes aplicativos:
 
-## **Moon+ Reader (Google Play - loja de aplicativos oficial do google)** 
+## **Moon+ Reader (Google Play - loja de aplicativos oficial do google)**
 
 <https://play.google.com/store/apps/details?id=com.flyersoft.moonreader&pcampaignid=web_share>
 
 ![](images/qr-code/leitor_ebook/MoonReaderPlus.jpg)
 
-## **Epub Reader (AppStore - loja de aplicativos oficial da Apple)** 
+## **Epub Reader (AppStore - loja de aplicativos oficial da Apple)**
 
 <https://apps.apple.com/br/app/epub-leitor-ler-epub-chm-txt/id1296870631?platform=iphone>
 
 ![](images/qr-code/leitor_ebook/AppleEpubReader.jpg)
-
 
 ```{r include=FALSE}
 # automatically create a bib database for R packages

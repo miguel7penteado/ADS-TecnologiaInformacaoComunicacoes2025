@@ -106,6 +106,12 @@ Um organograma é uma representação gráfica da estrutura interna de uma organ
 
 ![](images/organogramas/Organograma-empresarial.jpg)
 
+**Organograma Empresarial - Indústria**
+
+Aparece uma "organela" responsável por PRODUÇÃO
+
+![](images/organogramas/OrganogramaIndustrial.jpg)
+
 **Organograma Organizacional - Organização Sem Fins Lucrativos - Orgão Público**
 
 Exemplo: organograma da Superintendência Estadual de São Paulo do IBGE - Fundação pública da esfera do Poder Executivo Federal
@@ -114,7 +120,7 @@ Exemplo: organograma da Superintendência Estadual de São Paulo do IBGE - Funda
 
 **Missão** institucional dessa "organização" federal "*Retratar o Brasil com informações necessárias ao conhecimento de sua realidade e ao exercício da cidadania*"
 
-### Organizando uma empresa: funções empresariais básicas
+### Organizando uma organização tipo empresa: funções empresariais básicas
 
 Imagine que você queira abrir seu próprio negócio. Você preci­ sará tomar várias decisões: o que produzir ou qual serviço prestar. Essa é uma escolha estratégica, pois vai determinar seus prováveis consumidores, os funcionários de que precisa, os métodos de pro­ dução c muitos outros aspectos. Depois de decidir o que produzir, você deve definir de que tipo de organização vai necessitar. Primeiro, pense em um arranjo de pessoas, máquinas c processos de negócios capaz de produzir. Em segundo lugar, monte uma equipe de marketing e vendas capaz de atrair clientes e vender o produto. Em terceiro, após as vendas, é preciso organizar uma equipe de contabilidade e finanças para cuidar das transações financeiras correntes, como pedidos, faturas e folhas de pagamento. Calma, ainda não acabou: também são necessárias pessoas para cuidar dos assuntos relativos aos funcio­ nários, como recrutamento e capacitação.
 
@@ -124,4 +130,12 @@ Essas quatro funções básicas - que você poderá ver na figura abaixo são en
 
 Fonte: adaptada de Laudon e Laudon (2011, página 37).
 
+> Organização -\> Conhecimento do Negócio -\> Processos Mapeados -\> Sistema de Informação Mapeado
+
+![](images/1-dados-info/ProcessosNegócioMapeados.jpg)
+
+Processos do Cliclo de Vida da Produção de um produto (Indústria)
+
 ## Sistemas de Informação e Vantagem Competitiva
+
+Coming Soon

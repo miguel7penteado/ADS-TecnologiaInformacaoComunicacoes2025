@@ -17,7 +17,7 @@ organizações-com-fins-lucrativos---empresas
 organizações-sem-fins-lucrativos---fundações-autarquicas---ongs---assitência-social---saúde---educação---cultura---direitos-humanos
 organograma-de-uma-empresa-uma-representação-visual-da-estrutura-organizacional
 organograma-conceitual
-organizando-uma-empresa-funções-empresariais-básicas
+organizando-uma-organização-tipo-empresa-funções-empresariais-básicas
 sistemas-de-informação-e-vantagem-competitiva
 infraestrutura-de-tic
 hardware-e-software
