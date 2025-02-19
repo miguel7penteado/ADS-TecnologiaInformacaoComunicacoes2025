@@ -2,7 +2,25 @@
 
 ## Conceitos de Sistemas de Informação
 
-#### Conceito de Informação segundo *Kenneth C. LAUDON, Jane P. LAUDON* (2011) 
+### O Dado
+
+Conceito de Dados (DATA) segundo Prof **Belmiro Nascimento João - USP - (autor SISTEMAS DA INFORMAÇÃO - 2a edição 2017)**
+
+![](images/belmiro_do_nascimento_joao-2.jpg){width="131"}
+
+> *Dados são sequências de fatos ainda não analisados, antes de serem organizados e ar­ ranjados de um jeito que as pessoas possam compreendê-los.* (João, Belmiro Nascimento - 2017)
+
+> *Informação é um dado organizado e apresentado de forma útil.* (João, Belmiro Nascimento - 2017)
+
+Exemplo de Dados versus Informação:
+
+As caixas dos supermercados registram milhões de dados, como o código de barras dos produtos. Se somarmos e analisarmos esses dados, pode­ mos obter informações significativas, como o número total de detergentes vendidos em uma loja ou as vendas por região.
+
+![](images/1-dados-info/Dados-Info.jpg)
+
+Fonte: LAUDON E LAUDON (2011, Pág 13)
+
+#### Conceito de Informação segundo *Kenneth C. LAUDON, Jane P. LAUDON* (2011)
 
 ![Prof Ken C. Laudon (1944 - 2019) e Jane Price Laudon - Universidade Columbia](images/Ken_Jane.jpg)
 
