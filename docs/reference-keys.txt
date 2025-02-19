@@ -6,6 +6,9 @@ bibliografia-básica
 bibliografia-complementar
 introdução-a-tic-tecnologia-da-informação-e-comunicações
 conceitos-de-sistemas-de-informação
+conceito-de-informação-segundo-kenneth-c.-laudon-jane-p.-laudon-2011
+as-3-atividades-básicas-de-um-sistema-de-informação-si
+os-sistemas-de-informação-e-o-mundo-dos-negócios
 os-diferentes-tipos-de-sistemas-de-informação
 sistemas-de-informação-e-vantagem-competitiva
 infraestrutura-de-tic

@@ -1,14 +1,45 @@
 # INTRODUÇÃO A TIC (TECNOLOGIA DA INFORMAÇÃO E COMUNICAÇÕES)
 
-
 ## Conceitos de Sistemas de Informação
 
+#### Conceito de Informação segundo *Kenneth C. LAUDON, Jane P. LAUDON* (2011) 
 
+![Prof Ken C. Laudon (1944 - 2019) e Jane Price Laudon - Universidade Columbia](images/Ken_Jane.jpg)
+
+> *"Tecnicamente, um **sistema de informação (Si)** é um CONJUNTO DE COMPONENTES RELACIONADOS entre si que COLETAM (ou recuperam), PROCESSAM, ARMAZENAM c DISTRIBUEM [o que ?] INFORMAÇÕES que servem para apoiar a TOMADA DE DECISÕES, a COORDENAÇÃO e o CONTROLE de uma organização." (LAUDON; LAUDON, 2011)*
+
+PERGUNTA: *Um **SISTEMA DE INFORMAÇÃO (SI)** é a mesma coisa que um **computador (smartphone) com um software (app)***?
+
+a ) sim ? Porque ?\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+b)  nâo ? Porque ?\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+### As 3 atividades básicas de um Sistema de Informação (SI)
+
+![](images/processamento-dados-computador.png)
+
+### Os Sistemas de Informação e o Mundo dos Negócios
+
+No mundo dos negócios as demandas (ou problemas) podem ser agrupados em 3 categorias:
+
+-   organização;
+
+-   tecnologia;
+
+-   pessoas;
+
+Segundo *Kenneth C. LAUDON, Jane P. LAUDON,* solucionar probelmas será sempre um processo contínuo de 4 passos:
+
+1.  Identificar [do problema];
+
+2.  Receber as propostas para Solução [do problema];
+
+3.  Avaliar as propostas e escolher a Solução [do problema];
+
+4.  Implantar a SOLUÇÂO escolhida [para resolver o problema];
+
+![](images/clipboard-3657052893.png)
 
 ## Os diferentes Tipos de Sistemas de Informação
 
-
 ## Sistemas de Informação e Vantagem Competitiva
-
-
-
