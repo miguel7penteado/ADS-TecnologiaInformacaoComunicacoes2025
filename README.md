@@ -1,0 +1,1 @@
+# ADS-TecnologiaInformacaoComunicacoes2025
