@@ -19,6 +19,10 @@ organograma-de-uma-empresa-uma-representação-visual-da-estrutura-organizaciona
 organograma-conceitual
 organizando-uma-organização-tipo-empresa-funções-empresariais-básicas
 sistemas-de-informação-e-vantagem-competitiva
+tipos-de-sistemas-de-informação-empresariais
+sistemas-integrados-e.r.p.---planejamento-de-recursos-empresariais-ou-enterprise-resource-planning
+sistemas-de-gestão-da-cadeia-de-suprimentos-supply-chain-management---scm
+sistemas-de-relacionamento-com-cliente---crm-customer-relationship-management
 infraestrutura-de-tic
 hardware-e-software
 fundamentos-da-inteligência-de-negócios-gestão-da-informação-e-banco-de-dados

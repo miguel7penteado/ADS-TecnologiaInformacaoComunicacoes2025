@@ -138,4 +138,98 @@ Processos do Cliclo de Vida da Produção de um produto (Indústria)
 
 ## Sistemas de Informação e Vantagem Competitiva
 
-Coming Soon
+## Tipos de sistemas de informação empresariais
+
+### Sistemas integrados (E.R.P. - Planejamento de Recursos Empresariais ou Enterprise Resource Planning )
+
+![](images/sistemas/erp.png){width="603"}
+
+O termo ERP foi cunhado pelo Gartner Group em 1990. Um sistema ERP, segundo Davenport (1998)
+
+> " ***ERP é um sistema de software que integra todas as áreas funcionais de uma empresa, desde finanças e contabilidade até produção e vendas.*** " Davenport, T. H. (1998). Putting the enterprise into the enterprise system. Harvard business review, 76(4), 121-131.
+
+As principais funções de um sistema ERP em empresas do varejo são:
+
+-   Centralizar a gestão operacional
+
+-   Gerir o estoque e os suprimentos
+
+-   Emitir notas fiscais
+
+-   Controlar as finanças
+
+-   Cadastrar clientes e produtos
+
+-   Administrar a empresa
+
+Alguns exemplos de SIs ERPs, em 2025, são:
+
+-   Pacote [SAP ERP](https://www.sap.com/brazil/products/erp.html);
+
+-   Pacote [Oracle ERP Cloud](https://www.oracle.com/br/erp/);
+
+-   Pacote [Microsoft Dynamics 365](https://www.microsoft.com/pt-br/dynamics-365/pricing-overview);
+
+-   Pacote [Infor ERP](https://www.infor.com/pt-br);
+
+-   Pacote [NetSuite ERP](https://www.netsuite.com/portal/br/products/erp.shtml);
+
+-   Sistema ERP [TOTVS](https://www.totvs.com/sistema-de-gestao/);
+
+-   Sistema ERP Web [BLING](https://www.bling.com.br/);
+
+### Sistemas de gestão da cadeia de suprimentos (supply chain management - SCM)
+
+![](images/sistemas/SCM.png){width="714"}
+
+Os SI SCM são ferramentas essenciais para otimizar o fluxo de produtos, informações e finanças desde a origem até o consumidor final. Eles abrangem todas as etapas da cadeia de suprimentos, desde a aquisição de matérias-primas até a entrega do produto final ao cliente.
+
+Segundo Simchi-Levi, D., Kaminsky, P., & Simchi-Levi, E. (2008)
+
+> ***SCMé um SI que faz um conjunto de abordagens utilizadas para INTEGRAR eficientemente FORNECEDORES, ARMAZENS e LOJAS, de modo que as MERCADORIAS sejam PRODUZIDAS e DISTRIBUÍDAS nas QUANTIDADES certas, para os LOCAIS certos e nos MOMENTOS certos, a fim de MINIMIZAR os CUSTOS de todo o sistema, satisfazendo os requisitos de nível de serviço.*** Designing and managing the supply chain: concepts, strategies, and case studies de David Simchi-Levi, Philip Kaminsky e Edith Simchi-Levi. (2008)
+
+As principais funções de um SI SCM são:
+
+-   Reduzir custos: Otimizando processos, estoques e transportes.
+
+-   Melhorar a eficiência: Agilizando o fluxo de produtos e informações.
+
+-   Aumentar a satisfação do cliente: Garantindo entregas no prazo e produtos de qualidade.
+
+-   Otimizar toda a cadeia de suprimentos: Interligando todas as etapas, desde fornecedores até clientes.
+
+Alguns exemplos de SIs SCMs, em 2025, são:
+
+-   Oracle SCM Cloud;
+
+-   SAP SCM;
+
+-   Blue Yonder (JDA Software);
+
+### Sistemas de Relacionamento com Cliente - CRM (Customer Relationship Management)
+
+![](images/sistemas/CRM.png){width="642"}
+
+São SIs de análise de clientes, com o objetivo de melhorar o relacionamento, aumentar a fidelização e impulsionar as vendas. Segundo Kotler, P., & Keller, K. L. (2016), um um CRM pode ser definido assim
+
+> ***Um SI CRM implanta o processo de gerenciar informações detalhadas sobre clientes individuais e gerenciar cuidadosamente todos os pontos de contato do cliente para maximizar a lealdade do cliente.*** Kotler, P., & Keller, K. L. (2016). Marketing management
+
+As principais funções de um SI CRM são:
+
+-   Coleta e organização de dados: Reunindo informações sobre clientes, histórico de compras, interações e preferências.
+
+-   Automação de processos: Otimizando tarefas de marketing, vendas e atendimento ao cliente.
+
+-   Análise de dados: Identificando padrões e insights para melhorar a tomada de decisões.
+
+-   Personalização do atendimento: Oferecendo experiências individualizadas aos clientes.
+
+Alguns exemplos de SIs CRMs, em 2025, são:
+
+-   Salesforce CRM;
+
+-   Microsoft Dynamics 365;
+
+-   HubSpot CRM;
+
+-   Zendesk Sell;
