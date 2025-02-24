@@ -138,7 +138,39 @@ Processos do Cliclo de Vida da Produção de um produto (Indústria)
 
 ## Sistemas de Informação e Vantagem Competitiva
 
+As empresas que se destacam em seus setores geralmente possuem algum tipo de `vantagem competitiva`.
+
+As vantagens competitivas podem vir de dois aspectos a seguir:
+
+-   **recursos especiais**;
+
+-   **uso mais eficiente desses recursos**;
+
+| Vantagem / Sistemas de Informação | ERP | SCM | CRM |
+|----|:--:|:--:|:--:|
+| **Excelência operacional;** | ALTA | ALTA | ALTA |
+| **Novos produtos, serviços e modelos de negócios;** | MÉDIA | SIM | SIM |
+| **Relacionamento mais estreito com clientes e fornecedores;** | MÉDIA | ALTA | ALTA |
+| **Melhor tomada de decisões;** | EXTREMA | ALTA | ALTA |
+| **Sobrevivência no mercado;** | ALTA | ALTA | ALTA |
+
 ## Tipos de sistemas de informação empresariais
+
+1.  Sistemas de processamento de transações (SPTs);
+
+2.  Sistemas de informações gerenciais (SIGs);
+
+3.  Sistemas de apoio à decisão (SADs);
+
+4.  Sistemas de apoio ao executivo (SAEs);
+
+5.  **Sistemas integrados (ERP);**
+
+6.  **Sistemas de gestão da cadeia de suprimentos (SCM);**
+
+7.  **Sistemas de gestão do relacionamento com o cliente (CRM);**
+
+8.  **Sistemas de gestão do conhecimento (SGCs);**
 
 ### Sistemas integrados (E.R.P. - Planejamento de Recursos Empresariais ou Enterprise Resource Planning )
 
