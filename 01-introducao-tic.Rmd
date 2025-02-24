@@ -8,11 +8,13 @@ Conceito de Dados (DATA) segundo Prof **Belmiro Nascimento João - USP - (autor 
 
 ![](images/belmiro_do_nascimento_joao-2.jpg){width="131"}
 
-> *Dados são sequências de fatos ainda não analisados, antes de serem organizados e ar­ ranjados de um jeito que as pessoas possam compreendê-los.* (João, Belmiro Nascimento - 2017)
+> **Dados** *são sequências de fatos ainda não analisados, antes de serem organizados e ar­ ranjados de um jeito que as pessoas possam compreendê-los.* (João, Belmiro Nascimento - 2017)
 
-> *Informação é um dado organizado e apresentado de forma útil.* (João, Belmiro Nascimento - 2017)
+> **Informação** *é um dado organizado e apresentado de forma útil.* (João, Belmiro Nascimento - 2017)
 
-Exemplo de Dados versus Informação:
+> **Conhecimento** é o resultado da aplicação da informação para tomada de decisão. (João, Belmiro Nascimento - 2017)
+
+Exemplo de **Dados** versus **Informação**:
 
 As caixas dos supermercados registram milhões de dados, como o código de barras dos produtos. Se somarmos e analisarmos esses dados, pode­ mos obter informações significativas, como o número total de detergentes vendidos em uma loja ou as vendas por região.
 
@@ -20,7 +22,15 @@ As caixas dos supermercados registram milhões de dados, como o código de barra
 
 Fonte: LAUDON E LAUDON (2011, Pág 13)
 
-#### Conceito de Informação segundo *Kenneth C. LAUDON, Jane P. LAUDON* (2011)
+#### Conceito de TIC -Tecnologia da informação e Comunicação  **segundo** *Kenneth C. LAUDON, Jane P. LAUDON* (2011)
+
+> As **Tecnologias da Informação e Comunicação** (TICs) são um **CONJUNTO de tecnologias** que combinam:
+>
+> **Tecnologia da Informação (TI)**: Refere-se ao hardware, software e redes necessários para processar, armazenar e distribuir dados e informações;
+>
+> **Tecnologia da Comunicação**: Inclui as tecnologias que facilitam a comunicação e o compartilhamento de informações, como redes de telecomunicações, internet e dispositivos móveis.
+
+#### Conceito de Sistemas de Informação (SI) segundo *Kenneth C. LAUDON, Jane P. LAUDON* (2011)
 
 ![Prof Ken C. Laudon (1944 - 2019) e Jane Price Laudon - Universidade Columbia](images/Ken_Jane.jpg)
 
@@ -146,7 +156,7 @@ As vantagens competitivas podem vir de dois aspectos a seguir:
 
 -   **uso mais eficiente desses recursos**;
 
-| Vantagem / Sistemas de Informação | ERP | SCM | CRM |
+| Vantagem / Sistemas de Informação | SI ERP | SI SCM | SI CRM |
 |----|:--:|:--:|:--:|
 | **Excelência operacional;** | ALTA | ALTA | ALTA |
 | **Novos produtos, serviços e modelos de negócios;** | MÉDIA | SIM | SIM |
@@ -156,21 +166,21 @@ As vantagens competitivas podem vir de dois aspectos a seguir:
 
 ## Tipos de sistemas de informação empresariais
 
-1.  Sistemas de processamento de transações (SPTs);
+1.  `Sistemas de processamento de transações (SPTs)`; Monitoramento de pedidos de expedição de mercadoria; Monitoramento de pedidos de atendimento;
 
-2.  Sistemas de informações gerenciais (SIGs);
+2.  `Sistemas de informações gerenciais (SIGs)`; Relatório de faltas de funcionário; Relatório de mercadorias com defeito;
 
-3.  Sistemas de apoio à decisão (SADs);
+3.  `Sistemas de apoio à decisão (SADs)`; Sistemas Business Inteligence;
 
-4.  Sistemas de apoio ao executivo (SAEs);
+4.  `Sistemas de apoio ao executivo (SAEs)`; Relatório de vendas consolidado aos acionistas; Relatório de competitividade;
 
-5.  **Sistemas integrados (ERP);**
+5.  **Sistemas integrados (ERP);** Gestão e colaboração departamentos;
 
-6.  **Sistemas de gestão da cadeia de suprimentos (SCM);**
+6.  **Sistemas de gestão da cadeia de suprimentos (SCM);** Monitoramento de entrega de vendas on-line; Monitoramento Drop-Shipping;
 
-7.  **Sistemas de gestão do relacionamento com o cliente (CRM);**
+7.  **Sistemas de gestão do relacionamento com o cliente (CRM);** Relatório de satisfação de clientes; Relatório de Retenção de Clientes;
 
-8.  **Sistemas de gestão do conhecimento (SGCs);**
+8.  **Sistemas de gestão do conhecimento (SGCs);** Sistemas ITL; Sistemas de prestação de suporte técnico;
 
 ### Sistemas integrados (E.R.P. - Planejamento de Recursos Empresariais ou Enterprise Resource Planning )
 

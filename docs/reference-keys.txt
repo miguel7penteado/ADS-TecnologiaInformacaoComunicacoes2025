@@ -5,10 +5,12 @@ epub-reader-appstore---loja-de-aplicativos-oficial-da-apple
 livros-texto-da-disciplina
 bibliografia-básica
 bibliografia-complementar
+calendário-de-aulas-e-provas
 introdução-a-tic-tecnologia-da-informação-e-comunicações
 conceitos-de-sistemas-de-informação
 o-dado
-conceito-de-informação-segundo-kenneth-c.-laudon-jane-p.-laudon-2011
+conceito-de-tic--tecnologia-da-informação-e-comunicação-segundo-kenneth-c.-laudon-jane-p.-laudon-2011
+conceito-de-sistemas-de-informação-si-segundo-kenneth-c.-laudon-jane-p.-laudon-2011
 as-3-atividades-básicas-de-um-sistema-de-informação-si
 os-sistemas-de-informação-e-o-mundo-dos-negócios
 a-abordagem-da-resolução-de-problemas-organizacionais

@@ -27,3 +27,49 @@ MARÇULA, M.; BENINI FILHO, P. A. Informática: Conceitos e Aplicações. 5.Ed. 
 RAINER JUNIOR, R. K.; CEGIELSKI, C. G. Introdução a sistemas de informação. - 5. ed. - Rio de Janeiro: Elsevier, 2016.
 
 STAIR, Ralph M; REYNOLDS, George W. Princípios de sistemas de informação / Ralph M. Stair. São Paulo: Cengage Learning, 2015.
+
+## CALENDÁRIO DE AULAS E PROVAS
+
+**Fevereiro 2025**
+
+| No. | fevereiro 2025 |    Semana     | conteúdo  |
+|:---:|:--------------:|:-------------:|:---------:|
+| 01  |   17/02/2025   | Segunda-feira | Inaugural |
+| 02  |   24/02/2025   | Segunda-feira |  Aula 01  |
+
+**Março 2025**
+
+| No. | Março 2025 |    Semana     | conteúdo |
+|:---:|:----------:|:-------------:|:--------:|
+| 03  | 03/03/2025 | Segunda-feira | Feriado  |
+| 04  | 10/03/2025 | Segunda-feira | Aula 02  |
+| 05  | 17/03/2025 | Segunda-feira | Aula 03  |
+| 06  | 24/03/2025 | Segunda-feira | Aula 04  |
+| 07  | 31/03/2025 | Segunda-feira |   NP1    |
+
+**Abril 2025**
+
+| No. | Abril 2025 |    Semana     | conteúdo |
+|:---:|:----------:|:-------------:|:--------:|
+| 08  | 07/04/2025 | Segunda-feira | Aula 05  |
+| 09  | 14/04/2025 | Segunda-feira | Aula 06  |
+| 10  | 21/04/2025 | Segunda-feira | Aula 07  |
+| 11  | 28/04/2025 | Segunda-feira | Aula 08  |
+
+**maio 2025**
+
+| No. | Maio 2025  |    Semana     | conteúdo |
+|:---:|:----------:|:-------------:|:--------:|
+| 12  | 05/05/2025 | Segunda-feira | Aula 09  |
+| 13  | 12/05/2025 | Segunda-feira | Aula 10  |
+| 14  | 19/05/2025 | Segunda-feira |   NP2    |
+| 15  | 26/05/2025 | Segunda-feira |   SUB    |
+
+**junho 2025**
+
+| No. | Junho 2025 |    Semana     | conteúdo |
+|:---:|:----------:|:-------------:|:--------:|
+| 12  | 02/06/2025 | Segunda-feira | PLANTÃO  |
+| 13  | 09/06/2025 | Segunda-feira | PLANTÃO  |
+| 14  | 16/06/2025 | Segunda-feira |  EXAME   |
+| 15  | 23/06/2025 | Segunda-feira |  VISTAS  |
