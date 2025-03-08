@@ -22,7 +22,7 @@ As caixas dos supermercados registram milhões de dados, como o código de barra
 
 Fonte: LAUDON E LAUDON (2011, Pág 13)
 
-#### Conceito de TIC -Tecnologia da informação e Comunicação  **segundo** *Kenneth C. LAUDON, Jane P. LAUDON* (2011)
+#### Conceito de TIC -Tecnologia da informação e Comunicação **segundo** *Kenneth C. LAUDON, Jane P. LAUDON* (2011)
 
 > As **Tecnologias da Informação e Comunicação** (TICs) são um **CONJUNTO de tecnologias** que combinam:
 >
@@ -156,13 +156,19 @@ As vantagens competitivas podem vir de dois aspectos a seguir:
 
 -   **uso mais eficiente desses recursos**;
 
-| Vantagem / Sistemas de Informação | SI ERP | SI SCM | SI CRM |
-|----|:--:|:--:|:--:|
-| **Excelência operacional;** | ALTA | ALTA | ALTA |
-| **Novos produtos, serviços e modelos de negócios;** | MÉDIA | SIM | SIM |
-| **Relacionamento mais estreito com clientes e fornecedores;** | MÉDIA | ALTA | ALTA |
-| **Melhor tomada de decisões;** | EXTREMA | ALTA | ALTA |
-| **Sobrevivência no mercado;** | ALTA | ALTA | ALTA |
++---------------------------------------------------------------+---------+---------+---------+
+| Vantagem / Sistemas de Informação                             | SI ERP  | SI SCM  | SI CRM  |
++===============================================================+:=======:+:=======:+:=======:+
+| **Excelência operacional;**                                   | ALTA    | ALTA    | ALTA    |
++---------------------------------------------------------------+---------+---------+---------+
+| **Novos produtos, serviços e modelos de negócios;**           | MÉDIA   | SIM     | SIM     |
++---------------------------------------------------------------+---------+---------+---------+
+| **Relacionamento mais estreito com clientes e fornecedores;** | MÉDIA   | ALTA    | ALTA    |
++---------------------------------------------------------------+---------+---------+---------+
+| **Melhor tomada de decisões;**                                | EXTREMA | ALTA    | ALTA    |
++---------------------------------------------------------------+---------+---------+---------+
+| **Sobrevivência no mercado;**                                 | ALTA    | ALTA    | ALTA    |
++---------------------------------------------------------------+---------+---------+---------+
 
 ## Tipos de sistemas de informação empresariais
 
@@ -275,3 +281,114 @@ Alguns exemplos de SIs CRMs, em 2025, são:
 -   HubSpot CRM;
 
 -   Zendesk Sell;
+
+## Exercícios
+
+## Questões
+
+1.  Qual o **papel dos sistemas de informação no ambiente de negócios contemporâneo**?
+
+2.  Quais são os **objetivos organizacionais dos sistemas de informação**?
+
+3.  Qual a **diferença entre dados e informações**?
+
+4.  Quais são as **atividades básicas em um sistema de informação**?
+
+5.  O que são **abordagens de resolução de problemas organizacionais** e como aplicá-las?
+
+6.  O que é uma **empresa** e quais os seus componentes?
+
+7.  Quais as **funções básicas de uma empresa**?
+
+8.  Quais os **níveis hierárquicos de uma empresa**?
+
+9.  Quais os **tipos de sistemas de informação empresariais**?
+
+10. O que é **colaboração**?
+
+11. Qual a **função dos sistemas de informação em uma empresa**?
+
+12. Como usar os **sistemas de informação para conquistar vantagem competitiva**?
+
+## Testes múltipla escolha
+
+**1. Qual das seguintes alternativas descreve melhor o propósito e a função de um Sistema de Planejamento de Recursos Empresariais (ERP)?**
+
+a)  Um sistema ERP é utilizado principalmente para gerenciar o relacionamento com os clientes, coletando e analisando dados de interações para melhorar as vendas e o atendimento ao cliente.
+
+b)  Um sistema ERP foca-se na gestão da cadeia de suprimentos, coordenando atividades entre fornecedores, fabricantes e distribuidores para otimizar o fluxo de produtos.
+
+c)  Um sistema ERP é projetado para capturar e aplicar conhecimento dentro da organização, facilitando a criação, o armazenamento e a transferência de expertise entre os funcionários.
+
+d)  Um sistema ERP integra processos de negócios em áreas como manufatura, finanças, vendas e recursos humanos em um único sistema de software, permitindo o acesso e o compartilhamento de informações em toda a organização.
+
+e)  Um sistema ERP serve para analisar dados históricos e atuais da empresa, a fim de identificar tendências de mercado e prever o comportamento do consumidor.
+
+**2. Qual das seguintes alternativas descreve melhor a função de um sistema de informação (SI) em uma empresa?**
+
+a)  Um SI serve principalmente para gerenciar a cadeia de suprimentos, otimizando o fluxo de produtos desde os fornecedores até os clientes.
+
+b)  Um SI tem como principal função coletar dados brutos e não organizados sobre as operações da empresa.
+
+c)  Um SI é um conjunto de componentes relacionados que coletam, processam, armazenam e distribuem informações para apoiar a tomada de decisões, a coordenação e o controle da organização.
+
+d)  Um SI é usado para transformar dados em informações úteis, apresentando-os de forma organizada e compreensível.
+
+e)  Um SI é utilizado principalmente para integrar todos os processos de negócios da empresa em um único sistema de software, facilitando o acesso e o compartilhamento de dados.
+
+## Respostas questões:
+
+1.  Qual o **papel dos sistemas de informação no ambiente de negócios contemporâneo**?
+
+**Resposta**: Ajudar a atingir Objetivos organizacionais, promover a transformação do negócio, promover integração e colaboração das áreas, criar Vantagem competitiva e, finalmente, ajudar na tomada de decisões.
+
+2.  Quais são os **objetivos organizacionais dos sistemas de informação**?
+
+**Resposta**: Promover excelência operacional, possibilitar novos produtos e modelos de negócio, ajudar o relacionamento entre clientes e fornecedores.
+
+3.  Qual a **diferença entre dados e informações**?
+
+**Resposta**: Dados são sequência de informações ainda não analisados. Informações são dados apresentados de forma útil.
+
+4.  Quais são as **atividades básicas em um sistema de informação**?
+
+**Resposta**: Entrada, Processamento e Saída.
+
+5.  O que são **abordagens de resolução de problemas organizacionais** e como aplicá-las?
+
+**Resposta**: Identificar Problema, Propor Solução, Escolher Solução, Implantar Solução.
+
+6.  O que é uma **empresa** e quais os seus componentes?
+
+**Resposta**: Uma empresa é uma organização formal cujo objetivo é produzir produtos ou prestar serviços a fim de obter lucro. Seus componentes são CLIENTES, FORNECEDORES, FUNCIONÁRIOS, PRODUTOS E SERVIÇOS.
+
+7.  Quais as **funções básicas de uma empresa**?
+
+**Resposta**: Manufatura e produção, Vendas e marketing, Recursos humanos e; Finanças e Contabilidade.
+
+9.  Quais os **níveis hierárquicos de uma empresa**?
+
+**Resposta**: Gerência sênior (Conselho Diretor e Presidente), Gerência média (Diretores), Gerência operacional (Gerentes), Trabalhadores do conhecimento (analistas setoriais), Trabalhadores de dados (analistas setoriais), Trabalhadores dos serviços ou da produção (chão-de-fábrica).
+
+10. Quais os **tipos de sistemas de informação empresariais**?
+
+**Resposta**: Sistemas integrados (ERP), Sistemas de gestão da cadeia de suprimentos (SCM), Sistemas de gestão do relacionamento com o cliente (CRM) e Sistemas de gestão do conhecimento (SGCs).
+
+11. O que é **colaboração**?
+
+**Resposta**: colaboração é o trabalho com os outros para alcançar metas claras e compartilhadas.
+
+12. Qual a **função dos sistemas de informação em uma empresa**?
+
+**Resposta**: Coletar (ou Recuper), Processar, Armazenar e distribuir INFORMAÇÕES.
+
+13. Como usar os **sistemas de informação para conquistar vantagem competitiva**?
+
+**Resposta**: Melhorando a gestão de processos de negócios.
+
+## Respostas dos testes:
+
+| Questão | Resposta |
+|:-------:|:--------:|
+|    1    |    D     |
+|    2    |    C     |

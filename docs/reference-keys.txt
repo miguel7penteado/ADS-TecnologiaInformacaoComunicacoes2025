@@ -25,6 +25,11 @@ tipos-de-sistemas-de-informação-empresariais
 sistemas-integrados-e.r.p.---planejamento-de-recursos-empresariais-ou-enterprise-resource-planning
 sistemas-de-gestão-da-cadeia-de-suprimentos-supply-chain-management---scm
 sistemas-de-relacionamento-com-cliente---crm-customer-relationship-management
+exercícios
+questões
+testes-múltipla-escolha
+respostas-questões
+respostas-dos-testes
 infraestrutura-de-tic
 hardware-e-software
 fundamentos-da-inteligência-de-negócios-gestão-da-informação-e-banco-de-dados
