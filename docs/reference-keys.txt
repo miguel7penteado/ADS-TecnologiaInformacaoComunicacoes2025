@@ -55,6 +55,8 @@ software
 serviços-de-tic
 sistemas-de-gerenciamento-de-banco-de-dados
 segurança-em-sistemas-de-informação
+exercícios-de-fixação
+hardware---inventário
 sistemas-de-informação-e-funcionalidades
 sistemas-integrados-de-gestão
 comércio-eletrônico
