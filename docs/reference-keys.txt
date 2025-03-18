@@ -46,6 +46,10 @@ discussão
 conclusão
 referencias-bibliográficas
 apendice---links-de-pesquisas-de-tic-no-brasil
+formação-dos-grupos
+parte-prática
+coletar-dados-do-cliente
+iniciar-o-cadastro-no-sistema-erp
 infraestrutura-de-tic
 introdução-1
 componentes-da-infraestrutura-de-tic

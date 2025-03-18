@@ -123,3 +123,38 @@ PESQUISA 3...
 2- Plágio causa penalidade de nota igual a zero;
 
 3- Data da entrega final deste trabalho: DATA DA NP1;
+
+## Formação dos Grupos
+
+O professor está criando as tabelas de grupos conforme a disposição que os alunos passaram e postará aqui.
+
+## Parte Prática
+
+### Coletar dados do cliente:
+
+|                     |     |
+|---------------------|-----|
+| Nome do Cliente     |     |
+| CPF do Cliente      |     |
+| RG do cliente       |     |
+| Endereço do Cliente |     |
+| Telefone do Cliente |     |
+| e-mail do cliente   |     |
+
+: Informações da Pessoa Física (ou do sócio administrador , no caso de empresa)
+
+Caso seja empresa (pessoa jurídica), peça mais essas informações
+
+|                             |     |
+|-----------------------------|-----|
+| CNPJ do sócio administrador |     |
+| Inscrição Estadual da loja  |     |
+| Inscrição Municipal da Loja |     |
+
+: Dados da empresa
+
+## Iniciar o cadastro no sistema ERP
+
+![Entre com os dados so seu cliente](images/np1/01-bling-cadastro.jpg)
+
+[em dandamento ...]
