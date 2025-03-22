@@ -22,7 +22,7 @@ O trabalho deverá ter no mínimo 5 e no máximo 10 folhas.
 
 **TÍTULO**: PLANO Captação de Investimento para empresa “CONSULTORIA E IMPLANTAÇÃO ERP+ COMERCIO ELETRÔNICO” - GRUPO número “x” [onde x é definido pelo professor]
 
--   NOME: Integrante 1\
+-   NOME: Integrante 1
     NOME: Integrante 2 NOME: Integrante 3 NOME: Integrante 4
 
 **PROFESSOR**: Miguel Suez Xve Penteado
@@ -128,9 +128,23 @@ PESQUISA 3...
 
 O professor está criando as tabelas de grupos conforme a disposição que os alunos passaram e postará aqui.
 
-## Parte Prática
+## Parte Prática - Implantar um E-commerce atrelado a um ERP
 
-### Coletar dados do cliente:
+Estudo de Caso:
+
+Suponha que você tem uma **empresa (consultoria) de implantação de ERP com e-commerce**.
+
+Neste exemplo, o nome de sua empresa (consultoria) é **DATALEVE**.
+
+Suponha que sua Empresa de Implantação de ERP acabou de ganhar um cliente.
+
+O nome do seu cliente é **Anderson Silva**.
+
+Anderson Silva gostaria de **vender camisetas da com estampa da sua marca pessoal poe e-commerce**.
+
+Ele contratou sua consultoria para implantar o ERP que irá vender as camisetas via e-commerce.
+
+### Ter em posse os dados do cliente:
 
 |                     |     |
 |---------------------|-----|
@@ -153,33 +167,53 @@ Caso seja empresa (pessoa jurídica), peça mais essas informações
 
 : Dados da empresa
 
-## Iniciar o cadastro no sistema ERP
+## Começando a Impantação do ERP
 
-Comece inseriondo os dados do seu cliente no ERP
+O ERP escolhido para este estudo de caso é um ERP tipo SAAS (Software como serviço), ou seja, um software ERP WEB.
+A solução ERP escolhida neste estudo de caso foi o ERP BLING [https://www.bling.com.br/](https://www.bling.com.br/).
+A solução de e-commerce escolhida neste estudo de caso para integrar a funcionalidade de e-commerce com o ERP anterior foi a [https://www.nuvemshop.com.br/](https://www.nuvemshop.com.br/).
 
-![Entre com os dados so seu cliente](01-bling-cadastro.jpg) ![](images/np1/02-bling-selecionar-area-comercial.jpg) ![](images/np1/03-bling-escolher-modulos-erp.jpg) ![](images/np1/04-bling-conta-criada.jpg) ![](images/np1/05-bling-logar-usuario-senha.jpg)
+Ambas soluções oferecem planos gratuítos onde o aluno pode estudar o caso simulando um ambiente real.
 
-### Começar a cadastrar EMPRESA (Conceito de "Módulo CONTROLE CADASTROS" dos ERPs)
+### Impantando o ERP
 
-#### Começar a cadastrar a EMPRESA (pessoa física ou jurídica)
+Destaca-se que neste ambiente de simulação, não vamos explorar a parte de controle FISCAL dos ERPs.
+Desta forma:
+- Não vamos cadastrar certificados de pessoa jurídica (CNCP digital);
+- Portanto não vamos emitir nenhum tipo de nota fiscal;
+- E, portanto, não vamos cadastrar meios de pagamento eletrônicos no e-commerce;
+
+
+#### Iniciar castrando seu cliente na solução ERP 
+
+Comece inserindo os dados do seu cliente no ERP
+
+![Entre com os dados so seu cliente](images/np1/01-bling-cadastro.jpg) ![](images/np1/02-bling-selecionar-area-comercial.jpg) ![](images/np1/03-bling-escolher-modulos-erp.jpg) ![](images/np1/04-bling-conta-criada.jpg) ![](images/np1/05-bling-logar-usuario-senha.jpg)
+
+#### Começar a cadastrar EMPRESA (Conceito de "Módulo CONTROLE CADASTROS" dos ERPs)
+
+##### Começar a cadastrar a EMPRESA (pessoa física ou jurídica)
 
 ![](images/np1/06-bling-identificar-pessoa-endereço.jpg) ![](images/np1/07-bling-natureza-negocio.jpg) ![](images/np1/08-bling-certificado-digital-fisco-nota-fiscal.jpg)
 
-#### Começar a cadastrar as categorias dos produtos (pessoa física ou jurídica)
+##### Começar a cadastrar as categorias dos produtos (pessoa física ou jurídica)
 
 ![](images/np1/09-bling-cadastrar-categorias-produtos.jpg) ![](images/np1/10-bling-cadastrar-categorias-produtos-tela-lista-categorias.jpg) ![](images/np1/11-bling-cadastrar-moda-masculina.jpg) ![](images/np1/12-bling-cadastrar-categorias-produtos-tela-lista-categorias-inserir-moda-feminina.jpg) ![](images/np1/14-bling-cadastrar-subcategoria-moda-masculina-camiseta.jpg) ![](images/np1/15-bling-cadastrar-subcategoria-moda-masculina-camiseta.jpg) ![](images/np1/16-bling-confirmar-cadastro-camisetas-em-moda-masculina.jpg) ![](images/np1/17-bling-cadastrar-subcategoria-moda-feminina-vestido.jpg) ![](images/np1/18-bling-confirmar-cadastro-vestidos-em-moda-feminina.jpg) ![](images/np1/19-categorias-cadastradas.jpg)
 
-#### Começar a cadastrar os produtos (pessoa física ou jurídica)
+##### Começar a cadastrar os produtos (pessoa física ou jurídica)
 
 ![](images/np1/20-cadastrar-produtos.jpg) ![](images/np1/21-cadastro-produtos-inserir-produto.jpg) ![](images/np1/22-cadastro-produtos-inserir-produto-dados-basicos.jpg) ![](images/np1/23-cadastro-produtos-inserir-detalhes-e-commerce.jpg) ![](images/np1/24-cadastro-produtos-inserir-detalhes-e-commerce-descricao.jpg) ![](images/np1/25-cadastro-produtos-inserir-imagem-produtos.jpg) ![](images/np1/26-cadastro-produtos-inserir-imagem-produtos.jpg) ![](images/np1/27-cadastro-produtos-inserir-imagem-produtos-cadastradas.jpg) ![](images/np1/28-cadastro-produtos-quantidade-estoque.jpg) ![](images/np1/29-cadastro-produtos-fiscal-NCM-CEST.jpg) ![](images/np1/30-cadastro-produtos-variações-produto.jpg) ![](images/np1/31-cadastro-produtos-variações-produto.jpg) ![](images/np1/32-cadastro-produtos-variações-produto-inserir-código.jpg) ![](images/np1/33-cadastro-produtos-variações-produto-inserir-imagem.jpg) ![](images/np1/34-cadastro-produtos-variações-produto.jpg)
 
-### Começar a cadastrar o estoque (Conceito de "Módulo CONTROLE DE ESTOQUE" dos ERPs)
+##### Começar a cadastrar o estoque (Conceito de "Módulo CONTROLE DE ESTOQUE" dos ERPs)
 
 ![](images/np1/35-bling-produto-cadastrado-sem-estoque.jpg) ![](images/np1/36-bling-estoque-produto-incluir.jpg) ![](images/np1/37-bling-estoque-produto-incluir-camiseta-preta.jpg) ![](images/np1/38-bling-estoque-produto-incluir-camiseta-preta-iniciar.jpg) ![](images/np1/39-bling-estoque-produto-incluir-camiseta-preta-feito.jpg) ![](images/np1/40-bling-estoque-produto-lançado.jpg) ![](images/np1/41-bling-cadastrar-cliente.jpg) ![](images/np1/42-bling-cadastrar-cliente-feito.jpg) ![](images/np1/43-bling-cadastrar-cliente-feito.jpg) ![](images/np1/44-bling-cadastrar-fornecedor-feito.jpg) ![](images/np1/45-bling-cadastrar-fornecedor-feito.jpg)
 
-### Ative a LOJA FÍSICA (PDV)
+#### Começar a cadastrar PDV (Ponto de Venda) da parte física da loja (Conceito de "Módulo de vendas - PDV" dos ERPs) 
 
 ![](images/np1/46-bling-abrir-loja-fisica-frente-caixa.jpg) ![](images/np1/47-bling-abrir-loja-fisica-frente-caixa-ignorar-certificado.jpg) ![](images/np1/48-bling-abrir-loja-fisica-frente-caixa-cadastrar-loja-matriz.jpg) ![](images/np1/49-bling-abrir-loja-fisica-frente-caixa-cadastrar-loja-matriz.jpg) ![](images/np1/50-bling-abrir-loja-fisica-frente-caixa-ativo.jpg)
+
+
+### Impantando o E-COMMERCE (parte virtual loja)
 
 ### ATIVE a PLATAFORMA DE E-COMMERCE
 
@@ -195,7 +229,7 @@ Comece inseriondo os dados do seu cliente no ERP
 
 ![](images/np1/62-nuvemshop-obter-código-categorias.jpg) ![](images/np1/63-nuvemshop-obter-código-categorias.jpg) ![](images/np1/64-nuvemshop-categorias-nuvemshop-códigos.jpg) ![](images/np1/65-nuvemshop-visitar-loja-online.jpg) ![](images/np1/66-nuvemshop-visitar-loja-online.jpg) ![](images/np1/67-nuvemshop-visitar-loja-online.jpg)
 
-### Inicie a amarração do e-commerce com o ERP (começando no e-commerce)
+### Inicie a amarração (integração) do e-commerce com o ERP (começando no e-commerce)
 
 #### Instale o aplicativo (API) de conexão no e-commerce
 
@@ -216,3 +250,12 @@ Comece inseriondo os dados do seu cliente no ERP
 #### Parabéns, hora de começar a testar seu e-commerce.
 
 (lembre-se que vai faltar configurar o meio de pagamento no e-commerce para poder começar a receber)
+
+
+### INICIANDO O PROCESSO DE VENDA SIMULADA NO E-COMMERCE INTEGRADO AO ERP:
+
+
+
+
+
+
