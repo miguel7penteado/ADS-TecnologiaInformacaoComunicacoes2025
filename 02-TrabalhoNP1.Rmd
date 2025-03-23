@@ -22,8 +22,7 @@ O trabalho deverá ter no mínimo 5 e no máximo 10 folhas.
 
 **TÍTULO**: PLANO Captação de Investimento para empresa “CONSULTORIA E IMPLANTAÇÃO ERP+ COMERCIO ELETRÔNICO” - GRUPO número “x” [onde x é definido pelo professor]
 
--   NOME: Integrante 1
-    NOME: Integrante 2 NOME: Integrante 3 NOME: Integrante 4
+-   NOME: Integrante 1 NOME: Integrante 2 NOME: Integrante 3 NOME: Integrante 4
 
 **PROFESSOR**: Miguel Suez Xve Penteado
 
@@ -169,22 +168,15 @@ Caso seja empresa (pessoa jurídica), peça mais essas informações
 
 ## Começando a Impantação do ERP
 
-O ERP escolhido para este estudo de caso é um ERP tipo SAAS (Software como serviço), ou seja, um software ERP WEB.
-A solução ERP escolhida neste estudo de caso foi o ERP BLING [https://www.bling.com.br/](https://www.bling.com.br/).
-A solução de e-commerce escolhida neste estudo de caso para integrar a funcionalidade de e-commerce com o ERP anterior foi a [https://www.nuvemshop.com.br/](https://www.nuvemshop.com.br/).
+O ERP escolhido para este estudo de caso é um ERP tipo SAAS (Software como serviço), ou seja, um software ERP WEB. A solução ERP escolhida neste estudo de caso foi o ERP BLING <https://www.bling.com.br/>. A solução de e-commerce escolhida neste estudo de caso para integrar a funcionalidade de e-commerce com o ERP anterior foi a <https://www.nuvemshop.com.br/>.
 
 Ambas soluções oferecem planos gratuítos onde o aluno pode estudar o caso simulando um ambiente real.
 
 ### Impantando o ERP
 
-Destaca-se que neste ambiente de simulação, não vamos explorar a parte de controle FISCAL dos ERPs.
-Desta forma:
-- Não vamos cadastrar certificados de pessoa jurídica (CNCP digital);
-- Portanto não vamos emitir nenhum tipo de nota fiscal;
-- E, portanto, não vamos cadastrar meios de pagamento eletrônicos no e-commerce;
+Destaca-se que neste ambiente de simulação, não vamos explorar a parte de controle FISCAL dos ERPs. Desta forma: - Não vamos cadastrar certificados de pessoa jurídica (CNCP digital); - Portanto não vamos emitir nenhum tipo de nota fiscal; - E, portanto, não vamos cadastrar meios de pagamento eletrônicos no e-commerce;
 
-
-#### Iniciar castrando seu cliente na solução ERP 
+#### Iniciar castrando seu cliente na solução ERP
 
 Comece inserindo os dados do seu cliente no ERP
 
@@ -208,10 +200,9 @@ Comece inserindo os dados do seu cliente no ERP
 
 ![](images/np1/35-bling-produto-cadastrado-sem-estoque.jpg) ![](images/np1/36-bling-estoque-produto-incluir.jpg) ![](images/np1/37-bling-estoque-produto-incluir-camiseta-preta.jpg) ![](images/np1/38-bling-estoque-produto-incluir-camiseta-preta-iniciar.jpg) ![](images/np1/39-bling-estoque-produto-incluir-camiseta-preta-feito.jpg) ![](images/np1/40-bling-estoque-produto-lançado.jpg) ![](images/np1/41-bling-cadastrar-cliente.jpg) ![](images/np1/42-bling-cadastrar-cliente-feito.jpg) ![](images/np1/43-bling-cadastrar-cliente-feito.jpg) ![](images/np1/44-bling-cadastrar-fornecedor-feito.jpg) ![](images/np1/45-bling-cadastrar-fornecedor-feito.jpg)
 
-#### Começar a cadastrar PDV (Ponto de Venda) da parte física da loja (Conceito de "Módulo de vendas - PDV" dos ERPs) 
+#### Começar a cadastrar PDV (Ponto de Venda) da parte física da loja (Conceito de "Módulo de vendas - PDV" dos ERPs)
 
 ![](images/np1/46-bling-abrir-loja-fisica-frente-caixa.jpg) ![](images/np1/47-bling-abrir-loja-fisica-frente-caixa-ignorar-certificado.jpg) ![](images/np1/48-bling-abrir-loja-fisica-frente-caixa-cadastrar-loja-matriz.jpg) ![](images/np1/49-bling-abrir-loja-fisica-frente-caixa-cadastrar-loja-matriz.jpg) ![](images/np1/50-bling-abrir-loja-fisica-frente-caixa-ativo.jpg)
-
 
 ### Impantando o E-COMMERCE (parte virtual loja)
 
@@ -249,13 +240,131 @@ Comece inserindo os dados do seu cliente no ERP
 
 #### Parabéns, hora de começar a testar seu e-commerce.
 
-(lembre-se que vai faltar configurar o meio de pagamento no e-commerce para poder começar a receber)
-
+![](images/np1/89-loja_virtual_com_produtos_carregados.jpg)
 
 ### INICIANDO O PROCESSO DE VENDA SIMULADA NO E-COMMERCE INTEGRADO AO ERP:
 
+#### Configurar no e-commerce um ou mais MEIO(s) DE PAGAMENTO
 
+No e-commerce (nuvemshop nesse caso) vá atá a aba de configuração.
 
+![](images/np1/90-loja_virtual_meio_de_pagamento1.jpg)
 
+Procure pelo menu "Meio de Pagamento"
 
+![](images/np1/91-loja_virtual_meio_de_pagamento2.jpg)
 
+Aqui temos várias opções disponíveis para o dinheiro vir do comprador até a empresa (seu cliente) dona do site de e-commerce:
+
+1.  Cartões de Débito ( Via "mercado pago", "núvem pago", "Cielo", "Rede" etc )
+
+2.  Cartões de Crédito ( Via "mercado pago", "núvem pago", "Cielo", "Rede" etc
+
+3.  Via boleto
+
+4.  Via PIX
+
+5.  (pesonalizado) Via troca de conversa whatsapp, onde manualmente o cliente termina a compra, pega a chave pix da loja virtual pelo whatsapp ou e-mail por exemplo, paga e envia o comprovante no whatsapp ou e-mail da loja virtual/e-commerce. Nessa modalidade, não há necessidade de se cadastrar em meios de pagamento, e portanto, não há cobrança de taxas pelos meios-de-pagamento. Utilizaremos esse método para nosso estudo de caso.
+
+Localize o meio de pagamento personalizado
+
+![](images/np1/92-loja_virtual_meio_de_pagamento3.jpg)
+
+Ative esse tipo de meio-de-pagamento.
+
+![](images/np1/93-loja_virtual_meio_de_pagamento_personalizado.jpg)
+
+Ative apenas a opção "A combinar" (referente a fazer a conferência de pagamento manualmente).
+
+![](images/np1/94-loja_virtual_meio_de_pagamento_personalizado_A_combinar.jpg)
+
+![](images/np1/95-loja_virtual_meio_de_pagamento_personalizado_A_combinar.jpg)
+
+Pronto. Apenas confirme que seu meio de pagamento está configurado e ativado.
+
+![](images/np1/96-loja_virtual_meio_de_pagamento_personalizado_ativado.jpg)
+
+#### Simulação do comprador comprando uma camiseta
+
+![](images/np1/97-loja_virtual_iniciando_compra.jpg)
+
+![](images/np1/98-loja_virtual_iniciando_compra2.jpg)
+
+![](images/np1/99-loja_virtual_iniciando_compra3.jpg)
+
+![](images/np1/100-loja_virtual_iniciando_compra4.jpg)
+
+![](images/np1/101-loja_virtual_iniciando_compra5.jpg)
+
+![](images/np1/102-loja_virtual_iniciando_compra6.jpg)
+
+#### Aprovação manual da compra
+
+##### Cliente recebe status da compra (pedido e status de pagamento)
+
+Neste ponto o comprador recebe um e-mail informando:
+
+|                         |                                       |
+|-------------------------|---------------------------------------|
+| **Número do pedido**    | No caso esse número é o #100          |
+| **Status do pagamento** | Informa que está aguardando pagamento |
+
+![](images/np1/103-loja_virtual_cliente_email_confirmacao.jpg)
+
+##### Cliente manda comprovante de pagamento
+
+![](images/np1/104-loja_virtual_cliente_comprovante_pagamento.jpg)
+
+##### parte 01 - liberação pedido de venda no e-commerce
+
+![](images/np1/105-loja_virtual_lberar_venda1.jpg)
+
+![](images/np1/106-loja_virtual_lberar_venda2.jpg)
+
+![](images/np1/107-loja_virtual_lberar_venda3.jpg)
+
+![](images/np1/108-loja_virtual_liberar_venda4.jpg)
+
+##### parte 02 - Fechar venda no ERP ( dar baixa no estoque e lançamento de contas  )
+
+OBS: conforme combiando, por razões de limitações do estduo de caso, não vamos emitir nota fiscal para esta venda.
+
+Acesse o módulo de vendas. Entre em pedidos de venda.
+
+![](images/np1/109-ERP_liberar_venda1.jpg)
+
+Veja qu o sistema já puxou a venda do e-commerce, mas pelo processo estar no "modo manual", precisamos fazer o sistema:
+
+| Ações manuais sobre a venda | Descrição e importância |
+|------------------|------------------------------------------------------|
+| 1- Atualizar o estoque | De 2 camisetas pretas existentes na loja, 1 foi vendida, portanto restando apenas 1 para vender |
+| 2- Atualizar as contas | O valor da venda, sem o frente, foi de R\$ 90,00. Portanto entrou R\$ 90,00 nas contas a receber. |
+| 3- Fechar a venda dentro do ERP | Regra de ERP: para pode emitir nota fiscal e mandar embalar a camiseta, é preciso fechar o pedido primeiro. |
+
+Verifique o status atual da sua venda que foi recebida do e-commerce:
+
+![](images/np1/110-ERP_liberar_venda2.jpg)
+
+Atualize o estoque seguindo os passos abaixo:
+
+![](images/np1/111-ERP_liberar_venda3.jpg)
+
+Atualize as contas seguindo os passos abaixo:
+
+![](images/np1/112-ERP_liberar_venda4.jpg)
+
+Feche a venda seguindo os passos abaixo
+
+![](images/np1/113-ERP_liberar_venda5.jpg)
+
+Coloque uma observação (já que você fez o processo manualmente).
+
+![](images/np1/114-ERP_liberar_venda6.jpg)
+
+Pronto, agora é só verificar a sua venda finalizada.
+
+![](images/np1/115-ERP_liberar_venda7.jpg)
+
+Parabéns para você que chegou aqui!
+
+Você implantou um e-commerce gerenciado por ERP para um cliente.

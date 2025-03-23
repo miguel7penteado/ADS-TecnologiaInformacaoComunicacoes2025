@@ -70,6 +70,13 @@ faça-agora-o-mapeamento-do-código-das-categorias-do-e-commerce-no-erp
 faça-agora-a-exportação-dos-produtos
 parabéns-hora-de-começar-a-testar-seu-e-commerce.
 iniciando-o-processo-de-venda-simulada-no-e-commerce-integrado-ao-erp
+configurar-no-e-commerce-um-ou-mais-meios-de-pagamento
+simulação-do-comprador-comprando-uma-camiseta
+aprovação-manual-da-compra
+cliente-recebe-status-da-compra-pedido-e-status-de-pagamento
+cliente-manda-comprovante-de-pagamento
+parte-01---liberação-pedido-de-venda-no-e-commerce
+parte-02---fechar-venda-no-erp-dar-baixa-no-estoque-e-lançamento-de-contas
 infraestrutura-de-tic
 introdução-1
 componentes-da-infraestrutura-de-tic
