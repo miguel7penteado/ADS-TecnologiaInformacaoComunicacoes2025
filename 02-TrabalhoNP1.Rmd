@@ -89,7 +89,7 @@ PESQUISA 3...
 ### Apendice - links de pesquisas de TIC no Brasil
 
 | Pesquisa do CETIC - NIC.br | Endereço |
-|:------------------------------:|----------------------------------------|
+|:----------------------------------:|------------------------------------|
 | TIC – DOMICÍLIOS | <https://cetic.br/pesquisa/domicilios/> |
 | TIC – EMPRESAS | <https://cetic.br/pt/pesquisa/empresas/> |
 | TIC – EDUCAÇÃO | <https://cetic.br/pt/pesquisa/educacao/> |
@@ -325,7 +325,7 @@ Neste ponto o comprador recebe um e-mail informando:
 
 ![](images/np1/108-loja_virtual_liberar_venda4.jpg)
 
-##### parte 02 - Fechar venda no ERP ( dar baixa no estoque e lançamento de contas  )
+##### parte 02 - Fechar venda no ERP ( dar baixa no estoque e lançamento de contas )
 
 OBS: conforme combiando, por razões de limitações do estduo de caso, não vamos emitir nota fiscal para esta venda.
 
@@ -336,7 +336,7 @@ Acesse o módulo de vendas. Entre em pedidos de venda.
 Veja qu o sistema já puxou a venda do e-commerce, mas pelo processo estar no "modo manual", precisamos fazer o sistema:
 
 | Ações manuais sobre a venda | Descrição e importância |
-|------------------|------------------------------------------------------|
+|------------------------------------|------------------------------------|
 | 1- Atualizar o estoque | De 2 camisetas pretas existentes na loja, 1 foi vendida, portanto restando apenas 1 para vender |
 | 2- Atualizar as contas | O valor da venda, sem o frente, foi de R\$ 90,00. Portanto entrou R\$ 90,00 nas contas a receber. |
 | 3- Fechar a venda dentro do ERP | Regra de ERP: para pode emitir nota fiscal e mandar embalar a camiseta, é preciso fechar o pedido primeiro. |
@@ -368,3 +368,120 @@ Pronto, agora é só verificar a sua venda finalizada.
 Parabéns para você que chegou aqui!
 
 Você implantou um e-commerce gerenciado por ERP para um cliente.
+
+## CASO DE SUCESSO NO BRASIL DE UMA STARTUP, NESSE CASO ESPECÍFICAMENTE, DE I.A.
+
+### Fundada por brasileiro, CrewAI capta R\$ 100M e atrai CEO da OpenAI
+
+A matéria completa está em <https://startups.com.br/negocios/fundada-por-brasileiro-crewai-capta-r-100m-e-atrai-ceo-da-openai/>
+
+### CrewAI: Um guia com exemplos de sistemas de múltiplos agentes de IA
+
+Como testar a ferramenta crewai através dos pacotes python `crewai-tools crewai`
+
+<https://www.datacamp.com/pt/tutorial/crew-ai>
+
+## Lista de 100 Startups Brasileiras de Sucesso
+
+| **id**  |       **Nome**       | Área de Atuação                              |
+|:------------:|:-------------:|-------------------------------------------|
+|  **1**  |      **Nubank**      | Serviços financeiros digitais                |
+|  **2**  |      **iFood**       | Entrega de comida e mercado                  |
+|  **3**  |   **QuintoAndar**    | Plataforma de aluguel e compra de imóveis    |
+|  **4**  |       **Loft**       | Compra e venda de imóveis                    |
+|  **5**  |     **Creditas**     | Empréstimos com garantia                     |
+|  **6**  |     **Gympass**      | Plataforma de bem-estar e atividades físicas |
+|  **7**  |  **MadeiraMadeira**  | Venda online de móveis e artigos para casa   |
+|  **8**  |       **VTEX**       | Plataforma de comércio digital               |
+|  **9**  |      **CargoX**      | Plataforma de logística e transporte         |
+| **10**  |       **Neon**       | Banco digital                                |
+| **11**  |      **EBANX**       | Processamento de pagamentos                  |
+| **12**  |     **Hotmart**      | Plataforma de produtos digitais              |
+| **13**  |      **Loggi**       | Logística para e-commerce                    |
+| **14**  | **Wildlife Studios** | Desenvolvimento de jogos                     |
+| **15**  |      **Stone**       | Soluções de pagamento                        |
+| **16**  |    **RD Station**    | Automação de marketing e vendas              |
+| **17**  |    **Conta Azul**    | Software de gestão para pequenas empresas    |
+| **18**  |   **Descomplica**    | Educação online                              |
+| **19**  |      **Facily**      | E-commerce social                            |
+| **20**  |      **Olist**       | Plataforma para vendas online                |
+| **21**  |      **Docket**      | Gestão de documentos                         |
+| **22**  |      **Alice**       | Plano de saúde                               |
+| **23**  |       **Daki**       | Supermercado online                          |
+| **24**  |     **Hashdex**      | Gestão de criptoativos                       |
+| **25**  |      **Kavak**       | Compra e venda de carros usados              |
+| **26**  |      **unico**       | Identidade digital                           |
+| **27**  |      **Buser**       | Transporte rodoviário                        |
+| **28**  |     **Pagar.me**     | Soluções de pagamento online                 |
+| **29**  |      **Rappi**       | Entrega de diversos produtos                 |
+| **30**  |   **Zé Delivery**    | Entrega de bebidas                           |
+| **31**  |     **Petlove**      | Produtos e serviços para pets                |
+| **32**  |       **Sami**       | Plano de saúde                               |
+| **33**  |       **Kovi**       | Aluguel de carros por assinatura             |
+| **34**  |      **Warren**      | Plataforma de investimentos                  |
+| **35**  |      **Liv Up**      | Alimentação saudável                         |
+| **36**  |      **Trybe**       | Escola de programação                        |
+| **37**  |      **Amaro**       | E-commerce de moda                           |
+| **38**  |      **Cortex**      | Inteligência de dados                        |
+| **39**  |  **Infracommerce**   | Soluções para e-commerce                     |
+| **40**  |       **Gupy**       | Recrutamento e seleção                       |
+| **41**  | **Flash Benefícios** | Benefícios corporativos                      |
+| **42**  |      **Méliuz**      | Cashback e cupons                            |
+| **43**  |       **Omie**       | Software de gestão para PMEs                 |
+| **44**  |   **Dr. Consulta**   | Clínicas populares                           |
+| **45**  |     **Zenklub**      | Saúde mental                                 |
+| **46**  |      **PicPay**      | Carteira digital                             |
+| **47**  |  **Creditas Auto**   | Empréstimos com garantia de veículo          |
+| **48**  |        **99**        | Aplicativo de mobilidade urbana              |
+| **49**  |     **C6 Bank**      | Banco digital                                |
+| **50**  |    **CloudWalk**     | Pagamentos digitais                          |
+| **51**  | **Neon Pagamentos**  | Banco digital                                |
+| **52**  |  **Quero Educação**  | Educação                                     |
+| **53**  |       **Loft**       | Plataforma de compra e venda de imóveis      |
+| **54**  |     **Creditas**     | Plataforma de empréstimos online             |
+| **55**  |     **Gympass**      | Plataforma de bem-estar corporativo          |
+| **56**  |  **MadeiraMadeira**  | E-commerce de produtos para casa             |
+| **57**  |       **VTEX**       | Plataforma de e-commerce                     |
+| **58**  |      **CargoX**      | Plataforma de transporte de cargas           |
+| **59**  | **Neon Pagamentos**  | Banco digital                                |
+| **60**  |      **EBANX**       | Processamento de pagamentos                  |
+| **61**  |     **Hotmart**      | Plataforma de produtos digitais              |
+| **62**  |      **Loggi**       | Logística para e-commerce                    |
+| **63**  | **Wildlife Studios** | Desenvolvimento de jogos                     |
+| **64**  |      **Stone**       | Soluções de pagamento                        |
+| **65**  |    **RD Station**    | Plataforma de automação de marketing         |
+| **66**  |    **Conta Azul**    | Software de gestão para pequenas empresas    |
+| **67**  |   **Descomplica**    | Educação online                              |
+| **68**  |      **Facily**      | Plataforma de compras online                 |
+| **69**  |      **Olist**       | Plataforma de vendas online                  |
+| **70**  |      **Docket**      | Plataforma de gestão de documentos           |
+| **71**  |      **Alice**       | Plano de saúde                               |
+| **72**  |       **Daki**       | Supermercado online                          |
+| **73**  |     **Hashdex**      | Gestão de criptoativos                       |
+| **74**  |      **Kavak**       | Compra e venda de carros usados              |
+| **75**  |      **unico**       | Plataforma de identidade digital             |
+| **76**  |      **Buser**       | Transporte rodoviário                        |
+| **77**  |     **Pagar.me**     | Soluções de pagamento online                 |
+| **78**  |      **Rappi**       | Aplicativo de entrega                        |
+| **79**  |   **Zé Delivery**    | Entrega de bebidas                           |
+| **80**  |     **Petlove**      | E-commerce de produtos para pets             |
+| **81**  |       **Sami**       | Plano de saúde                               |
+| **82**  |       **Kovi**       | Aluguel de carros por assinatura             |
+| **83**  |      **Warren**      | Plataforma de investimentos                  |
+| **84**  |      **Liv Up**      | Plataforma de alimentação saudável           |
+| **85**  |      **Trybe**       | Escola de programação                        |
+| **86**  |      **Amaro**       | E-commerce de moda                           |
+| **87**  |      **Cortex**      | Plataforma de inteligência de dados          |
+| **88**  |  **Infracommerce**   | Soluções para e-commerce                     |
+| **89**  |       **Gupy**       | Plataforma de recrutamento e seleção         |
+| **90**  | **Flash Benefícios** | Plataforma de benefícios corporativos        |
+| **91**  |      **Méliuz**      | Plataforma de cashback e cupons              |
+| **92**  |       **Omie**       | Software de gestão para pequenas empresas    |
+| **93**  |   **Dr. Consulta**   | Clínicas populares                           |
+| **94**  |     **Zenklub**      | Plataforma de saúde mental                   |
+| **95**  |      **PicPay**      | Carteira digital                             |
+| **96**  |  **Creditas Auto**   | Empréstimos com garantia de veículo          |
+| **97**  | **Neon Pagamentos**  | Banco digital                                |
+| **98**  |        **99**        | Aplicativo de mobilidade urbana              |
+| **99**  |     **C6 Bank**      | Banco digital                                |
+| **100** |    **CloudWalk**     | Pagamentos digitais                          |

@@ -77,6 +77,10 @@ cliente-recebe-status-da-compra-pedido-e-status-de-pagamento
 cliente-manda-comprovante-de-pagamento
 parte-01---liberação-pedido-de-venda-no-e-commerce
 parte-02---fechar-venda-no-erp-dar-baixa-no-estoque-e-lançamento-de-contas
+caso-de-sucesso-no-brasil-de-uma-startup-nesse-caso-específicamente-de-i.a.
+fundada-por-brasileiro-crewai-capta-r-100m-e-atrai-ceo-da-openai
+crewai-um-guia-com-exemplos-de-sistemas-de-múltiplos-agentes-de-ia
+lista-de-100-startups-brasileiras-de-sucesso
 infraestrutura-de-tic
 introdução-1
 componentes-da-infraestrutura-de-tic
