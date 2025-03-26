@@ -6,6 +6,11 @@ livros-texto-da-disciplina
 bibliografia-básica
 bibliografia-complementar
 calendário-de-aulas-e-provas
+chácara-santo-antônio
+marquês-de-são-vicente
+alunos
+chácara-santo-antônio-1
+marquês-de-são-vicente-1
 introdução-a-tic-tecnologia-da-informação-e-comunicações
 conceitos-de-sistemas-de-informação
 o-dado

@@ -30,6 +30,8 @@ STAIR, Ralph M; REYNOLDS, George W. Princípios de sistemas de informação /
 
 ## CALENDÁRIO DE AULAS E PROVAS
 
+### Chácara Santo Antônio
+
 **Fevereiro 2025**
 
 | No. | fevereiro 2025 |    Semana     | conteúdo  |
@@ -74,5 +76,57 @@ STAIR, Ralph M; REYNOLDS, George W. Princípios de sistemas de informação /
 | 14  | 16/06/2025 | Segunda-feira |  EXAME   |
 | 15  | 23/06/2025 | Segunda-feira |  VISTAS  |
 
+### Marquês de São Vicente
 
+**Fevereiro 2025**
 
+| No. | Fevereiro 2025 |    Semana    | conteúdo  |
+|:---:|:--------------:|:------------:|:---------:|
+|  1  |   05/02/2025   | Quarta-feira |           |
+|  1  |   05/02/2025   | Quarta-feira |           |
+|  2  |   12/02/2025   | Quarta-feira |           |
+|  3  |   19/02/2025   | Quarta-feira | Inaugural |
+|  4  |   26/02/2025   | Quarta-feira |  Aula 01  |
+
+**Março 2025**
+
+| No. | Março 2025 |    Semana    | conteúdo |
+|:---:|:----------:|:------------:|:--------:|
+|  5  | 05/03/2025 | Quarta-feira | Feriado  |
+|  6  | 12/03/2025 | Quarta-feira | Aula 02  |
+|  7  | 19/03/2025 | Quarta-feira | Aula 03  |
+|  8  | 26/03/2025 | Quarta-feira | Aula 04  |
+
+**Abril 2025**
+
+| No. | Abril 2025 |    Semana    | conteúdo |
+|:---:|:----------:|:------------:|:--------:|
+|  9  | 02/04/2025 | Quarta-feira |   NP1    |
+| 10  | 09/04/2025 | Quarta-feira | Aula 05  |
+| 11  | 16/04/2025 | Quarta-feira | Aula 06  |
+| 12  | 23/04/2025 | Quarta-feira | Aula 07  |
+| 13  | 30/04/2025 | Quarta-feira | Aula 08  |
+
+**Maio 2025**
+
+| No. | Maio 2025  |    Semana    | conteúdo |
+|:---:|:----------:|:------------:|:--------:|
+| 14  | 07/05/2025 | Quarta-feira | Aula 09  |
+| 15  | 14/05/2025 | Quarta-feira | Aula 10  |
+| 16  | 21/05/2025 | Quarta-feira |   NP2    |
+| 17  | 28/05/2025 | Quarta-feira |   SUB    |
+
+**Junho 2025**
+
+| No. | Junho 2025 |    Semana    | conteúdo |
+|:---:|:----------:|:------------:|:--------:|
+| 18  | 04/06/2025 | Quarta-feira | PLANTÃO  |
+| 19  | 11/06/2025 | Quarta-feira | PLANTÃO  |
+| 20  | 18/06/2025 | Quarta-feira |  EXAME   |
+| 21  | 25/06/2025 | Quarta-feira |  VISTAS  |
+
+## ALUNOS
+
+### Chácara Santo Antônio
+
+### Marquês de São Vicente

@@ -89,7 +89,7 @@ PESQUISA 3...
 ### Apendice - links de pesquisas de TIC no Brasil
 
 | Pesquisa do CETIC - NIC.br | Endereço |
-|:----------------------------------:|------------------------------------|
+|:--:|----|
 | TIC – DOMICÍLIOS | <https://cetic.br/pesquisa/domicilios/> |
 | TIC – EMPRESAS | <https://cetic.br/pt/pesquisa/empresas/> |
 | TIC – EDUCAÇÃO | <https://cetic.br/pt/pesquisa/educacao/> |
@@ -100,7 +100,7 @@ PESQUISA 3...
 : Pesquisas TIC do CETIC (NIC.br)
 
 | Pesquisa do IBGE | Endereço |
-|------------------------------------|------------------------------------|
+|----|----|
 | IBGE – PESQUISA TIC – EMPRESA – 2010 | <https://www.ibge.gov.br/estatisticas/multidominio/ciencia-tecnologia-e-inovacao/9137-pesquisa-sobre-o-uso-das-tecnologias-de-informacao-e-comunicacao-nas-empresas.html?=&t=o-que-e> |
 | IBGE – PESQUISA PINTEC – INOVAÇÃO TECNOLÓGICA | <https://www.ibge.gov.br/estatisticas/multidominio/ciencia-tecnologia-e-inovacao/9141-pesquisa-de-inovacao.html> |
 | IBGE - PSTI – PESQUISA DE SERVIÇOS DE TIC – MODALIDADE SEMESTRAL | <https://www.ibge.gov.br/estatisticas/multidominio/ciencia-tecnologia-e-inovacao/9037-pesquisa-de-servicos-de-tecnologia-da-informacao.html?=&t=o-que-e> |
@@ -336,7 +336,7 @@ Acesse o módulo de vendas. Entre em pedidos de venda.
 Veja qu o sistema já puxou a venda do e-commerce, mas pelo processo estar no "modo manual", precisamos fazer o sistema:
 
 | Ações manuais sobre a venda | Descrição e importância |
-|------------------------------------|------------------------------------|
+|----|----|
 | 1- Atualizar o estoque | De 2 camisetas pretas existentes na loja, 1 foi vendida, portanto restando apenas 1 para vender |
 | 2- Atualizar as contas | O valor da venda, sem o frente, foi de R\$ 90,00. Portanto entrou R\$ 90,00 nas contas a receber. |
 | 3- Fechar a venda dentro do ERP | Regra de ERP: para pode emitir nota fiscal e mandar embalar a camiseta, é preciso fechar o pedido primeiro. |
@@ -384,7 +384,7 @@ Como testar a ferramenta crewai através dos pacotes python `crewai-tools crewai
 ## Lista de 100 Startups Brasileiras de Sucesso
 
 | **id**  |       **Nome**       | Área de Atuação                              |
-|:------------:|:-------------:|-------------------------------------------|
+|:-------:|:--------------------:|----------------------------------------------|
 |  **1**  |      **Nubank**      | Serviços financeiros digitais                |
 |  **2**  |      **iFood**       | Entrega de comida e mercado                  |
 |  **3**  |   **QuintoAndar**    | Plataforma de aluguel e compra de imóveis    |
