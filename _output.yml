@@ -7,7 +7,7 @@ bookdown::gitbook:
       after: |
         <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
     edit: https://github.com/miguel7penteado/ADS-TecnologiaInformacaoComunicacoes2025/edit/main/%s
-    download: ["pdf", "epub", "word"]
+    download: ["pdf", "epub", "word", "html"]
 bookdown::pdf_book:
   includes:
     in_header: preamble.tex
@@ -34,6 +34,8 @@ bookdown::epub_book:
   template: "default"
 bookdown::word_document2:
   toc: true
-bookdown::html_document2: default
-
-
+  template: "default"
+bookdown::html_document2:
+  toc: true
+  toc_depth: 3
+  template: "default"
