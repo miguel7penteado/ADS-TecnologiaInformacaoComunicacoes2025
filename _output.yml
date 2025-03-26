@@ -34,5 +34,6 @@ bookdown::epub_book:
   template: "default"
 bookdown::word_document2:
   toc: true
+bookdown::html_document2: default
 
 
