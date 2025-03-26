@@ -89,7 +89,7 @@ PESQUISA 3...
 ### Apendice - links de pesquisas de TIC no Brasil
 
 | Pesquisa do CETIC - NIC.br | Endereço |
-|:--:|----|
+|:----------------------------------:|------------------------------------|
 | TIC – DOMICÍLIOS | <https://cetic.br/pesquisa/domicilios/> |
 | TIC – EMPRESAS | <https://cetic.br/pt/pesquisa/empresas/> |
 | TIC – EDUCAÇÃO | <https://cetic.br/pt/pesquisa/educacao/> |
@@ -100,7 +100,7 @@ PESQUISA 3...
 : Pesquisas TIC do CETIC (NIC.br)
 
 | Pesquisa do IBGE | Endereço |
-|----|----|
+|------------------------------------|------------------------------------|
 | IBGE – PESQUISA TIC – EMPRESA – 2010 | <https://www.ibge.gov.br/estatisticas/multidominio/ciencia-tecnologia-e-inovacao/9137-pesquisa-sobre-o-uso-das-tecnologias-de-informacao-e-comunicacao-nas-empresas.html?=&t=o-que-e> |
 | IBGE – PESQUISA PINTEC – INOVAÇÃO TECNOLÓGICA | <https://www.ibge.gov.br/estatisticas/multidominio/ciencia-tecnologia-e-inovacao/9141-pesquisa-de-inovacao.html> |
 | IBGE - PSTI – PESQUISA DE SERVIÇOS DE TIC – MODALIDADE SEMESTRAL | <https://www.ibge.gov.br/estatisticas/multidominio/ciencia-tecnologia-e-inovacao/9037-pesquisa-de-servicos-de-tecnologia-da-informacao.html?=&t=o-que-e> |
@@ -180,29 +180,29 @@ Destaca-se que neste ambiente de simulação, não vamos explorar a parte de con
 
 Comece inserindo os dados do seu cliente no ERP
 
-![Entre com os dados so seu cliente](images/np1/01-bling-cadastro.jpg) ![](images/np1/02-bling-selecionar-area-comercial.jpg) ![](images/np1/03-bling-escolher-modulos-erp.jpg) ![](images/np1/04-bling-conta-criada.jpg) ![](images/np1/05-bling-logar-usuario-senha.jpg)
+![Entre com os dados so seu cliente](images/np1/001-bling-cadastro.jpg) ![](images/np1/002-bling-selecionar-area-comercial.jpg) ![](images/np1/003-bling-escolher-modulos-erp.jpg) ![](images/np1/004-bling-conta-criada.jpg) ![](images/np1/005-bling-logar-usuario-senha.jpg)
 
 #### Começar a cadastrar EMPRESA (Conceito de "Módulo CONTROLE CADASTROS" dos ERPs)
 
 ##### Começar a cadastrar a EMPRESA (pessoa física ou jurídica)
 
-![](images/np1/06-bling-identificar-pessoa-endereço.jpg) ![](images/np1/07-bling-natureza-negocio.jpg) ![](images/np1/08-bling-certificado-digital-fisco-nota-fiscal.jpg)
+![](images/np1/006-bling-identificar-pessoa-endereço.jpg) ![](images/np1/007-bling-natureza-negocio.jpg) ![](images/np1/008-bling-certificado-digital-fisco-nota-fiscal.jpg)
 
 ##### Começar a cadastrar as categorias dos produtos (pessoa física ou jurídica)
 
-![](images/np1/09-bling-cadastrar-categorias-produtos.jpg) ![](images/np1/10-bling-cadastrar-categorias-produtos-tela-lista-categorias.jpg) ![](images/np1/11-bling-cadastrar-moda-masculina.jpg) ![](images/np1/12-bling-cadastrar-categorias-produtos-tela-lista-categorias-inserir-moda-feminina.jpg) ![](images/np1/14-bling-cadastrar-subcategoria-moda-masculina-camiseta.jpg) ![](images/np1/15-bling-cadastrar-subcategoria-moda-masculina-camiseta.jpg) ![](images/np1/16-bling-confirmar-cadastro-camisetas-em-moda-masculina.jpg) ![](images/np1/17-bling-cadastrar-subcategoria-moda-feminina-vestido.jpg) ![](images/np1/18-bling-confirmar-cadastro-vestidos-em-moda-feminina.jpg) ![](images/np1/19-categorias-cadastradas.jpg)
+![](images/np1/009-bling-cadastrar-categorias-produtos.jpg) ![](images/np1/010-bling-cadastrar-categorias-produtos-tela-lista-categorias.jpg) ![](images/np1/011-bling-cadastrar-moda-masculina.jpg) ![](images/np1/012-bling-cadastrar-categorias-produtos-tela-lista-categorias-inserir-moda-feminina.jpg) ![](images/np1/014-bling-cadastrar-subcategoria-moda-masculina-camiseta.jpg) ![](images/np1/015-bling-cadastrar-subcategoria-moda-masculina-camiseta.jpg) ![](images/np1/016-bling-confirmar-cadastro-camisetas-em-moda-masculina.jpg) ![](images/np1/017-bling-cadastrar-subcategoria-moda-feminina-vestido.jpg) ![](images/np1/018-bling-confirmar-cadastro-vestidos-em-moda-feminina.jpg) ![](images/np1/019-categorias-cadastradas.jpg)
 
 ##### Começar a cadastrar os produtos (pessoa física ou jurídica)
 
-![](images/np1/20-cadastrar-produtos.jpg) ![](images/np1/21-cadastro-produtos-inserir-produto.jpg) ![](images/np1/22-cadastro-produtos-inserir-produto-dados-basicos.jpg) ![](images/np1/23-cadastro-produtos-inserir-detalhes-e-commerce.jpg) ![](images/np1/24-cadastro-produtos-inserir-detalhes-e-commerce-descricao.jpg) ![](images/np1/25-cadastro-produtos-inserir-imagem-produtos.jpg) ![](images/np1/26-cadastro-produtos-inserir-imagem-produtos.jpg) ![](images/np1/27-cadastro-produtos-inserir-imagem-produtos-cadastradas.jpg) ![](images/np1/28-cadastro-produtos-quantidade-estoque.jpg) ![](images/np1/29-cadastro-produtos-fiscal-NCM-CEST.jpg) ![](images/np1/30-cadastro-produtos-variações-produto.jpg) ![](images/np1/31-cadastro-produtos-variações-produto.jpg) ![](images/np1/32-cadastro-produtos-variações-produto-inserir-código.jpg) ![](images/np1/33-cadastro-produtos-variações-produto-inserir-imagem.jpg) ![](images/np1/34-cadastro-produtos-variações-produto.jpg)
+![](images/np1/020-cadastrar-produtos.jpg) ![](images/np1/021-cadastro-produtos-inserir-produto.jpg) ![](images/np1/022-cadastro-produtos-inserir-produto-dados-basicos.jpg) ![](images/np1/023-cadastro-produtos-inserir-detalhes-e-commerce.jpg) ![](images/np1/024-cadastro-produtos-inserir-detalhes-e-commerce-descricao.jpg) ![](images/np1/025-cadastro-produtos-inserir-imagem-produtos.jpg) ![](images/np1/026-cadastro-produtos-inserir-imagem-produtos.jpg) ![](images/np1/027-cadastro-produtos-inserir-imagem-produtos-cadastradas.jpg) ![](images/np1/028-cadastro-produtos-quantidade-estoque.jpg) ![](images/np1/029-cadastro-produtos-fiscal-NCM-CEST.jpg) ![](images/np1/030-cadastro-produtos-variações-produto.jpg) ![](images/np1/031-cadastro-produtos-variações-produto.jpg) ![](images/np1/032-cadastro-produtos-variações-produto-inserir-código.jpg) ![](images/np1/033-cadastro-produtos-variações-produto-inserir-imagem.jpg) ![](images/np1/034-cadastro-produtos-variações-produto.jpg)
 
 ##### Começar a cadastrar o estoque (Conceito de "Módulo CONTROLE DE ESTOQUE" dos ERPs)
 
-![](images/np1/35-bling-produto-cadastrado-sem-estoque.jpg) ![](images/np1/36-bling-estoque-produto-incluir.jpg) ![](images/np1/37-bling-estoque-produto-incluir-camiseta-preta.jpg) ![](images/np1/38-bling-estoque-produto-incluir-camiseta-preta-iniciar.jpg) ![](images/np1/39-bling-estoque-produto-incluir-camiseta-preta-feito.jpg) ![](images/np1/40-bling-estoque-produto-lançado.jpg) ![](images/np1/41-bling-cadastrar-cliente.jpg) ![](images/np1/42-bling-cadastrar-cliente-feito.jpg) ![](images/np1/43-bling-cadastrar-cliente-feito.jpg) ![](images/np1/44-bling-cadastrar-fornecedor-feito.jpg) ![](images/np1/45-bling-cadastrar-fornecedor-feito.jpg)
+![](images/np1/035-bling-produto-cadastrado-sem-estoque.jpg) ![](images/np1/036-bling-estoque-produto-incluir.jpg) ![](images/np1/037-bling-estoque-produto-incluir-camiseta-preta.jpg) ![](images/np1/038-bling-estoque-produto-incluir-camiseta-preta-iniciar.jpg) ![](images/np1/039-bling-estoque-produto-incluir-camiseta-preta-feito.jpg) ![](images/np1/040-bling-estoque-produto-lançado.jpg) ![](images/np1/041-bling-cadastrar-cliente.jpg) ![](images/np1/042-bling-cadastrar-cliente-feito.jpg) ![](images/np1/043-bling-cadastrar-cliente-feito.jpg) ![](images/np1/044-bling-cadastrar-fornecedor-feito.jpg) ![](images/np1/045-bling-cadastrar-fornecedor-feito.jpg)
 
 #### Começar a cadastrar PDV (Ponto de Venda) da parte física da loja (Conceito de "Módulo de vendas - PDV" dos ERPs)
 
-![](images/np1/46-bling-abrir-loja-fisica-frente-caixa.jpg) ![](images/np1/47-bling-abrir-loja-fisica-frente-caixa-ignorar-certificado.jpg) ![](images/np1/48-bling-abrir-loja-fisica-frente-caixa-cadastrar-loja-matriz.jpg) ![](images/np1/49-bling-abrir-loja-fisica-frente-caixa-cadastrar-loja-matriz.jpg) ![](images/np1/50-bling-abrir-loja-fisica-frente-caixa-ativo.jpg)
+![](images/np1/046-bling-abrir-loja-fisica-frente-caixa.jpg) ![](images/np1/047-bling-abrir-loja-fisica-frente-caixa-ignorar-certificado.jpg) ![](images/np1/048-bling-abrir-loja-fisica-frente-caixa-cadastrar-loja-matriz.jpg) ![](images/np1/049-bling-abrir-loja-fisica-frente-caixa-cadastrar-loja-matriz.jpg) ![](images/np1/050-bling-abrir-loja-fisica-frente-caixa-ativo.jpg)
 
 ### Impantando o E-COMMERCE (parte virtual loja)
 
@@ -210,37 +210,37 @@ Comece inserindo os dados do seu cliente no ERP
 
 #### cadastre a empresa do cliente na platafroma de e-commerce
 
-![](images/np1/51-nuvemshop-testar-loja-gratis.jpg) ![](images/np1/52-nuvemshop-cadastrar-loja-gratis.jpg) ![](images/np1/53-nuvemshop-testar-loja-gratis.jpg) ![](images/np1/54-nuvemshop-cadastrar-loja-gratis.jpg) ![](images/np1/55-nuvemshop-cadastrar-loja-gratis.jpg)
+![](images/np1/051-nuvemshop-testar-loja-gratis.jpg) ![](images/np1/052-nuvemshop-cadastrar-loja-gratis.jpg) ![](images/np1/053-nuvemshop-testar-loja-gratis.jpg) ![](images/np1/054-nuvemshop-cadastrar-loja-gratis.jpg) ![](images/np1/055-nuvemshop-cadastrar-loja-gratis.jpg)
 
 #### cadastre as categorias de produtos na loja on-line
 
-![](images/np1/56-nuvemshop-cadastrar-categorias-produtos.jpg) ![](images/np1/57-nuvemshop-acessar-cadastro-categorias-produtos.jpg) ![](images/np1/58-nuvemshop-acessar-cadastro-categorias-produtos.jpg) ![](images/np1/59-nuvemshop-cadastrar-categorias-produtos.jpg) ![](images/np1/60-nuvemshop-cadastrar-subcategorias-produtos.jpg) ![](images/np1/61-nuvemshop-categorias-bling.jpg)
+![](images/np1/056-nuvemshop-cadastrar-categorias-produtos.jpg) ![](images/np1/057-nuvemshop-acessar-cadastro-categorias-produtos.jpg) ![](images/np1/058-nuvemshop-acessar-cadastro-categorias-produtos.jpg) ![](images/np1/059-nuvemshop-cadastrar-categorias-produtos.jpg) ![](images/np1/060-nuvemshop-cadastrar-subcategorias-produtos.jpg) ![](images/np1/061-nuvemshop-categorias-bling.jpg)
 
 #### mapeie o código das categorias de produtos na loja on-line para colocar no ERP depois
 
-![](images/np1/62-nuvemshop-obter-código-categorias.jpg) ![](images/np1/63-nuvemshop-obter-código-categorias.jpg) ![](images/np1/64-nuvemshop-categorias-nuvemshop-códigos.jpg) ![](images/np1/65-nuvemshop-visitar-loja-online.jpg) ![](images/np1/66-nuvemshop-visitar-loja-online.jpg) ![](images/np1/67-nuvemshop-visitar-loja-online.jpg)
+![](images/np1/062-nuvemshop-obter-código-categorias.jpg) ![](images/np1/063-nuvemshop-obter-código-categorias.jpg) ![](images/np1/064-nuvemshop-categorias-nuvemshop-códigos.jpg) ![](images/np1/065-nuvemshop-visitar-loja-online.jpg) ![](images/np1/066-nuvemshop-visitar-loja-online.jpg) ![](images/np1/067-nuvemshop-visitar-loja-online.jpg)
 
 ### Inicie a amarração (integração) do e-commerce com o ERP (começando no e-commerce)
 
 #### Instale o aplicativo (API) de conexão no e-commerce
 
-![](images/np1/68-Conectar-nuvemshop-bling.jpg) ![](images/np1/69-Conectar-nuvemshop-bling.jpg) ![](images/np1/70-Conectar-nuvemshop-bling.jpg) ![](images/np1/71-Conectar-nuvemshop-bling.jpg)
+![](images/np1/068-Conectar-nuvemshop-bling.jpg) ![](images/np1/069-Conectar-nuvemshop-bling.jpg) ![](images/np1/070-Conectar-nuvemshop-bling.jpg) ![](images/np1/071-Conectar-nuvemshop-bling.jpg)
 
 #### Instale o aplicativo (API) de conexão no ERP
 
-![](images/np1/72-Conectar-bling-nuvemshop.jpg) ![](images/np1/73-Conectar-bling-nuvemshop.jpg) ![](images/np1/74-Conectar-bling-nuvemshop-ajustes-finos.jpg) ![](images/np1/75-Conectar-bling-nuvemshop-ajustes-finos.jpg) ![](images/np1/76-Conectar-bling-nuvemshop-ajustes-finos-vendas.jpg) ![](images/np1/77-Conectar-bling-nuvemshop-ajustes-finos-vendas.jpg) ![](images/np1/78-Conectar-bling-nuvemshop-ajustes-feito.jpg)
+![](images/np1/072-Conectar-bling-nuvemshop.jpg) ![](images/np1/073-Conectar-bling-nuvemshop.jpg) ![](images/np1/074-Conectar-bling-nuvemshop-ajustes-finos.jpg) ![](images/np1/075-Conectar-bling-nuvemshop-ajustes-finos.jpg) ![](images/np1/076-Conectar-bling-nuvemshop-ajustes-finos-vendas.jpg) ![](images/np1/077-Conectar-bling-nuvemshop-ajustes-finos-vendas.jpg) ![](images/np1/078-Conectar-bling-nuvemshop-ajustes-feito.jpg)
 
 #### Faça agora o mapeamento do código das categorias do e-commerce no ERP
 
-![](images/np1/79-Amarracao-Categorias-Ecommerce-ERP.jpg) ![](images/np1/80-Amarracao-Categorias-Ecommerce-ERP.jpg) ![](images/np1/81-Amarracao-Categorias-Ecommerce-ERP.jpg) ![](images/np1/82-Amarracao-Categorias-Ecommerce-ERP.jpg)
+![](images/np1/079-Amarracao-Categorias-Ecommerce-ERP.jpg) ![](images/np1/080-Amarracao-Categorias-Ecommerce-ERP.jpg) ![](images/np1/081-Amarracao-Categorias-Ecommerce-ERP.jpg) ![](images/np1/082-Amarracao-Categorias-Ecommerce-ERP.jpg)
 
 #### Faça agora a exportação dos produtos
 
-![](images/np1/83-Exportar-Bling-Nuvemshop.jpg) ![](images/np1/84-Exportar-Bling-Nuvemshop.jpg) ![](images/np1/85-Exportar-Bling-Nuvemshop.jpg) ![](images/np1/86-Exportar-Bling-Nuvemshop.jpg) ![](images/np1/87-Exportar-Bling-Nuvemshop.jpg) ![](images/np1/88-Exportar-Bling-Nuvemshop.jpg)
+![](images/np1/083-Exportar-Bling-Nuvemshop.jpg) ![](images/np1/084-Exportar-Bling-Nuvemshop.jpg) ![](images/np1/085-Exportar-Bling-Nuvemshop.jpg) ![](images/np1/086-Exportar-Bling-Nuvemshop.jpg) ![](images/np1/087-Exportar-Bling-Nuvemshop.jpg) ![](images/np1/088-Exportar-Bling-Nuvemshop.jpg)
 
 #### Parabéns, hora de começar a testar seu e-commerce.
 
-![](images/np1/89-loja_virtual_com_produtos_carregados.jpg)
+![](images/np1/089-loja_virtual_com_produtos_carregados.jpg)
 
 ### INICIANDO O PROCESSO DE VENDA SIMULADA NO E-COMMERCE INTEGRADO AO ERP:
 
@@ -248,11 +248,11 @@ Comece inserindo os dados do seu cliente no ERP
 
 No e-commerce (nuvemshop nesse caso) vá atá a aba de configuração.
 
-![](images/np1/90-loja_virtual_meio_de_pagamento1.jpg)
+![](images/np1/090-loja_virtual_meio_de_pagamento1.jpg)
 
 Procure pelo menu "Meio de Pagamento"
 
-![](images/np1/91-loja_virtual_meio_de_pagamento2.jpg)
+![](images/np1/091-loja_virtual_meio_de_pagamento2.jpg)
 
 Aqui temos várias opções disponíveis para o dinheiro vir do comprador até a empresa (seu cliente) dona do site de e-commerce:
 
@@ -268,29 +268,29 @@ Aqui temos várias opções disponíveis para o dinheiro vir do comprador até a
 
 Localize o meio de pagamento personalizado
 
-![](images/np1/92-loja_virtual_meio_de_pagamento3.jpg)
+![](images/np1/092-loja_virtual_meio_de_pagamento3.jpg)
 
 Ative esse tipo de meio-de-pagamento.
 
-![](images/np1/93-loja_virtual_meio_de_pagamento_personalizado.jpg)
+![](images/np1/093-loja_virtual_meio_de_pagamento_personalizado.jpg)
 
 Ative apenas a opção "A combinar" (referente a fazer a conferência de pagamento manualmente).
 
-![](images/np1/94-loja_virtual_meio_de_pagamento_personalizado_A_combinar.jpg)
+![](images/np1/094-loja_virtual_meio_de_pagamento_personalizado_A_combinar.jpg)
 
-![](images/np1/95-loja_virtual_meio_de_pagamento_personalizado_A_combinar.jpg)
+![](images/np1/095-loja_virtual_meio_de_pagamento_personalizado_A_combinar.jpg)
 
 Pronto. Apenas confirme que seu meio de pagamento está configurado e ativado.
 
-![](images/np1/96-loja_virtual_meio_de_pagamento_personalizado_ativado.jpg)
+![](images/np1/096-loja_virtual_meio_de_pagamento_personalizado_ativado.jpg)
 
 #### Simulação do comprador comprando uma camiseta
 
-![](images/np1/97-loja_virtual_iniciando_compra.jpg)
+![](images/np1/097-loja_virtual_iniciando_compra.jpg)
 
-![](images/np1/98-loja_virtual_iniciando_compra2.jpg)
+![](images/np1/098-loja_virtual_iniciando_compra2.jpg)
 
-![](images/np1/99-loja_virtual_iniciando_compra3.jpg)
+![](images/np1/099-loja_virtual_iniciando_compra3.jpg)
 
 ![](images/np1/100-loja_virtual_iniciando_compra4.jpg)
 
@@ -336,7 +336,7 @@ Acesse o módulo de vendas. Entre em pedidos de venda.
 Veja qu o sistema já puxou a venda do e-commerce, mas pelo processo estar no "modo manual", precisamos fazer o sistema:
 
 | Ações manuais sobre a venda | Descrição e importância |
-|----|----|
+|------------------------------------|------------------------------------|
 | 1- Atualizar o estoque | De 2 camisetas pretas existentes na loja, 1 foi vendida, portanto restando apenas 1 para vender |
 | 2- Atualizar as contas | O valor da venda, sem o frente, foi de R\$ 90,00. Portanto entrou R\$ 90,00 nas contas a receber. |
 | 3- Fechar a venda dentro do ERP | Regra de ERP: para pode emitir nota fiscal e mandar embalar a camiseta, é preciso fechar o pedido primeiro. |
@@ -384,7 +384,7 @@ Como testar a ferramenta crewai através dos pacotes python `crewai-tools crewai
 ## Lista de 100 Startups Brasileiras de Sucesso
 
 | **id**  |       **Nome**       | Área de Atuação                              |
-|:-------:|:--------------------:|----------------------------------------------|
+|:-------------:|:----------------:|---------------------------------------|
 |  **1**  |      **Nubank**      | Serviços financeiros digitais                |
 |  **2**  |      **iFood**       | Entrega de comida e mercado                  |
 |  **3**  |   **QuintoAndar**    | Plataforma de aluguel e compra de imóveis    |
