@@ -35,6 +35,10 @@ questões
 testes-múltipla-escolha
 respostas-questões
 respostas-dos-testes
+np1
+grupos-até-2025-03-27
+turma-campus-chácara-santo-antônio
+turma-campus-marquês-de-são-vicente
 apresentação-trabalho-np1
 np1-trabalho-de-substituição-de-prova-p1---pesquisa
 capa
