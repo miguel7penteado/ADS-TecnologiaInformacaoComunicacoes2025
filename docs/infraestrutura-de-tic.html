@@ -29,7 +29,7 @@ set in the _output.yml file.</p>" />
 <meta name="author" content="Professor Miguel Suez Xve Penteado" />
 
 
-<meta name="date" content="2025-03-31" />
+<meta name="date" content="2025-04-06" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -254,14 +254,113 @@ set in the _output.yml file.</p>" />
 </div>
 <div id="componentes-da-infraestrutura-de-tic" class="section level2 hasAnchor" number="3.2">
 <h2><span class="header-section-number">3.2</span> Componentes da Infraestrutura de TIC<a href="infraestrutura-de-tic.html#componentes-da-infraestrutura-de-tic" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Em uma empresa, a infraestrutura de TIC precisa de 3 elemntso fundamentais para funcionar:</p>
+<ul>
+<li><p>Hardware;</p></li>
+<li><p>Software;</p></li>
+<li><p>Rede;</p></li>
+<li><p>(Bancos de) Dados;</p></li>
+<li><p>Pessoas especializadas;</p></li>
+</ul>
 <div id="hardware" class="section level3 hasAnchor" number="3.2.1">
 <h3><span class="header-section-number">3.2.1</span> Hardware<a href="infraestrutura-de-tic.html#hardware" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Fazem parte do cabedal de hadware das empresas:</p>
+<p><strong>Estações de Trabalho</strong> (WorkStations) - É um computador direcionado a atividades profissionais que, frequentemente, demandam bastante desempenho no processamento de dados;</p>
+<p><strong>Computadores Pessoais</strong> (Laptops e Desktops) - Um Computador Pessoal empresarial é um computador de mesa com capacidade dimensionada para uso em empresas e organizações visando tratar tarefas administrativas dos departamentos. O mesmo se aplica aos computadores portáteis empresariais (laptops);</p>
+<p><strong>Dispositivos móveis</strong> (Smartphones e Tablets) - Os smartphones e tablets empresarias são aparelho celular fornecido por uma empresa para que os colaboradores usem no trabalho, normalmente customizados com configurações avançadas, como e-mail corporativo, aplicativos de gestão de projetos e CRM (Sistema de Relacionamento com Clientes) ;</p>
 </div>
 <div id="redes-de-computadores" class="section level3 hasAnchor" number="3.2.2">
 <h3><span class="header-section-number">3.2.2</span> Redes de Computadores<a href="infraestrutura-de-tic.html#redes-de-computadores" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<ul>
+<li><strong>Roteadores:</strong> Direcionam o tráfego de dados entre redes. Operam em camada de rede OSI “3”. Podem ser <strong>roteadores internos</strong> à empresa (Roteadores Internos ao Sistema Autônomo de Roteamento) ou <strong>roteadores de borda</strong> (Roteadores Externos ao Sistema Autônomo de Roteamento).</li>
+</ul>
+<div class="float">
+<img src="images/InfraEstrutura/Redes/roteador-cisco.jpg" alt="Roteador exclusivo CISCO de pequeno porte - Interno ao Sistema Autônomo (AS)" />
+<div class="figcaption">Roteador exclusivo CISCO de pequeno porte - Interno ao Sistema Autônomo (AS)</div>
+</div>
+<div class="float">
+<img src="images/InfraEstrutura/Redes/roteador-cisco-3900.jpg" alt="Roteador exclusivo CISCO de grande porte - Roteador de Borda - externo ao Sistema Autônomo (AS)" />
+<div class="figcaption">Roteador exclusivo CISCO de grande porte - Roteador de Borda - externo ao Sistema Autônomo (AS)</div>
+</div>
+<ul>
+<li><strong>Switches:</strong> Conectam dispositivos dentro de uma rede local da empresa (LAN - Local Area Network). camada de rede OSI “2”</li>
+</ul>
+<div class="float">
+<img src="images/InfraEstrutura/Redes/switch-cisco-3750x-48.jpg" alt="Comutador (Switch) de camada “2” de 48 portas energizáveis (PoE) para dados e telefonia IP" />
+<div class="figcaption">Comutador (Switch) de camada “2” de 48 portas energizáveis (PoE) para dados e telefonia IP</div>
+</div>
+<ul>
+<li><strong>Firewalls:</strong> Protegem a rede contra acessos não autorizados e ameaças externas.</li>
+</ul>
+<div class="float">
+<img src="images/InfraEstrutura/Redes/firewall-PaloAlto-PA850.jpg" alt="Firewall da empresa Palo Alto modelo PA-850" />
+<div class="figcaption">Firewall da empresa Palo Alto modelo PA-850</div>
+</div>
+<ul>
+<li><p><strong>Pontos de Acesso Wi-Fi:</strong> Permitem a conexão sem fio à rede. camada de rede OSI “2”</p>
+<p>Os pontos de acesso de rede sem fio (WI-FI) formam uma grande célula wi-fi na empresa. A célula, tal qual um siwitch virtual, tem apenas a função de conectar os dispositivos, geralmente os dispositivos móveis, a rede local da empresa (LAN - Local Area Network).</p></li>
+</ul>
+<p><a href="Pontos%20de%20Acesso%20CISCO"><img src="images/InfraEstrutura/Redes/Ponto_De_Acesso-cisco.jpg" /></a></p>
+<ul>
+<li><strong>Cabos e Conectores:</strong> A infraestrutura física para conectar os dispositivos. camada de rede OSI “1”</li>
+</ul>
+<div class="float">
+<img src="Cabeamento%20Estruturado%201" alt="(images/InfraEstrutura/Redes/cabos.jpg)" />
+<div class="figcaption">(images/InfraEstrutura/Redes/cabos.jpg)</div>
+</div>
 </div>
 <div id="software" class="section level3 hasAnchor" number="3.2.3">
 <h3><span class="header-section-number">3.2.3</span> Software<a href="infraestrutura-de-tic.html#software" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<ul>
+<li><strong>Sistemas Operacionais:</strong> Software fundamental que gerencia o hardware e os recursos do sistema (ex: Windows Server, Linux, macOS, Windows).</li>
+</ul>
+<div class="float">
+<img src="images/InfraEstrutura/software/so.jpg" alt="Windows Linux MacOS FreeBSD NetBSD OpenBSD" />
+<div class="figcaption">Windows Linux MacOS FreeBSD NetBSD OpenBSD</div>
+</div>
+<ul>
+<li><strong>Aplicações Empresariais:</strong> Softwares utilizados para as atividades de negócio (ex: ERP, CRM, sistemas de gestão de RH, sistemas de contabilidade).</li>
+</ul>
+<div class="float">
+<img src="images/InfraEstrutura/software/erps.jpg" alt="Softwares ERPs" />
+<div class="figcaption">Softwares ERPs</div>
+</div>
+<ul>
+<li><strong>Software de Produtividade:</strong> Ferramentas para criação de documentos, planilhas, apresentações, e-mail (ex: Microsoft Office, Google Workspace).</li>
+</ul>
+<div class="float">
+<img src="images/InfraEstrutura/software/MS-Office.jpg" alt="Microsoft Office - Word Excel Powerpoint Teams Visio Edge Forms Publisher Access" />
+<div class="figcaption">Microsoft Office - Word Excel Powerpoint Teams Visio Edge Forms Publisher Access</div>
+</div>
+<ul>
+<li><strong>Software de Segurança:</strong> Antivírus, anti-malware, sistemas de detecção de intrusão (IDS), sistemas de prevenção de intrusão (IPS).</li>
+</ul>
+<div class="float">
+<img src="images/InfraEstrutura/software/seguranca.jpg" alt="Karspersky Norton Suricata IPTables PF Nmap Wireshark" />
+<div class="figcaption">Karspersky Norton Suricata IPTables PF Nmap Wireshark</div>
+</div>
+<ul>
+<li><strong>Software de Gerenciamento de Rede:</strong> Ferramentas para monitorar e gerenciar a infraestrutura de rede.</li>
+</ul>
+<div class="float">
+<img src="images/InfraEstrutura/software/monitoramento.jpg" alt="SolarWinds Nagios Zabbix Cacti" />
+<div class="figcaption">SolarWinds Nagios Zabbix Cacti</div>
+</div>
+<ul>
+<li><strong>Bancos de Dados:</strong> Sistemas para armazenar e gerenciar grandes volumes de dados de forma organizada (ex: SQL Server, Oracle, MySQL).</li>
+</ul>
+<p>Bancos de Dados <code>Relacionais</code></p>
+<p><img src="images/InfraEstrutura/SGBD/relacionais.jpg" width="511" /></p>
+<p>Bancos de Dados <code>Não-Relacionais</code></p>
+<p><img src="images/InfraEstrutura/SGBD/nao-relacionais.jpg" width="683" /></p>
+<p>Bancos de Dados <code>Grafos</code> <img src="images/InfraEstrutura/SGBD/neo4j.jpg" /></p>
+<p>Bancos de Dados <code>Hierarquicos</code></p>
+<p><img src="images/InfraEstrutura/SGBD/hierarquicos.jpg" width="455" /></p>
+<ul>
+<li><p><strong>Middleware:</strong> Software que permite a comunicação e a troca de dados entre diferentes aplicações.</p></li>
+<li><p><strong>Software de Virtualização:</strong> Permite executar múltiplos sistemas operacionais e aplicações em um único servidor físico.</p></li>
+<li><p><strong>Sistemas de Backup e Recuperação:</strong> Software para automatizar e gerenciar os processos de backup e restauração de dados.</p></li>
+</ul>
 <div id="serviços-de-tic" class="section level4 hasAnchor" number="3.2.3.1">
 <h4><span class="header-section-number">3.2.3.1</span> Serviços de TIC<a href="infraestrutura-de-tic.html#serviços-de-tic" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 <table style="width:100%;">
@@ -340,16 +439,16 @@ set in the _output.yml file.</p>" />
 <p><strong>Exercício 1 -</strong> Você precisa levantar o montante de capital para comprar equipamentos que vão informatizar a empresa com o seguinte layout.</p>
 <p>A empresa tem 9 departamentos: Presidência com 3 funcionários, diretoria com 9 funcionários, departamento de TI 5 funcionários, departamento jurídico com 1 funcionário ,departamento de contabilidade com 5 funcionários, departamento de Recursos Humanos 3 funcionários, Departamento de Vendas 10 funcionários, Departamento de compras com 5 funcionários, Loja física com 10 funcionários e departamento de recursos materiais 5 funcionários. Com exceção dos funcionários da loja física, todos os funcionários usam um computador de mesa, uma mesa, um monitor 21 polegadas, uma cadeira e 1 telefone IP.</p>
 <p>Baseado nestas informações, monte a distribuição de funcionários e equipamentos:</p>
-<table style="width:100%;">
+<table style="width:96%;">
 <caption>Tabela 1 - Funcionários e equipamentos por departamento</caption>
 <colgroup>
-<col width="14%" />
-<col width="14%" />
-<col width="14%" />
-<col width="14%" />
-<col width="14%" />
-<col width="14%" />
-<col width="14%" />
+<col width="27%" />
+<col width="12%" />
+<col width="16%" />
+<col width="7%" />
+<col width="12%" />
+<col width="8%" />
+<col width="11%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -477,14 +576,14 @@ set in the _output.yml file.</p>" />
 <li><p>Qual o INVESTIMENTO de cada departamento com cada equipamento ?</p></li>
 <li><p>Qual o INVESTIMENTO da empresa com cada classe de equipamento ?</p></li>
 </ol>
-<table style="width:100%;">
+<table style="width:97%;">
 <colgroup>
-<col width="16%" />
-<col width="16%" />
-<col width="16%" />
-<col width="16%" />
-<col width="16%" />
-<col width="16%" />
+<col width="29%" />
+<col width="14%" />
+<col width="13%" />
+<col width="12%" />
+<col width="12%" />
+<col width="13%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -591,11 +690,11 @@ set in the _output.yml file.</p>" />
 <li><p>Qual o INVESTIMENTO de cada departamento com TIC ?</p></li>
 <li><p>Qual o INVESTIMENTO necessário em TIC para informatizar a empresa ?</p></li>
 </ol>
-<table>
+<table style="width:99%;">
 <colgroup>
-<col width="33%" />
-<col width="33%" />
-<col width="33%" />
+<col width="32%" />
+<col width="34%" />
+<col width="31%" />
 </colgroup>
 <thead>
 <tr class="header">
