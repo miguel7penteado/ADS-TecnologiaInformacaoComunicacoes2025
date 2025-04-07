@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.3.24)  6 APR 2025 03:00
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.4.6)  7 APR 2025 02:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -4687,45 +4687,65 @@ Overfull \hbox (141.08904pt too wide) has occurred while \output is active
 
 [116]
 Chapter 3.
+File: images/InfraEstrutura/hardware/01-estacao_de_trabalho.jpg Graphic file (type bmp)
+<images/InfraEstrutura/hardware/01-estacao_de_trabalho.jpg>
 
 
 [117
 
 ]
+File: images/InfraEstrutura/hardware/02-desktop-laptop.jpg Graphic file (type bmp)
+<images/InfraEstrutura/hardware/02-desktop-laptop.jpg>
+File: images/InfraEstrutura/hardware/04-tablet_lenovo.jpg Graphic file (type bmp)
+<images/InfraEstrutura/hardware/04-tablet_lenovo.jpg>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[118]
 File: images/InfraEstrutura/Redes/roteador-cisco.jpg Graphic file (type bmp)
 <images/InfraEstrutura/Redes/roteador-cisco.jpg>
 File: images/InfraEstrutura/Redes/roteador-cisco-3900.jpg Graphic file (type bmp)
 <images/InfraEstrutura/Redes/roteador-cisco-3900.jpg>
 File: images/InfraEstrutura/Redes/switch-cisco-3750x-48.jpg Graphic file (type bmp)
 <images/InfraEstrutura/Redes/switch-cisco-3750x-48.jpg>
-
-
-[118]
 File: images/InfraEstrutura/Redes/firewall-PaloAlto-PA850.jpg Graphic file (type bmp)
 <images/InfraEstrutura/Redes/firewall-PaloAlto-PA850.jpg>
+
+
+[119]
+
+[120]
 File: images/InfraEstrutura/Redes/Ponto_De_Acesso-cisco.jpg Graphic file (type bmp)
 <images/InfraEstrutura/Redes/Ponto_De_Acesso-cisco.jpg>
+File: images/InfraEstrutura/Redes/cabos.jpg Graphic file (type bmp)
+<images/InfraEstrutura/Redes/cabos.jpg>
 
-! LaTeX Error: File `Cabeamento Estruturado 1' not found.
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2007 \includegraphics{Cabeamento Estruturado 1}
-                                                 
-I could not locate the file with any of these extensions:
-.pdf,.PDF,.ai,.AI,.png,.PNG,.jpg,.JPG,.jpeg,.JPEG,.jp2,.JP2,.jpf,.JPF,.bmp,.BMP,.ps,.PS,.eps,.EPS,.mps,.MPS
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+
+
+[121]
+Runaway argument?
+\tbl_inbetween_rows: \global \advance \c@LT@chunks \@ne \global \LT@rows \ETC.
+! Forbidden control sequence found while scanning use of \LT@nofcols.
+<inserted text> 
+                \par 
+l.2023 \begin{longtable}[]{@{}c@{}}
+                                   
+I suspect you have forgotten a `}', causing me
+to read past where you wanted me to stop.
+I'll try to recover; but if the error is serious,
+you'd better type `E' or `X' now and fix your file.
 
  
 Here is how much of TeX's memory you used:
- 18216 strings out of 475847
- 380764 string characters out of 5773348
+ 18207 strings out of 475847
+ 380944 string characters out of 5773349
  1022858 words of memory out of 5000000
- 40794 multiletter control sequences out of 15000+600000
+ 40781 multiletter control sequences out of 15000+600000
  565304 words of font info for 91 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  90i,8n,114p,1283b,528s stack positions out of 10000i,1000n,20000p,200000b,200000s
-Output written on ADS-TIC-2025.pdf (118 pages).
+Output written on ADS-TIC-2025.pdf (121 pages).
