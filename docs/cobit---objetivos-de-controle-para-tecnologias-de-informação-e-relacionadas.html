@@ -1,0 +1,740 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Anotações de Aula 4 COBIT - Objetivos de controle para tecnologias de informação e relacionadas | ADS - Tecnologia da Informação e Telecomunicações 2025 - Anotações de aula</title>
+  <meta name="description" content="<p>This is a minimal example of using the bookdown package to write a book.
+The HTML output format for this example is bookdown::gitbook,
+set in the _output.yml file.</p>" />
+  <meta name="generator" content="bookdown 0.42.1 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Anotações de Aula 4 COBIT - Objetivos de controle para tecnologias de informação e relacionadas | ADS - Tecnologia da Informação e Telecomunicações 2025 - Anotações de aula" />
+  <meta property="og:type" content="book" />
+  
+  <meta property="og:description" content="<p>This is a minimal example of using the bookdown package to write a book.
+The HTML output format for this example is bookdown::gitbook,
+set in the _output.yml file.</p>" />
+  <meta name="github-repo" content="rstudio/bookdown-demo" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Anotações de Aula 4 COBIT - Objetivos de controle para tecnologias de informação e relacionadas | ADS - Tecnologia da Informação e Telecomunicações 2025 - Anotações de aula" />
+  
+  <meta name="twitter:description" content="<p>This is a minimal example of using the bookdown package to write a book.
+The HTML output format for this example is bookdown::gitbook,
+set in the _output.yml file.</p>" />
+  
+
+<meta name="author" content="Professor Miguel Suez Xve Penteado" />
+
+
+<meta name="date" content="2025-04-16" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="infraestrutura-de-tic.html"/>
+<link rel="next" href="tomada-de-decisão-de-gestão-do-conhecimento-business-inteligence.html"/>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
+
+
+
+<style type="text/css">
+  
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+</style>
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">ADS - Tecnologia da Informação e Telecomunicações 2025 - Anotações de aula</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Sobre estas anotações</a>
+<ul>
+<li class="chapter" data-level="0.0.1" data-path="index.html"><a href="index.html#acesso-anotações-de-aula-no-ceular-github"><i class="fa fa-check"></i><b>0.0.1</b> ACESSO Anotações de aula no ceular (github)</a></li>
+<li class="chapter" data-level="0.0.2" data-path="index.html"><a href="index.html#anotações-de-aula-suporte-para-celulares"><i class="fa fa-check"></i><b>0.0.2</b> Anotações de aula: Suporte para Celulares</a></li>
+<li class="chapter" data-level="0.0.3" data-path="index.html"><a href="index.html#moon-reader-google-play---loja-de-aplicativos-oficial-do-google"><i class="fa fa-check"></i><b>0.0.3</b> <strong>Moon+ Reader (Google Play - loja de aplicativos oficial do google)</strong></a></li>
+<li class="chapter" data-level="0.0.4" data-path="index.html"><a href="index.html#epub-reader-appstore---loja-de-aplicativos-oficial-da-apple"><i class="fa fa-check"></i><b>0.0.4</b> <strong>Epub Reader (AppStore - loja de aplicativos oficial da Apple)</strong></a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="introdução-da-disciplina.html"><a href="introdução-da-disciplina.html"><i class="fa fa-check"></i>INTRODUÇÃO DA DISCIPLINA</a>
+<ul>
+<li class="chapter" data-level="0.1" data-path="introdução-da-disciplina.html"><a href="introdução-da-disciplina.html#livros-texto-da-disciplina"><i class="fa fa-check"></i><b>0.1</b> Livros-Texto da disciplina</a>
+<ul>
+<li class="chapter" data-level="0.1.1" data-path="introdução-da-disciplina.html"><a href="introdução-da-disciplina.html#bibliografia-básica"><i class="fa fa-check"></i><b>0.1.1</b> Bibliografia Básica</a></li>
+<li class="chapter" data-level="0.1.2" data-path="introdução-da-disciplina.html"><a href="introdução-da-disciplina.html#bibliografia-complementar"><i class="fa fa-check"></i><b>0.1.2</b> Bibliografia Complementar</a></li>
+</ul></li>
+<li class="chapter" data-level="0.2" data-path="introdução-da-disciplina.html"><a href="introdução-da-disciplina.html#calendário-de-aulas-e-provas"><i class="fa fa-check"></i><b>0.2</b> CALENDÁRIO DE AULAS E PROVAS</a>
+<ul>
+<li class="chapter" data-level="0.2.1" data-path="introdução-da-disciplina.html"><a href="introdução-da-disciplina.html#chácara-santo-antônio"><i class="fa fa-check"></i><b>0.2.1</b> Chácara Santo Antônio</a></li>
+<li class="chapter" data-level="0.2.2" data-path="introdução-da-disciplina.html"><a href="introdução-da-disciplina.html#marquês-de-são-vicente"><i class="fa fa-check"></i><b>0.2.2</b> Marquês de São Vicente</a></li>
+</ul></li>
+<li class="chapter" data-level="0.3" data-path="introdução-da-disciplina.html"><a href="introdução-da-disciplina.html#alunos"><i class="fa fa-check"></i><b>0.3</b> ALUNOS</a>
+<ul>
+<li class="chapter" data-level="0.3.1" data-path="introdução-da-disciplina.html"><a href="introdução-da-disciplina.html#chácara-santo-antônio-1"><i class="fa fa-check"></i><b>0.3.1</b> Chácara Santo Antônio</a></li>
+<li class="chapter" data-level="0.3.2" data-path="introdução-da-disciplina.html"><a href="introdução-da-disciplina.html#marquês-de-são-vicente-1"><i class="fa fa-check"></i><b>0.3.2</b> Marquês de São Vicente</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="1" data-path="introdução-a-tic-tecnologia-da-informação-e-comunicações.html"><a href="introdução-a-tic-tecnologia-da-informação-e-comunicações.html"><i class="fa fa-check"></i><b>1</b> INTRODUÇÃO A TIC (TECNOLOGIA DA INFORMAÇÃO E COMUNICAÇÕES)</a>
+<ul>
+<li class="chapter" data-level="1.1" data-path="introdução-a-tic-tecnologia-da-informação-e-comunicações.html"><a href="introdução-a-tic-tecnologia-da-informação-e-comunicações.html#conceitos-de-sistemas-de-informação"><i class="fa fa-check"></i><b>1.1</b> Conceitos de Sistemas de Informação</a>
+<ul>
+<li class="chapter" data-level="1.1.1" data-path="introdução-a-tic-tecnologia-da-informação-e-comunicações.html"><a href="introdução-a-tic-tecnologia-da-informação-e-comunicações.html#o-dado"><i class="fa fa-check"></i><b>1.1.1</b> O Dado</a></li>
+<li class="chapter" data-level="1.1.2" data-path="introdução-a-tic-tecnologia-da-informação-e-comunicações.html"><a href="introdução-a-tic-tecnologia-da-informação-e-comunicações.html#as-3-atividades-básicas-de-um-sistema-de-informação-si"><i class="fa fa-check"></i><b>1.1.2</b> As 3 atividades básicas de um Sistema de Informação (SI)</a></li>
+<li class="chapter" data-level="1.1.3" data-path="introdução-a-tic-tecnologia-da-informação-e-comunicações.html"><a href="introdução-a-tic-tecnologia-da-informação-e-comunicações.html#os-sistemas-de-informação-e-o-mundo-dos-negócios"><i class="fa fa-check"></i><b>1.1.3</b> Os Sistemas de Informação e o Mundo dos Negócios</a></li>
+<li class="chapter" data-level="1.1.4" data-path="introdução-a-tic-tecnologia-da-informação-e-comunicações.html"><a href="introdução-a-tic-tecnologia-da-informação-e-comunicações.html#a-abordagem-da-resolução-de-problemas-organizacionais"><i class="fa fa-check"></i><b>1.1.4</b> A abordagem da resolução de problemas organizacionais</a></li>
+</ul></li>
+<li class="chapter" data-level="1.2" data-path="introdução-a-tic-tecnologia-da-informação-e-comunicações.html"><a href="introdução-a-tic-tecnologia-da-informação-e-comunicações.html#os-diferentes-tipos-de-sistemas-de-informação"><i class="fa fa-check"></i><b>1.2</b> Os diferentes Tipos de Sistemas de Informação</a>
+<ul>
+<li class="chapter" data-level="1.2.1" data-path="introdução-a-tic-tecnologia-da-informação-e-comunicações.html"><a href="introdução-a-tic-tecnologia-da-informação-e-comunicações.html#organizando-uma-organização-tipo-empresa-funções-empresariais-básicas"><i class="fa fa-check"></i><b>1.2.1</b> Organizando uma organização tipo empresa: funções empresariais básicas</a></li>
+</ul></li>
+<li class="chapter" data-level="1.3" data-path="introdução-a-tic-tecnologia-da-informação-e-comunicações.html"><a href="introdução-a-tic-tecnologia-da-informação-e-comunicações.html#sistemas-de-informação-e-vantagem-competitiva"><i class="fa fa-check"></i><b>1.3</b> Sistemas de Informação e Vantagem Competitiva</a></li>
+<li class="chapter" data-level="1.4" data-path="introdução-a-tic-tecnologia-da-informação-e-comunicações.html"><a href="introdução-a-tic-tecnologia-da-informação-e-comunicações.html#tipos-de-sistemas-de-informação-empresariais"><i class="fa fa-check"></i><b>1.4</b> Tipos de sistemas de informação empresariais</a>
+<ul>
+<li class="chapter" data-level="1.4.1" data-path="introdução-a-tic-tecnologia-da-informação-e-comunicações.html"><a href="introdução-a-tic-tecnologia-da-informação-e-comunicações.html#sistemas-integrados-e.r.p.---planejamento-de-recursos-empresariais-ou-enterprise-resource-planning"><i class="fa fa-check"></i><b>1.4.1</b> Sistemas integrados (E.R.P. - Planejamento de Recursos Empresariais ou Enterprise Resource Planning )</a></li>
+<li class="chapter" data-level="1.4.2" data-path="introdução-a-tic-tecnologia-da-informação-e-comunicações.html"><a href="introdução-a-tic-tecnologia-da-informação-e-comunicações.html#sistemas-de-gestão-da-cadeia-de-suprimentos-supply-chain-management---scm"><i class="fa fa-check"></i><b>1.4.2</b> Sistemas de gestão da cadeia de suprimentos (supply chain management - SCM)</a></li>
+<li class="chapter" data-level="1.4.3" data-path="introdução-a-tic-tecnologia-da-informação-e-comunicações.html"><a href="introdução-a-tic-tecnologia-da-informação-e-comunicações.html#sistemas-de-relacionamento-com-cliente---crm-customer-relationship-management"><i class="fa fa-check"></i><b>1.4.3</b> Sistemas de Relacionamento com Cliente - CRM (Customer Relationship Management)</a></li>
+</ul></li>
+<li class="chapter" data-level="1.5" data-path="introdução-a-tic-tecnologia-da-informação-e-comunicações.html"><a href="introdução-a-tic-tecnologia-da-informação-e-comunicações.html#exercícios"><i class="fa fa-check"></i><b>1.5</b> Exercícios</a></li>
+<li class="chapter" data-level="1.6" data-path="introdução-a-tic-tecnologia-da-informação-e-comunicações.html"><a href="introdução-a-tic-tecnologia-da-informação-e-comunicações.html#questões"><i class="fa fa-check"></i><b>1.6</b> Questões</a></li>
+<li class="chapter" data-level="1.7" data-path="introdução-a-tic-tecnologia-da-informação-e-comunicações.html"><a href="introdução-a-tic-tecnologia-da-informação-e-comunicações.html#testes-múltipla-escolha"><i class="fa fa-check"></i><b>1.7</b> Testes múltipla escolha</a></li>
+<li class="chapter" data-level="1.8" data-path="introdução-a-tic-tecnologia-da-informação-e-comunicações.html"><a href="introdução-a-tic-tecnologia-da-informação-e-comunicações.html#respostas-questões"><i class="fa fa-check"></i><b>1.8</b> Respostas questões:</a></li>
+<li class="chapter" data-level="1.9" data-path="introdução-a-tic-tecnologia-da-informação-e-comunicações.html"><a href="introdução-a-tic-tecnologia-da-informação-e-comunicações.html#respostas-dos-testes"><i class="fa fa-check"></i><b>1.9</b> Respostas dos testes:</a></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="np1.html"><a href="np1.html"><i class="fa fa-check"></i><b>2</b> NP1</a>
+<ul>
+<li class="chapter" data-level="2.1" data-path="np1.html"><a href="np1.html#grupos-até-2025-03-27"><i class="fa fa-check"></i><b>2.1</b> Grupos até 2025-03-27</a>
+<ul>
+<li class="chapter" data-level="2.1.1" data-path="np1.html"><a href="np1.html#turma-campus-chácara-santo-antônio"><i class="fa fa-check"></i><b>2.1.1</b> Turma Campus Chácara Santo Antônio</a></li>
+<li class="chapter" data-level="2.1.2" data-path="np1.html"><a href="np1.html#turma-campus-marquês-de-são-vicente"><i class="fa fa-check"></i><b>2.1.2</b> Turma Campus Marquês de São Vicente</a></li>
+</ul></li>
+<li class="chapter" data-level="2.2" data-path="np1.html"><a href="np1.html#apresentação-trabalho-np1"><i class="fa fa-check"></i><b>2.2</b> Apresentação Trabalho NP1</a></li>
+<li class="chapter" data-level="2.3" data-path="np1.html"><a href="np1.html#np1-trabalho-de-substituição-de-prova-p1---pesquisa"><i class="fa fa-check"></i><b>2.3</b> NP1 – TRABALHO DE SUBSTITUIÇÃO DE PROVA P1 - PESQUISA</a>
+<ul>
+<li class="chapter" data-level="2.3.1" data-path="np1.html"><a href="np1.html#capa"><i class="fa fa-check"></i><b>2.3.1</b> 1- CAPA</a></li>
+<li class="chapter" data-level="2.3.2" data-path="np1.html"><a href="np1.html#agradecimentos-e-dedicatórias"><i class="fa fa-check"></i><b>2.3.2</b> 2- Agradecimentos e dedicatórias:</a></li>
+<li class="chapter" data-level="2.3.3" data-path="np1.html"><a href="np1.html#sumário"><i class="fa fa-check"></i><b>2.3.3</b> 3- Sumário:</a></li>
+<li class="chapter" data-level="2.3.4" data-path="np1.html"><a href="np1.html#resumo"><i class="fa fa-check"></i><b>2.3.4</b> 4- Resumo:</a></li>
+<li class="chapter" data-level="2.3.5" data-path="np1.html"><a href="np1.html#justificativa"><i class="fa fa-check"></i><b>2.3.5</b> 5-Justificativa:</a></li>
+<li class="chapter" data-level="2.3.6" data-path="np1.html"><a href="np1.html#objetivo"><i class="fa fa-check"></i><b>2.3.6</b> 6-Objetivo:</a></li>
+<li class="chapter" data-level="2.3.7" data-path="np1.html"><a href="np1.html#introdução"><i class="fa fa-check"></i><b>2.3.7</b> 7 – introdução</a></li>
+<li class="chapter" data-level="2.3.8" data-path="np1.html"><a href="np1.html#revisão-bibliográfica"><i class="fa fa-check"></i><b>2.3.8</b> 8- Revisão Bibliográfica:</a></li>
+<li class="chapter" data-level="2.3.9" data-path="np1.html"><a href="np1.html#materiais-e-métodos"><i class="fa fa-check"></i><b>2.3.9</b> 9-Materiais e Métodos</a></li>
+<li class="chapter" data-level="2.3.10" data-path="np1.html"><a href="np1.html#resultados"><i class="fa fa-check"></i><b>2.3.10</b> 10-Resultados</a></li>
+<li class="chapter" data-level="2.3.11" data-path="np1.html"><a href="np1.html#discussão"><i class="fa fa-check"></i><b>2.3.11</b> 11- Discussão</a></li>
+<li class="chapter" data-level="2.3.12" data-path="np1.html"><a href="np1.html#conclusão"><i class="fa fa-check"></i><b>2.3.12</b> 12-Conclusão</a></li>
+<li class="chapter" data-level="2.3.13" data-path="np1.html"><a href="np1.html#referencias-bibliográficas"><i class="fa fa-check"></i><b>2.3.13</b> 13-Referencias Bibliográficas</a></li>
+<li class="chapter" data-level="2.3.14" data-path="np1.html"><a href="np1.html#apendice---links-de-pesquisas-de-tic-no-brasil"><i class="fa fa-check"></i><b>2.3.14</b> Apendice - links de pesquisas de TIC no Brasil</a></li>
+</ul></li>
+<li class="chapter" data-level="2.4" data-path="np1.html"><a href="np1.html#formação-dos-grupos"><i class="fa fa-check"></i><b>2.4</b> Formação dos Grupos</a></li>
+<li class="chapter" data-level="2.5" data-path="np1.html"><a href="np1.html#parte-prática---implantar-um-e-commerce-atrelado-a-um-erp"><i class="fa fa-check"></i><b>2.5</b> Parte Prática - Implantar um E-commerce atrelado a um ERP</a>
+<ul>
+<li class="chapter" data-level="2.5.1" data-path="np1.html"><a href="np1.html#ter-em-posse-os-dados-do-cliente"><i class="fa fa-check"></i><b>2.5.1</b> Ter em posse os dados do cliente:</a></li>
+</ul></li>
+<li class="chapter" data-level="2.6" data-path="np1.html"><a href="np1.html#começando-a-impantação-do-erp"><i class="fa fa-check"></i><b>2.6</b> Começando a Impantação do ERP</a>
+<ul>
+<li class="chapter" data-level="2.6.1" data-path="np1.html"><a href="np1.html#impantando-o-erp"><i class="fa fa-check"></i><b>2.6.1</b> Impantando o ERP</a></li>
+<li class="chapter" data-level="2.6.2" data-path="np1.html"><a href="np1.html#impantando-o-e-commerce-parte-virtual-loja"><i class="fa fa-check"></i><b>2.6.2</b> Impantando o E-COMMERCE (parte virtual loja)</a></li>
+<li class="chapter" data-level="2.6.3" data-path="np1.html"><a href="np1.html#ative-a-plataforma-de-e-commerce"><i class="fa fa-check"></i><b>2.6.3</b> ATIVE a PLATAFORMA DE E-COMMERCE</a></li>
+<li class="chapter" data-level="2.6.4" data-path="np1.html"><a href="np1.html#inicie-a-amarração-integração-do-e-commerce-com-o-erp-começando-no-e-commerce"><i class="fa fa-check"></i><b>2.6.4</b> Inicie a amarração (integração) do e-commerce com o ERP (começando no e-commerce)</a></li>
+<li class="chapter" data-level="2.6.5" data-path="np1.html"><a href="np1.html#iniciando-o-processo-de-venda-simulada-no-e-commerce-integrado-ao-erp"><i class="fa fa-check"></i><b>2.6.5</b> INICIANDO O PROCESSO DE VENDA SIMULADA NO E-COMMERCE INTEGRADO AO ERP:</a></li>
+</ul></li>
+<li class="chapter" data-level="2.7" data-path="np1.html"><a href="np1.html#caso-de-sucesso-no-brasil-de-uma-startup-nesse-caso-específicamente-de-i.a."><i class="fa fa-check"></i><b>2.7</b> CASO DE SUCESSO NO BRASIL DE UMA STARTUP, NESSE CASO ESPECÍFICAMENTE, DE I.A.</a>
+<ul>
+<li class="chapter" data-level="2.7.1" data-path="np1.html"><a href="np1.html#fundada-por-brasileiro-crewai-capta-r-100m-e-atrai-ceo-da-openai"><i class="fa fa-check"></i><b>2.7.1</b> Fundada por brasileiro, CrewAI capta R$ 100M e atrai CEO da OpenAI</a></li>
+<li class="chapter" data-level="2.7.2" data-path="np1.html"><a href="np1.html#crewai-um-guia-com-exemplos-de-sistemas-de-múltiplos-agentes-de-ia"><i class="fa fa-check"></i><b>2.7.2</b> CrewAI: Um guia com exemplos de sistemas de múltiplos agentes de IA</a></li>
+</ul></li>
+<li class="chapter" data-level="2.8" data-path="np1.html"><a href="np1.html#lista-de-100-startups-brasileiras-de-sucesso"><i class="fa fa-check"></i><b>2.8</b> Lista de 100 Startups Brasileiras de Sucesso</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="infraestrutura-de-tic.html"><a href="infraestrutura-de-tic.html"><i class="fa fa-check"></i><b>3</b> INFRAESTRUTURA DE TIC</a>
+<ul>
+<li class="chapter" data-level="3.1" data-path="infraestrutura-de-tic.html"><a href="infraestrutura-de-tic.html#introdução-1"><i class="fa fa-check"></i><b>3.1</b> Introdução:</a></li>
+<li class="chapter" data-level="3.2" data-path="infraestrutura-de-tic.html"><a href="infraestrutura-de-tic.html#componentes-da-infraestrutura-de-tic"><i class="fa fa-check"></i><b>3.2</b> Componentes da Infraestrutura de TIC</a>
+<ul>
+<li class="chapter" data-level="3.2.1" data-path="infraestrutura-de-tic.html"><a href="infraestrutura-de-tic.html#hardware"><i class="fa fa-check"></i><b>3.2.1</b> Hardware</a></li>
+<li class="chapter" data-level="3.2.2" data-path="infraestrutura-de-tic.html"><a href="infraestrutura-de-tic.html#redes-de-computadores"><i class="fa fa-check"></i><b>3.2.2</b> Redes de Computadores</a></li>
+<li class="chapter" data-level="3.2.3" data-path="infraestrutura-de-tic.html"><a href="infraestrutura-de-tic.html#software"><i class="fa fa-check"></i><b>3.2.3</b> Software</a></li>
+<li class="chapter" data-level="3.2.4" data-path="infraestrutura-de-tic.html"><a href="infraestrutura-de-tic.html#serviços-de-tic"><i class="fa fa-check"></i><b>3.2.4</b> Serviços de TIC</a></li>
+</ul></li>
+<li class="chapter" data-level="3.3" data-path="infraestrutura-de-tic.html"><a href="infraestrutura-de-tic.html#gestão-do-departamento-de-tic-nas-empresas"><i class="fa fa-check"></i><b>3.3</b> Gestão do Departamento de TIC nas empresas</a>
+<ul>
+<li class="chapter" data-level="3.3.1" data-path="infraestrutura-de-tic.html"><a href="infraestrutura-de-tic.html#itsm"><i class="fa fa-check"></i><b>3.3.1</b> ITSM</a></li>
+</ul></li>
+<li class="chapter" data-level="3.4" data-path="infraestrutura-de-tic.html"><a href="infraestrutura-de-tic.html#exercícios-de-fixação"><i class="fa fa-check"></i><b>3.4</b> Exercícios de Fixação</a>
+<ul>
+<li class="chapter" data-level="3.4.1" data-path="infraestrutura-de-tic.html"><a href="infraestrutura-de-tic.html#hardware---inventário"><i class="fa fa-check"></i><b>3.4.1</b> Hardware - Inventário</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="cobit---objetivos-de-controle-para-tecnologias-de-informação-e-relacionadas.html"><a href="cobit---objetivos-de-controle-para-tecnologias-de-informação-e-relacionadas.html"><i class="fa fa-check"></i><b>4</b> COBIT - Objetivos de controle para tecnologias de informação e relacionadas</a>
+<ul>
+<li class="chapter" data-level="4.0.1" data-path="cobit---objetivos-de-controle-para-tecnologias-de-informação-e-relacionadas.html"><a href="cobit---objetivos-de-controle-para-tecnologias-de-informação-e-relacionadas.html#governaça-de-tic-versus-gestão-de-tic"><i class="fa fa-check"></i><b>4.0.1</b> Governaça de TIC versus Gestão de TIC</a></li>
+<li class="chapter" data-level="4.0.2" data-path="cobit---objetivos-de-controle-para-tecnologias-de-informação-e-relacionadas.html"><a href="cobit---objetivos-de-controle-para-tecnologias-de-informação-e-relacionadas.html#os-5-princípios-do-cobit"><i class="fa fa-check"></i><b>4.0.2</b> Os 5 Princípios do COBIT</a></li>
+<li class="chapter" data-level="4.1" data-path="cobit---objetivos-de-controle-para-tecnologias-de-informação-e-relacionadas.html"><a href="cobit---objetivos-de-controle-para-tecnologias-de-informação-e-relacionadas.html#cobit-aferição-de-performance"><i class="fa fa-check"></i><b>4.1</b> Cobit Aferição de Performance</a>
+<ul>
+<li class="chapter" data-level="4.1.1" data-path="cobit---objetivos-de-controle-para-tecnologias-de-informação-e-relacionadas.html"><a href="cobit---objetivos-de-controle-para-tecnologias-de-informação-e-relacionadas.html#kpi---indicadores-chave-de-desempenho"><i class="fa fa-check"></i><b>4.1.1</b> KPI - indicadores-chave de desempenho</a></li>
+<li class="chapter" data-level="4.1.2" data-path="cobit---objetivos-de-controle-para-tecnologias-de-informação-e-relacionadas.html"><a href="cobit---objetivos-de-controle-para-tecnologias-de-informação-e-relacionadas.html#exemplos-de-kpis"><i class="fa fa-check"></i><b>4.1.2</b> Exemplos de KPIs</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="tomada-de-decisão-de-gestão-do-conhecimento-business-inteligence.html"><a href="tomada-de-decisão-de-gestão-do-conhecimento-business-inteligence.html"><i class="fa fa-check"></i><b>5</b> Tomada de Decisão de Gestão do Conhecimento: Business Inteligence</a>
+<ul>
+<li class="chapter" data-level="5.1" data-path="tomada-de-decisão-de-gestão-do-conhecimento-business-inteligence.html"><a href="tomada-de-decisão-de-gestão-do-conhecimento-business-inteligence.html#ferramentas-de-b.i.-e-conceito-de-dashboard"><i class="fa fa-check"></i><b>5.1</b> Ferramentas de B.I. e conceito de DashBoard</a>
+<ul>
+<li class="chapter" data-level="5.1.1" data-path="tomada-de-decisão-de-gestão-do-conhecimento-business-inteligence.html"><a href="tomada-de-decisão-de-gestão-do-conhecimento-business-inteligence.html#powerbi"><i class="fa fa-check"></i><b>5.1.1</b> PowerBI</a></li>
+</ul></li>
+<li class="chapter" data-level="5.2" data-path="tomada-de-decisão-de-gestão-do-conhecimento-business-inteligence.html"><a href="tomada-de-decisão-de-gestão-do-conhecimento-business-inteligence.html#bancos-de-dados-oltp-e-olap"><i class="fa fa-check"></i><b>5.2</b> Bancos de Dados OLTP e OLAP</a></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="tecnologias-emergentes-e-inovação-em-tic.html"><a href="tecnologias-emergentes-e-inovação-em-tic.html"><i class="fa fa-check"></i><b>6</b> TECNOLOGIAS EMERGENTES E INOVAÇÃO EM TIC</a>
+<ul>
+<li class="chapter" data-level="6.1" data-path="tecnologias-emergentes-e-inovação-em-tic.html"><a href="tecnologias-emergentes-e-inovação-em-tic.html#virtualização-e-continentização"><i class="fa fa-check"></i><b>6.1</b> VIRTUALIZAÇÃO E CONTINENTIZAÇÃO</a></li>
+<li class="chapter" data-level="6.2" data-path="tecnologias-emergentes-e-inovação-em-tic.html"><a href="tecnologias-emergentes-e-inovação-em-tic.html#big-data"><i class="fa fa-check"></i><b>6.2</b> BIG DATA</a></li>
+<li class="chapter" data-level="6.3" data-path="tecnologias-emergentes-e-inovação-em-tic.html"><a href="tecnologias-emergentes-e-inovação-em-tic.html#assistentes-inteligentes"><i class="fa fa-check"></i><b>6.3</b> ASSISTENTES INTELIGENTES</a></li>
+</ul></li>
+<li class="chapter" data-level="7" data-path="gestão-do-conhecimento-em-tic.html"><a href="gestão-do-conhecimento-em-tic.html"><i class="fa fa-check"></i><b>7</b> GESTÃO DO CONHECIMENTO EM TIC</a>
+<ul>
+<li class="chapter" data-level="7.1" data-path="gestão-do-conhecimento-em-tic.html"><a href="gestão-do-conhecimento-em-tic.html#conceitos-e-práticas-de-gestão-do-conhecimento"><i class="fa fa-check"></i><b>7.1</b> Conceitos e Práticas de Gestão do Conhecimento</a></li>
+<li class="chapter" data-level="7.2" data-path="gestão-do-conhecimento-em-tic.html"><a href="gestão-do-conhecimento-em-tic.html#implementação-e-desafios-da-gestão-do-conhecimento"><i class="fa fa-check"></i><b>7.2</b> Implementação e Desafios da Gestão do Conhecimento</a></li>
+</ul></li>
+<li class="chapter" data-level="8" data-path="aplicativos-de-produtividade-e-escritório-i.html"><a href="aplicativos-de-produtividade-e-escritório-i.html"><i class="fa fa-check"></i><b>8</b> APLICATIVOS DE PRODUTIVIDADE E ESCRITÓRIO I</a>
+<ul>
+<li class="chapter" data-level="8.1" data-path="aplicativos-de-produtividade-e-escritório-i.html"><a href="aplicativos-de-produtividade-e-escritório-i.html#planilhas-eletrônicas"><i class="fa fa-check"></i><b>8.1</b> Planilhas Eletrônicas</a></li>
+<li class="chapter" data-level="8.2" data-path="aplicativos-de-produtividade-e-escritório-i.html"><a href="aplicativos-de-produtividade-e-escritório-i.html#processadores-de-texto"><i class="fa fa-check"></i><b>8.2</b> Processadores de Texto</a></li>
+</ul></li>
+<li class="chapter" data-level="9" data-path="aplicativos-de-produtividade-e-escritório-ii.html"><a href="aplicativos-de-produtividade-e-escritório-ii.html"><i class="fa fa-check"></i><b>9</b> APLICATIVOS DE PRODUTIVIDADE E ESCRITÓRIO II</a>
+<ul>
+<li class="chapter" data-level="9.1" data-path="aplicativos-de-produtividade-e-escritório-ii.html"><a href="aplicativos-de-produtividade-e-escritório-ii.html#ferramentas-de-apresentação"><i class="fa fa-check"></i><b>9.1</b> Ferramentas de Apresentação</a></li>
+<li class="chapter" data-level="9.2" data-path="aplicativos-de-produtividade-e-escritório-ii.html"><a href="aplicativos-de-produtividade-e-escritório-ii.html#tecnologias-de-comunicação-e-colaboração"><i class="fa fa-check"></i><b>9.2</b> Tecnologias de Comunicação e Colaboração</a></li>
+</ul></li>
+<li class="divider"></li>
+<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">ADS - Tecnologia da Informação e Telecomunicações 2025 - Anotações de aula</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="cobit---objetivos-de-controle-para-tecnologias-de-informação-e-relacionadas" class="section level1 hasAnchor" number="4">
+<h1><span class="header-section-number">Anotações de Aula 4</span> COBIT - Objetivos de controle para tecnologias de informação e relacionadas<a href="cobit---objetivos-de-controle-para-tecnologias-de-informação-e-relacionadas.html#cobit---objetivos-de-controle-para-tecnologias-de-informação-e-relacionadas" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<p><strong>COBIT</strong> (Control Objectives for Information and Related Technologies) é uma estrutura de <strong>governança</strong> e <strong>gestão</strong> de TIC. Ela foi desenvolvida pela ISACA (Information Systems Audit and Control Association) e é usada para orientar as empresas na implementação de TIC.</p>
+<p>O termo “Objetivos de Controle” remete a idéia de “métricas” para qualificar e dimensionar o uso da infraestrutura de TIC disponível. Então de alguma forma vamos ter que mensurar todos os processos como veremos mais adiante.</p>
+<div id="governaça-de-tic-versus-gestão-de-tic" class="section level3 hasAnchor" number="4.0.1">
+<h3><span class="header-section-number">4.0.1</span> Governaça de TIC versus Gestão de TIC<a href="cobit---objetivos-de-controle-para-tecnologias-de-informação-e-relacionadas.html#governaça-de-tic-versus-gestão-de-tic" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Muito se confunde governança de TIC com gestão de TIC. Vamos ver como o COBIT versão 5 diferencia esses dois termos:</p>
+<p><img src="images/cobit/01-02-governanca-vs-gestao.jpg" width="749" /></p>
+<table>
+<colgroup>
+<col width="33%" />
+<col width="66%" />
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><img src="images/cobit/01-governanca-ti.jpg" width="187" /></td>
+<td><strong>GOVERNANÇA DE TIC:</strong> Conjunto de <strong>práticas e processos</strong> que asseguram que a <strong>TI apoia eficazmente os objetivos e as estratégias da organização</strong>, gere valor a partir dos investimentos em TI, gerencie os riscos relacionados à TI e otimize a utilização dos recursos e capacidades de TI.</td>
+</tr>
+<tr class="even">
+<td><img src="images/cobit/02-gestao-tic.jpg" /></td>
+<td><strong>GESTÃO DE TIC: uso ponderado de recursos (pessoas, processos, práticas, etc.)</strong> para <strong>atingir determinados objetivos relacionados à tecnologia da informação</strong>, sendo responsável pela execução da orientação definida pelo órgão de governança. A gestão de TI diz respeito ao alinhamento das atividades de planejamento, desenvolvimento, organização e controle operacional com a orientação definida pelo órgão de governança, e à geração de relatórios sobre essas atividades.</td>
+</tr>
+</tbody>
+</table>
+<p>Colocando de forma bem simplista, enquanto a Governança de TIC cria Processos e Políticas de TI alinhadas aos objetivos da empresa, a Gestão de TIC aplica os recursos disponíveis de TIC de forma inteligente.</p>
+</div>
+<div id="os-5-princípios-do-cobit" class="section level3 hasAnchor" number="4.0.2">
+<h3><span class="header-section-number">4.0.2</span> Os 5 Princípios do COBIT<a href="cobit---objetivos-de-controle-para-tecnologias-de-informação-e-relacionadas.html#os-5-princípios-do-cobit" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>O modelo COBIT 5 é baseado em cinco princípios básicos para a governança e gestão de TI da organização. Estes princípios são:</p>
+<div id="º-princípio-atender-às-necessidades-das-partes-interessadas" class="section level4 hasAnchor" number="4.0.2.1">
+<h4><span class="header-section-number">4.0.2.1</span> 1º Princípio: Atender às Necessidades das Partes Interessadas<a href="cobit---objetivos-de-controle-para-tecnologias-de-informação-e-relacionadas.html#º-princípio-atender-às-necessidades-das-partes-interessadas" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<p><img src="images/cobit/03-principio-01-cobit.jpg" width="320" /></p>
+<p>As organizações existem para criar valor para suas Partes interessadas, mantendo o equilíbrio entre a realização de benefícios e a otimização do risco e uso dos recursos. O COBIT 5 fornece todos os processos necessários e demais habilitadores para apoiar a criação de valor para a organização com o uso de TI. Cada organização pode personalizar o COBIT 5 de acordo com seu contexto específico por meio da cascata de objetivos, traduzindo objetivos corporativos de alto nível em objetivos de TI específicos e gerenciáveis, que são então mapeados em práticas e processos específicos.</p>
+</div>
+<div id="º-princípio-cobrir-a-organização-de-ponta-a-ponta" class="section level4 hasAnchor" number="4.0.2.2">
+<h4><span class="header-section-number">4.0.2.2</span> 2º Princípio: Cobrir a Organização de Ponta a Ponta<a href="cobit---objetivos-de-controle-para-tecnologias-de-informação-e-relacionadas.html#º-princípio-cobrir-a-organização-de-ponta-a-ponta" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<p><img src="images/cobit/04-principio-02-cobit.jpg" /></p>
+<p>O COBIT 5 integra a governança corporativa de TI à governança corporativa:</p>
+<table>
+<colgroup>
+<col width="32%" />
+<col width="67%" />
+</colgroup>
+<tbody>
+<tr class="odd">
+<td>Processos de Negócio x Processos de TIC</td>
+<td>Cobre todas as funções e processos corporativos, considerando a tecnologia da informação e tecnologias relacionadas como ativos que devem ser tratados como qualquer outro ativo por todos na organização</td>
+</tr>
+<tr class="even">
+<td>Alinamento de Gestores e Fornecedores</td>
+<td>Considera todos os habilitadores de governança e gestão de TI aplicáveis em toda a organização, de ponta a ponta, incluindo tudo e todos - interna e externamente - que forem considerados relevantes para a governança e gestão das informações e de TI da organização</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="º-princípio-aplicar-um-modelo-único-integrado" class="section level4 hasAnchor" number="4.0.2.3">
+<h4><span class="header-section-number">4.0.2.3</span> 3º Princípio: Aplicar Um Modelo Único Integrado<a href="cobit---objetivos-de-controle-para-tecnologias-de-informação-e-relacionadas.html#º-princípio-aplicar-um-modelo-único-integrado" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<p><img src="images/cobit/05-principio-03-cobit.jpg" width="430" /></p>
+<p>Existem muitas normas e boas práticas relacionadas a TI, cada qual fornecendo orientações para um conjunto específico de atividades de TI. O COBIT 5 se alinha a outros padrões e modelos importantes em um alto nível e, portanto, pode servir como um modelo unificado para a governança e gestão de TI da organização.</p>
+</div>
+<div id="º-princípio-permitir-uma-abordagem-holística" class="section level4 hasAnchor" number="4.0.2.4">
+<h4><span class="header-section-number">4.0.2.4</span> 4º Princípio: Permitir uma Abordagem Holística<a href="cobit---objetivos-de-controle-para-tecnologias-de-informação-e-relacionadas.html#º-princípio-permitir-uma-abordagem-holística" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<p>Uma governança e gestão eficiente e eficaz de TI da organização requer uma abordagem holística, levando em conta seus diversos componentes interligados. O COBIT 5 define um conjunto de sete categorias de habilitadores para apoiar a implementação de um sistema abrangente de gestão e governança de TI da organização.</p>
+<table>
+<thead>
+<tr class="header">
+<th>Item</th>
+<th>Princípios, Políticas e Modelos</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>01</td>
+<td>Processos</td>
+</tr>
+<tr class="even">
+<td>02</td>
+<td>Estruturas Organizacionais</td>
+</tr>
+<tr class="odd">
+<td>03</td>
+<td>Cultura, Ética e Comportamento</td>
+</tr>
+<tr class="even">
+<td>04</td>
+<td>Informação</td>
+</tr>
+<tr class="odd">
+<td>05</td>
+<td>Serviços, Infraestrutura e Aplicativos</td>
+</tr>
+<tr class="even">
+<td>06</td>
+<td>Pessoas, Habilidades e Competências</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="º-princípio-distinguir-a-governança-da-gestão" class="section level4 hasAnchor" number="4.0.2.5">
+<h4><span class="header-section-number">4.0.2.5</span> 5º Princípio: Distinguir a Governança da Gestão<a href="cobit---objetivos-de-controle-para-tecnologias-de-informação-e-relacionadas.html#º-princípio-distinguir-a-governança-da-gestão" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<p><img src="images/cobit/06-principio-05-cobit.jpg" width="285" /></p>
+<p>O modelo do COBIT 5 faz uma clara distinção entre governança e gestão. Essas duas disciplinas compreendem diferentes tipos de atividades, exigem modelos organizacionais diferenciados e servem a propósitos diferentes. A governança garante que as necessidades, condições e opções das Partes Interessadas sejam avaliadas a fim de determinar objetivos corporativos acordados e equilibrados; definindo a direção através de priorizações e tomadas de decisão; e monitorando o desempenho e a conformidade com a direção e os objetivos estabelecidos.</p>
+</div>
+</div>
+<div id="cobit-aferição-de-performance" class="section level2 hasAnchor" number="4.1">
+<h2><span class="header-section-number">4.1</span> Cobit Aferição de Performance<a href="cobit---objetivos-de-controle-para-tecnologias-de-informação-e-relacionadas.html#cobit-aferição-de-performance" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div id="kpi---indicadores-chave-de-desempenho" class="section level3 hasAnchor" number="4.1.1">
+<h3><span class="header-section-number">4.1.1</span> KPI - indicadores-chave de desempenho<a href="cobit---objetivos-de-controle-para-tecnologias-de-informação-e-relacionadas.html#kpi---indicadores-chave-de-desempenho" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p><img src="images/cobit/07-0-kpi.jpg" width="407" /></p>
+<p><strong>KPI</strong>s (Key Performance Indicator) ou <strong>indicadores-chave de desempenho</strong> são definidos como uma métrica quantificável usada para monitorar o progresso na realização dos objetivos comerciais. Mais especificamente, um KPI fornece informações sobre o desempenho do ativo mais importante de uma organização: <strong>as pessoas</strong>.</p>
+<p><img src="images/cobit/07-kpi.jpg" /></p>
+<p>Os KPIs são considerados o molho secreto da estratégia empresarial moderna, e todos estão qualificados para utilizá-los. Indicadores-chave de desempenho eficazes permitem que as pessoas tomem decisões precisas e rápidas.</p>
+<table>
+<colgroup>
+<col width="100%" />
+</colgroup>
+<tbody>
+<tr class="odd">
+<td>KPIs bem projetados podem capacitar as equipes a resolver ineficiências, eliminar solicitações que consomem muito tempo e alinhar tarefas e projetos com metas de toda a empresa.</td>
+</tr>
+<tr class="even">
+<td>As empresas devem se concentrar nas métricas que têm o maior impacto sobre sua sustentabilidade. Ao focar em projetos, ferramentas e sistemas que realmente fazem a diferença, as empresas constroem um roteiro para maximizar sua velocidade em direção ao crescimento da receita.</td>
+</tr>
+<tr class="odd">
+<td>É crucial identificar as métricas de negócios diretamente relacionadas às metas de negócios. Diferentes áreas terão diferentes KPIs (vendas, produtos, finanças). É importante entender o que cada área quer alcançar e seus critérios de sucesso. Um KPI que não contribui para uma meta de negócios deve ser descartado.</td>
+</tr>
+<tr class="even">
+<td>Após identificar as métricas, elas devem ser organizadas em indicadores principais (de avanço) e indicadores secundários (de atraso). Os indicadores de avanço mostram se é necessário ajustar a estratégia para alcançar o resultado desejado, enquanto os indicadores de atraso determinam o desempenho dos processos em um período mais longo.</td>
+</tr>
+<tr class="odd">
+<td>Os KPIs devem ser claros e específicos e compreensíveis por toda a empresa.</td>
+</tr>
+<tr class="even">
+<td>É recomendado colocar os KPIs em uma ferramenta remota para registrar e monitorar o progresso, pois relatórios em formatos tradicionais podem se tornar rapidamente desatualizados e menos acessíveis. O ClickUp é apresentado como uma ferramenta para essa finalidade, oferecendo dashboards personalizáveis.</td>
+</tr>
+<tr class="odd">
+<td>Monitorar KPIs como uma equipe ajuda a definir critérios claros e mensuráveis para o sucesso, permitindo que as equipes trabalhem para atingir metas específicas e medir continuamente seu progresso, o que pode levar a maior envolvimento e motivação.</td>
+</tr>
+<tr class="even">
+<td>A seleção dos KPIs adequados dependerá do propósito, das metas e dos objetivos da equipe, bem como da análise do desempenho anterior e de fatores externos.</td>
+</tr>
+<tr class="odd">
+<td>Se uma equipe não estiver atingindo as metas de KPI, é importante identificar a causa raiz do problema e garantir que os KPIs sejam alcançáveis, relevantes e realistas.</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="exemplos-de-kpis" class="section level3 hasAnchor" number="4.1.2">
+<h3><span class="header-section-number">4.1.2</span> Exemplos de KPIs<a href="cobit---objetivos-de-controle-para-tecnologias-de-informação-e-relacionadas.html#exemplos-de-kpis" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<div id="performance-de-vendas" class="section level4 hasAnchor" number="4.1.2.1">
+<h4><span class="header-section-number">4.1.2.1</span> Performance de Vendas<a href="cobit---objetivos-de-controle-para-tecnologias-de-informação-e-relacionadas.html#performance-de-vendas" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<p>Indicadores de performance para o departamento de vendas;</p>
+<table>
+<colgroup>
+<col width="29%" />
+<col width="70%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="center">KPI</th>
+<th align="center">Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="center">Custo de aquisição de clientes</td>
+<td align="center">O custo total de aquisição de um cliente (inclui custos gastos no processo de vendas e por meio de esforços de marketing).</td>
+</tr>
+<tr class="even">
+<td align="center">Atividades de vendas por representante</td>
+<td align="center">O número total de tarefas concluídas em um determinado período de tempo.</td>
+</tr>
+<tr class="odd">
+<td align="center">Taxa de conversão de leads em clientes</td>
+<td align="center">A porcentagem de leads convertidos em seu processo de vendas.</td>
+</tr>
+<tr class="even">
+<td align="center">Receita total de vendas</td>
+<td align="center">A receita total gerada por seus produtos em um período definido.</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="performance-de-operações-de-um-setor" class="section level4 hasAnchor" number="4.1.2.2">
+<h4><span class="header-section-number">4.1.2.2</span> Performance de Operações de um setor<a href="cobit---objetivos-de-controle-para-tecnologias-de-informação-e-relacionadas.html#performance-de-operações-de-um-setor" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<p>Indicadores de performance para uma operação de um departamento ou setor;</p>
+<table>
+<colgroup>
+<col width="27%" />
+<col width="72%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="center">KPI</th>
+<th align="center">Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="center">Duração do ciclo de vendas</td>
+<td align="center">O tempo médio que leva entre o contato inicial e o fechamento.</td>
+</tr>
+<tr class="even">
+<td align="center">Horas extras</td>
+<td align="center">O número de horas trabalhadas por um funcionário além de suas horas de trabalho normalmente programadas.</td>
+</tr>
+<tr class="odd">
+<td align="center">Processos desenvolvidos</td>
+<td align="center">O número de melhorias feitas nas operações atuais.</td>
+</tr>
+<tr class="even">
+<td align="center">Custos de inventário</td>
+<td align="center">O valor total de todas as despesas relacionadas ao armazenamento de mercadorias não vendidas.</td>
+</tr>
+<tr class="odd">
+<td align="center">Utilização do espaço de escritório</td>
+<td align="center">A porcentagem do espaço de escritório usado pelos funcionários.</td>
+</tr>
+<tr class="even">
+<td align="center">Uso de vantagens da empresa</td>
+<td align="center">A porcentagem de vantagens usadas pelos funcionários.</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="performance-financeira-da-empresa" class="section level4 hasAnchor" number="4.1.2.3">
+<h4><span class="header-section-number">4.1.2.3</span> Performance financeira da empresa<a href="cobit---objetivos-de-controle-para-tecnologias-de-informação-e-relacionadas.html#performance-financeira-da-empresa" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<p>Indicadores de performance para setor financeiro da empresa;</p>
+<table>
+<colgroup>
+<col width="27%" />
+<col width="72%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="center">KPI</th>
+<th align="center">Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="center">Retorno sobre o patrimônio líquido</td>
+<td align="center">A medida de desempenho financeiro com base no lucro líquido dividido pelo patrimônio líquido.</td>
+</tr>
+<tr class="even">
+<td align="center">Margem de lucro líquido</td>
+<td align="center">A quantidade de dinheiro que sua empresa tem após todas as despesas terem sido deduzidas da receita total.</td>
+</tr>
+<tr class="odd">
+<td align="center">Custo dos produtos vendidos</td>
+<td align="center">O custo total de fabricação dos produtos que uma empresa vende (exclui despesas com vendas, administração e marketing).</td>
+</tr>
+<tr class="even">
+<td align="center">Índice de dívida para patrimônio líquido</td>
+<td align="center">A proporção do total de passivos da empresa em relação ao patrimônio líquido.</td>
+</tr>
+<tr class="odd">
+<td align="center">Fluxo de caixa livre</td>
+<td align="center">A quantidade de dinheiro restante após as despesas de capital.</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="performance-de-um-website" class="section level4 hasAnchor" number="4.1.2.4">
+<h4><span class="header-section-number">4.1.2.4</span> Performance de um website<a href="cobit---objetivos-de-controle-para-tecnologias-de-informação-e-relacionadas.html#performance-de-um-website" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<p>Indicadores de performance para interações em um website;</p>
+<table>
+<colgroup>
+<col width="23%" />
+<col width="76%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="center">KPI</th>
+<th align="center">Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="center">Proporção de tráfego para MQL</td>
+<td align="center">A proporção entre a plataforma de tráfego total gerada e o número de leads qualificados para marketing provenientes desse tráfego.</td>
+</tr>
+<tr class="even">
+<td align="center">Erros de rastreamento</td>
+<td align="center">O número de URLs que são inacessíveis para o Googlebot quando ele examina suas páginas.</td>
+</tr>
+<tr class="odd">
+<td align="center">Taxa de rejeição</td>
+<td align="center">O número de pessoas que saíram de seu site em apenas alguns segundos após a chegada.</td>
+</tr>
+<tr class="even">
+<td align="center">Usabilidade móvel</td>
+<td align="center">A velocidade e o desempenho da sua página de destino em telefones e guias.</td>
+</tr>
+<tr class="odd">
+<td align="center">Tráfego de referência</td>
+<td align="center">O número de pessoas que visitam seu site a partir de suas mídias sociais.</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="performance-de-inicialização-de-clientes" class="section level4 hasAnchor" number="4.1.2.5">
+<h4><span class="header-section-number">4.1.2.5</span> Performance de inicialização de clientes<a href="cobit---objetivos-de-controle-para-tecnologias-de-informação-e-relacionadas.html#performance-de-inicialização-de-clientes" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<p>Indicadores de performance para início de relacionamento com clientes;</p>
+<table>
+<colgroup>
+<col width="27%" />
+<col width="72%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="center">KPI</th>
+<th align="center">Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="center">Valor da vida útil do cliente</td>
+<td align="center">A receita que sua empresa pode esperar de contas de clientes individuais.</td>
+</tr>
+<tr class="even">
+<td align="center">Taxa de ativação</td>
+<td align="center">A porcentagem de usuários que concluem qualquer evento importante no processo de integração.</td>
+</tr>
+<tr class="odd">
+<td align="center">Runway</td>
+<td align="center">O número de meses que a empresa pode operar antes de ficar sem dinheiro.</td>
+</tr>
+<tr class="even">
+<td align="center">Duração média do ciclo de vendas</td>
+<td align="center">O número de dias que leva para fechar um negócio, em média.</td>
+</tr>
+<tr class="odd">
+<td align="center">Burn mensal</td>
+<td align="center">O montante de dinheiro gasto por mês.</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="performance-de-inicialização-de-clientes-1" class="section level4 hasAnchor" number="4.1.2.6">
+<h4><span class="header-section-number">4.1.2.6</span> Performance de inicialização de clientes<a href="cobit---objetivos-de-controle-para-tecnologias-de-informação-e-relacionadas.html#performance-de-inicialização-de-clientes-1" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<p>Indicadores de performance para início de relacionamento com clientes;</p>
+<table>
+<colgroup>
+<col width="27%" />
+<col width="72%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="center">KPI</th>
+<th align="center">Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="center">Valor da vida útil do cliente</td>
+<td align="center">A receita que sua empresa pode esperar de contas de clientes individuais.</td>
+</tr>
+<tr class="even">
+<td align="center">Taxa de ativação</td>
+<td align="center">A porcentagem de usuários que concluem qualquer evento importante no processo de integração.</td>
+</tr>
+<tr class="odd">
+<td align="center">Runway</td>
+<td align="center">O número de meses que a empresa pode operar antes de ficar sem dinheiro.</td>
+</tr>
+<tr class="even">
+<td align="center">Duração média do ciclo de vendas</td>
+<td align="center">O número de dias que leva para fechar um negócio, em média.</td>
+</tr>
+<tr class="odd">
+<td align="center">Burn mensal</td>
+<td align="center">O montante de dinheiro gasto por mês.</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="performance-de-produtos" class="section level4 hasAnchor" number="4.1.2.7">
+<h4><span class="header-section-number">4.1.2.7</span> Performance de Produtos<a href="cobit---objetivos-de-controle-para-tecnologias-de-informação-e-relacionadas.html#performance-de-produtos" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<p>Indicadores de performance para Produtos;</p>
+<table>
+<colgroup>
+<col width="26%" />
+<col width="73%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="center">KPI</th>
+<th align="center">Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="center">Net Promoter Score (NPS)</td>
+<td align="center">O número que indica se seus usuários estão prontos para recomendar seu produto a amigos, colegas etc..</td>
+</tr>
+<tr class="even">
+<td align="center">Escalonamentos de tíquetes de suporte</td>
+<td align="center">O número de tíquetes transferidos para um gerente de suporte ao cliente de nível superior para serem resolvidos.</td>
+</tr>
+<tr class="odd">
+<td align="center">Índice de satisfação do cliente (CSAT)</td>
+<td align="center">A taxa de escala da experiência geral de um cliente com o produto, serviço ou funcionário de uma empresa.</td>
+</tr>
+<tr class="even">
+<td align="center">Velocidade</td>
+<td align="center">O número total de testes manuais e automatizados realizados.</td>
+</tr>
+<tr class="odd">
+<td align="center">Daily Active User</td>
+<td align="center">O número de usuários ativos por dia.</td>
+</tr>
+</tbody>
+</table>
+
+</div>
+</div>
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="infraestrutura-de-tic.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="tomada-de-decisão-de-gestão-do-conhecimento-business-inteligence.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+  "sharing": {
+    "github": false,
+    "facebook": true,
+    "twitter": true,
+    "linkedin": false,
+    "weibo": false,
+    "instapaper": false,
+    "vk": false,
+    "whatsapp": false,
+    "all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+  },
+  "fontsettings": {
+    "theme": "white",
+    "family": "sans",
+    "size": 2
+  },
+  "edit": {
+    "link": "https://github.com/miguel7penteado/ADS-TecnologiaInformacaoComunicacoes2025/edit/main/04-sistemas-informacao-funcionalidades.Rmd",
+    "text": "Edit"
+  },
+  "history": {
+    "link": null,
+    "text": null
+  },
+  "view": {
+    "link": null,
+    "text": null
+  },
+  "download": ["ADS-TIC-2025.pdf", "ADS-TIC-2025.epub", "ADS-TIC-2025.word", "ADS-TIC-2025.html"],
+  "search": {
+    "engine": "fuse",
+    "options": null
+  },
+  "toc": {
+    "collapse": "subsection"
+  }
+});
+});
+</script>
+
+</body>
+
+</html>

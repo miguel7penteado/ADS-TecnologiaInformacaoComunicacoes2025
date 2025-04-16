@@ -1,149 +1,155 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.4.6)  7 APR 2025 02:15
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022/Debian) (preloaded format=xelatex 2025.3.21)  16 APR 2025 15:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **ADS-TIC-2025.tex
 (./ADS-TIC-2025.tex
-LaTeX2e <2024-11-01> patch level 2
-L3 programming layer <2025-01-18>
-(c:/Users/miguel/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/book.cls
-Document Class: book 2024/06/29 v1.4n Standard LaTeX document class
-(c:/Users/miguel/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/bk10.clo
-File: bk10.clo 2024/06/29 v1.4n Standard LaTeX file (size option)
+LaTeX2e <2022-11-01> patch level 1
+L3 programming layer <2023-01-16> (/usr/share/texlive/texmf-dist/tex/latex/base
+/book.cls
+Document Class: book 2022/07/02 v1.4n Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/bk10.clo
+File: bk10.clo 2022/07/02 v1.4n Standard LaTeX file (size option)
 )
-\c@part=\count192
-\c@chapter=\count193
-\c@section=\count194
-\c@subsection=\count195
-\c@subsubsection=\count196
-\c@paragraph=\count197
-\c@subparagraph=\count198
-\c@figure=\count199
-\c@table=\count266
-\abovecaptionskip=\skip49
-\belowcaptionskip=\skip50
-\bibindent=\dimen141
-) (c:/Users/miguel/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsmath/amsmath.sty
-Package: amsmath 2024/11/05 v2.17t AMS math features
-\@mathmargin=\skip51
+\c@part=\count181
+\c@chapter=\count182
+\c@section=\count183
+\c@subsection=\count184
+\c@subsubsection=\count185
+\c@paragraph=\count186
+\c@subparagraph=\count187
+\c@figure=\count188
+\c@table=\count189
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
+\bibindent=\dimen140
+) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2022/04/08 v2.17n AMS math features
+\@mathmargin=\skip50
 For additional information on amsmath, use the `?' option.
-(c:/Users/miguel/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2021/08/26 v2.01 AMS text
-(c:/Users/miguel/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsmath/amsgen.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks17
-\ex@=\dimen142
-)) (c:/Users/miguel/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsmath/amsbsy.sty
+\@emptytoks=\toks16
+\ex@=\dimen141
+)) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen143
-) (c:/Users/miguel/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsmath/amsopn.sty
+\pmbraise@=\dimen142
+) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
-\inf@bad=\count267
-LaTeX Info: Redefining \frac on input line 233.
-\uproot@=\count268
-\leftroot@=\count269
-LaTeX Info: Redefining \overline on input line 398.
-LaTeX Info: Redefining \colon on input line 409.
-\classnum@=\count270
-\DOTSCASE@=\count271
-LaTeX Info: Redefining \ldots on input line 495.
-LaTeX Info: Redefining \dots on input line 498.
-LaTeX Info: Redefining \cdots on input line 619.
-\Mathstrutbox@=\box52
-\strutbox@=\box53
-LaTeX Info: Redefining \big on input line 721.
-LaTeX Info: Redefining \Big on input line 722.
-LaTeX Info: Redefining \bigg on input line 723.
-LaTeX Info: Redefining \Bigg on input line 724.
-\big@size=\dimen144
-LaTeX Font Info:    Redeclaring font encoding OML on input line 742.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 743.
-\macc@depth=\count272
-LaTeX Info: Redefining \bmod on input line 904.
-LaTeX Info: Redefining \pmod on input line 909.
-LaTeX Info: Redefining \smash on input line 939.
-LaTeX Info: Redefining \relbar on input line 969.
-LaTeX Info: Redefining \Relbar on input line 970.
-\c@MaxMatrixCols=\count273
-\dotsspace@=\muskip17
-\c@parentequation=\count274
-\dspbrk@lvl=\count275
-\tag@help=\toks18
-\row@=\count276
-\column@=\count277
-\maxfields@=\count278
-\andhelp@=\toks19
-\eqnshift@=\dimen145
-\alignsep@=\dimen146
-\tagshift@=\dimen147
-\tagwidth@=\dimen148
-\totwidth@=\dimen149
-\lineht@=\dimen150
-\@envbody=\toks20
-\multlinegap=\skip52
-\multlinetaggap=\skip53
-\mathdisplay@stack=\toks21
+\inf@bad=\count190
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count191
+\leftroot@=\count192
+LaTeX Info: Redefining \overline on input line 399.
+LaTeX Info: Redefining \colon on input line 410.
+\classnum@=\count193
+\DOTSCASE@=\count194
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box51
+\strutbox@=\box52
+LaTeX Info: Redefining \big on input line 722.
+LaTeX Info: Redefining \Big on input line 723.
+LaTeX Info: Redefining \bigg on input line 724.
+LaTeX Info: Redefining \Bigg on input line 725.
+\big@size=\dimen143
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count195
+LaTeX Info: Redefining \bmod on input line 905.
+LaTeX Info: Redefining \pmod on input line 910.
+LaTeX Info: Redefining \smash on input line 940.
+LaTeX Info: Redefining \relbar on input line 970.
+LaTeX Info: Redefining \Relbar on input line 971.
+\c@MaxMatrixCols=\count196
+\dotsspace@=\muskip16
+\c@parentequation=\count197
+\dspbrk@lvl=\count198
+\tag@help=\toks17
+\row@=\count199
+\column@=\count266
+\maxfields@=\count267
+\andhelp@=\toks18
+\eqnshift@=\dimen144
+\alignsep@=\dimen145
+\tagshift@=\dimen146
+\tagwidth@=\dimen147
+\totwidth@=\dimen148
+\lineht@=\dimen149
+\@envbody=\toks19
+\multlinegap=\skip51
+\multlinetaggap=\skip52
+\mathdisplay@stack=\toks20
 LaTeX Info: Redefining \[ on input line 2953.
 LaTeX Info: Redefining \] on input line 2954.
-) (c:/Users/miguel/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsfonts/amssymb.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
-(c:/Users/miguel/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-)) (c:/Users/miguel/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/iftex/iftex.sty
-Package: iftex 2024/12/12 v1.0g TeX engine tests
-) (c:/Users/miguel/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/unicode-math/unicode-math.sty (c:/Users/miguel/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2025-01-18 L3 programming layer (loader) 
-(c:/Users/miguel/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
-File: l3backend-xetex.def 2024-05-08 L3 backend support: XeTeX
-\g__graphics_track_int=\count279
-\l__pdf_internal_box=\box54
-\g__pdf_backend_annotation_int=\count280
-\g__pdf_backend_link_int=\count281
+)) (/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+) (/usr/share/texlive/texmf-dist/tex/latex/unicode-math/unicode-math.sty (/usr/
+share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2023-01-16 L3 programming layer (loader) 
+(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
+File: l3backend-xetex.def 2023-01-16 L3 backend support: XeTeX
+\g__graphics_track_int=\count268
+\l__pdf_internal_box=\box53
+\g__pdf_backend_object_int=\count269
+\g__pdf_backend_annotation_int=\count270
+\g__pdf_backend_link_int=\count271
 ))
-Package: unicode-math 2023/08/13 v0.8r Unicode maths in XeLaTeX and LuaLaTeX
-(c:/Users/miguel/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/unicode-math/unicode-math-xetex.sty
-Package: unicode-math-xetex 2023/08/13 v0.8r Unicode maths in XeLaTeX and LuaLaTeX
-(c:/Users/miguel/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
-Package: xparse 2024-08-16 L3 Experimental document command parser
-) (c:/Users/miguel/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
-Package: l3keys2e 2024-08-16 LaTeX2e option processing using LaTeX3 keys
-) (c:/Users/miguel/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/fontspec/fontspec.sty
-Package: fontspec 2024/05/11 v2.9e Font selection for XeLaTeX and LuaLaTeX
-(c:/Users/miguel/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
-Package: fontspec-xetex 2024/05/11 v2.9e Font selection for XeLaTeX and LuaLaTeX
-\l__fontspec_script_int=\count282
-\l__fontspec_language_int=\count283
-\l__fontspec_strnum_int=\count284
-\l__fontspec_tmp_int=\count285
-\l__fontspec_tmpa_int=\count286
-\l__fontspec_tmpb_int=\count287
-\l__fontspec_tmpc_int=\count288
-\l__fontspec_em_int=\count289
-\l__fontspec_emdef_int=\count290
-\l__fontspec_strong_int=\count291
-\l__fontspec_strongdef_int=\count292
-\l__fontspec_tmpa_dim=\dimen151
-\l__fontspec_tmpb_dim=\dimen152
-\l__fontspec_tmpc_dim=\dimen153
-(c:/Users/miguel/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/fontenc.sty
+Package: unicode-math 2020/01/31 v0.8q Unicode maths in XeLaTeX and LuaLaTeX
+(/usr/share/texlive/texmf-dist/tex/latex/unicode-math/unicode-math-xetex.sty
+Package: unicode-math-xetex 2020/01/31 v0.8q Unicode maths in XeLaTeX and LuaLa
+TeX
+(/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2023-01-16 L3 Experimental document command parser
+) (/usr/share/texlive/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
+Package: l3keys2e 2023-01-16 LaTeX2e option processing using LaTeX3 keys
+) (/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec.sty
+Package: fontspec 2022/01/15 v2.8a Font selection for XeLaTeX and LuaLaTeX
+(/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+Package: fontspec-xetex 2022/01/15 v2.8a Font selection for XeLaTeX and LuaLaTe
+X
+\l__fontspec_script_int=\count272
+\l__fontspec_language_int=\count273
+\l__fontspec_strnum_int=\count274
+\l__fontspec_tmp_int=\count275
+\l__fontspec_tmpa_int=\count276
+\l__fontspec_tmpb_int=\count277
+\l__fontspec_tmpc_int=\count278
+\l__fontspec_em_int=\count279
+\l__fontspec_emdef_int=\count280
+\l__fontspec_strong_int=\count281
+\l__fontspec_strongdef_int=\count282
+\l__fontspec_tmpa_dim=\dimen150
+\l__fontspec_tmpb_dim=\dimen151
+\l__fontspec_tmpc_dim=\dimen152
+(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
-) (c:/Users/miguel/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/fontspec/fontspec.cfg))) (c:/Users/miguel/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/fix-cm.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec.cfg))) (/usr/share
+/texlive/texmf-dist/tex/latex/base/fix-cm.sty
 Package: fix-cm 2020/11/24 v1.1t fixes to LaTeX
-(c:/Users/miguel/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/ts1enc.def
+(/usr/share/texlive/texmf-dist/tex/latex/base/ts1enc.def
 File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding TS1 on input line 47.
 ))
-\g__um_fam_int=\count293
-\g__um_fonts_used_int=\count294
-\l__um_primecount_int=\count295
-\g__um_primekern_muskip=\muskip18
-(c:/Users/miguel/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/unicode-math/unicode-math-table.tex))) (c:/Users/miguel/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/lmodern.sty
+\g__um_fam_int=\count283
+\g__um_fonts_used_int=\count284
+\l__um_primecount_int=\count285
+\g__um_primekern_muskip=\muskip17
+(/usr/share/texlive/texmf-dist/tex/latex/unicode-math/unicode-math-table.tex)))
+(/usr/share/texmf/tex/latex/lm/lmodern.sty
 Package: lmodern 2015/05/01 v1.6.1 Latin Modern Fonts
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 22.
@@ -177,42 +183,81 @@ LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmr/bx/it --> OT1/lmr/bx/it on input line 37.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
-) (c:/Users/miguel/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/xcolor/xcolor.sty
-Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
-(c:/Users/miguel/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics-cfg/color.cfg
+) (/usr/share/texlive/texmf-dist/tex/latex/upquote/upquote.sty
+Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verba
+tim
+(/usr/share/texlive/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
+)) (/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.sty
+Package: microtype 2022/06/23 v3.0f Micro-typographical refinements (RS)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks21
+) (/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count286
+)
+\MT@toks=\toks22
+\MT@tempbox=\box54
+\MT@count=\count287
+LaTeX Info: Redefining \noprotrusionifhmode on input line 1045.
+LaTeX Info: Redefining \leftprotrusion on input line 1046.
+LaTeX Info: Redefining \rightprotrusion on input line 1056.
+LaTeX Info: Redefining \textls on input line 1234.
+\MT@outer@kern=\dimen153
+LaTeX Info: Redefining \textmicrotypecontext on input line 1858.
+\MT@listname@count=\count288
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype-xetex.def
+File: microtype-xetex.def 2022/06/23 v3.0f Definitions specific to xetex (RS)
+LaTeX Info: Redefining \lsstyle on input line 236.
+)
+Package microtype Info: Loading configuration file microtype.cfg.
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.cfg
+File: microtype.cfg 2022/06/23 v3.0f microtype main configuration file (RS)
+)) (/usr/share/texlive/texmf-dist/tex/latex/parskip/parskip.sty
+Package: parskip 2021-03-14 v2.0h non-zero parskip adjustments
+(/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+(/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+) (/usr/share/texlive/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+))) (/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2022/06/12 v2.14 LaTeX color extensions (UK)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
-Package xcolor Info: Driver file: xetex.def on input line 274.
-(c:/Users/miguel/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics-def/xetex.def
+Package xcolor Info: Driver file: xetex.def on input line 227.
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/xetex.def
 File: xetex.def 2022/09/22 v5.0n Graphics/color driver for xetex
-) (c:/Users/miguel/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics/mathcolor.ltx)
-Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1349.
-Package xcolor Info: Model `RGB' extended on input line 1365.
-Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1367.
-Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1368.
-Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1369.
-Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
-Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
-Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
-) (c:/Users/miguel/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tools/longtable.sty
-Package: longtable 2024-10-27 v4.22 Multi-page Table package (DPC)
-\LTleft=\skip54
-\LTright=\skip55
-\LTpre=\skip56
-\LTpost=\skip57
-\LTchunksize=\count296
+) (/usr/share/texlive/texmf-dist/tex/latex/graphics/mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1353.
+Package xcolor Info: Model `RGB' extended on input line 1369.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1371.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1372.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1373.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1374.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1375.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1376.
+) (/usr/share/texlive/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2021-09-01 v4.17 Multi-page Table package (DPC)
+\LTleft=\skip53
+\LTright=\skip54
+\LTpre=\skip55
+\LTpost=\skip56
+\LTchunksize=\count289
 \LTcapwidth=\dimen154
 \LT@head=\box55
 \LT@firsthead=\box56
 \LT@foot=\box57
 \LT@lastfoot=\box58
 \LT@gbox=\box59
-\LT@cols=\count297
-\LT@rows=\count298
-\c@LT@tables=\count299
-\c@LT@chunks=\count300
-\LT@p@ftn=\toks22
-) (c:/Users/miguel/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/booktabs/booktabs.sty
+\LT@cols=\count290
+\LT@rows=\count291
+\c@LT@tables=\count292
+\c@LT@chunks=\count293
+\LT@p@ftn=\toks23
+) (/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \heavyrulewidth=\dimen155
 \lightrulewidth=\dimen156
@@ -224,171 +269,174 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \cmidrulesep=\dimen162
 \cmidrulekern=\dimen163
 \defaultaddspace=\dimen164
-\@cmidla=\count301
-\@cmidlb=\count302
+\@cmidla=\count294
+\@cmidlb=\count295
 \@aboverulesep=\dimen165
 \@belowrulesep=\dimen166
-\@thisruleclass=\count303
-\@lastruleclass=\count304
+\@thisruleclass=\count296
+\@lastruleclass=\count297
 \@thisrulewidth=\dimen167
-) (c:/Users/miguel/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tools/array.sty
-Package: array 2024/10/17 v2.6g Tabular extension package (FMi)
+) (/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
+Package: array 2022/09/04 v2.5g Tabular extension package (FMi)
 \col@sep=\dimen168
 \ar@mcellbox=\box60
 \extrarowheight=\dimen169
-\NC@list=\toks23
-\extratabsurround=\skip58
-\backup@length=\skip59
+\NC@list=\toks24
+\extratabsurround=\skip57
+\backup@length=\skip58
 \ar@cellbox=\box61
-) (c:/Users/miguel/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tools/calc.sty
-Package: calc 2023/07/08 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count305
-\calc@Bcount=\count306
+) (/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count298
+\calc@Bcount=\count299
 \calc@Adimen=\dimen170
 \calc@Bdimen=\dimen171
-\calc@Askip=\skip60
-\calc@Bskip=\skip61
+\calc@Askip=\skip59
+\calc@Bskip=\skip60
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count307
-\calc@Cskip=\skip62
-) (c:/Users/miguel/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/etoolbox/etoolbox.sty
-Package: etoolbox 2025/02/11 v2.5l e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count308
-) (c:/Users/miguel/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/mdwtools/footnote.sty
-Package: footnote 1997/01/28 1.13 Save footnotes around boxes
-\fn@notes=\box62
-\fn@width=\dimen172
-) (c:/Users/miguel/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics/graphicx.sty
+\calc@Ccount=\count300
+\calc@Cskip=\skip61
+) (/usr/share/texlive/texmf-dist/tex/latex/footnotehyper/footnotehyper.sty
+Package: footnotehyper 2021/08/13 v1.1e hyperref aware footnote.sty (JFB)
+\FNH@notes=\box62
+\FNH@width=\dimen172
+\FNH@toks=\toks25
+) (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
-(c:/Users/miguel/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics/keyval.sty
-Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
-\KV@toks@=\toks24
-) (c:/Users/miguel/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
-(c:/Users/miguel/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics/trig.sty
-Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
-) (c:/Users/miguel/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+) (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: xetex.def on input line 106.
+Package graphics Info: Driver file: xetex.def on input line 107.
 )
 \Gin@req@height=\dimen173
 \Gin@req@width=\dimen174
-) (c:/Users/miguel/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/natbib/natbib.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/natbib/natbib.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
-\bibhang=\skip63
-\bibsep=\skip64
+\bibhang=\skip62
+\bibsep=\skip63
 LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count309
-) (c:/Users/miguel/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/bookmark/bookmark.sty
-Package: bookmark 2023-12-10 v1.31 PDF bookmarks (HO)
-(c:/Users/miguel/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/hyperref.sty
-Package: hyperref 2024-11-05 v7.01l Hypertext links for LaTeX
-(c:/Users/miguel/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
-Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
-) (c:/Users/miguel/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
-Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
-) (c:/Users/miguel/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pdfescape/pdfescape.sty
-Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
-(c:/Users/miguel/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
-Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
-) (c:/Users/miguel/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
-Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
-(c:/Users/miguel/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+\c@NAT@ctr=\count301
+) (/usr/share/texlive/texmf-dist/tex/latex/bookmark/bookmark.sty
+Package: bookmark 2020-11-06 v1.29 PDF bookmarks (HO)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2022-11-13 v7.00u Hypertext links for LaTeX
+(/usr/share/texlive/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+(/usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 )
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode not found.
-)) (c:/Users/miguel/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hycolor/hycolor.sty
+) (/usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+) (/usr/share/texlive/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+) (/usr/share/texlive/texmf-dist/tex/latex/hycolor/hycolor.sty
 Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
-) (c:/Users/miguel/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/nameref.sty
-Package: nameref 2023-11-26 v2.56 Cross-referencing by name of section
-(c:/Users/miguel/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/refcount/refcount.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+) (/usr/share/texlive/texmf-dist/tex/latex/auxhook/auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+) (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2022-05-17 v2.50 Cross-referencing by name of section
+(/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty
 Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
-) (c:/Users/miguel/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+) (/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
-(c:/Users/miguel/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/kvoptions/kvoptions.sty
-Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
-))
-\c@section@level=\count310
-) (c:/Users/miguel/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/stringenc/stringenc.sty
-Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO)
+)
+\c@section@level=\count302
 )
 \@linkdim=\dimen175
-\Hy@linkcounter=\count311
-\Hy@pagecounter=\count312
-(c:/Users/miguel/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/pd1enc.def
-File: pd1enc.def 2024-11-05 v7.01l Hyperref: PDFDocEncoding definition (HO)
-) (c:/Users/miguel/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/intcalc/intcalc.sty
+\Hy@linkcounter=\count303
+\Hy@pagecounter=\count304
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2022-11-13 v7.00u Hyperref: PDFDocEncoding definition (HO)
+) (/usr/share/texlive/texmf-dist/tex/generic/intcalc/intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+) (/usr/share/texlive/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
-\Hy@SavedSpaceFactor=\count313
-(c:/Users/miguel/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/puenc.def
-File: puenc.def 2024-11-05 v7.01l Hyperref: PDF Unicode definition (HO)
+\Hy@SavedSpaceFactor=\count305
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2022-11-13 v7.00u Hyperref: PDF Unicode definition (HO)
 )
-Package hyperref Info: Option `unicode' set `true' on input line 4040.
-Package hyperref Info: Hyper figures OFF on input line 4157.
-Package hyperref Info: Link nesting OFF on input line 4162.
-Package hyperref Info: Hyper index ON on input line 4165.
-Package hyperref Info: Plain pages OFF on input line 4172.
-Package hyperref Info: Backreferencing OFF on input line 4177.
+Package hyperref Info: Option `unicode' set `true' on input line 4045.
+Package hyperref Info: Hyper figures OFF on input line 4162.
+Package hyperref Info: Link nesting OFF on input line 4167.
+Package hyperref Info: Hyper index ON on input line 4170.
+Package hyperref Info: Plain pages OFF on input line 4177.
+Package hyperref Info: Backreferencing OFF on input line 4182.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4424.
-\c@Hy@tempcnt=\count314
-(c:/Users/miguel/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/url/url.sty
-\Urlmuskip=\muskip19
+Package hyperref Info: Bookmarks ON on input line 4410.
+\c@Hy@tempcnt=\count306
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip18
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-LaTeX Info: Redefining \url on input line 4763.
+LaTeX Info: Redefining \url on input line 4748.
 \XeTeXLinkMargin=\dimen176
-(c:/Users/miguel/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/bitset/bitset.sty
+(/usr/share/texlive/texmf-dist/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
-(c:/Users/miguel/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
-Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
+(/usr/share/texlive/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
 ))
-\Fld@menulength=\count315
+\Fld@menulength=\count307
 \Field@Width=\dimen177
 \Fld@charsize=\dimen178
-Package hyperref Info: Hyper figures OFF on input line 6042.
-Package hyperref Info: Link nesting OFF on input line 6047.
-Package hyperref Info: Hyper index ON on input line 6050.
-Package hyperref Info: backreferencing OFF on input line 6057.
-Package hyperref Info: Link coloring OFF on input line 6062.
-Package hyperref Info: Link coloring with OCG OFF on input line 6067.
-Package hyperref Info: PDF/A mode OFF on input line 6072.
-(c:/Users/miguel/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/atbegshi-ltx.sty
+Package hyperref Info: Hyper figures OFF on input line 6027.
+Package hyperref Info: Link nesting OFF on input line 6032.
+Package hyperref Info: Hyper index ON on input line 6035.
+Package hyperref Info: backreferencing OFF on input line 6042.
+Package hyperref Info: Link coloring OFF on input line 6047.
+Package hyperref Info: Link coloring with OCG OFF on input line 6052.
+Package hyperref Info: PDF/A mode OFF on input line 6057.
+(/usr/share/texlive/texmf-dist/tex/latex/base/atbegshi-ltx.sty
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
-\Hy@abspage=\count316
-\c@Item=\count317
-\c@Hfootnote=\count318
+\Hy@abspage=\count308
+\c@Item=\count309
+\c@Hfootnote=\count310
 )
 Package hyperref Info: Driver (autodetected): hxetex.
-(c:/Users/miguel/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/hxetex.def
-File: hxetex.def 2024-11-05 v7.01l Hyperref driver for XeTeX
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hxetex.def
+File: hxetex.def 2022-11-13 v7.00u Hyperref driver for XeTeX
+(/usr/share/texlive/texmf-dist/tex/generic/stringenc/stringenc.sty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
+)
+)
 \pdfm@box=\box63
-\c@Hy@AnnotLevel=\count319
-\HyField@AnnotCount=\count320
-\Fld@listcount=\count321
-\c@bookmark@seq@number=\count322
-(c:/Users/miguel/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+\c@Hy@AnnotLevel=\count311
+\HyField@AnnotCount=\count312
+\Fld@listcount=\count313
+\c@bookmark@seq@number=\count314
+(/usr/share/texlive/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
 Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
-(c:/Users/miguel/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/atveryend-ltx.sty
-Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend package
+(/usr/share/texlive/texmf-dist/tex/latex/base/atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
+kage
 with kernel methods
-) (c:/Users/miguel/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+) (/usr/share/texlive/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
 Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
-Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 285.
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+85.
 )
-\Hy@SectionHShift=\skip65
-) (c:/Users/miguel/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/bookmark/bkm-dvipdfm.def
-File: bkm-dvipdfm.def 2023-12-10 v1.31 bookmark driver for dvipdfm (HO)
-\BKM@id=\count323
-))
+\Hy@SectionHShift=\skip64
+) (/usr/share/texlive/texmf-dist/tex/latex/bookmark/bkm-dvipdfm.def
+File: bkm-dvipdfm.def 2020-11-06 v1.29 bookmark driver for dvipdfm (HO)
+\BKM@id=\count315
+)) (/usr/share/texlive/texmf-dist/tex/latex/xurl/xurl.sty
+Package: xurl 2022/01/09 v 0.10 modify URL breaks
+)
 No file ADS-TIC-2025.aux.
 \openout1 = `ADS-TIC-2025.aux'.
 
@@ -427,122 +475,121 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/lmtt/m/n --> TU/lmtt/bx/n on input line 85.
 
-Package fontspec Info: 
-(fontspec)             latinmodern-math scale = 0.9999964596882403.
+Package fontspec Info: latinmodern-math scale = 0.9999964596882403.
 
 
-Package fontspec Info: 
-(fontspec)             latinmodern-math scale = 0.9999964596882403.
+Package fontspec Info: latinmodern-math scale = 0.9999964596882403.
 
 
-Package fontspec Info: 
-(fontspec)             latinmodern-math scale = 0.9999964596882403.
+Package fontspec Info: latinmodern-math scale = 0.9999964596882403.
 
 
-Package fontspec Info: 
-(fontspec)             Font family 'latinmodern-math.otf(0)' created for font
+Package fontspec Info: Font family 'latinmodern-math.otf(0)' created for font
 (fontspec)             'latinmodern-math.otf' with options
-(fontspec)             [Scale=MatchLowercase,BoldItalicFont={},ItalicFont={},SmallCapsFont={},Script=Math,BoldFont={latinmodern-math.otf}].
+(fontspec)             [Scale=MatchLowercase,BoldItalicFont={},ItalicFont={},Sm
+allCapsFont={},Script=Math,BoldFont={latinmodern-math.otf}].
 (fontspec)              
 (fontspec)              This font family consists of the following NFSS
 (fontspec)             series/shapes:
 (fontspec)              
 (fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->s*[0.9999964596882403]"[latinmodern-math.otf]/OT:script=math;language=dflt;"
+(fontspec)             <->s*[0.9999964596882403]"[latinmodern-math.otf]/OT:scri
+pt=math;language=dflt;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
 (fontspec)             - 'bold' (b/n) with NFSS spec.:
-(fontspec)             <->s*[0.9999964596882403]"[latinmodern-math.otf]/OT:script=math;language=dflt;"
+(fontspec)             <->s*[0.9999964596882403]"[latinmodern-math.otf]/OT:scri
+pt=math;language=dflt;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
 
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(0)/m/n' will be
 (Font)              scaled to size 10.0pt on input line 85.
 
-Package fontspec Info: 
-(fontspec)             latinmodern-math scale = 0.9999964596882403.
+Package fontspec Info: latinmodern-math scale = 0.9999964596882403.
 
 
-Package fontspec Info: 
-(fontspec)             latinmodern-math scale = 0.9999964596882403.
+Package fontspec Info: latinmodern-math scale = 0.9999964596882403.
 
 
-Package fontspec Info: 
-(fontspec)             latinmodern-math scale = 0.9999964596882403.
+Package fontspec Info: latinmodern-math scale = 0.9999964596882403.
 
 
-Package fontspec Info: 
-(fontspec)             latinmodern-math scale = 0.9999964596882403.
+Package fontspec Info: latinmodern-math scale = 0.9999964596882403.
 
 
-Package fontspec Info: 
-(fontspec)             latinmodern-math scale = 0.9999964596882403.
+Package fontspec Info: latinmodern-math scale = 0.9999964596882403.
 
 
-Package fontspec Info: 
-(fontspec)             Font family 'latinmodern-math.otf(1)' created for font
+Package fontspec Info: Font family 'latinmodern-math.otf(1)' created for font
 (fontspec)             'latinmodern-math.otf' with options
-(fontspec)             [Scale=MatchLowercase,BoldItalicFont={},ItalicFont={},SmallCapsFont={},Script=Math,SizeFeatures={{Size=8.5-},{Size=6-8.5,Font=latinmodern-math.otf,Style=MathScript},{Size=-6,Font=latinmodern-math.otf,Style=MathScriptScript}},BoldFont={latinmodern-math.otf}].
+(fontspec)             [Scale=MatchLowercase,BoldItalicFont={},ItalicFont={},Sm
+allCapsFont={},Script=Math,SizeFeatures={{Size=8.5-},{Size=6-8.5,Font=latinmode
+rn-math.otf,Style=MathScript},{Size=-6,Font=latinmodern-math.otf,Style=MathScri
+ptScript}},BoldFont={latinmodern-math.otf}].
 (fontspec)              
 (fontspec)              This font family consists of the following NFSS
 (fontspec)             series/shapes:
 (fontspec)              
 (fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <8.5->s*[0.9999964596882403]"[latinmodern-math.otf]/OT:script=math;language=dflt;"<6-8.5>s*[0.9999964596882403]"[latinmodern-math.otf]/OT:script=math;language=dflt;+ssty=0;"<-6>s*[0.9999964596882403]"[latinmodern-math.otf]/OT:script=math;language=dflt;+ssty=1;"
+(fontspec)             <8.5->s*[0.9999964596882403]"[latinmodern-math.otf]/OT:s
+cript=math;language=dflt;"<6-8.5>s*[0.9999964596882403]"[latinmodern-math.otf]/
+OT:script=math;language=dflt;+ssty=0;"<-6>s*[0.9999964596882403]"[latinmodern-m
+ath.otf]/OT:script=math;language=dflt;+ssty=1;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
 (fontspec)             - 'bold' (b/n) with NFSS spec.:
-(fontspec)             <->s*[0.9999964596882403]"[latinmodern-math.otf]/OT:script=math;language=dflt;"
+(fontspec)             <->s*[0.9999964596882403]"[latinmodern-math.otf]/OT:scri
+pt=math;language=dflt;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
 
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
 (Font)              scaled to size 10.0pt on input line 85.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
 (Font)              `operators' in the math version `normal' on input line 85.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/lmr/m/n --> TU/latinmodern-math.otf(1)/m/n on input line 85.
+(Font)                  OT1/lmr/m/n --> TU/latinmodern-math.otf(1)/m/n on input
+ line 85.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
 (Font)              `operators' in the math version `bold' on input line 85.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/lmr/bx/n --> TU/latinmodern-math.otf(1)/b/n on input line 85.
+(Font)                  OT1/lmr/bx/n --> TU/latinmodern-math.otf(1)/b/n on inpu
+t line 85.
 
-Package fontspec Info: 
-(fontspec)             latinmodern-math scale = 0.9999964596882403.
-
-
-Package fontspec Info: 
-(fontspec)             latinmodern-math scale = 1.000096459334209.
+Package fontspec Info: latinmodern-math scale = 0.9999964596882403.
 
 
-Package fontspec Info: 
-(fontspec)             latinmodern-math scale = 0.9999964596882403.
+Package fontspec Info: latinmodern-math scale = 1.000096459334209.
 
 
-Package fontspec Info: 
-(fontspec)             latinmodern-math scale = 1.000096459334209.
+Package fontspec Info: latinmodern-math scale = 0.9999964596882403.
 
 
-Package fontspec Info: 
-(fontspec)             latinmodern-math scale = 0.9999964596882403.
+Package fontspec Info: latinmodern-math scale = 1.000096459334209.
 
 
-Package fontspec Info: 
-(fontspec)             latinmodern-math scale = 1.000096459334209.
+Package fontspec Info: latinmodern-math scale = 0.9999964596882403.
 
 
-Package fontspec Info: 
-(fontspec)             latinmodern-math scale = 0.9999964596882403.
+Package fontspec Info: latinmodern-math scale = 1.000096459334209.
 
 
-Package fontspec Info: 
-(fontspec)             latinmodern-math scale = 1.000096459334209.
+Package fontspec Info: latinmodern-math scale = 0.9999964596882403.
 
 
-Package fontspec Info: 
-(fontspec)             latinmodern-math scale = 0.9999964596882403.
+Package fontspec Info: latinmodern-math scale = 1.000096459334209.
 
 
-Package fontspec Info: 
-(fontspec)             latinmodern-math scale = 1.000096459334209.
+Package fontspec Info: latinmodern-math scale = 0.9999964596882403.
 
 
-Package fontspec Info: 
-(fontspec)             Font family 'latinmodern-math.otf(2)' created for font
+Package fontspec Info: latinmodern-math scale = 1.000096459334209.
+
+
+Package fontspec Info: Font family 'latinmodern-math.otf(2)' created for font
 (fontspec)             'latinmodern-math.otf' with options
-(fontspec)             [Scale=MatchLowercase,BoldItalicFont={},ItalicFont={},SmallCapsFont={},Script=Math,SizeFeatures={{Size=8.5-},{Size=6-8.5,Font=latinmodern-math.otf,Style=MathScript},{Size=-6,Font=latinmodern-math.otf,Style=MathScriptScript}},BoldFont={latinmodern-math.otf},ScaleAgain=1.0001,FontAdjustment={\fontdimen
+(fontspec)             [Scale=MatchLowercase,BoldItalicFont={},ItalicFont={},Sm
+allCapsFont={},Script=Math,SizeFeatures={{Size=8.5-},{Size=6-8.5,Font=latinmode
+rn-math.otf,Style=MathScript},{Size=-6,Font=latinmodern-math.otf,Style=MathScri
+ptScript}},BoldFont={latinmodern-math.otf},ScaleAgain=1.0001,FontAdjustment={\f
+ontdimen
 (fontspec)             8\font =6.77pt\relax \fontdimen 9\font =3.94pt\relax
 (fontspec)             \fontdimen 10\font =4.44pt\relax \fontdimen 11\font
 (fontspec)             =6.86pt\relax \fontdimen 12\font =3.45pt\relax
@@ -558,63 +605,86 @@ Package fontspec Info:
 (fontspec)             series/shapes:
 (fontspec)              
 (fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <8.5->s*[1.000096459334209]"[latinmodern-math.otf]/OT:script=math;language=dflt;"<6-8.5>s*[1.000096459334209]"[latinmodern-math.otf]/OT:script=math;language=dflt;+ssty=0;"<-6>s*[1.000096459334209]"[latinmodern-math.otf]/OT:script=math;language=dflt;+ssty=1;"
+(fontspec)             <8.5->s*[1.000096459334209]"[latinmodern-math.otf]/OT:sc
+ript=math;language=dflt;"<6-8.5>s*[1.000096459334209]"[latinmodern-math.otf]/OT
+:script=math;language=dflt;+ssty=0;"<-6>s*[1.000096459334209]"[latinmodern-math
+.otf]/OT:script=math;language=dflt;+ssty=1;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             and font adjustment code:
+(fontspec)             \fontdimen 8\font =6.77pt\relax \fontdimen 9\font
+(fontspec)             =3.94pt\relax \fontdimen 10\font =4.44pt\relax
+(fontspec)             \fontdimen 11\font =6.86pt\relax \fontdimen 12\font
+(fontspec)             =3.45pt\relax \fontdimen 13\font =3.63pt\relax
+(fontspec)             \fontdimen 14\font =3.63pt\relax \fontdimen 15\font
+(fontspec)             =2.89pt\relax \fontdimen 16\font =2.47pt\relax
+(fontspec)             \fontdimen 17\font =2.47pt\relax \fontdimen 18\font
+(fontspec)             =2.5pt\relax \fontdimen 19\font =2.0pt\relax \fontdimen
+(fontspec)             22\font =2.5pt\relax \fontdimen 20\font =0pt\relax
+(fontspec)             \fontdimen 21\font =0pt\relax 
 (fontspec)             - 'bold' (b/n) with NFSS spec.:
-(fontspec)             <->s*[1.000096459334209]"[latinmodern-math.otf]/OT:script=math;language=dflt;"
+(fontspec)             <->s*[1.000096459334209]"[latinmodern-math.otf]/OT:scrip
+t=math;language=dflt;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+(fontspec)             and font adjustment code:
+(fontspec)             \fontdimen 8\font =6.77pt\relax \fontdimen 9\font
+(fontspec)             =3.94pt\relax \fontdimen 10\font =4.44pt\relax
+(fontspec)             \fontdimen 11\font =6.86pt\relax \fontdimen 12\font
+(fontspec)             =3.45pt\relax \fontdimen 13\font =3.63pt\relax
+(fontspec)             \fontdimen 14\font =3.63pt\relax \fontdimen 15\font
+(fontspec)             =2.89pt\relax \fontdimen 16\font =2.47pt\relax
+(fontspec)             \fontdimen 17\font =2.47pt\relax \fontdimen 18\font
+(fontspec)             =2.5pt\relax \fontdimen 19\font =2.0pt\relax \fontdimen
+(fontspec)             22\font =2.5pt\relax \fontdimen 20\font =0pt\relax
+(fontspec)             \fontdimen 21\font =0pt\relax 
 
 LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
 (Font)              `symbols' in the math version `normal' on input line 85.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
-(Font)                  OMS/lmsy/m/n --> TU/latinmodern-math.otf(2)/m/n on input line 85.
+(Font)                  OMS/lmsy/m/n --> TU/latinmodern-math.otf(2)/m/n on inpu
+t line 85.
 LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
 (Font)              `symbols' in the math version `bold' on input line 85.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
-(Font)                  OMS/lmsy/b/n --> TU/latinmodern-math.otf(2)/b/n on input line 85.
+(Font)                  OMS/lmsy/b/n --> TU/latinmodern-math.otf(2)/b/n on inpu
+t line 85.
 
-Package fontspec Info: 
-(fontspec)             latinmodern-math scale = 0.9999964596882403.
-
-
-Package fontspec Info: 
-(fontspec)             latinmodern-math scale = 0.9998964600422715.
+Package fontspec Info: latinmodern-math scale = 0.9999964596882403.
 
 
-Package fontspec Info: 
-(fontspec)             latinmodern-math scale = 0.9999964596882403.
+Package fontspec Info: latinmodern-math scale = 0.9998964600422715.
 
 
-Package fontspec Info: 
-(fontspec)             latinmodern-math scale = 0.9998964600422715.
+Package fontspec Info: latinmodern-math scale = 0.9999964596882403.
 
 
-Package fontspec Info: 
-(fontspec)             latinmodern-math scale = 0.9999964596882403.
+Package fontspec Info: latinmodern-math scale = 0.9998964600422715.
 
 
-Package fontspec Info: 
-(fontspec)             latinmodern-math scale = 0.9998964600422715.
+Package fontspec Info: latinmodern-math scale = 0.9999964596882403.
 
 
-Package fontspec Info: 
-(fontspec)             latinmodern-math scale = 0.9999964596882403.
+Package fontspec Info: latinmodern-math scale = 0.9998964600422715.
 
 
-Package fontspec Info: 
-(fontspec)             latinmodern-math scale = 0.9998964600422715.
+Package fontspec Info: latinmodern-math scale = 0.9999964596882403.
 
 
-Package fontspec Info: 
-(fontspec)             latinmodern-math scale = 0.9999964596882403.
+Package fontspec Info: latinmodern-math scale = 0.9998964600422715.
 
 
-Package fontspec Info: 
-(fontspec)             latinmodern-math scale = 0.9998964600422715.
+Package fontspec Info: latinmodern-math scale = 0.9999964596882403.
 
 
-Package fontspec Info: 
-(fontspec)             Font family 'latinmodern-math.otf(3)' created for font
+Package fontspec Info: latinmodern-math scale = 0.9998964600422715.
+
+
+Package fontspec Info: Font family 'latinmodern-math.otf(3)' created for font
 (fontspec)             'latinmodern-math.otf' with options
-(fontspec)             [Scale=MatchLowercase,BoldItalicFont={},ItalicFont={},SmallCapsFont={},Script=Math,SizeFeatures={{Size=8.5-},{Size=6-8.5,Font=latinmodern-math.otf,Style=MathScript},{Size=-6,Font=latinmodern-math.otf,Style=MathScriptScript}},BoldFont={latinmodern-math.otf},ScaleAgain=0.9999,FontAdjustment={\fontdimen
+(fontspec)             [Scale=MatchLowercase,BoldItalicFont={},ItalicFont={},Sm
+allCapsFont={},Script=Math,SizeFeatures={{Size=8.5-},{Size=6-8.5,Font=latinmode
+rn-math.otf,Style=MathScript},{Size=-6,Font=latinmodern-math.otf,Style=MathScri
+ptScript}},BoldFont={latinmodern-math.otf},ScaleAgain=0.9999,FontAdjustment={\f
+ontdimen
 (fontspec)             8\font =0.4pt\relax \fontdimen 9\font =2.0pt\relax
 (fontspec)             \fontdimen 10\font =1.67pt\relax \fontdimen 11\font
 (fontspec)             =1.11pt\relax \fontdimen 12\font =6.0pt\relax
@@ -624,18 +694,52 @@ Package fontspec Info:
 (fontspec)             series/shapes:
 (fontspec)              
 (fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <8.5->s*[0.9998964600422715]"[latinmodern-math.otf]/OT:script=math;language=dflt;"<6-8.5>s*[0.9998964600422715]"[latinmodern-math.otf]/OT:script=math;language=dflt;+ssty=0;"<-6>s*[0.9998964600422715]"[latinmodern-math.otf]/OT:script=math;language=dflt;+ssty=1;"
+(fontspec)             <8.5->s*[0.9998964600422715]"[latinmodern-math.otf]/OT:s
+cript=math;language=dflt;"<6-8.5>s*[0.9998964600422715]"[latinmodern-math.otf]/
+OT:script=math;language=dflt;+ssty=0;"<-6>s*[0.9998964600422715]"[latinmodern-m
+ath.otf]/OT:script=math;language=dflt;+ssty=1;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             and font adjustment code:
+(fontspec)             \fontdimen 8\font =0.4pt\relax \fontdimen 9\font
+(fontspec)             =2.0pt\relax \fontdimen 10\font =1.67pt\relax
+(fontspec)             \fontdimen 11\font =1.11pt\relax \fontdimen 12\font
+(fontspec)             =6.0pt\relax \fontdimen 13\font =0pt\relax 
 (fontspec)             - 'bold' (b/n) with NFSS spec.:
-(fontspec)             <->s*[0.9998964600422715]"[latinmodern-math.otf]/OT:script=math;language=dflt;"
+(fontspec)             <->s*[0.9998964600422715]"[latinmodern-math.otf]/OT:scri
+pt=math;language=dflt;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+(fontspec)             and font adjustment code:
+(fontspec)             \fontdimen 8\font =0.4pt\relax \fontdimen 9\font
+(fontspec)             =2.0pt\relax \fontdimen 10\font =1.67pt\relax
+(fontspec)             \fontdimen 11\font =1.11pt\relax \fontdimen 12\font
+(fontspec)             =6.0pt\relax \fontdimen 13\font =0pt\relax 
 
 LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
-(Font)              `largesymbols' in the math version `normal' on input line 85.
+(Font)              `largesymbols' in the math version `normal' on input line 8
+5.
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
-(Font)                  OMX/lmex/m/n --> TU/latinmodern-math.otf(3)/m/n on input line 85.
+(Font)                  OMX/lmex/m/n --> TU/latinmodern-math.otf(3)/m/n on inpu
+t line 85.
 LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
 (Font)              `largesymbols' in the math version `bold' on input line 85.
+
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
-(Font)                  OMX/lmex/m/n --> TU/latinmodern-math.otf(3)/b/n on input line 85.
+(Font)                  OMX/lmex/m/n --> TU/latinmodern-math.otf(3)/b/n on inpu
+t line 85.
+LaTeX Info: Redefining \microtypecontext on input line 85.
+Package microtype Info: Applying patch `item' on input line 85.
+Package microtype Info: Applying patch `toc' on input line 85.
+Package microtype Info: Applying patch `eqnum' on input line 85.
+Package microtype Info: Applying patch `footnote' on input line 85.
+Package microtype Info: Character protrusion enabled (level 2).
+Package microtype Info: Using protrusion set `basicmath'.
+Package microtype Info: No adjustment of tracking.
+Package microtype Info: No adjustment of spacing.
+Package microtype Info: No adjustment of kerning.
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-LatinModernRoman.cfg
+File: mt-LatinModernRoman.cfg 2021/02/21 v1.1 microtype config. file: Latin Mod
+ern Roman (RS)
+)
 Package hyperref Info: Link coloring OFF on input line 85.
 
 Package hyperref Warning: Rerun to get /PageLabels entry.
@@ -646,8 +750,9 @@ LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
 (Font)              scaled to size 8.0pt on input line 87.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
 (Font)              scaled to size 6.0pt on input line 87.
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 87.
-(c:/Users/miguel/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/omllmm.fd
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 8
+7.
+(/usr/share/texmf/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
@@ -663,31 +768,29 @@ LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
 (Font)              scaled to size 5.99936pt on input line 87.
 LaTeX Font Info:    Trying to load font information for U+msa on input line 87.
-(c:/Users/miguel/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsfonts/umsa.fd
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+) (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msa.cfg
+File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
 LaTeX Font Info:    Trying to load font information for U+msb on input line 87.
-(c:/Users/miguel/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsfonts/umsb.fd
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
+) (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msb.cfg
+File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
+) [1
 
-[1
 
-
-]
-
-[2
+] [2
 
 ]
 No file ADS-TIC-2025.toc.
 \tf@toc=\write3
 \openout3 = `ADS-TIC-2025.toc'.
 
-
-
-[3]
-
-[4
+[3] [4
 
 ]
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
@@ -706,58 +809,36 @@ LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
 (Font)              scaled to size 6.99925pt on input line 99.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
 (Font)              scaled to size 4.99947pt on input line 99.
-
-Overfull \hbox (18.02998pt too wide) in paragraph at lines 99--100
-[]$[][][][][] [] [] [] [][][][][][][][][][][][][][][] [] [][][][][][] [] [][] [] [][][] [][] [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]$[] 
- []
-
 File: images/qr-code/repositório.jpg Graphic file (type bmp)
 <images/qr-code/repositório.jpg>
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-
 [5]
-Overfull \hbox (46.26997pt too wide) in paragraph at lines 109--110
-[]$[][][][][] [] [] [] [][][][] [] [][][][][][] [] [][][] [] [][][][][] [] [][][][] [] [][][][][][][] [] [][] [] [][][] [] [][][][][][][][][] [] [][][][][][][][][][][][][][][][][][][][][][] []
- []
-
 File: images/qr-code/leitor_ebook/MoonReaderPlus.jpg Graphic file (type bmp)
 <images/qr-code/leitor_ebook/MoonReaderPlus.jpg>
 
-Underfull \vbox (badness 2401) has occurred while \output is active []
-
-
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 [6]
-Underfull \hbox (badness 10000) in paragraph at lines 115--116
-[]$[][][][][] [] [] [] [][][][] [] [][][][][] [] [][][] [] [][] [] [][][] [] [][][][] [][] [][][][][][] [][] [][][] [][] [][][][] [][] [][][] [][] [][][] [] [][][][][][][][][][][][] []
- []
-
 File: images/qr-code/leitor_ebook/AppleEpubReader.jpg Graphic file (type bmp)
 <images/qr-code/leitor_ebook/AppleEpubReader.jpg>
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-
-[7]
-
-[8]
-File: images/livros/livro-SistemasDeInformação-BelmiroNascimentoJoao-2ed-person.jpg Graphic file (type bmp)
+[7] [8]
+File: images/livros/livro-SistemasDeInformação-BelmiroNascimentoJoao-2ed-person
+.jpg Graphic file (type bmp)
 <images/livros/livro-SistemasDeInformação-BelmiroNascimentoJoao-2ed-person.jpg>
+
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-
 [9
 
-]
-
-[10]
-Missing character: There is no ̧ (U+0327) in font [lmroman10-regular]:mapping=tex-text;!
+] [10]
+Missing character: There is no ̧ (U+0327) in font [lmroman10-regular]:mapping=t
+ex-text;!
 
 Package longtable Warning: Column widths have changed
 (longtable)                in table 1 on input line 165.
@@ -771,12 +852,10 @@ Package longtable Warning: Column widths have changed
 (longtable)                in table 3 on input line 196.
 
 
-
-[11]
-
 Package longtable Warning: Column widths have changed
 (longtable)                in table 4 on input line 211.
 
+[11]
 
 Package longtable Warning: Column widths have changed
 (longtable)                in table 5 on input line 226.
@@ -806,14 +885,10 @@ Package longtable Warning: Column widths have changed
 Package longtable Warning: Column widths have changed
 (longtable)                in table 11 on input line 453.
 
-[13] [14] [15]
-
-[16]
+[13] [14] [15] [16]
 Chapter 1.
 File: images/belmiro_do_nascimento_joao-2.jpg Graphic file (type bmp)
 <images/belmiro_do_nascimento_joao-2.jpg>
-
-
 [17
 
 ]
@@ -822,46 +897,41 @@ File: images/1-dados-info/Dados-Info.jpg Graphic file (type bmp)
 File: images/Ken_Jane.jpg Graphic file (type bmp)
 <images/Ken_Jane.jpg>
 
-
-
 Overfull \hbox (98.01234pt too wide) has occurred while \output is active
-\TU/lmr/m/n/10 18 \TU/lmr/m/sl/10 CHAPTER 1.  INTRODUÇÃO A TIC (TECNOLOGIA DA INFORMAÇÃO E COMUNICAÇÕES)
+\TU/lmr/m/n/10 18 \TU/lmr/m/sl/10 CHAPTER 1.  INTRODUÇÃO A TIC (TECNOLOGIA DA I
+NFORMAÇÃO E COMUNICAÇÕES)
  []
 
 [18]
-Overfull \hbox (399.55998pt too wide) in paragraph at lines 511--512
-[]\TU/lmr/m/n/10 a ) sim ? Porque ?_________________________________________________________________________________________ 
+Overfull \hbox (398.05998pt too wide) in paragraph at lines 511--512
+[]\TU/lmr/m/n/10 a ) sim ? Porque ?____________________________________________
+_____________________________________________ 
  []
 
 
-Overfull \hbox (411.73997pt too wide) in paragraph at lines 518--519
-[]\TU/lmr/m/n/10 nâo ? Porque ?_________________________________________________________________________________________ 
+Overfull \hbox (410.23997pt too wide) in paragraph at lines 518--519
+[]\TU/lmr/m/n/10 nâo ? Porque ?________________________________________________
+_________________________________________ 
  []
 
 File: images/processamento-dados-computador.png Graphic file (type bmp)
 <images/processamento-dados-computador.png>
-
-
 [19]
 File: images/clipboard-3657052893.png Graphic file (type bmp)
 <images/clipboard-3657052893.png>
 
-Underfull \vbox (badness 2253) has occurred while \output is active []
-
-
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 Overfull \hbox (98.01234pt too wide) has occurred while \output is active
-\TU/lmr/m/n/10 20 \TU/lmr/m/sl/10 CHAPTER 1.  INTRODUÇÃO A TIC (TECNOLOGIA DA INFORMAÇÃO E COMUNICAÇÕES)
+\TU/lmr/m/n/10 20 \TU/lmr/m/sl/10 CHAPTER 1.  INTRODUÇÃO A TIC (TECNOLOGIA DA I
+NFORMAÇÃO E COMUNICAÇÕES)
  []
 
-[20]
-
-[21]
-
-
+[20] [21]
 Overfull \hbox (98.01234pt too wide) has occurred while \output is active
-\TU/lmr/m/n/10 22 \TU/lmr/m/sl/10 CHAPTER 1.  INTRODUÇÃO A TIC (TECNOLOGIA DA INFORMAÇÃO E COMUNICAÇÕES)
+\TU/lmr/m/n/10 22 \TU/lmr/m/sl/10 CHAPTER 1.  INTRODUÇÃO A TIC (TECNOLOGIA DA I
+NFORMAÇÃO E COMUNICAÇÕES)
  []
 
 [22]
@@ -872,8 +942,6 @@ File: images/organogramas/Organograma-empresarial.jpg Graphic file (type bmp)
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-
 [23]
 File: images/organogramas/OrganogramaIndustrial.jpg Graphic file (type bmp)
 <images/organogramas/OrganogramaIndustrial.jpg>
@@ -881,10 +949,9 @@ File: images/organogramas/OrganogramaIndustrial.jpg Graphic file (type bmp)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-
-
 Overfull \hbox (98.01234pt too wide) has occurred while \output is active
-\TU/lmr/m/n/10 24 \TU/lmr/m/sl/10 CHAPTER 1.  INTRODUÇÃO A TIC (TECNOLOGIA DA INFORMAÇÃO E COMUNICAÇÕES)
+\TU/lmr/m/n/10 24 \TU/lmr/m/sl/10 CHAPTER 1.  INTRODUÇÃO A TIC (TECNOLOGIA DA I
+NFORMAÇÃO E COMUNICAÇÕES)
  []
 
 [24]
@@ -898,8 +965,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 647--647
 
 Underfull \vbox (badness 2608) has occurred while \output is active []
 
-
-
 [25]
 File: images/1-dados-info/AreasBasicasEmpresa.jpg Graphic file (type bmp)
 <images/1-dados-info/AreasBasicasEmpresa.jpg>
@@ -907,10 +972,9 @@ File: images/1-dados-info/AreasBasicasEmpresa.jpg Graphic file (type bmp)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-
-
 Overfull \hbox (98.01234pt too wide) has occurred while \output is active
-\TU/lmr/m/n/10 26 \TU/lmr/m/sl/10 CHAPTER 1.  INTRODUÇÃO A TIC (TECNOLOGIA DA INFORMAÇÃO E COMUNICAÇÕES)
+\TU/lmr/m/n/10 26 \TU/lmr/m/sl/10 CHAPTER 1.  INTRODUÇÃO A TIC (TECNOLOGIA DA I
+NFORMAÇÃO E COMUNICAÇÕES)
  []
 
 [26]
@@ -918,8 +982,6 @@ File: images/1-dados-info/ProcessosNegócioMapeados.jpg Graphic file (type bmp)
 <images/1-dados-info/ProcessosNegócioMapeados.jpg>
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
 
 [27]
 Overfull \hbox (2.5315pt too wide) in paragraph at lines 698--698
@@ -937,10 +999,12 @@ Overfull \hbox (20.1715pt too wide) in paragraph at lines 700--700
  []
 
 
+Underfull \vbox (badness 3260) has occurred while \output is active []
 
 
 Overfull \hbox (98.01234pt too wide) has occurred while \output is active
-\TU/lmr/m/n/10 28 \TU/lmr/m/sl/10 CHAPTER 1.  INTRODUÇÃO A TIC (TECNOLOGIA DA INFORMAÇÃO E COMUNICAÇÕES)
+\TU/lmr/m/n/10 28 \TU/lmr/m/sl/10 CHAPTER 1.  INTRODUÇÃO A TIC (TECNOLOGIA DA I
+NFORMAÇÃO E COMUNICAÇÕES)
  []
 
 [28]
@@ -954,13 +1018,13 @@ Overfull \hbox (108.95316pt too wide) in paragraph at lines 728--729
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-
 [29]
+Underfull \vbox (badness 1394) has occurred while \output is active []
 
 
 Overfull \hbox (98.01234pt too wide) has occurred while \output is active
-\TU/lmr/m/n/10 30 \TU/lmr/m/sl/10 CHAPTER 1.  INTRODUÇÃO A TIC (TECNOLOGIA DA INFORMAÇÃO E COMUNICAÇÕES)
+\TU/lmr/m/n/10 30 \TU/lmr/m/sl/10 CHAPTER 1.  INTRODUÇÃO A TIC (TECNOLOGIA DA I
+NFORMAÇÃO E COMUNICAÇÕES)
  []
 
 [30]
@@ -972,15 +1036,12 @@ Overfull \hbox (192.45726pt too wide) in paragraph at lines 774--775
  []
 
 
-Underfull \vbox (badness 6396) has occurred while \output is active []
-
-
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 [31]
-
-
 Overfull \hbox (98.01234pt too wide) has occurred while \output is active
-\TU/lmr/m/n/10 32 \TU/lmr/m/sl/10 CHAPTER 1.  INTRODUÇÃO A TIC (TECNOLOGIA DA INFORMAÇÃO E COMUNICAÇÕES)
+\TU/lmr/m/n/10 32 \TU/lmr/m/sl/10 CHAPTER 1.  INTRODUÇÃO A TIC (TECNOLOGIA DA I
+NFORMAÇÃO E COMUNICAÇÕES)
  []
 
 [32]
@@ -991,55 +1052,45 @@ Overfull \hbox (138.3094pt too wide) in paragraph at lines 810--811
 [] 
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
 [33]
-
-
 Overfull \hbox (98.01234pt too wide) has occurred while \output is active
-\TU/lmr/m/n/10 34 \TU/lmr/m/sl/10 CHAPTER 1.  INTRODUÇÃO A TIC (TECNOLOGIA DA INFORMAÇÃO E COMUNICAÇÕES)
+\TU/lmr/m/n/10 34 \TU/lmr/m/sl/10 CHAPTER 1.  INTRODUÇÃO A TIC (TECNOLOGIA DA I
+NFORMAÇÃO E COMUNICAÇÕES)
  []
 
 [34]
-
-[35]
-Underfull \hbox (badness 4060) in paragraph at lines 905--907
+Underfull \hbox (badness 4403) in paragraph at lines 905--907
 []\TU/lmr/m/n/10 Um SI é usado para transformar dados em informações úteis,
  []
 
-
-
-
-Overfull \hbox (98.01234pt too wide) has occurred while \output is active
-\TU/lmr/m/n/10 36 \TU/lmr/m/sl/10 CHAPTER 1.  INTRODUÇÃO A TIC (TECNOLOGIA DA INFORMAÇÃO E COMUNICAÇÕES)
- []
-
-[36]
+[35]
 Underfull \hbox (badness 3250) in paragraph at lines 969--970
 \TU/lmr/m/n/10 são CLIENTES, FORNECEDORES, FUNCIONÁRIOS, PRODUTOS E
  []
 
 
-
-[37]
-
-
 Overfull \hbox (98.01234pt too wide) has occurred while \output is active
-\TU/lmr/m/n/10 38 \TU/lmr/m/sl/10 CHAPTER 1.  INTRODUÇÃO A TIC (TECNOLOGIA DA INFORMAÇÃO E COMUNICAÇÕES)
+\TU/lmr/m/n/10 36 \TU/lmr/m/sl/10 CHAPTER 1.  INTRODUÇÃO A TIC (TECNOLOGIA DA I
+NFORMAÇÃO E COMUNICAÇÕES)
  []
 
-[38]
+[36] [37]
+Overfull \hbox (98.01234pt too wide) has occurred while \output is active
+\TU/lmr/m/n/10 38 \TU/lmr/m/sl/10 CHAPTER 1.  INTRODUÇÃO A TIC (TECNOLOGIA DA I
+NFORMAÇÃO E COMUNICAÇÕES)
+ []
+
+[38
+
+]
 Chapter 2.
 
-Overfull \hbox (9.5173pt too wide) in paragraph at lines 1066--1067
+Overfull \hbox (9.1573pt too wide) in paragraph at lines 1066--1067
 []\TU/lmr/m/n/10 Turma  
  []
 
 
-Overfull \hbox (15.54184pt too wide) in paragraph at lines 1078--1078
+Overfull \hbox (13.87184pt too wide) in paragraph at lines 1078--1078
 []|\TU/lmr/m/n/10 R448DE- 
  []
 
@@ -1049,7 +1100,7 @@ Overfull \hbox (15.3273pt too wide) in paragraph at lines 1078--1078
  []
 
 
-Overfull \hbox (11.09184pt too wide) in paragraph at lines 1079--1079
+Overfull \hbox (9.42184pt too wide) in paragraph at lines 1079--1079
 []|\TU/lmr/m/n/10 R85236- 
  []
 
@@ -1059,7 +1110,7 @@ Overfull \hbox (16.2973pt too wide) in paragraph at lines 1079--1079
  []
 
 
-Overfull \hbox (11.23184pt too wide) in paragraph at lines 1080--1080
+Overfull \hbox (9.56184pt too wide) in paragraph at lines 1080--1080
 []|\TU/lmr/m/n/10 H75556- 
  []
 
@@ -1069,7 +1120,7 @@ Overfull \hbox (16.2973pt too wide) in paragraph at lines 1080--1080
  []
 
 
-Overfull \hbox (13.59184pt too wide) in paragraph at lines 1081--1081
+Overfull \hbox (11.92184pt too wide) in paragraph at lines 1081--1081
 []|\TU/lmr/m/n/10 R8699H- 
  []
 
@@ -1079,7 +1130,7 @@ Overfull \hbox (16.2973pt too wide) in paragraph at lines 1081--1081
  []
 
 
-Overfull \hbox (10.40184pt too wide) in paragraph at lines 1082--1082
+Overfull \hbox (8.73184pt too wide) in paragraph at lines 1082--1082
 []|\TU/lmr/m/n/10 F3620J- 
  []
 
@@ -1089,7 +1140,7 @@ Overfull \hbox (15.3273pt too wide) in paragraph at lines 1082--1082
  []
 
 
-Overfull \hbox (14.70184pt too wide) in paragraph at lines 1083--1083
+Overfull \hbox (13.03185pt too wide) in paragraph at lines 1083--1083
 []|\TU/lmr/m/n/10 R427FB- 
  []
 
@@ -1099,7 +1150,7 @@ Overfull \hbox (15.3273pt too wide) in paragraph at lines 1083--1083
  []
 
 
-Overfull \hbox (11.09184pt too wide) in paragraph at lines 1084--1084
+Overfull \hbox (9.42184pt too wide) in paragraph at lines 1084--1084
 []|\TU/lmr/m/n/10 R65838- 
  []
 
@@ -1109,7 +1160,7 @@ Overfull \hbox (16.2973pt too wide) in paragraph at lines 1084--1084
  []
 
 
-Overfull \hbox (14.08185pt too wide) in paragraph at lines 1085--1085
+Overfull \hbox (12.41185pt too wide) in paragraph at lines 1085--1085
 []|\TU/lmr/m/n/10 H6771G- 
  []
 
@@ -1119,7 +1170,7 @@ Overfull \hbox (15.3273pt too wide) in paragraph at lines 1085--1085
  []
 
 
-Overfull \hbox (13.31184pt too wide) in paragraph at lines 1086--1086
+Overfull \hbox (11.64185pt too wide) in paragraph at lines 1086--1086
 []|\TU/lmr/m/n/10 R8459C- 
  []
 
@@ -1129,7 +1180,7 @@ Overfull \hbox (15.3273pt too wide) in paragraph at lines 1086--1086
  []
 
 
-Overfull \hbox (13.17184pt too wide) in paragraph at lines 1087--1087
+Overfull \hbox (11.50185pt too wide) in paragraph at lines 1087--1087
 []|\TU/lmr/m/n/10 R8461B- 
  []
 
@@ -1144,7 +1195,7 @@ Overfull \hbox (2.7155pt too wide) in paragraph at lines 1088--1088
  []
 
 
-Overfull \hbox (13.04184pt too wide) in paragraph at lines 1088--1088
+Overfull \hbox (11.37184pt too wide) in paragraph at lines 1088--1088
 []|\TU/lmr/m/n/10 H5963E- 
  []
 
@@ -1154,7 +1205,7 @@ Overfull \hbox (16.2973pt too wide) in paragraph at lines 1088--1088
  []
 
 
-Overfull \hbox (13.60184pt too wide) in paragraph at lines 1089--1089
+Overfull \hbox (11.93184pt too wide) in paragraph at lines 1089--1089
 []|\TU/lmr/m/n/10 F362EF- 
  []
 
@@ -1164,7 +1215,7 @@ Overfull \hbox (15.3273pt too wide) in paragraph at lines 1089--1089
  []
 
 
-Overfull \hbox (16.16183pt too wide) in paragraph at lines 1090--1090
+Overfull \hbox (14.49184pt too wide) in paragraph at lines 1090--1090
 []|\TU/lmr/m/n/10 R692AG- 
  []
 
@@ -1174,7 +1225,7 @@ Overfull \hbox (15.3273pt too wide) in paragraph at lines 1090--1090
  []
 
 
-Overfull \hbox (13.87184pt too wide) in paragraph at lines 1091--1091
+Overfull \hbox (12.20184pt too wide) in paragraph at lines 1091--1091
 []|\TU/lmr/m/n/10 H7501D- 
  []
 
@@ -1189,7 +1240,7 @@ Overfull \hbox (2.7155pt too wide) in paragraph at lines 1092--1092
  []
 
 
-Overfull \hbox (12.34184pt too wide) in paragraph at lines 1092--1092
+Overfull \hbox (10.67184pt too wide) in paragraph at lines 1092--1092
 []|\TU/lmr/m/n/10 R851DI- 
  []
 
@@ -1199,7 +1250,7 @@ Overfull \hbox (16.2973pt too wide) in paragraph at lines 1092--1092
  []
 
 
-Overfull \hbox (13.94185pt too wide) in paragraph at lines 1093--1093
+Overfull \hbox (12.27185pt too wide) in paragraph at lines 1093--1093
 []|\TU/lmr/m/n/10 H74FGI- 
  []
 
@@ -1209,7 +1260,7 @@ Overfull \hbox (15.3273pt too wide) in paragraph at lines 1093--1093
  []
 
 
-Overfull \hbox (13.31184pt too wide) in paragraph at lines 1094--1094
+Overfull \hbox (11.64185pt too wide) in paragraph at lines 1094--1094
 []|\TU/lmr/m/n/10 R6607C- 
  []
 
@@ -1224,7 +1275,7 @@ Overfull \hbox (2.7155pt too wide) in paragraph at lines 1095--1095
  []
 
 
-Overfull \hbox (15.39185pt too wide) in paragraph at lines 1095--1095
+Overfull \hbox (13.72185pt too wide) in paragraph at lines 1095--1095
 []|\TU/lmr/m/n/10 R218BC- 
  []
 
@@ -1234,7 +1285,7 @@ Overfull \hbox (16.2973pt too wide) in paragraph at lines 1095--1095
  []
 
 
-Overfull \hbox (12.55185pt too wide) in paragraph at lines 1096--1096
+Overfull \hbox (10.88185pt too wide) in paragraph at lines 1096--1096
 []|\TU/lmr/m/n/10 R671IG- 
  []
 
@@ -1249,7 +1300,7 @@ Overfull \hbox (2.7155pt too wide) in paragraph at lines 1097--1097
  []
 
 
-Overfull \hbox (14.01184pt too wide) in paragraph at lines 1097--1097
+Overfull \hbox (12.34184pt too wide) in paragraph at lines 1097--1097
 []|\TU/lmr/m/n/10 R536FA- 
  []
 
@@ -1264,7 +1315,7 @@ Overfull \hbox (2.7155pt too wide) in paragraph at lines 1098--1098
  []
 
 
-Overfull \hbox (13.94185pt too wide) in paragraph at lines 1098--1098
+Overfull \hbox (12.27185pt too wide) in paragraph at lines 1098--1098
 []|\TU/lmr/m/n/10 R6607G- 
  []
 
@@ -1274,7 +1325,7 @@ Overfull \hbox (12.9573pt too wide) in paragraph at lines 1098--1098
  []
 
 
-Overfull \hbox (11.09184pt too wide) in paragraph at lines 1099--1099
+Overfull \hbox (9.42184pt too wide) in paragraph at lines 1099--1099
 []|\TU/lmr/m/n/10 R83238- 
  []
 
@@ -1284,7 +1335,7 @@ Overfull \hbox (15.3273pt too wide) in paragraph at lines 1099--1099
  []
 
 
-Overfull \hbox (11.23184pt too wide) in paragraph at lines 1100--1100
+Overfull \hbox (9.56184pt too wide) in paragraph at lines 1100--1100
 []|\TU/lmr/m/n/10 H76688- 
  []
 
@@ -1294,7 +1345,7 @@ Overfull \hbox (16.2973pt too wide) in paragraph at lines 1100--1100
  []
 
 
-Overfull \hbox (15.95184pt too wide) in paragraph at lines 1101--1101
+Overfull \hbox (14.28185pt too wide) in paragraph at lines 1101--1101
 []|\TU/lmr/m/n/10 H759CH- 
  []
 
@@ -1304,7 +1355,7 @@ Overfull \hbox (16.2973pt too wide) in paragraph at lines 1101--1101
  []
 
 
-Overfull \hbox (15.95184pt too wide) in paragraph at lines 1102--1102
+Overfull \hbox (14.28185pt too wide) in paragraph at lines 1102--1102
 []|\TU/lmr/m/n/10 R839DA- 
  []
 
@@ -1314,7 +1365,7 @@ Overfull \hbox (16.2973pt too wide) in paragraph at lines 1102--1102
  []
 
 
-Overfull \hbox (15.40184pt too wide) in paragraph at lines 1103--1103
+Overfull \hbox (13.73184pt too wide) in paragraph at lines 1103--1103
 []|\TU/lmr/m/n/10 R540EA- 
  []
 
@@ -1324,7 +1375,7 @@ Overfull \hbox (16.2973pt too wide) in paragraph at lines 1103--1103
  []
 
 
-Overfull \hbox (15.26184pt too wide) in paragraph at lines 1104--1104
+Overfull \hbox (13.59184pt too wide) in paragraph at lines 1104--1104
 []|\TU/lmr/m/n/10 H750FH- 
  []
 
@@ -1334,7 +1385,7 @@ Overfull \hbox (15.3273pt too wide) in paragraph at lines 1104--1104
  []
 
 
-Overfull \hbox (15.54184pt too wide) in paragraph at lines 1105--1105
+Overfull \hbox (13.87184pt too wide) in paragraph at lines 1105--1105
 []|\TU/lmr/m/n/10 R512ED- 
  []
 
@@ -1344,7 +1395,7 @@ Overfull \hbox (15.3273pt too wide) in paragraph at lines 1105--1105
  []
 
 
-Overfull \hbox (15.26184pt too wide) in paragraph at lines 1106--1106
+Overfull \hbox (13.59184pt too wide) in paragraph at lines 1106--1106
 []|\TU/lmr/m/n/10 H671CE- 
  []
 
@@ -1354,7 +1405,7 @@ Overfull \hbox (16.2973pt too wide) in paragraph at lines 1106--1106
  []
 
 
-Overfull \hbox (13.45184pt too wide) in paragraph at lines 1107--1107
+Overfull \hbox (11.78185pt too wide) in paragraph at lines 1107--1107
 []|\TU/lmr/m/n/10 R603CJ- 
  []
 
@@ -1364,7 +1415,7 @@ Overfull \hbox (15.3273pt too wide) in paragraph at lines 1107--1107
  []
 
 
-Overfull \hbox (11.23184pt too wide) in paragraph at lines 1108--1108
+Overfull \hbox (9.56184pt too wide) in paragraph at lines 1108--1108
 []|\TU/lmr/m/n/10 R434FI- 
  []
 
@@ -1374,7 +1425,7 @@ Overfull \hbox (15.3273pt too wide) in paragraph at lines 1108--1108
  []
 
 
-Overfull \hbox (16.23184pt too wide) in paragraph at lines 1109--1109
+Overfull \hbox (14.56184pt too wide) in paragraph at lines 1109--1109
 []|\TU/lmr/m/n/10 H755HH- 
  []
 
@@ -1389,7 +1440,7 @@ Overfull \hbox (2.7155pt too wide) in paragraph at lines 1110--1110
  []
 
 
-Overfull \hbox (11.23184pt too wide) in paragraph at lines 1110--1110
+Overfull \hbox (9.56184pt too wide) in paragraph at lines 1110--1110
 []|\TU/lmr/m/n/10 R7994J- 
  []
 
@@ -1404,7 +1455,7 @@ Overfull \hbox (2.7155pt too wide) in paragraph at lines 1111--1111
  []
 
 
-Overfull \hbox (16.09184pt too wide) in paragraph at lines 1111--1111
+Overfull \hbox (14.42184pt too wide) in paragraph at lines 1111--1111
 []|\TU/lmr/m/n/10 R837AA- 
  []
 
@@ -1419,7 +1470,7 @@ Overfull \hbox (2.7155pt too wide) in paragraph at lines 1112--1112
  []
 
 
-Overfull \hbox (11.23184pt too wide) in paragraph at lines 1112--1112
+Overfull \hbox (9.56184pt too wide) in paragraph at lines 1112--1112
 []|\TU/lmr/m/n/10 H71441- 
  []
 
@@ -1429,7 +1480,7 @@ Overfull \hbox (12.9573pt too wide) in paragraph at lines 1112--1112
  []
 
 
-Overfull \hbox (13.59184pt too wide) in paragraph at lines 1113--1113
+Overfull \hbox (11.92184pt too wide) in paragraph at lines 1113--1113
 []|\TU/lmr/m/n/10 R8245A- 
  []
 
@@ -1444,7 +1495,7 @@ Overfull \hbox (2.7155pt too wide) in paragraph at lines 1114--1114
  []
 
 
-Overfull \hbox (11.23184pt too wide) in paragraph at lines 1114--1114
+Overfull \hbox (9.56184pt too wide) in paragraph at lines 1114--1114
 []|\TU/lmr/m/n/10 R8439J- 
  []
 
@@ -1454,7 +1505,7 @@ Overfull \hbox (16.2973pt too wide) in paragraph at lines 1114--1114
  []
 
 
-Overfull \hbox (11.23184pt too wide) in paragraph at lines 1115--1115
+Overfull \hbox (9.56184pt too wide) in paragraph at lines 1115--1115
 []|\TU/lmr/m/n/10 H60306- 
  []
 
@@ -1464,7 +1515,7 @@ Overfull \hbox (15.3273pt too wide) in paragraph at lines 1115--1115
  []
 
 
-Overfull \hbox (11.09184pt too wide) in paragraph at lines 1116--1116
+Overfull \hbox (9.42184pt too wide) in paragraph at lines 1116--1116
 []|\TU/lmr/m/n/10 R81554- 
  []
 
@@ -1474,7 +1525,7 @@ Overfull \hbox (15.3273pt too wide) in paragraph at lines 1116--1116
  []
 
 
-Overfull \hbox (13.59184pt too wide) in paragraph at lines 1117--1117
+Overfull \hbox (11.92184pt too wide) in paragraph at lines 1117--1117
 []|\TU/lmr/m/n/10 R8662A- 
  []
 
@@ -1484,7 +1535,7 @@ Overfull \hbox (16.2973pt too wide) in paragraph at lines 1117--1117
  []
 
 
-Overfull \hbox (15.67184pt too wide) in paragraph at lines 1118--1118
+Overfull \hbox (14.00185pt too wide) in paragraph at lines 1118--1118
 []|\TU/lmr/m/n/10 R846HB- 
  []
 
@@ -1494,7 +1545,7 @@ Overfull \hbox (15.3273pt too wide) in paragraph at lines 1118--1118
  []
 
 
-Overfull \hbox (13.73184pt too wide) in paragraph at lines 1119--1119
+Overfull \hbox (12.06184pt too wide) in paragraph at lines 1119--1119
 []|\TU/lmr/m/n/10 R8522D- 
  []
 
@@ -1504,7 +1555,7 @@ Overfull \hbox (15.3273pt too wide) in paragraph at lines 1119--1119
  []
 
 
-Overfull \hbox (11.23184pt too wide) in paragraph at lines 1120--1120
+Overfull \hbox (9.56184pt too wide) in paragraph at lines 1120--1120
 []|\TU/lmr/m/n/10 H66289- 
  []
 
@@ -1519,7 +1570,7 @@ Overfull \hbox (2.7155pt too wide) in paragraph at lines 1121--1121
  []
 
 
-Overfull \hbox (9.84184pt too wide) in paragraph at lines 1121--1121
+Overfull \hbox (8.17184pt too wide) in paragraph at lines 1121--1121
 []|\TU/lmr/m/n/10 H6094I- 
  []
 
@@ -1529,7 +1580,7 @@ Overfull \hbox (12.9573pt too wide) in paragraph at lines 1121--1121
  []
 
 
-Overfull \hbox (13.45184pt too wide) in paragraph at lines 1122--1122
+Overfull \hbox (11.78185pt too wide) in paragraph at lines 1122--1122
 []|\TU/lmr/m/n/10 H7477C- 
  []
 
@@ -1539,7 +1590,7 @@ Overfull \hbox (15.3273pt too wide) in paragraph at lines 1122--1122
  []
 
 
-Overfull \hbox (11.23184pt too wide) in paragraph at lines 1123--1123
+Overfull \hbox (9.56184pt too wide) in paragraph at lines 1123--1123
 []|\TU/lmr/m/n/10 H66046- 
  []
 
@@ -1549,7 +1600,7 @@ Overfull \hbox (15.3273pt too wide) in paragraph at lines 1123--1123
  []
 
 
-Overfull \hbox (13.94185pt too wide) in paragraph at lines 1124--1124
+Overfull \hbox (12.27185pt too wide) in paragraph at lines 1124--1124
 []|\TU/lmr/m/n/10 R8414G- 
  []
 
@@ -1559,7 +1610,7 @@ Overfull \hbox (15.3273pt too wide) in paragraph at lines 1124--1124
  []
 
 
-Overfull \hbox (11.09184pt too wide) in paragraph at lines 1125--1125
+Overfull \hbox (9.42184pt too wide) in paragraph at lines 1125--1125
 []|\TU/lmr/m/n/10 R69362- 
  []
 
@@ -1569,7 +1620,7 @@ Overfull \hbox (15.3273pt too wide) in paragraph at lines 1125--1125
  []
 
 
-Overfull \hbox (13.73184pt too wide) in paragraph at lines 1126--1126
+Overfull \hbox (12.06184pt too wide) in paragraph at lines 1126--1126
 []|\TU/lmr/m/n/10 R8514D- 
  []
 
@@ -1584,7 +1635,7 @@ Overfull \hbox (2.7155pt too wide) in paragraph at lines 1127--1127
  []
 
 
-Overfull \hbox (14.08185pt too wide) in paragraph at lines 1127--1127
+Overfull \hbox (12.41185pt too wide) in paragraph at lines 1127--1127
 []|\TU/lmr/m/n/10 H6689G- 
  []
 
@@ -1594,7 +1645,7 @@ Overfull \hbox (12.9573pt too wide) in paragraph at lines 1127--1127
  []
 
 
-Overfull \hbox (12.55185pt too wide) in paragraph at lines 1128--1128
+Overfull \hbox (10.88185pt too wide) in paragraph at lines 1128--1128
 []|\TU/lmr/m/n/10 R868GI- 
  []
 
@@ -1604,7 +1655,7 @@ Overfull \hbox (16.2973pt too wide) in paragraph at lines 1128--1128
  []
 
 
-Overfull \hbox (19.08185pt too wide) in paragraph at lines 1129--1129
+Overfull \hbox (17.41185pt too wide) in paragraph at lines 1129--1129
 []|\TU/lmr/m/n/10 H75GHA- 
  []
 
@@ -1614,7 +1665,7 @@ Overfull \hbox (16.2973pt too wide) in paragraph at lines 1129--1129
  []
 
 
-Overfull \hbox (11.23184pt too wide) in paragraph at lines 1130--1130
+Overfull \hbox (9.56184pt too wide) in paragraph at lines 1130--1130
 []|\TU/lmr/m/n/10 H71274- 
  []
 
@@ -1624,7 +1675,7 @@ Overfull \hbox (15.3273pt too wide) in paragraph at lines 1130--1130
  []
 
 
-Overfull \hbox (11.09184pt too wide) in paragraph at lines 1131--1131
+Overfull \hbox (9.42184pt too wide) in paragraph at lines 1131--1131
 []|\TU/lmr/m/n/10 R82651- 
  []
 
@@ -1634,7 +1685,7 @@ Overfull \hbox (16.2973pt too wide) in paragraph at lines 1131--1131
  []
 
 
-Overfull \hbox (11.23184pt too wide) in paragraph at lines 1132--1132
+Overfull \hbox (9.56184pt too wide) in paragraph at lines 1132--1132
 []|\TU/lmr/m/n/10 H76859- 
  []
 
@@ -1644,7 +1695,7 @@ Overfull \hbox (16.2973pt too wide) in paragraph at lines 1132--1132
  []
 
 
-Overfull \hbox (15.39185pt too wide) in paragraph at lines 1133--1133
+Overfull \hbox (13.72185pt too wide) in paragraph at lines 1133--1133
 []|\TU/lmr/m/n/10 R864CB- 
  []
 
@@ -1659,7 +1710,7 @@ Overfull \hbox (2.7155pt too wide) in paragraph at lines 1134--1134
  []
 
 
-Overfull \hbox (14.70184pt too wide) in paragraph at lines 1134--1134
+Overfull \hbox (13.03185pt too wide) in paragraph at lines 1134--1134
 []|\TU/lmr/m/n/10 R533FB- 
  []
 
@@ -1669,7 +1720,7 @@ Overfull \hbox (16.2973pt too wide) in paragraph at lines 1134--1134
  []
 
 
-Overfull \hbox (11.51184pt too wide) in paragraph at lines 1135--1135
+Overfull \hbox (9.84184pt too wide) in paragraph at lines 1135--1135
 []|\TU/lmr/m/n/10 R659EI- 
  []
 
@@ -1684,7 +1735,7 @@ Overfull \hbox (2.7155pt too wide) in paragraph at lines 1136--1136
  []
 
 
-Overfull \hbox (14.15184pt too wide) in paragraph at lines 1136--1136
+Overfull \hbox (12.48184pt too wide) in paragraph at lines 1136--1136
 []|\TU/lmr/m/n/10 H66EIH- 
  []
 
@@ -1694,7 +1745,7 @@ Overfull \hbox (16.2973pt too wide) in paragraph at lines 1136--1136
  []
 
 
-Overfull \hbox (15.54184pt too wide) in paragraph at lines 1137--1137
+Overfull \hbox (13.87184pt too wide) in paragraph at lines 1137--1137
 []|\TU/lmr/m/n/10 N001AE- 
  []
 
@@ -1704,7 +1755,7 @@ Overfull \hbox (15.3273pt too wide) in paragraph at lines 1137--1137
  []
 
 
-Overfull \hbox (15.33185pt too wide) in paragraph at lines 1138--1138
+Overfull \hbox (13.66185pt too wide) in paragraph at lines 1138--1138
 []|\TU/lmr/m/n/10 T160GF- 
  []
 
@@ -1719,7 +1770,7 @@ Overfull \hbox (2.7155pt too wide) in paragraph at lines 1139--1139
  []
 
 
-Overfull \hbox (11.51184pt too wide) in paragraph at lines 1139--1139
+Overfull \hbox (9.84184pt too wide) in paragraph at lines 1139--1139
 []|\TU/lmr/m/n/10 R503IE- 
  []
 
@@ -1729,7 +1780,7 @@ Overfull \hbox (16.2973pt too wide) in paragraph at lines 1139--1139
  []
 
 
-Overfull \hbox (11.23184pt too wide) in paragraph at lines 1140--1140
+Overfull \hbox (9.56184pt too wide) in paragraph at lines 1140--1140
 []|\TU/lmr/m/n/10 H47127- 
  []
 
@@ -1744,7 +1795,7 @@ Overfull \hbox (2.7155pt too wide) in paragraph at lines 1141--1141
  []
 
 
-Overfull \hbox (11.09184pt too wide) in paragraph at lines 1141--1141
+Overfull \hbox (9.42184pt too wide) in paragraph at lines 1141--1141
 []|\TU/lmr/m/n/10 R85412- 
  []
 
@@ -1754,7 +1805,7 @@ Overfull \hbox (12.9573pt too wide) in paragraph at lines 1141--1141
  []
 
 
-Overfull \hbox (11.23184pt too wide) in paragraph at lines 1142--1142
+Overfull \hbox (9.56184pt too wide) in paragraph at lines 1142--1142
 []|\TU/lmr/m/n/10 H75161- 
  []
 
@@ -1769,7 +1820,7 @@ Overfull \hbox (2.7155pt too wide) in paragraph at lines 1143--1143
  []
 
 
-Overfull \hbox (13.73184pt too wide) in paragraph at lines 1143--1143
+Overfull \hbox (12.06184pt too wide) in paragraph at lines 1143--1143
 []|\TU/lmr/m/n/10 H7584H- 
  []
 
@@ -1779,7 +1830,7 @@ Overfull \hbox (16.2973pt too wide) in paragraph at lines 1143--1143
  []
 
 
-Overfull \hbox (15.19185pt too wide) in paragraph at lines 1144--1144
+Overfull \hbox (13.52185pt too wide) in paragraph at lines 1144--1144
 []|\TU/lmr/m/n/10 G77AIA- 
  []
 
@@ -1789,7 +1840,7 @@ Overfull \hbox (15.3273pt too wide) in paragraph at lines 1144--1144
  []
 
 
-Overfull \hbox (12.55185pt too wide) in paragraph at lines 1145--1145
+Overfull \hbox (10.88185pt too wide) in paragraph at lines 1145--1145
 []|\TU/lmr/m/n/10 G71CJI- 
  []
 
@@ -1804,7 +1855,7 @@ Overfull \hbox (2.7155pt too wide) in paragraph at lines 1146--1146
  []
 
 
-Overfull \hbox (12.76184pt too wide) in paragraph at lines 1146--1146
+Overfull \hbox (11.09184pt too wide) in paragraph at lines 1146--1146
 []|\TU/lmr/m/n/10 H6882F- 
  []
 
@@ -1819,7 +1870,7 @@ Overfull \hbox (2.7155pt too wide) in paragraph at lines 1147--1147
  []
 
 
-Overfull \hbox (11.09184pt too wide) in paragraph at lines 1147--1147
+Overfull \hbox (9.42184pt too wide) in paragraph at lines 1147--1147
 []|\TU/lmr/m/n/10 R87269- 
  []
 
@@ -1829,7 +1880,7 @@ Overfull \hbox (16.2973pt too wide) in paragraph at lines 1147--1147
  []
 
 
-Overfull \hbox (15.82184pt too wide) in paragraph at lines 1148--1148
+Overfull \hbox (14.15184pt too wide) in paragraph at lines 1148--1148
 []|\TU/lmr/m/n/10 H50DJE- 
  []
 
@@ -1839,7 +1890,7 @@ Overfull \hbox (15.3273pt too wide) in paragraph at lines 1148--1148
  []
 
 
-Overfull \hbox (15.75185pt too wide) in paragraph at lines 1149--1149
+Overfull \hbox (14.08185pt too wide) in paragraph at lines 1149--1149
 []|\TU/lmr/m/n/10 F361DG- 
  []
 
@@ -1849,7 +1900,7 @@ Overfull \hbox (15.3273pt too wide) in paragraph at lines 1149--1149
  []
 
 
-Overfull \hbox (11.09184pt too wide) in paragraph at lines 1150--1150
+Overfull \hbox (9.42184pt too wide) in paragraph at lines 1150--1150
 []|\TU/lmr/m/n/10 R84302- 
  []
 
@@ -1859,7 +1910,7 @@ Overfull \hbox (15.3273pt too wide) in paragraph at lines 1150--1150
  []
 
 
-Overfull \hbox (11.09184pt too wide) in paragraph at lines 1151--1151
+Overfull \hbox (9.42184pt too wide) in paragraph at lines 1151--1151
 []|\TU/lmr/m/n/10 R86092- 
  []
 
@@ -1874,7 +1925,7 @@ Overfull \hbox (2.7155pt too wide) in paragraph at lines 1152--1152
  []
 
 
-Overfull \hbox (18.11185pt too wide) in paragraph at lines 1152--1152
+Overfull \hbox (16.44185pt too wide) in paragraph at lines 1152--1152
 []|\TU/lmr/m/n/10 H76CEG- 
  []
 
@@ -1884,7 +1935,7 @@ Overfull \hbox (12.9573pt too wide) in paragraph at lines 1152--1152
  []
 
 
-Overfull \hbox (13.59184pt too wide) in paragraph at lines 1153--1153
+Overfull \hbox (11.92184pt too wide) in paragraph at lines 1153--1153
 []|\TU/lmr/m/n/10 R5837H- 
  []
 
@@ -1894,7 +1945,7 @@ Overfull \hbox (15.3273pt too wide) in paragraph at lines 1153--1153
  []
 
 
-Overfull \hbox (11.09184pt too wide) in paragraph at lines 1154--1154
+Overfull \hbox (9.42184pt too wide) in paragraph at lines 1154--1154
 []|\TU/lmr/m/n/10 R58263- 
  []
 
@@ -1904,7 +1955,7 @@ Overfull \hbox (16.2973pt too wide) in paragraph at lines 1154--1154
  []
 
 
-Overfull \hbox (15.39185pt too wide) in paragraph at lines 1155--1155
+Overfull \hbox (13.72185pt too wide) in paragraph at lines 1155--1155
 []|\TU/lmr/m/n/10 H757BB- 
  []
 
@@ -1914,7 +1965,7 @@ Overfull \hbox (15.3273pt too wide) in paragraph at lines 1155--1155
  []
 
 
-Overfull \hbox (11.09184pt too wide) in paragraph at lines 1156--1156
+Overfull \hbox (9.42184pt too wide) in paragraph at lines 1156--1156
 []|\TU/lmr/m/n/10 R80269- 
  []
 
@@ -1924,7 +1975,7 @@ Overfull \hbox (15.3273pt too wide) in paragraph at lines 1156--1156
  []
 
 
-Overfull \hbox (18.18184pt too wide) in paragraph at lines 1157--1157
+Overfull \hbox (16.51184pt too wide) in paragraph at lines 1157--1157
 []|\TU/lmr/m/n/10 H57HED- 
  []
 
@@ -1934,7 +1985,7 @@ Overfull \hbox (15.3273pt too wide) in paragraph at lines 1157--1157
  []
 
 
-Overfull \hbox (13.87184pt too wide) in paragraph at lines 1158--1158
+Overfull \hbox (12.20184pt too wide) in paragraph at lines 1158--1158
 []|\TU/lmr/m/n/10 H624HJ- 
  []
 
@@ -1949,7 +2000,7 @@ Overfull \hbox (2.7155pt too wide) in paragraph at lines 1159--1159
  []
 
 
-Overfull \hbox (13.87184pt too wide) in paragraph at lines 1159--1159
+Overfull \hbox (12.20184pt too wide) in paragraph at lines 1159--1159
 []|\TU/lmr/m/n/10 F362BF- 
  []
 
@@ -1964,7 +2015,7 @@ Overfull \hbox (2.7155pt too wide) in paragraph at lines 1160--1160
  []
 
 
-Overfull \hbox (11.09184pt too wide) in paragraph at lines 1160--1160
+Overfull \hbox (9.42184pt too wide) in paragraph at lines 1160--1160
 []|\TU/lmr/m/n/10 R65044- 
  []
 
@@ -1979,7 +2030,7 @@ Overfull \hbox (2.7155pt too wide) in paragraph at lines 1161--1161
  []
 
 
-Overfull \hbox (13.94185pt too wide) in paragraph at lines 1161--1161
+Overfull \hbox (12.27185pt too wide) in paragraph at lines 1161--1161
 []|\TU/lmr/m/n/10 R8133G- 
  []
 
@@ -1989,7 +2040,7 @@ Overfull \hbox (12.9573pt too wide) in paragraph at lines 1161--1161
  []
 
 
-Overfull \hbox (13.59184pt too wide) in paragraph at lines 1162--1162
+Overfull \hbox (11.92184pt too wide) in paragraph at lines 1162--1162
 []|\TU/lmr/m/n/10 R8620H- 
  []
 
@@ -1999,7 +2050,7 @@ Overfull \hbox (16.2973pt too wide) in paragraph at lines 1162--1162
  []
 
 
-Overfull \hbox (9.70184pt too wide) in paragraph at lines 1163--1163
+Overfull \hbox (8.03185pt too wide) in paragraph at lines 1163--1163
 []|\TU/lmr/m/n/10 R8378I- 
  []
 
@@ -2009,7 +2060,7 @@ Overfull \hbox (15.3273pt too wide) in paragraph at lines 1163--1163
  []
 
 
-Overfull \hbox (11.23184pt too wide) in paragraph at lines 1164--1164
+Overfull \hbox (9.56184pt too wide) in paragraph at lines 1164--1164
 []|\TU/lmr/m/n/10 R6331J- 
  []
 
@@ -2019,7 +2070,7 @@ Overfull \hbox (15.3273pt too wide) in paragraph at lines 1164--1164
  []
 
 
-Overfull \hbox (14.77184pt too wide) in paragraph at lines 1165--1165
+Overfull \hbox (13.10184pt too wide) in paragraph at lines 1165--1165
 []|\TU/lmr/m/n/10 H70GIB- 
  []
 
@@ -2034,7 +2085,7 @@ Overfull \hbox (2.7155pt too wide) in paragraph at lines 1166--1166
  []
 
 
-Overfull \hbox (11.09184pt too wide) in paragraph at lines 1166--1166
+Overfull \hbox (9.42184pt too wide) in paragraph at lines 1166--1166
 []|\TU/lmr/m/n/10 R46599- 
  []
 
@@ -2044,7 +2095,7 @@ Overfull \hbox (16.2973pt too wide) in paragraph at lines 1166--1166
  []
 
 
-Overfull \hbox (15.81184pt too wide) in paragraph at lines 1167--1167
+Overfull \hbox (14.14185pt too wide) in paragraph at lines 1167--1167
 []|\TU/lmr/m/n/10 H75JAC- 
  []
 
@@ -2054,7 +2105,7 @@ Overfull \hbox (16.2973pt too wide) in paragraph at lines 1167--1167
  []
 
 
-Overfull \hbox (11.23184pt too wide) in paragraph at lines 1168--1168
+Overfull \hbox (9.56184pt too wide) in paragraph at lines 1168--1168
 []|\TU/lmr/m/n/10 H75158- 
  []
 
@@ -2064,7 +2115,7 @@ Overfull \hbox (15.3273pt too wide) in paragraph at lines 1168--1168
  []
 
 
-Overfull \hbox (11.23184pt too wide) in paragraph at lines 1169--1169
+Overfull \hbox (9.56184pt too wide) in paragraph at lines 1169--1169
 []|\TU/lmr/m/n/10 H63887- 
  []
 
@@ -2074,7 +2125,7 @@ Overfull \hbox (15.3273pt too wide) in paragraph at lines 1169--1169
  []
 
 
-Overfull \hbox (15.54184pt too wide) in paragraph at lines 1170--1170
+Overfull \hbox (13.87184pt too wide) in paragraph at lines 1170--1170
 []|\TU/lmr/m/n/10 H675AE- 
  []
 
@@ -2084,7 +2135,7 @@ Overfull \hbox (16.2973pt too wide) in paragraph at lines 1170--1170
  []
 
 
-Overfull \hbox (11.23184pt too wide) in paragraph at lines 1171--1171
+Overfull \hbox (9.56184pt too wide) in paragraph at lines 1171--1171
 []|\TU/lmr/m/n/10 H75814- 
  []
 
@@ -2094,7 +2145,7 @@ Overfull \hbox (16.2973pt too wide) in paragraph at lines 1171--1171
  []
 
 
-Overfull \hbox (16.65184pt too wide) in paragraph at lines 1172--1172
+Overfull \hbox (14.98184pt too wide) in paragraph at lines 1172--1172
 []|\TU/lmr/m/n/10 H76FBE- 
  []
 
@@ -2104,7 +2155,7 @@ Overfull \hbox (16.2973pt too wide) in paragraph at lines 1172--1172
  []
 
 
-Overfull \hbox (14.08185pt too wide) in paragraph at lines 1173--1173
+Overfull \hbox (12.41185pt too wide) in paragraph at lines 1173--1173
 []|\TU/lmr/m/n/10 H6774G- 
  []
 
@@ -2114,7 +2165,7 @@ Overfull \hbox (15.3273pt too wide) in paragraph at lines 1173--1173
  []
 
 
-Overfull \hbox (13.73184pt too wide) in paragraph at lines 1174--1174
+Overfull \hbox (12.06184pt too wide) in paragraph at lines 1174--1174
 []|\TU/lmr/m/n/10 H64CJJ- 
  []
 
@@ -2124,7 +2175,7 @@ Overfull \hbox (15.3273pt too wide) in paragraph at lines 1174--1174
  []
 
 
-Overfull \hbox (12.90184pt too wide) in paragraph at lines 1175--1175
+Overfull \hbox (11.23184pt too wide) in paragraph at lines 1175--1175
 []|\TU/lmr/m/n/10 R8506E- 
  []
 
@@ -2134,7 +2185,7 @@ Overfull \hbox (16.2973pt too wide) in paragraph at lines 1175--1175
  []
 
 
-Overfull \hbox (15.12184pt too wide) in paragraph at lines 1176--1176
+Overfull \hbox (13.45184pt too wide) in paragraph at lines 1176--1176
 []|\TU/lmr/m/n/10 G73IBG- 
  []
 
@@ -2149,7 +2200,7 @@ Overfull \hbox (2.7155pt too wide) in paragraph at lines 1177--1177
  []
 
 
-Overfull \hbox (11.09184pt too wide) in paragraph at lines 1177--1177
+Overfull \hbox (9.42184pt too wide) in paragraph at lines 1177--1177
 []|\TU/lmr/m/n/10 R19465- 
  []
 
@@ -2164,7 +2215,7 @@ Overfull \hbox (2.7155pt too wide) in paragraph at lines 1178--1178
  []
 
 
-Overfull \hbox (11.23184pt too wide) in paragraph at lines 1178--1178
+Overfull \hbox (9.56184pt too wide) in paragraph at lines 1178--1178
 []|\TU/lmr/m/n/10 H75696- 
  []
 
@@ -2174,7 +2225,7 @@ Overfull \hbox (12.9573pt too wide) in paragraph at lines 1178--1178
  []
 
 
-Overfull \hbox (11.09184pt too wide) in paragraph at lines 1179--1179
+Overfull \hbox (9.42184pt too wide) in paragraph at lines 1179--1179
 []|\TU/lmr/m/n/10 R84924- 
  []
 
@@ -2184,7 +2235,7 @@ Overfull \hbox (16.2973pt too wide) in paragraph at lines 1179--1179
  []
 
 
-Overfull \hbox (11.09184pt too wide) in paragraph at lines 1180--1180
+Overfull \hbox (9.42184pt too wide) in paragraph at lines 1180--1180
 []|\TU/lmr/m/n/10 R83011- 
  []
 
@@ -2194,7 +2245,7 @@ Overfull \hbox (16.2973pt too wide) in paragraph at lines 1180--1180
  []
 
 
-Overfull \hbox (12.20184pt too wide) in paragraph at lines 1181--1181
+Overfull \hbox (10.53185pt too wide) in paragraph at lines 1181--1181
 []|\TU/lmr/m/n/10 R854AI- 
  []
 
@@ -2204,7 +2255,7 @@ Overfull \hbox (16.2973pt too wide) in paragraph at lines 1181--1181
  []
 
 
-Overfull \hbox (11.23184pt too wide) in paragraph at lines 1182--1182
+Overfull \hbox (9.56184pt too wide) in paragraph at lines 1182--1182
 []|\TU/lmr/m/n/10 H52049- 
  []
 
@@ -2219,7 +2270,7 @@ Overfull \hbox (2.7155pt too wide) in paragraph at lines 1183--1183
  []
 
 
-Overfull \hbox (14.22185pt too wide) in paragraph at lines 1183--1183
+Overfull \hbox (12.55185pt too wide) in paragraph at lines 1183--1183
 []|\TU/lmr/m/n/10 H76GFI- 
  []
 
@@ -2234,7 +2285,7 @@ Overfull \hbox (2.7155pt too wide) in paragraph at lines 1184--1184
  []
 
 
-Overfull \hbox (16.79184pt too wide) in paragraph at lines 1184--1184
+Overfull \hbox (15.12184pt too wide) in paragraph at lines 1184--1184
 []|\TU/lmr/m/n/10 R858GG- 
  []
 
@@ -2244,7 +2295,7 @@ Overfull \hbox (12.9573pt too wide) in paragraph at lines 1184--1184
  []
 
 
-Overfull \hbox (17.06184pt too wide) in paragraph at lines 1185--1185
+Overfull \hbox (15.39185pt too wide) in paragraph at lines 1185--1185
 []|\TU/lmr/m/n/10 H57FBC- 
  []
 
@@ -2254,7 +2305,7 @@ Overfull \hbox (15.3273pt too wide) in paragraph at lines 1185--1185
  []
 
 
-Overfull \hbox (15.89185pt too wide) in paragraph at lines 1186--1186
+Overfull \hbox (14.22185pt too wide) in paragraph at lines 1186--1186
 []|\TU/lmr/m/n/10 H597EG- 
  []
 
@@ -2269,7 +2320,7 @@ Overfull \hbox (2.7155pt too wide) in paragraph at lines 1187--1187
  []
 
 
-Overfull \hbox (16.09184pt too wide) in paragraph at lines 1187--1187
+Overfull \hbox (14.42184pt too wide) in paragraph at lines 1187--1187
 []|\TU/lmr/m/n/10 H767DC- 
  []
 
@@ -2284,7 +2335,7 @@ Overfull \hbox (2.7155pt too wide) in paragraph at lines 1188--1188
  []
 
 
-Overfull \hbox (14.98184pt too wide) in paragraph at lines 1188--1188
+Overfull \hbox (13.31184pt too wide) in paragraph at lines 1188--1188
 []|\TU/lmr/m/n/10 H76FBJ- 
  []
 
@@ -2294,7 +2345,7 @@ Overfull \hbox (12.9573pt too wide) in paragraph at lines 1188--1188
  []
 
 
-Overfull \hbox (16.23184pt too wide) in paragraph at lines 1189--1189
+Overfull \hbox (14.56184pt too wide) in paragraph at lines 1189--1189
 []|\TU/lmr/m/n/10 R861DH- 
  []
 
@@ -2304,7 +2355,7 @@ Overfull \hbox (16.2973pt too wide) in paragraph at lines 1189--1189
  []
 
 
-Overfull \hbox (9.84184pt too wide) in paragraph at lines 1190--1190
+Overfull \hbox (8.17184pt too wide) in paragraph at lines 1190--1190
 []|\TU/lmr/m/n/10 R660IJ- 
  []
 
@@ -2314,7 +2365,7 @@ Overfull \hbox (15.3273pt too wide) in paragraph at lines 1190--1190
  []
 
 
-Overfull \hbox (16.23184pt too wide) in paragraph at lines 1191--1191
+Overfull \hbox (14.56184pt too wide) in paragraph at lines 1191--1191
 []|\TU/lmr/m/n/10 R200DH- 
  []
 
@@ -2324,7 +2375,7 @@ Overfull \hbox (15.3273pt too wide) in paragraph at lines 1191--1191
  []
 
 
-Overfull \hbox (15.26184pt too wide) in paragraph at lines 1192--1192
+Overfull \hbox (13.59184pt too wide) in paragraph at lines 1192--1192
 []|\TU/lmr/m/n/10 H75BEJ- 
  []
 
@@ -2334,7 +2385,7 @@ Overfull \hbox (16.2973pt too wide) in paragraph at lines 1192--1192
  []
 
 
-Overfull \hbox (15.19185pt too wide) in paragraph at lines 1193--1193
+Overfull \hbox (13.52185pt too wide) in paragraph at lines 1193--1193
 []|\TU/lmr/m/n/10 R866FG- 
  []
 
@@ -2349,7 +2400,7 @@ Overfull \hbox (2.7155pt too wide) in paragraph at lines 1194--1194
  []
 
 
-Overfull \hbox (11.23184pt too wide) in paragraph at lines 1194--1194
+Overfull \hbox (9.56184pt too wide) in paragraph at lines 1194--1194
 []|\TU/lmr/m/n/10 H76993- 
  []
 
@@ -2359,7 +2410,7 @@ Overfull \hbox (12.9573pt too wide) in paragraph at lines 1194--1194
  []
 
 
-Overfull \hbox (11.09184pt too wide) in paragraph at lines 1195--1195
+Overfull \hbox (9.42184pt too wide) in paragraph at lines 1195--1195
 []|\TU/lmr/m/n/10 R86511- 
  []
 
@@ -2369,7 +2420,7 @@ Overfull \hbox (16.2973pt too wide) in paragraph at lines 1195--1195
  []
 
 
-Overfull \hbox (11.23184pt too wide) in paragraph at lines 1196--1196
+Overfull \hbox (9.56184pt too wide) in paragraph at lines 1196--1196
 []|\TU/lmr/m/n/10 H76902- 
  []
 
@@ -2379,7 +2430,7 @@ Overfull \hbox (16.2973pt too wide) in paragraph at lines 1196--1196
  []
 
 
-Overfull \hbox (13.73184pt too wide) in paragraph at lines 1197--1197
+Overfull \hbox (12.06184pt too wide) in paragraph at lines 1197--1197
 []|\TU/lmr/m/n/10 H6000A- 
  []
 
@@ -2389,7 +2440,7 @@ Overfull \hbox (15.3273pt too wide) in paragraph at lines 1197--1197
  []
 
 
-Overfull \hbox (13.17184pt too wide) in paragraph at lines 1198--1198
+Overfull \hbox (11.50185pt too wide) in paragraph at lines 1198--1198
 []|\TU/lmr/m/n/10 R8708B- 
  []
 
@@ -2399,7 +2450,7 @@ Overfull \hbox (16.2973pt too wide) in paragraph at lines 1198--1198
  []
 
 
-Overfull \hbox (13.87184pt too wide) in paragraph at lines 1199--1199
+Overfull \hbox (12.20184pt too wide) in paragraph at lines 1199--1199
 []|\TU/lmr/m/n/10 N5313D- 
  []
 
@@ -2414,7 +2465,7 @@ Overfull \hbox (2.7155pt too wide) in paragraph at lines 1200--1200
  []
 
 
-Overfull \hbox (12.90184pt too wide) in paragraph at lines 1200--1200
+Overfull \hbox (11.23184pt too wide) in paragraph at lines 1200--1200
 []|\TU/lmr/m/n/10 R8615E- 
  []
 
@@ -2424,7 +2475,7 @@ Overfull \hbox (12.9573pt too wide) in paragraph at lines 1200--1200
  []
 
 
-Overfull \hbox (12.55185pt too wide) in paragraph at lines 1201--1201
+Overfull \hbox (10.88185pt too wide) in paragraph at lines 1201--1201
 []|\TU/lmr/m/n/10 R852IG- 
  []
 
@@ -2434,7 +2485,7 @@ Overfull \hbox (16.2973pt too wide) in paragraph at lines 1201--1201
  []
 
 
-Overfull \hbox (11.23184pt too wide) in paragraph at lines 1202--1202
+Overfull \hbox (9.56184pt too wide) in paragraph at lines 1202--1202
 []|\TU/lmr/m/n/10 H76751- 
  []
 
@@ -2444,7 +2495,7 @@ Overfull \hbox (16.2973pt too wide) in paragraph at lines 1202--1202
  []
 
 
-Overfull \hbox (13.04184pt too wide) in paragraph at lines 1203--1203
+Overfull \hbox (11.37184pt too wide) in paragraph at lines 1203--1203
 []|\TU/lmr/m/n/10 H6218E- 
  []
 
@@ -2454,7 +2505,7 @@ Overfull \hbox (16.2973pt too wide) in paragraph at lines 1203--1203
  []
 
 
-Overfull \hbox (13.73184pt too wide) in paragraph at lines 1204--1204
+Overfull \hbox (12.06184pt too wide) in paragraph at lines 1204--1204
 []|\TU/lmr/m/n/10 H7670A- 
  []
 
@@ -2464,7 +2515,7 @@ Overfull \hbox (16.2973pt too wide) in paragraph at lines 1204--1204
  []
 
 
-Overfull \hbox (13.31184pt too wide) in paragraph at lines 1205--1205
+Overfull \hbox (11.64185pt too wide) in paragraph at lines 1205--1205
 []|\TU/lmr/m/n/10 H6946B- 
  []
 
@@ -2474,7 +2525,7 @@ Overfull \hbox (16.2973pt too wide) in paragraph at lines 1205--1205
  []
 
 
-Overfull \hbox (11.09184pt too wide) in paragraph at lines 1206--1206
+Overfull \hbox (9.42184pt too wide) in paragraph at lines 1206--1206
 []|\TU/lmr/m/n/10 R85076- 
  []
 
@@ -2489,7 +2540,7 @@ Overfull \hbox (2.7155pt too wide) in paragraph at lines 1207--1207
  []
 
 
-Overfull \hbox (11.23184pt too wide) in paragraph at lines 1207--1207
+Overfull \hbox (9.56184pt too wide) in paragraph at lines 1207--1207
 []|\TU/lmr/m/n/10 H76814- 
  []
 
@@ -2499,7 +2550,7 @@ Overfull \hbox (16.2973pt too wide) in paragraph at lines 1207--1207
  []
 
 
-Overfull \hbox (11.09184pt too wide) in paragraph at lines 1208--1208
+Overfull \hbox (9.42184pt too wide) in paragraph at lines 1208--1208
 []|\TU/lmr/m/n/10 F363IC- 
  []
 
@@ -2514,7 +2565,7 @@ Overfull \hbox (2.7155pt too wide) in paragraph at lines 1209--1209
  []
 
 
-Overfull \hbox (15.25185pt too wide) in paragraph at lines 1209--1209
+Overfull \hbox (13.58185pt too wide) in paragraph at lines 1209--1209
 []|\TU/lmr/m/n/10 R192BB- 
  []
 
@@ -2529,7 +2580,7 @@ Overfull \hbox (2.7155pt too wide) in paragraph at lines 1210--1210
  []
 
 
-Overfull \hbox (15.54184pt too wide) in paragraph at lines 1210--1210
+Overfull \hbox (13.87184pt too wide) in paragraph at lines 1210--1210
 []|\TU/lmr/m/n/10 H766HE- 
  []
 
@@ -2538,15 +2589,13 @@ Overfull \hbox (16.2973pt too wide) in paragraph at lines 1210--1210
 []|\TU/lmr/m/n/10 DS1Q40|  
  []
 
-[39
-
-] [40] [41] [42] [43] [44] [45] [46] [47] [48]
+[39] [40] [41] [42] [43] [44] [45] [46] [47] [48]
 Overfull \hbox (0.54845pt too wide) in paragraph at lines 1225--1226
 []\TU/lmr/m/n/10 ID  
  []
 
 
-Overfull \hbox (17.3469pt too wide) in paragraph at lines 1229--1230
+Overfull \hbox (16.60689pt too wide) in paragraph at lines 1229--1230
 []\TU/lmr/m/n/10 TURMA  
  []
 
@@ -2561,7 +2610,7 @@ Overfull \hbox (14.15689pt too wide) in paragraph at lines 1243--1243
  []
 
 
-Overfull \hbox (13.24403pt too wide) in paragraph at lines 1243--1243
+Overfull \hbox (11.57404pt too wide) in paragraph at lines 1243--1243
 []|\TU/lmr/m/n/10 H677FD- 
  []
 
@@ -2576,7 +2625,7 @@ Overfull \hbox (14.15689pt too wide) in paragraph at lines 1244--1244
  []
 
 
-Overfull \hbox (11.57404pt too wide) in paragraph at lines 1244--1244
+Overfull \hbox (9.90404pt too wide) in paragraph at lines 1244--1244
 []|\TU/lmr/m/n/10 T135DJ- 
  []
 
@@ -2591,7 +2640,7 @@ Overfull \hbox (14.15689pt too wide) in paragraph at lines 1245--1245
  []
 
 
-Overfull \hbox (7.68404pt too wide) in paragraph at lines 1245--1245
+Overfull \hbox (6.01404pt too wide) in paragraph at lines 1245--1245
 []|\TU/lmr/m/n/10 R649IJ- 
  []
 
@@ -2606,7 +2655,7 @@ Overfull \hbox (12.35689pt too wide) in paragraph at lines 1246--1246
  []
 
 
-Overfull \hbox (10.88403pt too wide) in paragraph at lines 1246--1246
+Overfull \hbox (9.21404pt too wide) in paragraph at lines 1246--1246
 []|\TU/lmr/m/n/10 H7479E- 
  []
 
@@ -2621,7 +2670,7 @@ Overfull \hbox (14.15689pt too wide) in paragraph at lines 1247--1247
  []
 
 
-Overfull \hbox (10.18404pt too wide) in paragraph at lines 1247--1247
+Overfull \hbox (8.51404pt too wide) in paragraph at lines 1247--1247
 []|\TU/lmr/m/n/10 H760IH- 
  []
 
@@ -2636,7 +2685,7 @@ Overfull \hbox (14.15689pt too wide) in paragraph at lines 1248--1248
  []
 
 
-Overfull \hbox (13.87404pt too wide) in paragraph at lines 1248--1248
+Overfull \hbox (12.20404pt too wide) in paragraph at lines 1248--1248
 []|\TU/lmr/m/n/10 H74EGJ- 
  []
 
@@ -2651,7 +2700,7 @@ Overfull \hbox (12.35689pt too wide) in paragraph at lines 1249--1249
  []
 
 
-Overfull \hbox (10.74403pt too wide) in paragraph at lines 1249--1249
+Overfull \hbox (9.07404pt too wide) in paragraph at lines 1249--1249
 []|\TU/lmr/m/n/10 R8046E- 
  []
 
@@ -2666,7 +2715,7 @@ Overfull \hbox (12.35689pt too wide) in paragraph at lines 1250--1250
  []
 
 
-Overfull \hbox (15.81404pt too wide) in paragraph at lines 1250--1250
+Overfull \hbox (14.14404pt too wide) in paragraph at lines 1250--1250
 []|\TU/lmr/m/n/10 H70BGE- 
  []
 
@@ -2681,7 +2730,7 @@ Overfull \hbox (14.15689pt too wide) in paragraph at lines 1251--1251
  []
 
 
-Overfull \hbox (15.32404pt too wide) in paragraph at lines 1251--1251
+Overfull \hbox (13.65404pt too wide) in paragraph at lines 1251--1251
 []|\TU/lmr/m/n/10 H66CAF- 
  []
 
@@ -2696,7 +2745,7 @@ Overfull \hbox (14.15689pt too wide) in paragraph at lines 1252--1252
  []
 
 
-Overfull \hbox (9.07404pt too wide) in paragraph at lines 1252--1252
+Overfull \hbox (7.40404pt too wide) in paragraph at lines 1252--1252
 []|\TU/lmr/m/n/10 H71986- 
  []
 
@@ -2711,7 +2760,7 @@ Overfull \hbox (12.35689pt too wide) in paragraph at lines 1253--1253
  []
 
 
-Overfull \hbox (9.07404pt too wide) in paragraph at lines 1253--1253
+Overfull \hbox (7.40404pt too wide) in paragraph at lines 1253--1253
 []|\TU/lmr/m/n/10 H67622- 
  []
 
@@ -2726,7 +2775,7 @@ Overfull \hbox (14.15689pt too wide) in paragraph at lines 1254--1254
  []
 
 
-Overfull \hbox (9.21404pt too wide) in paragraph at lines 1254--1254
+Overfull \hbox (7.54404pt too wide) in paragraph at lines 1254--1254
 []|\TU/lmr/m/n/10 H5880J- 
  []
 
@@ -2741,7 +2790,7 @@ Overfull \hbox (14.15689pt too wide) in paragraph at lines 1255--1255
  []
 
 
-Overfull \hbox (16.36403pt too wide) in paragraph at lines 1255--1255
+Overfull \hbox (14.69403pt too wide) in paragraph at lines 1255--1255
 []|\TU/lmr/m/n/10 H74GCC- 
  []
 
@@ -2756,7 +2805,7 @@ Overfull \hbox (12.35689pt too wide) in paragraph at lines 1256--1256
  []
 
 
-Overfull \hbox (11.57404pt too wide) in paragraph at lines 1256--1256
+Overfull \hbox (9.90404pt too wide) in paragraph at lines 1256--1256
 []|\TU/lmr/m/n/10 H5823A- 
  []
 
@@ -2771,7 +2820,7 @@ Overfull \hbox (12.35689pt too wide) in paragraph at lines 1257--1257
  []
 
 
-Overfull \hbox (11.15404pt too wide) in paragraph at lines 1257--1257
+Overfull \hbox (9.48404pt too wide) in paragraph at lines 1257--1257
 []|\TU/lmr/m/n/10 H7505B- 
  []
 
@@ -2786,7 +2835,7 @@ Overfull \hbox (14.15689pt too wide) in paragraph at lines 1258--1258
  []
 
 
-Overfull \hbox (10.46404pt too wide) in paragraph at lines 1258--1258
+Overfull \hbox (8.79404pt too wide) in paragraph at lines 1258--1258
 []|\TU/lmr/m/n/10 F35JJB- 
  []
 
@@ -2801,7 +2850,7 @@ Overfull \hbox (14.15689pt too wide) in paragraph at lines 1259--1259
  []
 
 
-Overfull \hbox (14.21404pt too wide) in paragraph at lines 1259--1259
+Overfull \hbox (12.54404pt too wide) in paragraph at lines 1259--1259
 []|\TU/lmr/m/n/10 H593AD- 
  []
 
@@ -2816,7 +2865,7 @@ Overfull \hbox (14.15689pt too wide) in paragraph at lines 1260--1260
  []
 
 
-Overfull \hbox (7.68404pt too wide) in paragraph at lines 1260--1260
+Overfull \hbox (6.01404pt too wide) in paragraph at lines 1260--1260
 []|\TU/lmr/m/n/10 H0315I- 
  []
 
@@ -2831,7 +2880,7 @@ Overfull \hbox (12.35689pt too wide) in paragraph at lines 1261--1261
  []
 
 
-Overfull \hbox (13.51404pt too wide) in paragraph at lines 1261--1261
+Overfull \hbox (11.84404pt too wide) in paragraph at lines 1261--1261
 []|\TU/lmr/m/n/10 H724CC- 
  []
 
@@ -2846,7 +2895,7 @@ Overfull \hbox (12.35689pt too wide) in paragraph at lines 1262--1262
  []
 
 
-Overfull \hbox (11.29404pt too wide) in paragraph at lines 1262--1262
+Overfull \hbox (9.62404pt too wide) in paragraph at lines 1262--1262
 []|\TU/lmr/m/n/10 H7555C- 
  []
 
@@ -2861,7 +2910,7 @@ Overfull \hbox (14.15689pt too wide) in paragraph at lines 1263--1263
  []
 
 
-Overfull \hbox (12.96404pt too wide) in paragraph at lines 1263--1263
+Overfull \hbox (11.29404pt too wide) in paragraph at lines 1263--1263
 []|\TU/lmr/m/n/10 H763EB- 
  []
 
@@ -2876,7 +2925,7 @@ Overfull \hbox (14.15689pt too wide) in paragraph at lines 1264--1264
  []
 
 
-Overfull \hbox (14.49403pt too wide) in paragraph at lines 1264--1264
+Overfull \hbox (12.82404pt too wide) in paragraph at lines 1264--1264
 []|\TU/lmr/m/n/10 H75FAH- 
  []
 
@@ -2891,7 +2940,7 @@ Overfull \hbox (12.35689pt too wide) in paragraph at lines 1265--1265
  []
 
 
-Overfull \hbox (16.15404pt too wide) in paragraph at lines 1265--1265
+Overfull \hbox (14.48404pt too wide) in paragraph at lines 1265--1265
 []|\TU/lmr/m/n/10 H67HHB- 
  []
 
@@ -2906,7 +2955,7 @@ Overfull \hbox (12.35689pt too wide) in paragraph at lines 1266--1266
  []
 
 
-Overfull \hbox (16.50403pt too wide) in paragraph at lines 1266--1266
+Overfull \hbox (14.83403pt too wide) in paragraph at lines 1266--1266
 []|\TU/lmr/m/n/10 H74BGA- 
  []
 
@@ -2921,7 +2970,7 @@ Overfull \hbox (12.35689pt too wide) in paragraph at lines 1267--1267
  []
 
 
-Overfull \hbox (8.93404pt too wide) in paragraph at lines 1267--1267
+Overfull \hbox (7.26404pt too wide) in paragraph at lines 1267--1267
 []|\TU/lmr/m/n/10 R57796- 
  []
 
@@ -2936,7 +2985,7 @@ Overfull \hbox (12.35689pt too wide) in paragraph at lines 1268--1268
  []
 
 
-Overfull \hbox (10.67404pt too wide) in paragraph at lines 1268--1268
+Overfull \hbox (9.00404pt too wide) in paragraph at lines 1268--1268
 []|\TU/lmr/m/n/10 G87JIA- 
  []
 
@@ -2951,7 +3000,7 @@ Overfull \hbox (14.15689pt too wide) in paragraph at lines 1269--1269
  []
 
 
-Overfull \hbox (11.15404pt too wide) in paragraph at lines 1269--1269
+Overfull \hbox (9.48404pt too wide) in paragraph at lines 1269--1269
 []|\TU/lmr/m/n/10 H7227B- 
  []
 
@@ -2966,7 +3015,7 @@ Overfull \hbox (12.35689pt too wide) in paragraph at lines 1270--1270
  []
 
 
-Overfull \hbox (13.93404pt too wide) in paragraph at lines 1270--1270
+Overfull \hbox (12.26404pt too wide) in paragraph at lines 1270--1270
 []|\TU/lmr/m/n/10 H66JCH- 
  []
 
@@ -2981,7 +3030,7 @@ Overfull \hbox (12.35689pt too wide) in paragraph at lines 1271--1271
  []
 
 
-Overfull \hbox (12.26404pt too wide) in paragraph at lines 1271--1271
+Overfull \hbox (10.59404pt too wide) in paragraph at lines 1271--1271
 []|\TU/lmr/m/n/10 H70BIA- 
  []
 
@@ -2996,7 +3045,7 @@ Overfull \hbox (12.35689pt too wide) in paragraph at lines 1272--1272
  []
 
 
-Overfull \hbox (7.54404pt too wide) in paragraph at lines 1272--1272
+Overfull \hbox (5.87404pt too wide) in paragraph at lines 1272--1272
 []|\TU/lmr/m/n/10 R8386I- 
  []
 
@@ -3011,7 +3060,7 @@ Overfull \hbox (14.15689pt too wide) in paragraph at lines 1273--1273
  []
 
 
-Overfull \hbox (13.79404pt too wide) in paragraph at lines 1273--1273
+Overfull \hbox (12.12404pt too wide) in paragraph at lines 1273--1273
 []|\TU/lmr/m/n/10 H762BD- 
  []
 
@@ -3026,7 +3075,7 @@ Overfull \hbox (12.35689pt too wide) in paragraph at lines 1274--1274
  []
 
 
-Overfull \hbox (12.40404pt too wide) in paragraph at lines 1274--1274
+Overfull \hbox (10.73404pt too wide) in paragraph at lines 1274--1274
 []|\TU/lmr/m/n/10 R862FC- 
  []
 
@@ -3041,7 +3090,7 @@ Overfull \hbox (12.35689pt too wide) in paragraph at lines 1275--1275
  []
 
 
-Overfull \hbox (13.38403pt too wide) in paragraph at lines 1275--1275
+Overfull \hbox (11.71404pt too wide) in paragraph at lines 1275--1275
 []|\TU/lmr/m/n/10 H763HE- 
  []
 
@@ -3056,7 +3105,7 @@ Overfull \hbox (12.35689pt too wide) in paragraph at lines 1276--1276
  []
 
 
-Overfull \hbox (9.62404pt too wide) in paragraph at lines 1276--1276
+Overfull \hbox (7.95404pt too wide) in paragraph at lines 1276--1276
 []|\TU/lmr/m/n/10 R835BI- 
  []
 
@@ -3071,7 +3120,7 @@ Overfull \hbox (14.15689pt too wide) in paragraph at lines 1277--1277
  []
 
 
-Overfull \hbox (14.21404pt too wide) in paragraph at lines 1277--1277
+Overfull \hbox (12.54404pt too wide) in paragraph at lines 1277--1277
 []|\TU/lmr/m/n/10 R661DD- 
  []
 
@@ -3086,7 +3135,7 @@ Overfull \hbox (14.15689pt too wide) in paragraph at lines 1278--1278
  []
 
 
-Overfull \hbox (11.01404pt too wide) in paragraph at lines 1278--1278
+Overfull \hbox (9.34404pt too wide) in paragraph at lines 1278--1278
 []|\TU/lmr/m/n/10 R8002B- 
  []
 
@@ -3101,7 +3150,7 @@ Overfull \hbox (14.15689pt too wide) in paragraph at lines 1279--1279
  []
 
 
-Overfull \hbox (13.31404pt too wide) in paragraph at lines 1279--1279
+Overfull \hbox (11.64404pt too wide) in paragraph at lines 1279--1279
 []|\TU/lmr/m/n/10 R556GF- 
  []
 
@@ -3116,7 +3165,7 @@ Overfull \hbox (12.35689pt too wide) in paragraph at lines 1280--1280
  []
 
 
-Overfull \hbox (13.09404pt too wide) in paragraph at lines 1280--1280
+Overfull \hbox (11.42404pt too wide) in paragraph at lines 1280--1280
 []|\TU/lmr/m/n/10 R838BB- 
  []
 
@@ -3131,7 +3180,7 @@ Overfull \hbox (14.15689pt too wide) in paragraph at lines 1281--1281
  []
 
 
-Overfull \hbox (9.07404pt too wide) in paragraph at lines 1281--1281
+Overfull \hbox (7.40404pt too wide) in paragraph at lines 1281--1281
 []|\TU/lmr/m/n/10 H67449- 
  []
 
@@ -3146,7 +3195,7 @@ Overfull \hbox (14.15689pt too wide) in paragraph at lines 1282--1282
  []
 
 
-Overfull \hbox (9.07404pt too wide) in paragraph at lines 1282--1282
+Overfull \hbox (7.40404pt too wide) in paragraph at lines 1282--1282
 []|\TU/lmr/m/n/10 N08803- 
  []
 
@@ -3161,7 +3210,7 @@ Overfull \hbox (12.35689pt too wide) in paragraph at lines 1283--1283
  []
 
 
-Overfull \hbox (11.57404pt too wide) in paragraph at lines 1283--1283
+Overfull \hbox (9.90404pt too wide) in paragraph at lines 1283--1283
 []|\TU/lmr/m/n/10 H7504A- 
  []
 
@@ -3176,7 +3225,7 @@ Overfull \hbox (14.15689pt too wide) in paragraph at lines 1284--1284
  []
 
 
-Overfull \hbox (8.93404pt too wide) in paragraph at lines 1284--1284
+Overfull \hbox (7.26404pt too wide) in paragraph at lines 1284--1284
 []|\TU/lmr/m/n/10 R86424- 
  []
 
@@ -3191,7 +3240,7 @@ Overfull \hbox (12.35689pt too wide) in paragraph at lines 1285--1285
  []
 
 
-Overfull \hbox (11.92404pt too wide) in paragraph at lines 1285--1285
+Overfull \hbox (10.25404pt too wide) in paragraph at lines 1285--1285
 []|\TU/lmr/m/n/10 H7539G- 
  []
 
@@ -3206,7 +3255,7 @@ Overfull \hbox (14.15689pt too wide) in paragraph at lines 1286--1286
  []
 
 
-Overfull \hbox (10.74403pt too wide) in paragraph at lines 1286--1286
+Overfull \hbox (9.07404pt too wide) in paragraph at lines 1286--1286
 []|\TU/lmr/m/n/10 R8603E- 
  []
 
@@ -3221,7 +3270,7 @@ Overfull \hbox (14.15689pt too wide) in paragraph at lines 1287--1287
  []
 
 
-Overfull \hbox (10.04404pt too wide) in paragraph at lines 1287--1287
+Overfull \hbox (8.37404pt too wide) in paragraph at lines 1287--1287
 []|\TU/lmr/m/n/10 R829IH- 
  []
 
@@ -3236,7 +3285,7 @@ Overfull \hbox (12.35689pt too wide) in paragraph at lines 1288--1288
  []
 
 
-Overfull \hbox (8.93404pt too wide) in paragraph at lines 1288--1288
+Overfull \hbox (7.26404pt too wide) in paragraph at lines 1288--1288
 []|\TU/lmr/m/n/10 R84672- 
  []
 
@@ -3251,7 +3300,7 @@ Overfull \hbox (12.35689pt too wide) in paragraph at lines 1289--1289
  []
 
 
-Overfull \hbox (7.68404pt too wide) in paragraph at lines 1289--1289
+Overfull \hbox (6.01404pt too wide) in paragraph at lines 1289--1289
 []|\TU/lmr/m/n/10 H3371I- 
  []
 
@@ -3266,7 +3315,7 @@ Overfull \hbox (14.15689pt too wide) in paragraph at lines 1290--1290
  []
 
 
-Overfull \hbox (14.21404pt too wide) in paragraph at lines 1290--1290
+Overfull \hbox (12.54404pt too wide) in paragraph at lines 1290--1290
 []|\TU/lmr/m/n/10 R859DD- 
  []
 
@@ -3281,7 +3330,7 @@ Overfull \hbox (14.15689pt too wide) in paragraph at lines 1291--1291
  []
 
 
-Overfull \hbox (9.07404pt too wide) in paragraph at lines 1291--1291
+Overfull \hbox (7.40404pt too wide) in paragraph at lines 1291--1291
 []|\TU/lmr/m/n/10 R8676J- 
  []
 
@@ -3296,7 +3345,7 @@ Overfull \hbox (12.35689pt too wide) in paragraph at lines 1292--1292
  []
 
 
-Overfull \hbox (8.93404pt too wide) in paragraph at lines 1292--1292
+Overfull \hbox (7.26404pt too wide) in paragraph at lines 1292--1292
 []|\TU/lmr/m/n/10 R68912- 
  []
 
@@ -3311,7 +3360,7 @@ Overfull \hbox (12.35689pt too wide) in paragraph at lines 1293--1293
  []
 
 
-Overfull \hbox (9.07404pt too wide) in paragraph at lines 1293--1293
+Overfull \hbox (7.40404pt too wide) in paragraph at lines 1293--1293
 []|\TU/lmr/m/n/10 H76072- 
  []
 
@@ -3326,7 +3375,7 @@ Overfull \hbox (14.15689pt too wide) in paragraph at lines 1294--1294
  []
 
 
-Overfull \hbox (8.93404pt too wide) in paragraph at lines 1294--1294
+Overfull \hbox (7.26404pt too wide) in paragraph at lines 1294--1294
 []|\TU/lmr/m/n/10 R39568- 
  []
 
@@ -3341,7 +3390,7 @@ Overfull \hbox (14.15689pt too wide) in paragraph at lines 1295--1295
  []
 
 
-Overfull \hbox (14.56404pt too wide) in paragraph at lines 1295--1295
+Overfull \hbox (12.89404pt too wide) in paragraph at lines 1295--1295
 []|\TU/lmr/m/n/10 H763DG- 
  []
 
@@ -3356,7 +3405,7 @@ Overfull \hbox (14.15689pt too wide) in paragraph at lines 1296--1296
  []
 
 
-Overfull \hbox (9.07404pt too wide) in paragraph at lines 1296--1296
+Overfull \hbox (7.40404pt too wide) in paragraph at lines 1296--1296
 []|\TU/lmr/m/n/10 H72286- 
  []
 
@@ -3371,7 +3420,7 @@ Overfull \hbox (12.35689pt too wide) in paragraph at lines 1297--1297
  []
 
 
-Overfull \hbox (11.92404pt too wide) in paragraph at lines 1297--1297
+Overfull \hbox (10.25404pt too wide) in paragraph at lines 1297--1297
 []|\TU/lmr/m/n/10 H7606G- 
  []
 
@@ -3386,7 +3435,7 @@ Overfull \hbox (12.35689pt too wide) in paragraph at lines 1298--1298
  []
 
 
-Overfull \hbox (7.68404pt too wide) in paragraph at lines 1298--1298
+Overfull \hbox (6.01404pt too wide) in paragraph at lines 1298--1298
 []|\TU/lmr/m/n/10 H6769I- 
  []
 
@@ -3401,7 +3450,7 @@ Overfull \hbox (14.15689pt too wide) in paragraph at lines 1299--1299
  []
 
 
-Overfull \hbox (12.06404pt too wide) in paragraph at lines 1299--1299
+Overfull \hbox (10.39404pt too wide) in paragraph at lines 1299--1299
 []|\TU/lmr/m/n/10 H765GJ- 
  []
 
@@ -3416,7 +3465,7 @@ Overfull \hbox (14.15689pt too wide) in paragraph at lines 1300--1300
  []
 
 
-Overfull \hbox (12.82404pt too wide) in paragraph at lines 1300--1300
+Overfull \hbox (11.15404pt too wide) in paragraph at lines 1300--1300
 []|\TU/lmr/m/n/10 R868BE- 
  []
 
@@ -3431,7 +3480,7 @@ Overfull \hbox (12.35689pt too wide) in paragraph at lines 1301--1301
  []
 
 
-Overfull \hbox (13.93404pt too wide) in paragraph at lines 1301--1301
+Overfull \hbox (12.26404pt too wide) in paragraph at lines 1301--1301
 []|\TU/lmr/m/n/10 H762DC- 
  []
 
@@ -3446,7 +3495,7 @@ Overfull \hbox (12.35689pt too wide) in paragraph at lines 1302--1302
  []
 
 
-Overfull \hbox (9.07404pt too wide) in paragraph at lines 1302--1302
+Overfull \hbox (7.40404pt too wide) in paragraph at lines 1302--1302
 []|\TU/lmr/m/n/10 H76518- 
  []
 
@@ -3461,7 +3510,7 @@ Overfull \hbox (14.15689pt too wide) in paragraph at lines 1303--1303
  []
 
 
-Overfull \hbox (11.01404pt too wide) in paragraph at lines 1303--1303
+Overfull \hbox (9.34404pt too wide) in paragraph at lines 1303--1303
 []|\TU/lmr/m/n/10 R8622B- 
  []
 
@@ -3476,7 +3525,7 @@ Overfull \hbox (12.35689pt too wide) in paragraph at lines 1304--1304
  []
 
 
-Overfull \hbox (11.71404pt too wide) in paragraph at lines 1304--1304
+Overfull \hbox (10.04404pt too wide) in paragraph at lines 1304--1304
 []|\TU/lmr/m/n/10 H763JH- 
  []
 
@@ -3491,7 +3540,7 @@ Overfull \hbox (12.35689pt too wide) in paragraph at lines 1305--1305
  []
 
 
-Overfull \hbox (11.57404pt too wide) in paragraph at lines 1305--1305
+Overfull \hbox (9.90404pt too wide) in paragraph at lines 1305--1305
 []|\TU/lmr/m/n/10 R841HJ- 
  []
 
@@ -3506,7 +3555,7 @@ Overfull \hbox (12.35689pt too wide) in paragraph at lines 1306--1306
  []
 
 
-Overfull \hbox (11.01404pt too wide) in paragraph at lines 1306--1306
+Overfull \hbox (9.34404pt too wide) in paragraph at lines 1306--1306
 []|\TU/lmr/m/n/10 R8623B- 
  []
 
@@ -3521,7 +3570,7 @@ Overfull \hbox (14.15689pt too wide) in paragraph at lines 1307--1307
  []
 
 
-Overfull \hbox (11.57404pt too wide) in paragraph at lines 1307--1307
+Overfull \hbox (9.90404pt too wide) in paragraph at lines 1307--1307
 []|\TU/lmr/m/n/10 R8575D- 
  []
 
@@ -3536,7 +3585,7 @@ Overfull \hbox (14.15689pt too wide) in paragraph at lines 1308--1308
  []
 
 
-Overfull \hbox (11.43404pt too wide) in paragraph at lines 1308--1308
+Overfull \hbox (9.76404pt too wide) in paragraph at lines 1308--1308
 []|\TU/lmr/m/n/10 R6676H- 
  []
 
@@ -3551,7 +3600,7 @@ Overfull \hbox (12.35689pt too wide) in paragraph at lines 1309--1309
  []
 
 
-Overfull \hbox (14.70404pt too wide) in paragraph at lines 1309--1309
+Overfull \hbox (13.03404pt too wide) in paragraph at lines 1309--1309
 []|\TU/lmr/m/n/10 H75FGF- 
  []
 
@@ -3566,7 +3615,7 @@ Overfull \hbox (14.15689pt too wide) in paragraph at lines 1310--1310
  []
 
 
-Overfull \hbox (11.15404pt too wide) in paragraph at lines 1310--1310
+Overfull \hbox (9.48404pt too wide) in paragraph at lines 1310--1310
 []|\TU/lmr/m/n/10 R8699C- 
  []
 
@@ -3581,7 +3630,7 @@ Overfull \hbox (14.15689pt too wide) in paragraph at lines 1311--1311
  []
 
 
-Overfull \hbox (8.93404pt too wide) in paragraph at lines 1311--1311
+Overfull \hbox (7.26404pt too wide) in paragraph at lines 1311--1311
 []|\TU/lmr/m/n/10 R87071- 
  []
 
@@ -3596,7 +3645,7 @@ Overfull \hbox (14.15689pt too wide) in paragraph at lines 1312--1312
  []
 
 
-Overfull \hbox (13.17404pt too wide) in paragraph at lines 1312--1312
+Overfull \hbox (11.50404pt too wide) in paragraph at lines 1312--1312
 []|\TU/lmr/m/n/10 H767FG- 
  []
 
@@ -3611,7 +3660,7 @@ Overfull \hbox (14.15689pt too wide) in paragraph at lines 1313--1313
  []
 
 
-Overfull \hbox (10.60403pt too wide) in paragraph at lines 1313--1313
+Overfull \hbox (8.93404pt too wide) in paragraph at lines 1313--1313
 []|\TU/lmr/m/n/10 R861JF- 
  []
 
@@ -3626,7 +3675,7 @@ Overfull \hbox (14.15689pt too wide) in paragraph at lines 1314--1314
  []
 
 
-Overfull \hbox (12.68404pt too wide) in paragraph at lines 1314--1314
+Overfull \hbox (11.01404pt too wide) in paragraph at lines 1314--1314
 []|\TU/lmr/m/n/10 R875CF- 
  []
 
@@ -3636,7 +3685,7 @@ Overfull \hbox (14.15689pt too wide) in paragraph at lines 1315--1315
  []
 
 
-Overfull \hbox (14.62404pt too wide) in paragraph at lines 1315--1315
+Overfull \hbox (12.95404pt too wide) in paragraph at lines 1315--1315
 []|\TU/lmr/m/n/10 H76BFC- 
  []
 
@@ -3646,7 +3695,7 @@ Overfull \hbox (14.15689pt too wide) in paragraph at lines 1316--1316
  []
 
 
-Overfull \hbox (8.93404pt too wide) in paragraph at lines 1316--1316
+Overfull \hbox (7.26404pt too wide) in paragraph at lines 1316--1316
 []|\TU/lmr/m/n/10 R19933- 
  []
 
@@ -3656,7 +3705,7 @@ Overfull \hbox (14.15689pt too wide) in paragraph at lines 1317--1317
  []
 
 
-Overfull \hbox (12.75403pt too wide) in paragraph at lines 1317--1317
+Overfull \hbox (11.08403pt too wide) in paragraph at lines 1317--1317
 []|\TU/lmr/m/n/10 G71BID- 
  []
 
@@ -3666,7 +3715,7 @@ Overfull \hbox (14.15689pt too wide) in paragraph at lines 1318--1318
  []
 
 
-Overfull \hbox (11.57404pt too wide) in paragraph at lines 1318--1318
+Overfull \hbox (9.90404pt too wide) in paragraph at lines 1318--1318
 []|\TU/lmr/m/n/10 H7643A- 
  []
 
@@ -3676,7 +3725,7 @@ Overfull \hbox (14.15689pt too wide) in paragraph at lines 1319--1319
  []
 
 
-Overfull \hbox (13.65404pt too wide) in paragraph at lines 1319--1319
+Overfull \hbox (11.98404pt too wide) in paragraph at lines 1319--1319
 []|\TU/lmr/m/n/10 R872HC- 
  []
 
@@ -3686,7 +3735,7 @@ Overfull \hbox (14.15689pt too wide) in paragraph at lines 1320--1320
  []
 
 
-Overfull \hbox (16.29404pt too wide) in paragraph at lines 1320--1320
+Overfull \hbox (14.62404pt too wide) in paragraph at lines 1320--1320
 []|\TU/lmr/m/n/10 H76ADB- 
  []
 
@@ -3696,7 +3745,7 @@ Overfull \hbox (14.15689pt too wide) in paragraph at lines 1321--1321
  []
 
 
-Overfull \hbox (8.93404pt too wide) in paragraph at lines 1321--1321
+Overfull \hbox (7.26404pt too wide) in paragraph at lines 1321--1321
 []|\TU/lmr/m/n/10 R87336- 
  []
 
@@ -3706,7 +3755,7 @@ Overfull \hbox (14.15689pt too wide) in paragraph at lines 1322--1322
  []
 
 
-Overfull \hbox (9.07404pt too wide) in paragraph at lines 1322--1322
+Overfull \hbox (7.40404pt too wide) in paragraph at lines 1322--1322
 []|\TU/lmr/m/n/10 H15134- 
  []
 
@@ -3716,7 +3765,7 @@ Overfull \hbox (14.15689pt too wide) in paragraph at lines 1323--1323
  []
 
 
-Overfull \hbox (13.65404pt too wide) in paragraph at lines 1323--1323
+Overfull \hbox (11.98404pt too wide) in paragraph at lines 1323--1323
 []|\TU/lmr/m/n/10 R653CA- 
  []
 
@@ -3726,7 +3775,7 @@ Overfull \hbox (14.15689pt too wide) in paragraph at lines 1324--1324
  []
 
 
-Overfull \hbox (7.68404pt too wide) in paragraph at lines 1324--1324
+Overfull \hbox (6.01404pt too wide) in paragraph at lines 1324--1324
 []|\TU/lmr/m/n/10 H4669I- 
  []
 
@@ -3736,7 +3785,7 @@ Overfull \hbox (14.15689pt too wide) in paragraph at lines 1325--1325
  []
 
 
-Overfull \hbox (8.10403pt too wide) in paragraph at lines 1325--1325
+Overfull \hbox (6.43404pt too wide) in paragraph at lines 1325--1325
 []|\TU/lmr/m/n/10 F36452- 
  []
 
@@ -3746,7 +3795,7 @@ Overfull \hbox (12.35689pt too wide) in paragraph at lines 1326--1326
  []
 
 
-Overfull \hbox (13.17404pt too wide) in paragraph at lines 1326--1326
+Overfull \hbox (11.50404pt too wide) in paragraph at lines 1326--1326
 []|\TU/lmr/m/n/10 H76IDG- 
  []
 
@@ -3756,7 +3805,7 @@ Overfull \hbox (12.35689pt too wide) in paragraph at lines 1327--1327
  []
 
 
-Overfull \hbox (10.74403pt too wide) in paragraph at lines 1327--1327
+Overfull \hbox (9.07404pt too wide) in paragraph at lines 1327--1327
 []|\TU/lmr/m/n/10 F3646D- 
  []
 
@@ -3766,7 +3815,7 @@ Overfull \hbox (12.35689pt too wide) in paragraph at lines 1328--1328
  []
 
 
-Overfull \hbox (8.93404pt too wide) in paragraph at lines 1328--1328
+Overfull \hbox (7.26404pt too wide) in paragraph at lines 1328--1328
 []|\TU/lmr/m/n/10 R86349- 
  []
 
@@ -3776,7 +3825,7 @@ Overfull \hbox (12.35689pt too wide) in paragraph at lines 1329--1329
  []
 
 
-Overfull \hbox (11.99403pt too wide) in paragraph at lines 1329--1329
+Overfull \hbox (10.32404pt too wide) in paragraph at lines 1329--1329
 []|\TU/lmr/m/n/10 R877FF- 
  []
 
@@ -3786,7 +3835,7 @@ Overfull \hbox (12.35689pt too wide) in paragraph at lines 1330--1330
  []
 
 
-Overfull \hbox (8.93404pt too wide) in paragraph at lines 1330--1330
+Overfull \hbox (7.26404pt too wide) in paragraph at lines 1330--1330
 []|\TU/lmr/m/n/10 R87411- 
  []
 
@@ -3796,7 +3845,7 @@ Overfull \hbox (12.35689pt too wide) in paragraph at lines 1331--1331
  []
 
 
-Overfull \hbox (8.93404pt too wide) in paragraph at lines 1331--1331
+Overfull \hbox (7.26404pt too wide) in paragraph at lines 1331--1331
 []|\TU/lmr/m/n/10 R86256- 
  []
 
@@ -3806,7 +3855,7 @@ Overfull \hbox (12.35689pt too wide) in paragraph at lines 1332--1332
  []
 
 
-Overfull \hbox (12.68404pt too wide) in paragraph at lines 1332--1332
+Overfull \hbox (11.01404pt too wide) in paragraph at lines 1332--1332
 []|\TU/lmr/m/n/10 F363BH- 
  []
 
@@ -3816,7 +3865,7 @@ Overfull \hbox (12.35689pt too wide) in paragraph at lines 1333--1333
  []
 
 
-Overfull \hbox (11.85403pt too wide) in paragraph at lines 1333--1333
+Overfull \hbox (10.18404pt too wide) in paragraph at lines 1333--1333
 []|\TU/lmr/m/n/10 R604FA- 
  []
 
@@ -3826,7 +3875,7 @@ Overfull \hbox (12.35689pt too wide) in paragraph at lines 1334--1334
  []
 
 
-Overfull \hbox (8.93404pt too wide) in paragraph at lines 1334--1334
+Overfull \hbox (7.26404pt too wide) in paragraph at lines 1334--1334
 []|\TU/lmr/m/n/10 R85913- 
  []
 
@@ -3836,7 +3885,7 @@ Overfull \hbox (12.35689pt too wide) in paragraph at lines 1335--1335
  []
 
 
-Overfull \hbox (11.92404pt too wide) in paragraph at lines 1335--1335
+Overfull \hbox (10.25404pt too wide) in paragraph at lines 1335--1335
 []|\TU/lmr/m/n/10 H7626G- 
  []
 
@@ -3846,7 +3895,7 @@ Overfull \hbox (12.35689pt too wide) in paragraph at lines 1336--1336
  []
 
 
-Overfull \hbox (9.07404pt too wide) in paragraph at lines 1336--1336
+Overfull \hbox (7.40404pt too wide) in paragraph at lines 1336--1336
 []|\TU/lmr/m/n/10 H76616- 
  []
 
@@ -3856,7 +3905,7 @@ Overfull \hbox (12.35689pt too wide) in paragraph at lines 1337--1337
  []
 
 
-Overfull \hbox (10.18404pt too wide) in paragraph at lines 1337--1337
+Overfull \hbox (8.51404pt too wide) in paragraph at lines 1337--1337
 []|\TU/lmr/m/n/10 R868DI- 
  []
 
@@ -3866,7 +3915,7 @@ Overfull \hbox (12.35689pt too wide) in paragraph at lines 1338--1338
  []
 
 
-Overfull \hbox (9.21404pt too wide) in paragraph at lines 1338--1338
+Overfull \hbox (7.54404pt too wide) in paragraph at lines 1338--1338
 []|\TU/lmr/m/n/10 H7529J- 
  []
 
@@ -3876,22 +3925,30 @@ Overfull \hbox (12.35689pt too wide) in paragraph at lines 1339--1339
  []
 
 
-Overfull \hbox (12.96404pt too wide) in paragraph at lines 1339--1339
+Overfull \hbox (11.29404pt too wide) in paragraph at lines 1339--1339
 []|\TU/lmr/m/n/10 R863EC- 
  []
 
-[49] [50] [51] [52] [53]
-
-[54]
+[49] [50] [51] [52] [53] [54]
 Underfull \hbox (badness 1087) in paragraph at lines 1392--1393
 \TU/lmr/m/n/10 PENSA INVESTIR EM UMA STARTUP DE IMPLANTAÇÃO DE Sis
  []
 
-
-
 [55]
+Underfull \hbox (badness 1024) in paragraph at lines 1418--1419
+\TU/lmr/m/n/10 O \TU/lmr/bx/n/10 CONHECIMENTO1 \TU/lmr/m/n/10 JUSTIFICA O INVES
+TIMENTO NA NOSSA
+ []
+
+
 Underfull \hbox (badness 3179) in paragraph at lines 1418--1419
 \TU/lmr/m/n/10 STARTUP DO GRUPO X, QUE IMPLANTA Sis ERP+COMÉRCIO
+ []
+
+
+Underfull \hbox (badness 1024) in paragraph at lines 1420--1421
+[]\TU/lmr/m/n/10 O \TU/lmr/bx/n/10 CONHECIMENTO2 \TU/lmr/m/n/10 JUSTIFICA O INV
+ESTIMENTO NA NOSSA
  []
 
 
@@ -3900,36 +3957,24 @@ Underfull \hbox (badness 3179) in paragraph at lines 1420--1421
  []
 
 
-
-[56]
-Underfull \hbox (badness 2027) in paragraph at lines 1424--1425
+Underfull \hbox (badness 2512) in paragraph at lines 1424--1425
 \TU/lmr/m/n/10 CONHECIMENTO3… COMPROVAMOS QUE COMPENSA O IVESTI-
  []
 
-
-
-[57]
-
-[58]
+[56] [57]
 
 Package longtable Warning: Column widths have changed
 (longtable)                in table 2.5 on input line 1544.
 
+[58]
 
 Package longtable Warning: Column widths have changed
 (longtable)                in table 2.6 on input line 1558.
 
-
-
-
-Overfull \hbox (43.12123pt too wide) has occurred while \output is active
-\TU/lmr/m/sl/10 2.5.  PARTE PRÁTICA - IMPLANTAR UM E-COMMERCE ATRELADO A UM ERP \TU/lmr/m/n/10 59
- []
-
-[59]
 File: images/np1/001-bling-cadastro.jpg Graphic file (type bmp)
 <images/np1/001-bling-cadastro.jpg>
-File: images/np1/002-bling-selecionar-area-comercial.jpg Graphic file (type bmp)
+File: images/np1/002-bling-selecionar-area-comercial.jpg Graphic file (type bmp
+)
 <images/np1/002-bling-selecionar-area-comercial.jpg>
 File: images/np1/003-bling-escolher-modulos-erp.jpg Graphic file (type bmp)
 <images/np1/003-bling-escolher-modulos-erp.jpg>
@@ -3943,31 +3988,25 @@ Underfull \hbox (badness 10000) in paragraph at lines 1574--1575
  []
 
 
+Underfull \vbox (badness 4726) has occurred while \output is active []
+
+[59]
 Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
 
 [60]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-
 [61]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-
 [62]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-[63]
-File: images/np1/006-bling-identificar-pessoa-endereço.jpg Graphic file (type bmp)
+File: images/np1/006-bling-identificar-pessoa-endereço.jpg Graphic file (type b
+mp)
 <images/np1/006-bling-identificar-pessoa-endereço.jpg>
 File: images/np1/007-bling-natureza-negocio.jpg Graphic file (type bmp)
 <images/np1/007-bling-natureza-negocio.jpg>
-File: images/np1/008-bling-certificado-digital-fisco-nota-fiscal.jpg Graphic file (type bmp)
+File: images/np1/008-bling-certificado-digital-fisco-nota-fiscal.jpg Graphic fi
+le (type bmp)
 <images/np1/008-bling-certificado-digital-fisco-nota-fiscal.jpg>
 
 Overfull \hbox (42.66898pt too wide) in paragraph at lines 1580--1581
@@ -3982,31 +4021,37 @@ Underfull \hbox (badness 10000) in paragraph at lines 1580--1581
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-
-[64]
+[63]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-
-[65]
-File: images/np1/009-bling-cadastrar-categorias-produtos.jpg Graphic file (type bmp)
+[64]
+File: images/np1/009-bling-cadastrar-categorias-produtos.jpg Graphic file (type
+ bmp)
 <images/np1/009-bling-cadastrar-categorias-produtos.jpg>
-File: images/np1/010-bling-cadastrar-categorias-produtos-tela-lista-categorias.jpg Graphic file (type bmp)
+File: images/np1/010-bling-cadastrar-categorias-produtos-tela-lista-categorias.
+jpg Graphic file (type bmp)
 <images/np1/010-bling-cadastrar-categorias-produtos-tela-lista-categorias.jpg>
 File: images/np1/011-bling-cadastrar-moda-masculina.jpg Graphic file (type bmp)
+
 <images/np1/011-bling-cadastrar-moda-masculina.jpg>
-File: images/np1/012-bling-cadastrar-categorias-produtos-tela-lista-categorias-inserir-moda-feminina.jpg Graphic file (type bmp)
-<images/np1/012-bling-cadastrar-categorias-produtos-tela-lista-categorias-inserir-moda-feminina.jpg>
-File: images/np1/014-bling-cadastrar-subcategoria-moda-masculina-camiseta.jpg Graphic file (type bmp)
+File: images/np1/012-bling-cadastrar-categorias-produtos-tela-lista-categorias-
+inserir-moda-feminina.jpg Graphic file (type bmp)
+<images/np1/012-bling-cadastrar-categorias-produtos-tela-lista-categorias-inser
+ir-moda-feminina.jpg>
+File: images/np1/014-bling-cadastrar-subcategoria-moda-masculina-camiseta.jpg G
+raphic file (type bmp)
 <images/np1/014-bling-cadastrar-subcategoria-moda-masculina-camiseta.jpg>
-File: images/np1/015-bling-cadastrar-subcategoria-moda-masculina-camiseta.jpg Graphic file (type bmp)
+File: images/np1/015-bling-cadastrar-subcategoria-moda-masculina-camiseta.jpg G
+raphic file (type bmp)
 <images/np1/015-bling-cadastrar-subcategoria-moda-masculina-camiseta.jpg>
-File: images/np1/016-bling-confirmar-cadastro-camisetas-em-moda-masculina.jpg Graphic file (type bmp)
+File: images/np1/016-bling-confirmar-cadastro-camisetas-em-moda-masculina.jpg G
+raphic file (type bmp)
 <images/np1/016-bling-confirmar-cadastro-camisetas-em-moda-masculina.jpg>
-File: images/np1/017-bling-cadastrar-subcategoria-moda-feminina-vestido.jpg Graphic file (type bmp)
+File: images/np1/017-bling-cadastrar-subcategoria-moda-feminina-vestido.jpg Gra
+phic file (type bmp)
 <images/np1/017-bling-cadastrar-subcategoria-moda-feminina-vestido.jpg>
-File: images/np1/018-bling-confirmar-cadastro-vestidos-em-moda-feminina.jpg Graphic file (type bmp)
+File: images/np1/018-bling-confirmar-cadastro-vestidos-em-moda-feminina.jpg Gra
+phic file (type bmp)
 <images/np1/018-bling-confirmar-cadastro-vestidos-em-moda-feminina.jpg>
 File: images/np1/019-categorias-cadastradas.jpg Graphic file (type bmp)
 <images/np1/019-categorias-cadastradas.jpg>
@@ -4058,48 +4103,56 @@ Underfull \hbox (badness 10000) in paragraph at lines 1584--1585
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
+[65]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 [66]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-
 [67]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-[68]
 File: images/np1/020-cadastrar-produtos.jpg Graphic file (type bmp)
 <images/np1/020-cadastrar-produtos.jpg>
-File: images/np1/021-cadastro-produtos-inserir-produto.jpg Graphic file (type bmp)
+File: images/np1/021-cadastro-produtos-inserir-produto.jpg Graphic file (type b
+mp)
 <images/np1/021-cadastro-produtos-inserir-produto.jpg>
-File: images/np1/022-cadastro-produtos-inserir-produto-dados-basicos.jpg Graphic file (type bmp)
+File: images/np1/022-cadastro-produtos-inserir-produto-dados-basicos.jpg Graphi
+c file (type bmp)
 <images/np1/022-cadastro-produtos-inserir-produto-dados-basicos.jpg>
-File: images/np1/023-cadastro-produtos-inserir-detalhes-e-commerce.jpg Graphic file (type bmp)
+File: images/np1/023-cadastro-produtos-inserir-detalhes-e-commerce.jpg Graphic 
+file (type bmp)
 <images/np1/023-cadastro-produtos-inserir-detalhes-e-commerce.jpg>
-File: images/np1/024-cadastro-produtos-inserir-detalhes-e-commerce-descricao.jpg Graphic file (type bmp)
+File: images/np1/024-cadastro-produtos-inserir-detalhes-e-commerce-descricao.jp
+g Graphic file (type bmp)
 <images/np1/024-cadastro-produtos-inserir-detalhes-e-commerce-descricao.jpg>
-File: images/np1/025-cadastro-produtos-inserir-imagem-produtos.jpg Graphic file (type bmp)
+File: images/np1/025-cadastro-produtos-inserir-imagem-produtos.jpg Graphic file
+ (type bmp)
 <images/np1/025-cadastro-produtos-inserir-imagem-produtos.jpg>
-File: images/np1/026-cadastro-produtos-inserir-imagem-produtos.jpg Graphic file (type bmp)
+File: images/np1/026-cadastro-produtos-inserir-imagem-produtos.jpg Graphic file
+ (type bmp)
 <images/np1/026-cadastro-produtos-inserir-imagem-produtos.jpg>
-File: images/np1/027-cadastro-produtos-inserir-imagem-produtos-cadastradas.jpg Graphic file (type bmp)
+File: images/np1/027-cadastro-produtos-inserir-imagem-produtos-cadastradas.jpg 
+Graphic file (type bmp)
 <images/np1/027-cadastro-produtos-inserir-imagem-produtos-cadastradas.jpg>
-File: images/np1/028-cadastro-produtos-quantidade-estoque.jpg Graphic file (type bmp)
+File: images/np1/028-cadastro-produtos-quantidade-estoque.jpg Graphic file (typ
+e bmp)
 <images/np1/028-cadastro-produtos-quantidade-estoque.jpg>
-File: images/np1/029-cadastro-produtos-fiscal-NCM-CEST.jpg Graphic file (type bmp)
+File: images/np1/029-cadastro-produtos-fiscal-NCM-CEST.jpg Graphic file (type b
+mp)
 <images/np1/029-cadastro-produtos-fiscal-NCM-CEST.jpg>
-File: images/np1/030-cadastro-produtos-variações-produto.jpg Graphic file (type bmp)
+File: images/np1/030-cadastro-produtos-variações-produto.jpg Graphic file (type
+ bmp)
 <images/np1/030-cadastro-produtos-variações-produto.jpg>
-File: images/np1/031-cadastro-produtos-variações-produto.jpg Graphic file (type bmp)
+File: images/np1/031-cadastro-produtos-variações-produto.jpg Graphic file (type
+ bmp)
 <images/np1/031-cadastro-produtos-variações-produto.jpg>
-File: images/np1/032-cadastro-produtos-variações-produto-inserir-código.jpg Graphic file (type bmp)
+File: images/np1/032-cadastro-produtos-variações-produto-inserir-código.jpg Gra
+phic file (type bmp)
 <images/np1/032-cadastro-produtos-variações-produto-inserir-código.jpg>
-File: images/np1/033-cadastro-produtos-variações-produto-inserir-imagem.jpg Graphic file (type bmp)
+File: images/np1/033-cadastro-produtos-variações-produto-inserir-imagem.jpg Gra
+phic file (type bmp)
 <images/np1/033-cadastro-produtos-variações-produto-inserir-imagem.jpg>
-File: images/np1/034-cadastro-produtos-variações-produto.jpg Graphic file (type bmp)
+File: images/np1/034-cadastro-produtos-variações-produto.jpg Graphic file (type
+ bmp)
 <images/np1/034-cadastro-produtos-variações-produto.jpg>
 
 Underfull \hbox (badness 10000) in paragraph at lines 1588--1589
@@ -4164,38 +4217,32 @@ Underfull \hbox (badness 10000) in paragraph at lines 1588--1589
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
+[68]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 [69]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-
 [70]
 Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
 
 [71]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-
 [72]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-[73]
-File: images/np1/035-bling-produto-cadastrado-sem-estoque.jpg Graphic file (type bmp)
+File: images/np1/035-bling-produto-cadastrado-sem-estoque.jpg Graphic file (typ
+e bmp)
 <images/np1/035-bling-produto-cadastrado-sem-estoque.jpg>
 File: images/np1/036-bling-estoque-produto-incluir.jpg Graphic file (type bmp)
 <images/np1/036-bling-estoque-produto-incluir.jpg>
-File: images/np1/037-bling-estoque-produto-incluir-camiseta-preta.jpg Graphic file (type bmp)
+File: images/np1/037-bling-estoque-produto-incluir-camiseta-preta.jpg Graphic f
+ile (type bmp)
 <images/np1/037-bling-estoque-produto-incluir-camiseta-preta.jpg>
-File: images/np1/038-bling-estoque-produto-incluir-camiseta-preta-iniciar.jpg Graphic file (type bmp)
+File: images/np1/038-bling-estoque-produto-incluir-camiseta-preta-iniciar.jpg G
+raphic file (type bmp)
 <images/np1/038-bling-estoque-produto-incluir-camiseta-preta-iniciar.jpg>
-File: images/np1/039-bling-estoque-produto-incluir-camiseta-preta-feito.jpg Graphic file (type bmp)
+File: images/np1/039-bling-estoque-produto-incluir-camiseta-preta-feito.jpg Gra
+phic file (type bmp)
 <images/np1/039-bling-estoque-produto-incluir-camiseta-preta-feito.jpg>
 File: images/np1/040-bling-estoque-produto-lançado.jpg Graphic file (type bmp)
 <images/np1/040-bling-estoque-produto-lançado.jpg>
@@ -4205,9 +4252,11 @@ File: images/np1/042-bling-cadastrar-cliente-feito.jpg Graphic file (type bmp)
 <images/np1/042-bling-cadastrar-cliente-feito.jpg>
 File: images/np1/043-bling-cadastrar-cliente-feito.jpg Graphic file (type bmp)
 <images/np1/043-bling-cadastrar-cliente-feito.jpg>
-File: images/np1/044-bling-cadastrar-fornecedor-feito.jpg Graphic file (type bmp)
+File: images/np1/044-bling-cadastrar-fornecedor-feito.jpg Graphic file (type bm
+p)
 <images/np1/044-bling-cadastrar-fornecedor-feito.jpg>
-File: images/np1/045-bling-cadastrar-fornecedor-feito.jpg Graphic file (type bmp)
+File: images/np1/045-bling-cadastrar-fornecedor-feito.jpg Graphic file (type bm
+p)
 <images/np1/045-bling-cadastrar-fornecedor-feito.jpg>
 
 Overfull \hbox (213.04608pt too wide) in paragraph at lines 1592--1593
@@ -4242,38 +4291,35 @@ Underfull \hbox (badness 10000) in paragraph at lines 1592--1593
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
+[73]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 [74]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-
 [75]
 Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
 
 [76]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-
 [77]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-[78]
-File: images/np1/046-bling-abrir-loja-fisica-frente-caixa.jpg Graphic file (type bmp)
+File: images/np1/046-bling-abrir-loja-fisica-frente-caixa.jpg Graphic file (typ
+e bmp)
 <images/np1/046-bling-abrir-loja-fisica-frente-caixa.jpg>
-File: images/np1/047-bling-abrir-loja-fisica-frente-caixa-ignorar-certificado.jpg Graphic file (type bmp)
+File: images/np1/047-bling-abrir-loja-fisica-frente-caixa-ignorar-certificado.j
+pg Graphic file (type bmp)
 <images/np1/047-bling-abrir-loja-fisica-frente-caixa-ignorar-certificado.jpg>
-File: images/np1/048-bling-abrir-loja-fisica-frente-caixa-cadastrar-loja-matriz.jpg Graphic file (type bmp)
+File: images/np1/048-bling-abrir-loja-fisica-frente-caixa-cadastrar-loja-matriz
+.jpg Graphic file (type bmp)
 <images/np1/048-bling-abrir-loja-fisica-frente-caixa-cadastrar-loja-matriz.jpg>
-File: images/np1/049-bling-abrir-loja-fisica-frente-caixa-cadastrar-loja-matriz.jpg Graphic file (type bmp)
+
+File: images/np1/049-bling-abrir-loja-fisica-frente-caixa-cadastrar-loja-matriz
+.jpg Graphic file (type bmp)
 <images/np1/049-bling-abrir-loja-fisica-frente-caixa-cadastrar-loja-matriz.jpg>
-File: images/np1/050-bling-abrir-loja-fisica-frente-caixa-ativo.jpg Graphic file (type bmp)
+
+File: images/np1/050-bling-abrir-loja-fisica-frente-caixa-ativo.jpg Graphic fil
+e (type bmp)
 <images/np1/050-bling-abrir-loja-fisica-frente-caixa-ativo.jpg>
 
 Underfull \hbox (badness 10000) in paragraph at lines 1596--1597
@@ -4288,49 +4334,47 @@ Underfull \hbox (badness 10000) in paragraph at lines 1596--1597
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
+[78]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 [79]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-
 [80]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-[81]
 File: images/np1/051-nuvemshop-testar-loja-gratis.jpg Graphic file (type bmp)
 <images/np1/051-nuvemshop-testar-loja-gratis.jpg>
-File: images/np1/052-nuvemshop-cadastrar-loja-gratis.jpg Graphic file (type bmp)
+File: images/np1/052-nuvemshop-cadastrar-loja-gratis.jpg Graphic file (type bmp
+)
 <images/np1/052-nuvemshop-cadastrar-loja-gratis.jpg>
 File: images/np1/053-nuvemshop-testar-loja-gratis.jpg Graphic file (type bmp)
 <images/np1/053-nuvemshop-testar-loja-gratis.jpg>
-File: images/np1/054-nuvemshop-cadastrar-loja-gratis.jpg Graphic file (type bmp)
+File: images/np1/054-nuvemshop-cadastrar-loja-gratis.jpg Graphic file (type bmp
+)
 <images/np1/054-nuvemshop-cadastrar-loja-gratis.jpg>
-File: images/np1/055-nuvemshop-cadastrar-loja-gratis.jpg Graphic file (type bmp)
+File: images/np1/055-nuvemshop-cadastrar-loja-gratis.jpg Graphic file (type bmp
+)
 <images/np1/055-nuvemshop-cadastrar-loja-gratis.jpg>
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-
-[82]
+[81]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-
-[83]
-File: images/np1/056-nuvemshop-cadastrar-categorias-produtos.jpg Graphic file (type bmp)
+[82]
+File: images/np1/056-nuvemshop-cadastrar-categorias-produtos.jpg Graphic file (
+type bmp)
 <images/np1/056-nuvemshop-cadastrar-categorias-produtos.jpg>
-File: images/np1/057-nuvemshop-acessar-cadastro-categorias-produtos.jpg Graphic file (type bmp)
+File: images/np1/057-nuvemshop-acessar-cadastro-categorias-produtos.jpg Graphic
+ file (type bmp)
 <images/np1/057-nuvemshop-acessar-cadastro-categorias-produtos.jpg>
-File: images/np1/058-nuvemshop-acessar-cadastro-categorias-produtos.jpg Graphic file (type bmp)
+File: images/np1/058-nuvemshop-acessar-cadastro-categorias-produtos.jpg Graphic
+ file (type bmp)
 <images/np1/058-nuvemshop-acessar-cadastro-categorias-produtos.jpg>
-File: images/np1/059-nuvemshop-cadastrar-categorias-produtos.jpg Graphic file (type bmp)
+File: images/np1/059-nuvemshop-cadastrar-categorias-produtos.jpg Graphic file (
+type bmp)
 <images/np1/059-nuvemshop-cadastrar-categorias-produtos.jpg>
-File: images/np1/060-nuvemshop-cadastrar-subcategorias-produtos.jpg Graphic file (type bmp)
+File: images/np1/060-nuvemshop-cadastrar-subcategorias-produtos.jpg Graphic fil
+e (type bmp)
 <images/np1/060-nuvemshop-cadastrar-subcategorias-produtos.jpg>
 File: images/np1/061-nuvemshop-categorias-bling.jpg Graphic file (type bmp)
 <images/np1/061-nuvemshop-categorias-bling.jpg>
@@ -4342,16 +4386,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 1608--1609
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
+[83]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 [84]
-
-[85]
-File: images/np1/062-nuvemshop-obter-código-categorias.jpg Graphic file (type bmp)
+File: images/np1/062-nuvemshop-obter-código-categorias.jpg Graphic file (type b
+mp)
 <images/np1/062-nuvemshop-obter-código-categorias.jpg>
-File: images/np1/063-nuvemshop-obter-código-categorias.jpg Graphic file (type bmp)
+File: images/np1/063-nuvemshop-obter-código-categorias.jpg Graphic file (type b
+mp)
 <images/np1/063-nuvemshop-obter-código-categorias.jpg>
-File: images/np1/064-nuvemshop-categorias-nuvemshop-códigos.jpg Graphic file (type bmp)
+File: images/np1/064-nuvemshop-categorias-nuvemshop-códigos.jpg Graphic file (t
+ype bmp)
 <images/np1/064-nuvemshop-categorias-nuvemshop-códigos.jpg>
 File: images/np1/065-nuvemshop-visitar-loja-online.jpg Graphic file (type bmp)
 <images/np1/065-nuvemshop-visitar-loja-online.jpg>
@@ -4372,11 +4418,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 1612--1613
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
+[85]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 [86]
-
-[87]
 File: images/np1/068-Conectar-nuvemshop-bling.jpg Graphic file (type bmp)
 <images/np1/068-Conectar-nuvemshop-bling.jpg>
 File: images/np1/069-Conectar-nuvemshop-bling.jpg Graphic file (type bmp)
@@ -4393,32 +4438,31 @@ Underfull \hbox (badness 10000) in paragraph at lines 1618--1619
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
+[87]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 [88]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-
 [89]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-[90]
 File: images/np1/072-Conectar-bling-nuvemshop.jpg Graphic file (type bmp)
 <images/np1/072-Conectar-bling-nuvemshop.jpg>
 File: images/np1/073-Conectar-bling-nuvemshop.jpg Graphic file (type bmp)
 <images/np1/073-Conectar-bling-nuvemshop.jpg>
-File: images/np1/074-Conectar-bling-nuvemshop-ajustes-finos.jpg Graphic file (type bmp)
+File: images/np1/074-Conectar-bling-nuvemshop-ajustes-finos.jpg Graphic file (t
+ype bmp)
 <images/np1/074-Conectar-bling-nuvemshop-ajustes-finos.jpg>
-File: images/np1/075-Conectar-bling-nuvemshop-ajustes-finos.jpg Graphic file (type bmp)
+File: images/np1/075-Conectar-bling-nuvemshop-ajustes-finos.jpg Graphic file (t
+ype bmp)
 <images/np1/075-Conectar-bling-nuvemshop-ajustes-finos.jpg>
-File: images/np1/076-Conectar-bling-nuvemshop-ajustes-finos-vendas.jpg Graphic file (type bmp)
+File: images/np1/076-Conectar-bling-nuvemshop-ajustes-finos-vendas.jpg Graphic 
+file (type bmp)
 <images/np1/076-Conectar-bling-nuvemshop-ajustes-finos-vendas.jpg>
-File: images/np1/077-Conectar-bling-nuvemshop-ajustes-finos-vendas.jpg Graphic file (type bmp)
+File: images/np1/077-Conectar-bling-nuvemshop-ajustes-finos-vendas.jpg Graphic 
+file (type bmp)
 <images/np1/077-Conectar-bling-nuvemshop-ajustes-finos-vendas.jpg>
-File: images/np1/078-Conectar-bling-nuvemshop-ajustes-feito.jpg Graphic file (type bmp)
+File: images/np1/078-Conectar-bling-nuvemshop-ajustes-feito.jpg Graphic file (t
+ype bmp)
 <images/np1/078-Conectar-bling-nuvemshop-ajustes-feito.jpg>
 
 Underfull \hbox (badness 10000) in paragraph at lines 1622--1623
@@ -4430,29 +4474,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 1622--1623
 []
  []
 
-
+[90]
 Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
 
 [91]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-[92]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-[93]
-File: images/np1/079-Amarracao-Categorias-Ecommerce-ERP.jpg Graphic file (type bmp)
+File: images/np1/079-Amarracao-Categorias-Ecommerce-ERP.jpg Graphic file (type 
+bmp)
 <images/np1/079-Amarracao-Categorias-Ecommerce-ERP.jpg>
-File: images/np1/080-Amarracao-Categorias-Ecommerce-ERP.jpg Graphic file (type bmp)
+File: images/np1/080-Amarracao-Categorias-Ecommerce-ERP.jpg Graphic file (type 
+bmp)
 <images/np1/080-Amarracao-Categorias-Ecommerce-ERP.jpg>
-File: images/np1/081-Amarracao-Categorias-Ecommerce-ERP.jpg Graphic file (type bmp)
+File: images/np1/081-Amarracao-Categorias-Ecommerce-ERP.jpg Graphic file (type 
+bmp)
 <images/np1/081-Amarracao-Categorias-Ecommerce-ERP.jpg>
-File: images/np1/082-Amarracao-Categorias-Ecommerce-ERP.jpg Graphic file (type bmp)
+File: images/np1/082-Amarracao-Categorias-Ecommerce-ERP.jpg Graphic file (type 
+bmp)
 <images/np1/082-Amarracao-Categorias-Ecommerce-ERP.jpg>
 
 Underfull \hbox (badness 10000) in paragraph at lines 1626--1627
@@ -4462,14 +4498,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 1626--1627
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-
-[94]
+[92]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-
-[95]
+[93]
 File: images/np1/083-Exportar-Bling-Nuvemshop.jpg Graphic file (type bmp)
 <images/np1/083-Exportar-Bling-Nuvemshop.jpg>
 File: images/np1/084-Exportar-Bling-Nuvemshop.jpg Graphic file (type bmp)
@@ -4510,95 +4542,90 @@ Underfull \hbox (badness 10000) in paragraph at lines 1630--1631
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
+[94]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
+[95]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 [96]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-[97]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-[98]
-File: images/np1/089-loja_virtual_com_produtos_carregados.jpg Graphic file (type bmp)
+File: images/np1/089-loja_virtual_com_produtos_carregados.jpg Graphic file (typ
+e bmp)
 <images/np1/089-loja_virtual_com_produtos_carregados.jpg>
 
 Underfull \hbox (badness 1009) in paragraph at lines 1636--1636
 []\TU/lmr/bx/n/12 INICIANDO O PROCESSO DE VENDA SIM-
  []
 
-File: images/np1/090-loja_virtual_meio_de_pagamento1.jpg Graphic file (type bmp)
+File: images/np1/090-loja_virtual_meio_de_pagamento1.jpg Graphic file (type bmp
+)
 <images/np1/090-loja_virtual_meio_de_pagamento1.jpg>
 
-Underfull \vbox (badness 1325) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-
-[99]
-File: images/np1/091-loja_virtual_meio_de_pagamento2.jpg Graphic file (type bmp)
+[97]
+File: images/np1/091-loja_virtual_meio_de_pagamento2.jpg Graphic file (type bmp
+)
 <images/np1/091-loja_virtual_meio_de_pagamento2.jpg>
-
-
-[100]
-File: images/np1/092-loja_virtual_meio_de_pagamento3.jpg Graphic file (type bmp)
+[98]
+File: images/np1/092-loja_virtual_meio_de_pagamento3.jpg Graphic file (type bmp
+)
 <images/np1/092-loja_virtual_meio_de_pagamento3.jpg>
-File: images/np1/093-loja_virtual_meio_de_pagamento_personalizado.jpg Graphic file (type bmp)
+File: images/np1/093-loja_virtual_meio_de_pagamento_personalizado.jpg Graphic f
+ile (type bmp)
 <images/np1/093-loja_virtual_meio_de_pagamento_personalizado.jpg>
-File: images/np1/094-loja_virtual_meio_de_pagamento_personalizado_A_combinar.jpg Graphic file (type bmp)
+File: images/np1/094-loja_virtual_meio_de_pagamento_personalizado_A_combinar.jp
+g Graphic file (type bmp)
 <images/np1/094-loja_virtual_meio_de_pagamento_personalizado_A_combinar.jpg>
 
-Underfull \vbox (badness 7451) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-
-[101]
-File: images/np1/095-loja_virtual_meio_de_pagamento_personalizado_A_combinar.jpg Graphic file (type bmp)
+[99]
+File: images/np1/095-loja_virtual_meio_de_pagamento_personalizado_A_combinar.jp
+g Graphic file (type bmp)
 <images/np1/095-loja_virtual_meio_de_pagamento_personalizado_A_combinar.jpg>
-File: images/np1/096-loja_virtual_meio_de_pagamento_personalizado_ativado.jpg Graphic file (type bmp)
+File: images/np1/096-loja_virtual_meio_de_pagamento_personalizado_ativado.jpg G
+raphic file (type bmp)
 <images/np1/096-loja_virtual_meio_de_pagamento_personalizado_ativado.jpg>
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-
-[102]
+[100]
 File: images/np1/097-loja_virtual_iniciando_compra.jpg Graphic file (type bmp)
 <images/np1/097-loja_virtual_iniciando_compra.jpg>
 File: images/np1/098-loja_virtual_iniciando_compra2.jpg Graphic file (type bmp)
+
 <images/np1/098-loja_virtual_iniciando_compra2.jpg>
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-
-[103]
+[101]
 File: images/np1/099-loja_virtual_iniciando_compra3.jpg Graphic file (type bmp)
+
 <images/np1/099-loja_virtual_iniciando_compra3.jpg>
 File: images/np1/100-loja_virtual_iniciando_compra4.jpg Graphic file (type bmp)
+
 <images/np1/100-loja_virtual_iniciando_compra4.jpg>
 File: images/np1/101-loja_virtual_iniciando_compra5.jpg Graphic file (type bmp)
+
 <images/np1/101-loja_virtual_iniciando_compra5.jpg>
-
-
-[104]
+[102]
 File: images/np1/102-loja_virtual_iniciando_compra6.jpg Graphic file (type bmp)
+
 <images/np1/102-loja_virtual_iniciando_compra6.jpg>
 
 Package longtable Warning: Column widths have changed
 (longtable)                in table 2.7 on input line 1709.
 
-File: images/np1/103-loja_virtual_cliente_email_confirmacao.jpg Graphic file (type bmp)
+File: images/np1/103-loja_virtual_cliente_email_confirmacao.jpg Graphic file (t
+ype bmp)
 <images/np1/103-loja_virtual_cliente_email_confirmacao.jpg>
 
-Underfull \vbox (badness 2088) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-
-[105]
-File: images/np1/104-loja_virtual_cliente_comprovante_pagamento.jpg Graphic file (type bmp)
+[103]
+File: images/np1/104-loja_virtual_cliente_comprovante_pagamento.jpg Graphic fil
+e (type bmp)
 <images/np1/104-loja_virtual_cliente_comprovante_pagamento.jpg>
 
 Overfull \hbox (174.4147pt too wide) in paragraph at lines 1715--1716
@@ -4608,17 +4635,13 @@ Overfull \hbox (174.4147pt too wide) in paragraph at lines 1715--1716
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-
-[106]
+[104]
 File: images/np1/105-loja_virtual_lberar_venda1.jpg Graphic file (type bmp)
 <images/np1/105-loja_virtual_lberar_venda1.jpg>
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-
-[107]
+[105]
 File: images/np1/106-loja_virtual_lberar_venda2.jpg Graphic file (type bmp)
 <images/np1/106-loja_virtual_lberar_venda2.jpg>
 File: images/np1/107-loja_virtual_lberar_venda3.jpg Graphic file (type bmp)
@@ -4628,12 +4651,10 @@ File: images/np1/108-loja_virtual_liberar_venda4.jpg Graphic file (type bmp)
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-
-[108]
+[106]
 File: images/np1/109-ERP_liberar_venda1.jpg Graphic file (type bmp)
 <images/np1/109-ERP_liberar_venda1.jpg>
-[109]
+[107]
 File: images/np1/110-ERP_liberar_venda2.jpg Graphic file (type bmp)
 <images/np1/110-ERP_liberar_venda2.jpg>
 File: images/np1/111-ERP_liberar_venda3.jpg Graphic file (type bmp)
@@ -4643,9 +4664,7 @@ File: images/np1/112-ERP_liberar_venda4.jpg Graphic file (type bmp)
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-
-[110]
+[108]
 File: images/np1/113-ERP_liberar_venda5.jpg Graphic file (type bmp)
 <images/np1/113-ERP_liberar_venda5.jpg>
 File: images/np1/114-ERP_liberar_venda6.jpg Graphic file (type bmp)
@@ -4653,9 +4672,7 @@ File: images/np1/114-ERP_liberar_venda6.jpg Graphic file (type bmp)
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-
-[111]
+[109]
 File: images/np1/115-ERP_liberar_venda7.jpg Graphic file (type bmp)
 <images/np1/115-ERP_liberar_venda7.jpg>
 
@@ -4666,9 +4683,7 @@ Underfull \hbox (badness 1365) in paragraph at lines 1783--1783
 
 Underfull \vbox (badness 8094) has occurred while \output is active []
 
-
-
-[112]
+[110]
 Overfull \hbox (3.13pt too wide) in paragraph at lines 1819--1819
  []|\TU/lmr/bx/n/10 MadeiraMadeira| 
  []
@@ -4680,72 +4695,62 @@ Overfull \hbox (3.13pt too wide) in paragraph at lines 1868--1868
 
 
 Overfull \hbox (141.08904pt too wide) has occurred while \output is active
-\TU/lmr/m/sl/10 2.7.  CASO DE SUCESSO NO BRASIL DE UMA STARTUP, NESSE CASO ESPECÍFICAMENTE, DE I.A. \TU/lmr/m/n/10 113
+\TU/lmr/m/sl/10 2.7.  CASO DE SUCESSO NO BRASIL DE UMA STARTUP, NESSE CASO ESPE
+CÍFICAMENTE, DE I.A. \TU/lmr/m/n/10 111
  []
 
-[113] [114] [115]
-
-[116]
+[111] [112] [113] [114]
 Chapter 3.
-File: images/InfraEstrutura/hardware/01-estacao_de_trabalho.jpg Graphic file (type bmp)
+File: images/InfraEstrutura/hardware/01-estacao_de_trabalho.jpg Graphic file (t
+ype bmp)
 <images/InfraEstrutura/hardware/01-estacao_de_trabalho.jpg>
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[117
+[115
 
 ]
-File: images/InfraEstrutura/hardware/02-desktop-laptop.jpg Graphic file (type bmp)
+File: images/InfraEstrutura/hardware/02-desktop-laptop.jpg Graphic file (type b
+mp)
 <images/InfraEstrutura/hardware/02-desktop-laptop.jpg>
-File: images/InfraEstrutura/hardware/04-tablet_lenovo.jpg Graphic file (type bmp)
+File: images/InfraEstrutura/hardware/04-tablet_lenovo.jpg Graphic file (type bm
+p)
 <images/InfraEstrutura/hardware/04-tablet_lenovo.jpg>
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-
-[118]
+[116]
 File: images/InfraEstrutura/Redes/roteador-cisco.jpg Graphic file (type bmp)
 <images/InfraEstrutura/Redes/roteador-cisco.jpg>
-File: images/InfraEstrutura/Redes/roteador-cisco-3900.jpg Graphic file (type bmp)
+File: images/InfraEstrutura/Redes/roteador-cisco-3900.jpg Graphic file (type bm
+p)
 <images/InfraEstrutura/Redes/roteador-cisco-3900.jpg>
-File: images/InfraEstrutura/Redes/switch-cisco-3750x-48.jpg Graphic file (type bmp)
+File: images/InfraEstrutura/Redes/switch-cisco-3750x-48.jpg Graphic file (type 
+bmp)
 <images/InfraEstrutura/Redes/switch-cisco-3750x-48.jpg>
-File: images/InfraEstrutura/Redes/firewall-PaloAlto-PA850.jpg Graphic file (type bmp)
+File: images/InfraEstrutura/Redes/firewall-PaloAlto-PA850.jpg Graphic file (typ
+e bmp)
 <images/InfraEstrutura/Redes/firewall-PaloAlto-PA850.jpg>
-
-
-[119]
-
-[120]
-File: images/InfraEstrutura/Redes/Ponto_De_Acesso-cisco.jpg Graphic file (type bmp)
+[117] [118]
+File: images/InfraEstrutura/Redes/Ponto_De_Acesso-cisco.jpg Graphic file (type 
+bmp)
 <images/InfraEstrutura/Redes/Ponto_De_Acesso-cisco.jpg>
 File: images/InfraEstrutura/Redes/cabos.jpg Graphic file (type bmp)
 <images/InfraEstrutura/Redes/cabos.jpg>
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-[121]
 Runaway argument?
-\tbl_inbetween_rows: \global \advance \c@LT@chunks \@ne \global \LT@rows \ETC.
+\global \advance \c@LT@chunks \@ne \global \LT@rows \z@ \setbox \z@ \vbox \ETC.
 ! Forbidden control sequence found while scanning use of \LT@nofcols.
 <inserted text> 
                 \par 
 l.2023 \begin{longtable}[]{@{}c@{}}
-                                   
-I suspect you have forgotten a `}', causing me
-to read past where you wanted me to stop.
-I'll try to recover; but if the error is serious,
-you'd better type `E' or `X' now and fix your file.
-
- 
+                                    
 Here is how much of TeX's memory you used:
- 18207 strings out of 475847
- 380944 string characters out of 5773349
- 1022858 words of memory out of 5000000
- 40781 multiletter control sequences out of 15000+600000
- 565304 words of font info for 91 fonts, out of 8000000 for 9000
+ 19941 strings out of 478775
+ 407724 string characters out of 5850945
+ 2029991 words of memory out of 5000000
+ 39542 multiletter control sequences out of 15000+600000
+ 518754 words of font info for 87 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 90i,8n,114p,1283b,528s stack positions out of 10000i,1000n,20000p,200000b,200000s
-Output written on ADS-TIC-2025.pdf (121 pages).
+ 86i,8n,121p,1282b,554s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+Output written on ADS-TIC-2025.pdf (118 pages).
