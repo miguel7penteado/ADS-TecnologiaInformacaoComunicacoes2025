@@ -148,6 +148,9 @@ bancos-de-dados
 modelo-conceitual-entidade-relacionamento-de-banco-de-dados
 composição-e-significado-do-diagrama-entidade-relacionamento-der
 geração-do-modelo-físico-para-aplica-lo-ao-sgbd-sistema-de-gerenciamento-de-banco-de-dados
+normalização-em-bancos-de-dados-relaionais
+tabela-desnormalizada
+tabela-normalizada
 regimes-de-operação-de-um-banco-de-dados-relacional
 regime-oltp
 regime-olap

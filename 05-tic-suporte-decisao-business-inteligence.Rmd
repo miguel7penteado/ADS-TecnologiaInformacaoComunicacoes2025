@@ -12,13 +12,15 @@
 
 > **Banco de Dados Relacional** é um tipo comum de banco de dados que organiza os dados em tabelas (denominadas entidades) com colunas e linhas [[1] - LAUDON, Kenneth C.; LAUDON, Jane P. \*Sistemas de informação gerenciais\*. 11. ed. São Paulo: Pearson Education do Brasil, 2010. p. 180.]
 
+O Banco de Dados Relacional organiza as informações em **tabelas bidiomensionais** constituídas de **linhas e colunas** chamadas e essas tabelas recebem o nome de **relações**. Cada **relação** possui um **campo-chave** que confere identificação exclusiva a cada registro da tabela.
+
 ### Modelo Conceitual "Entidade Relacionamento" de Banco de Dados
 
 O Modelo Entidade-Relacionamento (MER), proposto por Peter Chen em 1976, é uma ferramenta fundamental na modelagem de dados. É um modelo de dados de alto nível que descreve a estrutura conceitual de um banco de dados. O Modelo Entidade-Relacionamento (MER) é representado graficamente através de um DER (Diagrama Entidade-Relacionamento).
 
 É utilizado para projetar Bancos de Dados Relacionais a partir de entrevistas onde se descreve as informações que se deseja armazenar de forma consistente. Exemplo:
 
-"*faça para mim um desenho de um diagrama entidade-relacionamento DER contendo as entidades funcionarios e departamentos. A entidade "funcionários" possui os atributos "nome" e "CPF". A entidade "Departamentos" possui os atributos "Nome" e "sigla". O atributo "CPF" é chave primária da entidade "Funcionários". O atributo "sigla" é chave primária da entidade "Departamentos". As entidades "Funcionários" e "Departamentos" se relacionam através de um relacionamento chamado "Pertence"*."
+"*Desenhe um diagrama entidade-relacionamento DER contendo as entidades funcionarios e departamentos. A entidade "funcionários" possui os atributos "nome" e "CPF". A entidade "Departamentos" possui os atributos "Nome" e "sigla". O atributo "CPF" é chave primária da entidade "Funcionários". O atributo "sigla" é chave primária da entidade "Departamentos". As entidades "Funcionários" e "Departamentos" se relacionam através de um relacionamento chamado "Pertence"*."
 
 ![](images/5-bi/02-Modelo-Entidade-Relacionamento.jpg)
 
@@ -28,18 +30,19 @@ Segundo Laudon
 
 ### Composição e Significado do Diagrama Entidade Relacionamento (DER)
 
-+:--------:+:---------------------------------:+:--------------------------------------:+
-| **Nome** | **Desenho**                       | **Significado**                        |
-+----------+-----------------------------------+----------------------------------------+
-| Entidade | ![](images/5-bi/03-retangulo.jpg) | Representa uma tabela e é identificada |
-|          |                                   |                                        |
-|          |                                   | no texto por um **substantivo**.       |
-+----------+-----------------------------------+----------------------------------------+
++:------------:+:---------------------------------:+:--------------------------------------:+
+| **Nome**     | **Desenho**                       | **Significado**                        |
++--------------+-----------------------------------+----------------------------------------+
+| Entidade     | ![](images/5-bi/03-retangulo.jpg) | Representa uma tabela e é identificada |
+|              |                                   |                                        |
+|              |                                   | no texto por um **substantivo**.       |
++--------------+-----------------------------------+----------------------------------------+
 
-|  |  |  |
-|:--:|:--:|:--:|
-| **Nome** | **Desenho** | **Significado** |
-| Atributo | ![](images/5-bi/05-elipse.jpg){width="182"} | Representa uma coluna e é identificada no texto por um **adjetivo**. |
++:------------:+:-------------------------------------------:+:--------------------------------------------------------------------:+
+| **Nome**     | **Desenho**                                 | **Significado**                                                      |
++--------------+---------------------------------------------+----------------------------------------------------------------------+
+| Atributo     | ![](images/5-bi/05-elipse.jpg){width="182"} | Representa uma coluna e é identificada no texto por um **adjetivo**. |
++--------------+---------------------------------------------+----------------------------------------------------------------------+
 
 +:--------------:+:--------------------------------------------:+:----------------------------------------------:+
 | **Nome**       | **Desenho**                                  | **Significado**                                |
@@ -94,17 +97,106 @@ alter table "public".funcionarios add column sigla integer;
 alter table "public".funcionarios add constraint "Chave_estrangeira_Departamento_funcionarios" foreign key (sigla) references "public".departamentos(sigla);
 ```
 
+## Normalização em Bancos de Dados Relaionais
+
+### Tabela Desnormalizada
+
+Considere a tabela Veículos abaixo:
+
+|  Modelo   | Montadora  |
+|:---------:|:----------:|
+|  Strada   |    Fiat    |
+|   Mobi    |    Fiat    |
+|   Pulse   |    Fiat    |
+|   Onix    | Chevrolet  |
+|  Tracker  | Chevrolet  |
+| Onix Plus | Chevrolet  |
+|   Polo    | Volkswagen |
+|   Nivus   | Volkswagen |
+|  T-Cross  | Volkswagen |
+|   HB20    |  Hyundai   |
+|   Creta   |  Hyundai   |
+
+Separamos o conjunto de elemntos *Montadoras* e *Modelos*.
+
+| MontadoraID | Montadora  |
+|:-----------:|:----------:|
+|      1      |    Fiat    |
+|      2      | Chevrolet  |
+|      3      | Volkswagen |
+|      4      |  Hyundai   |
+
+| ModeloID |  Modelo   |
+|:--------:|:---------:|
+|   101    |  Strada   |
+|   102    |   Mobi    |
+|   103    |   Pulse   |
+|   201    |   Onix    |
+|   202    |  Tracker  |
+|   203    | Onix Plus |
+|   301    |   Polo    |
+|   302    |   Nivus   |
+|   303    |  T-Cross  |
+|   401    |   HB20    |
+|   402    |   Creta   |
+
+> O processo de fragmentar agrupamentos complexos de dados e simplifica-los a fim de minimizar redundâncias e economizar espaço no Banco de Dados Relacional é chamado de **NORMALIZAÇÃO.** [[1] - LAUDON, Kenneth C.; LAUDON, Jane P. \*Sistemas de informação gerenciais\*. 11. ed. São Paulo: Pearson Education do Brasil, 2010. p. 180.]
+
+Mas Como indicar que cada elemento da tabela "Modelo" está associado a um elemento da tabela "Montadora" ?
+
+### Tabela Normalizada
+
+Considere as tabelas abaixo:
+
++-----------------------+----------------------------------------------+
+| MontadoraID           | Montadora                                    |
++:=====================:+:============================================:+
+| 1                     | Fiat                                         |
++-----------------------+----------------------------------------------+
+| 2                     | Chevrolet                                    |
++-----------------------+----------------------------------------------+
+| 3                     | Volkswagen                                   |
++-----------------------+----------------------------------------------+
+| 4                     | Hyundai                                      |
++-----------------------+----------------------------------------------+
+
+| ModeloID |  Modelo   | MontadoraID |
+|:--------:|:---------:|:-----------:|
+|   101    |  Strada   |      1      |
+|   102    |   Mobi    |      1      |
+|   103    |   Pulse   |      1      |
+|   201    |   Onix    |      2      |
+|   202    |  Tracker  |      2      |
+|   203    | Onix Plus |      2      |
+|   301    |   Polo    |      3      |
+|   302    |   Nivus   |      3      |
+|   303    |  T-Cross  |      3      |
+|   401    |   HB20    |      4      |
+|   402    |   Creta   |      4      |
+
+Repare que:
+
+-   É possível identificar que não existem montadoras repetidas na tabela "Montadoras";
+
+-   É possível identificar que não existem modelos repetidos na tabela "Montadoras";
+
+A coluna (atributo) **ModeloID** é a **chave primária** da tabela **Modelos.** A coluna (atributo) **MontadoraID** é a **chave primária** da tabela **Montadoras.**
+
+Na tabela **Modelos**, a coluna **MontadoraID**, acrescentada a tabela Modelos representa a ligação de cada elemento da tabela Modelos e Montadoras. Essa coluna "importada" da tabela Montadoras para a tabela Modelos se chama **chave estrangeira**.
+
+
+
 ## Regimes de operação de um Banco de Dados Relacional
 
 ### Regime OLTP
 
-> OLTP ou *Online Transaction Processing* (Processamento de Transações Online, em português) serve para designar os sistemas operacionais com dados transacionais. 
+> OLTP ou *Online Transaction Processing* (**Processamento de Transações Online**, em português) serve para designar os sistemas operacionais com dados transacionais. 
 
 ![](images/5-bi/08-crud3.jpg)
 
 ### Regime OLAP
 
-> Por outro lado, o OLAP ou Online Analytical Processing (Processamento Analítico Online), é uma habilidade para executar dentro do Data Warehouse e realizar análises dos grandes volumes de dados.
+> Por outro lado, o OLAP ou Online Analytical Processing (**Processamento Analítico Online**), é uma habilidade para executar dentro do Data Warehouse e realizar análises dos grandes volumes de dados.
 
 ![](images/5-bi/09-cubo3.jpg)
 
@@ -112,14 +204,21 @@ alter table "public".funcionarios add constraint "Chave_estrangeira_Departamento
 
 ## Cubos
 
-| Característica | Data Warehouse (DW) | Cubo |
-|:--:|:--:|:--:|
-| Função | Repositório central, integração, storage | Estrutura otimizada para consulta e análise |
-| Escopo | Amplo, dados de toda a empresa | Focado em processos/áreas específicas |
-| Estrutura | Relacional (Star/Snowflake Schema) | Multidimensional |
-| Dados | Detalhados e históricos, integrados | Agregados, sumarizados, derivados do DW |
-| Otimização | Armazenamento, integração, consistência | Velocidade de consulta, análise interativa |
-| Relação | É a fonte de dados para o Cubo | É construído sobre (ou a partir) do DW |
++----------------+------------------------------------------+---------------------------------------------+
+| Característica | Data Warehouse (DW)                      | Cubo                                        |
++:==============:+:========================================:+:===========================================:+
+| Função         | Repositório central, integração, storage | Estrutura otimizada para consulta e análise |
++----------------+------------------------------------------+---------------------------------------------+
+| Escopo         | Amplo, dados de toda a empresa           | Focado em processos/áreas específicas       |
++----------------+------------------------------------------+---------------------------------------------+
+| Estrutura      | Relacional (Star/Snowflake Schema)       | Multidimensional                            |
++----------------+------------------------------------------+---------------------------------------------+
+| Dados          | Detalhados e históricos, integrados      | Agregados, sumarizados, derivados do DW     |
++----------------+------------------------------------------+---------------------------------------------+
+| Otimização     | Armazenamento, integração, consistência  | Velocidade de consulta, análise interativa  |
++----------------+------------------------------------------+---------------------------------------------+
+| Relação        | É a fonte de dados para o Cubo           | É construído sobre (ou a partir) do DW      |
++----------------+------------------------------------------+---------------------------------------------+
 
 ## Referências:
 
