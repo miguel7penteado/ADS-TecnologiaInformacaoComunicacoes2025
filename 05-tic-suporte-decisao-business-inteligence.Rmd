@@ -28,19 +28,18 @@ Segundo Laudon
 
 ### Composição e Significado do Diagrama Entidade Relacionamento (DER)
 
-+:------------:+:---------------------------------:+:--------------------------------------:+
-| **Nome**     | **Desenho**                       | **Significado**                        |
-+--------------+-----------------------------------+----------------------------------------+
-| Entidade     | ![](images/5-bi/03-retangulo.jpg) | Representa uma tabela e é identificada |
-|              |                                   |                                        |
-|              |                                   | no texto por um **substantivo**.       |
-+--------------+-----------------------------------+----------------------------------------+
++:--------:+:---------------------------------:+:--------------------------------------:+
+| **Nome** | **Desenho**                       | **Significado**                        |
++----------+-----------------------------------+----------------------------------------+
+| Entidade | ![](images/5-bi/03-retangulo.jpg) | Representa uma tabela e é identificada |
+|          |                                   |                                        |
+|          |                                   | no texto por um **substantivo**.       |
++----------+-----------------------------------+----------------------------------------+
 
-+:-----------:+:-------------------------------------------:+:--------------------------------------------------------------------:+
-| **Nome**    | **Desenho**                                 | **Significado**                                                      |
-+-------------+---------------------------------------------+----------------------------------------------------------------------+
-| Atributo    | ![](images/5-bi/05-elipse.jpg){width="182"} | Representa uma coluna e é identificada no texto por um **adjetivo**. |
-+-------------+---------------------------------------------+----------------------------------------------------------------------+
+|  |  |  |
+|:--:|:--:|:--:|
+| **Nome** | **Desenho** | **Significado** |
+| Atributo | ![](images/5-bi/05-elipse.jpg){width="182"} | Representa uma coluna e é identificada no texto por um **adjetivo**. |
 
 +:--------------:+:--------------------------------------------:+:----------------------------------------------:+
 | **Nome**       | **Desenho**                                  | **Significado**                                |
@@ -93,7 +92,6 @@ alter table "public".funcionarios add column sigla integer;
 -- finalmente conecte a coluna sigla a chave primária da tabela "departamento"
 -- criando então uma chave estrageira na tabela "funcionários".
 alter table "public".funcionarios add constraint "Chave_estrangeira_Departamento_funcionarios" foreign key (sigla) references "public".departamentos(sigla);
-
 ```
 
 ## Regimes de operação de um Banco de Dados Relacional
@@ -112,23 +110,16 @@ alter table "public".funcionarios add constraint "Chave_estrangeira_Departamento
 
 ## Data Warehouse
 
-## Cubos 
+## Cubos
 
-+----------------+------------------------------------------+---------------------------------------------+
-| Característica | Data Warehouse (DW)                      | Cubo                                        |
-+:==============:+:========================================:+:===========================================:+
-| Função         | Repositório central, integração, storage | Estrutura otimizada para consulta e análise |
-+----------------+------------------------------------------+---------------------------------------------+
-| Escopo         | Amplo, dados de toda a empresa           | Focado em processos/áreas específicas       |
-+----------------+------------------------------------------+---------------------------------------------+
-| Estrutura      | Relacional (Star/Snowflake Schema)       | Multidimensional                            |
-+----------------+------------------------------------------+---------------------------------------------+
-| Dados          | Detalhados e históricos, integrados      | Agregados, sumarizados, derivados do DW     |
-+----------------+------------------------------------------+---------------------------------------------+
-| Otimização     | Armazenamento, integração, consistência  | Velocidade de consulta, análise interativa  |
-+----------------+------------------------------------------+---------------------------------------------+
-| Relação        | É a fonte de dados para o Cubo           | É construído sobre (ou a partir) do DW      |
-+----------------+------------------------------------------+---------------------------------------------+
+| Característica | Data Warehouse (DW) | Cubo |
+|:--:|:--:|:--:|
+| Função | Repositório central, integração, storage | Estrutura otimizada para consulta e análise |
+| Escopo | Amplo, dados de toda a empresa | Focado em processos/áreas específicas |
+| Estrutura | Relacional (Star/Snowflake Schema) | Multidimensional |
+| Dados | Detalhados e históricos, integrados | Agregados, sumarizados, derivados do DW |
+| Otimização | Armazenamento, integração, consistência | Velocidade de consulta, análise interativa |
+| Relação | É a fonte de dados para o Cubo | É construído sobre (ou a partir) do DW |
 
 ## Referências:
 
