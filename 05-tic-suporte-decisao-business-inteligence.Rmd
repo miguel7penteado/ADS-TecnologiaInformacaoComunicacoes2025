@@ -1,7 +1,123 @@
 # Tomada de Decisão de Gestão do Conhecimento: Business Inteligence
 
+( Consultar livro LAUDON, Kenneth C.; LAUDON, Jane P. *Sistemas de informação gerenciais*. 11. ed. São Paulo: Pearson Education do Brasil, 2010. p. 180. )
+
+## Bancos de Dados
+
+![](images/5-bi/01-banco-de-dados.jpg){width="452"}
+
+> **Banco de Dados** é um conjunto de arquivos relacionados entre si com registros sobre algum assunto: pessoas, lugares ou coisas. [[1] - LAUDON, Kenneth C.; LAUDON, Jane P. \*Sistemas de informação gerenciais\*. 11. ed. São Paulo: Pearson Education do Brasil, 2010. p. 180.]
+
+![](images/5-bi/07-tabela_relacional.jpg)
+
+> **Banco de Dados Relacional** é um tipo comum de banco de dados que organiza os dados em tabelas (denominadas entidades) com colunas e linhas [[1] - LAUDON, Kenneth C.; LAUDON, Jane P. \*Sistemas de informação gerenciais\*. 11. ed. São Paulo: Pearson Education do Brasil, 2010. p. 180.]
+
+### Modelo Conceitual "Entidade Relacionamento" de Banco de Dados
+
+O Modelo Entidade-Relacionamento (MER), proposto por Peter Chen em 1976, é uma ferramenta fundamental na modelagem de dados. É um modelo de dados de alto nível que descreve a estrutura conceitual de um banco de dados. O Modelo Entidade-Relacionamento (MER) é representado graficamente através de um DER (Diagrama Entidade-Relacionamento).
+
+É utilizado para projetar Bancos de Dados Relacionais a partir de entrevistas onde se descreve as informações que se deseja armazenar de forma consistente. Exemplo:
+
+"*faça para mim um desenho de um diagrama entidade-relacionamento DER contendo as entidades funcionarios e departamentos. A entidade "funcionários" possui os atributos "nome" e "CPF". A entidade "Departamentos" possui os atributos "Nome" e "sigla". O atributo "CPF" é chave primária da entidade "Funcionários". O atributo "sigla" é chave primária da entidade "Departamentos". As entidades "Funcionários" e "Departamentos" se relacionam através de um relacionamento chamado "Pertence"*."
+
+![](images/5-bi/02-Modelo-Entidade-Relacionamento.jpg)
+
+Segundo Laudon
+
+> **Diagrama Entidade/Relacionamento (DER)** é uma representação esquemática utilizada para entender as relações entre as tabelas de um banco de dados relacional. [[1] - LAUDON, Kenneth C.; LAUDON, Jane P. \*Sistemas de informação gerenciais\*. 11. ed. São Paulo: Pearson Education do Brasil, 2010. p. 180.]
+
+### Composição e Significado do Diagrama Entidade Relacionamento (DER)
+
++:------------:+:---------------------------------:+:--------------------------------------:+
+| **Nome**     | **Desenho**                       | **Significado**                        |
++--------------+-----------------------------------+----------------------------------------+
+| Entidade     | ![](images/5-bi/03-retangulo.jpg) | Representa uma tabela e é identificada |
+|              |                                   |                                        |
+|              |                                   | no texto por um **substantivo**.       |
++--------------+-----------------------------------+----------------------------------------+
+
++:-----------:+:-------------------------------------------:+:--------------------------------------------------------------------:+
+| **Nome**    | **Desenho**                                 | **Significado**                                                      |
++-------------+---------------------------------------------+----------------------------------------------------------------------+
+| Atributo    | ![](images/5-bi/05-elipse.jpg){width="182"} | Representa uma coluna e é identificada no texto por um **adjetivo**. |
++-------------+---------------------------------------------+----------------------------------------------------------------------+
+
++:--------------:+:--------------------------------------------:+:----------------------------------------------:+
+| **Nome**       | **Desenho**                                  | **Significado**                                |
++----------------+----------------------------------------------+------------------------------------------------+
+| Relacionamento | ![](images/5-bi/04-losango.jpg){width="185"} | Representa uma **Referência** e é identificada |
+|                |                                              |                                                |
+|                |                                              | no texto por um **Verbo**.                     |
++----------------+----------------------------------------------+------------------------------------------------+
+
+### Geração do modelo Físico para aplica-lo ao SGBD (Sistema de Gerenciamento de Banco de Dados):
+
+Uma vez que o modelo conceitual seja gerado, o analista pode mapea-lo para um "modelo físico" onde se mapeiam chaves primárias e chaves forasteiras nas tabelas.
+
+Após a geração do modelo físico pode-se gerar o SQL que monta a estrutura do Banco de Dados.
+
+![](images/5-bi/06-modelo_fisico.jpg)
+
+``` sql
+-- Exemplo testado e gerado no SGBD Postgres versão 15
+
+-- Tabela Funcionários
+CREATE TABLE IF NOT EXISTS "public".funcionarios
+(
+    cpf bigint NOT NULL,
+    nome varchar(200)
+);
+
+-- Tabela Departamentos
+
+CREATE TABLE IF NOT EXISTS "public".departamentos
+(
+    sigla integer NOT NULL,
+    nome varchar(200)
+);
+
+-- Definindo a coluna "cpf" da tabela "funcionários" como chave primária
+alter table "public".funcionarios add constraint "chave_primaria_funcionarios" primary key (cpf);
+
+-- Definindo a coluna "sigla"" da tabela "departamentos" como chave primária
+alter table "public".departamentos add constraint "chave_primaria_departamentos" primary key (sigla);
+
+-- Gerando a integridade referêncial 
+-- Importando a chave primária da tabela "departamentos" como "chave estrangeira"
+-- na tabela "funcionários"
+
+-- primeiro adiciona-se a coluna estrageira "sigla" que é coluna originalmente 
+-- pertencente a tabela departamentos
+alter table "public".funcionarios add column sigla integer;
+
+-- finalmente conecte a coluna sigla a chave primária da tabela "departamento"
+-- criando então uma chave estrageira na tabela "funcionários".
+alter table "public".funcionarios add constraint "Chave_estrangeira_Departamento_funcionarios" foreign key (sigla) references "public".departamentos(sigla);
+
+```
+
+## Regimes de operação de um Banco de Dados Relacional
+
+### Regime OLTP
+
+> OLTP ou *Online Transaction Processing* (Processamento de Transações Online, em português) serve para designar os sistemas operacionais com dados transacionais. 
+
+![](images/5-bi/08-crud3.jpg)
+
+### Regime OLAP
+
+> Por outro lado, o OLAP ou Online Analytical Processing (Processamento Analítico Online), é uma habilidade para executar dentro do Data Warehouse e realizar análises dos grandes volumes de dados.
+
+![](images/5-bi/09-cubo3.jpg)
+
+## Data Warehouse
+
 ## Ferramentas de B.I. e conceito de DashBoard
 
 ### PowerBI
 
 ## Bancos de Dados OLTP e OLAP
+
+## Referências:
+
+##### [1] - LAUDON, Kenneth C.; LAUDON, Jane P. \*Sistemas de informação gerenciais\*. 11. ed. São Paulo: Pearson Education do Brasil, 2010. p. 180.
