@@ -146,9 +146,13 @@ performance-de-produtos
 tomada-de-decisão-de-gestão-do-conhecimento-business-inteligence
 bancos-de-dados
 modelo-conceitual-entidade-relacionamento-de-banco-de-dados
-ferramentas-de-b.i.-e-conceito-de-dashboard
-powerbi
-bancos-de-dados-oltp-e-olap
+composição-e-significado-do-diagrama-entidade-relacionamento-der
+geração-do-modelo-físico-para-aplica-lo-ao-sgbd-sistema-de-gerenciamento-de-banco-de-dados
+regimes-de-operação-de-um-banco-de-dados-relacional
+regime-oltp
+regime-olap
+data-warehouse
+cubos
 referências
 laudon-kenneth-c.-laudon-jane-p.-sistemas-de-informação-gerenciais.-11.-ed.-são-paulo-pearson-education-do-brasil-2010.-p.-180.
 tecnologias-emergentes-e-inovação-em-tic

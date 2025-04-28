@@ -112,11 +112,23 @@ alter table "public".funcionarios add constraint "Chave_estrangeira_Departamento
 
 ## Data Warehouse
 
-## Ferramentas de B.I. e conceito de DashBoard
+## Cubos 
 
-### PowerBI
-
-## Bancos de Dados OLTP e OLAP
++----------------+------------------------------------------+---------------------------------------------+
+| Característica | Data Warehouse (DW)                      | Cubo                                        |
++:==============:+:========================================:+:===========================================:+
+| Função         | Repositório central, integração, storage | Estrutura otimizada para consulta e análise |
++----------------+------------------------------------------+---------------------------------------------+
+| Escopo         | Amplo, dados de toda a empresa           | Focado em processos/áreas específicas       |
++----------------+------------------------------------------+---------------------------------------------+
+| Estrutura      | Relacional (Star/Snowflake Schema)       | Multidimensional                            |
++----------------+------------------------------------------+---------------------------------------------+
+| Dados          | Detalhados e históricos, integrados      | Agregados, sumarizados, derivados do DW     |
++----------------+------------------------------------------+---------------------------------------------+
+| Otimização     | Armazenamento, integração, consistência  | Velocidade de consulta, análise interativa  |
++----------------+------------------------------------------+---------------------------------------------+
+| Relação        | É a fonte de dados para o Cubo           | É construído sobre (ou a partir) do DW      |
++----------------+------------------------------------------+---------------------------------------------+
 
 ## Referências:
 
