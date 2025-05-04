@@ -497,3 +497,4 @@ c)  Qual o INVESTIMENTO necessário em TIC para informatizar a empresa ?
 ## REFERÊNCIAS BIBLIOGRÁFICAS
 
 FUNDAMENTOS EM GERENCIAMENTO DE SERVIÇOS EM TI BASEADO NO ITIL - Flavio Pinheiro - 2006
+
