@@ -36,6 +36,46 @@
   \KOMAoptions{parskip=half}}
 \makeatother
 \usepackage{xcolor}
+\usepackage{color}
+\usepackage{fancyvrb}
+\newcommand{\VerbBar}{|}
+\newcommand{\VERB}{\Verb[commandchars=\\\{\}]}
+\DefineVerbatimEnvironment{Highlighting}{Verbatim}{commandchars=\\\{\}}
+% Add ',fontsize=\small' for more characters per line
+\usepackage{framed}
+\definecolor{shadecolor}{RGB}{248,248,248}
+\newenvironment{Shaded}{\begin{snugshade}}{\end{snugshade}}
+\newcommand{\AlertTok}[1]{\textcolor[rgb]{0.94,0.16,0.16}{#1}}
+\newcommand{\AnnotationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\AttributeTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{#1}}
+\newcommand{\BaseNTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
+\newcommand{\BuiltInTok}[1]{#1}
+\newcommand{\CharTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\CommentTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textit{#1}}}
+\newcommand{\CommentVarTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\ConstantTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{#1}}
+\newcommand{\ControlFlowTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{\textbf{#1}}}
+\newcommand{\DataTypeTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{#1}}
+\newcommand{\DecValTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
+\newcommand{\DocumentationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\ErrorTok}[1]{\textcolor[rgb]{0.64,0.00,0.00}{\textbf{#1}}}
+\newcommand{\ExtensionTok}[1]{#1}
+\newcommand{\FloatTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
+\newcommand{\FunctionTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{\textbf{#1}}}
+\newcommand{\ImportTok}[1]{#1}
+\newcommand{\InformationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\KeywordTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{\textbf{#1}}}
+\newcommand{\NormalTok}[1]{#1}
+\newcommand{\OperatorTok}[1]{\textcolor[rgb]{0.81,0.36,0.00}{\textbf{#1}}}
+\newcommand{\OtherTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{#1}}
+\newcommand{\PreprocessorTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textit{#1}}}
+\newcommand{\RegionMarkerTok}[1]{#1}
+\newcommand{\SpecialCharTok}[1]{\textcolor[rgb]{0.81,0.36,0.00}{\textbf{#1}}}
+\newcommand{\SpecialStringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\StringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\VariableTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
+\newcommand{\VerbatimStringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\WarningTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
 \usepackage{longtable,booktabs,array}
 \usepackage{calc} % for calculating minipage widths
 % Correct order of tables after \paragraph or \subparagraph
@@ -80,7 +120,7 @@
 
 \title{ADS - Tecnologia da Informação e Telecomunicações 2025 - Anotações de aula}
 \author{Professor Miguel Suez Xve Penteado}
-\date{2025-03-31}
+\date{2025-05-04}
 
 \begin{document}
 \maketitle
@@ -1918,18 +1958,402 @@ Como testar a ferramenta crewai através dos pacotes python \texttt{crewai-tools
 
 \section{Componentes da Infraestrutura de TIC}\label{componentes-da-infraestrutura-de-tic}
 
+Em uma empresa, a infraestrutura de TIC precisa de 3 elementos fundamentais para funcionar:
+
+\begin{itemize}
+\item
+  Hardware;
+\item
+  Software;
+\item
+  Pessoas especializadas;
+\end{itemize}
+
 \subsection{Hardware}\label{hardware}
+
+Fazem parte do cabedal de hadware das empresas:
+
+\textbf{Estações de Trabalho} (WorkStations) - É um computador direcionado a atividades profissionais que, frequentemente, demandam bastante desempenho no processamento de dados;
+
+\includegraphics[width=4.3125in,height=\textheight]{images/InfraEstrutura/hardware/01-estacao_de_trabalho.jpg}
+
+\textbf{Computadores Pessoais} (Laptops e Desktops) - Um Computador Pessoal empresarial é um computador de mesa com capacidade dimensionada para uso em empresas e organizações visando tratar tarefas administrativas dos departamentos. O mesmo se aplica aos computadores portáteis empresariais (laptops);
+
+\includegraphics{images/InfraEstrutura/hardware/02-desktop-laptop.jpg}
+
+\textbf{Dispositivos móveis} (Smartphones e Tablets) - Os smartphones e tablets empresarias são aparelho celular fornecido por uma empresa para que os colaboradores usem no trabalho, normalmente customizados com configurações avançadas, como e-mail corporativo, aplicativos de gestão de projetos e CRM (Sistema de Relacionamento com Clientes) ;
+
+\includegraphics{images/InfraEstrutura/hardware/04-tablet_lenovo.jpg}
 
 \subsection{Redes de Computadores}\label{redes-de-computadores}
 
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Roteadores:} Direcionam o tráfego de dados entre redes. Operam em camada de rede OSI ``3''. Podem ser \textbf{roteadores internos} à empresa (Roteadores Internos ao Sistema Autônomo de Roteamento) ou \textbf{roteadores de borda} (Roteadores Externos ao Sistema Autônomo de Roteamento).
+\end{itemize}
+
+\begin{figure}
+\centering
+\includegraphics{images/InfraEstrutura/Redes/roteador-cisco.jpg}
+\caption{Roteador exclusivo CISCO de pequeno porte - Interno ao Sistema Autônomo (AS)}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics{images/InfraEstrutura/Redes/roteador-cisco-3900.jpg}
+\caption{Roteador exclusivo CISCO de grande porte - Roteador de Borda - externo ao Sistema Autônomo (AS)}
+\end{figure}
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Switches:} Conectam dispositivos dentro de uma rede local da empresa (LAN - Local Area Network). camada de rede OSI ``2''
+\end{itemize}
+
+\begin{figure}
+\centering
+\includegraphics{images/InfraEstrutura/Redes/switch-cisco-3750x-48.jpg}
+\caption{Comutador (Switch) de camada ``2'' de 48 portas energizáveis (PoE) para dados e telefonia IP}
+\end{figure}
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Firewalls:} Protegem a rede contra acessos não autorizados e ameaças externas.
+\end{itemize}
+
+\begin{figure}
+\centering
+\includegraphics{images/InfraEstrutura/Redes/firewall-PaloAlto-PA850.jpg}
+\caption{Firewall da empresa Palo Alto modelo PA-850}
+\end{figure}
+
+\begin{itemize}
+\item
+  \textbf{Pontos de Acesso Wi-Fi:} Permitem a conexão sem fio à rede. camada de rede OSI ``2''
+
+  Os pontos de acesso de rede sem fio (WI-FI) formam uma grande célula wi-fi na empresa. A célula, tal qual um siwitch virtual, tem apenas a função de conectar os dispositivos, geralmente os dispositivos móveis, a rede local da empresa (LAN - Local Area Network).
+\end{itemize}
+
+\href{Pontos\%20de\%20Acesso\%20CISCO}{\includegraphics{images/InfraEstrutura/Redes/Ponto_De_Acesso-cisco.jpg}}
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Cabos e Conectores:} A infraestrutura física para conectar os dispositivos. camada de rede OSI ``1''
+\end{itemize}
+
+\includegraphics[width=4.54167in,height=\textheight]{images/InfraEstrutura/Redes/cabos.jpg}
+
 \subsection{Software}\label{software}
 
-\subsubsection{Serviços de TIC}\label{serviuxe7os-de-tic}
+\subsubsection{Sistemas Operacionais}\label{sistemas-operacionais}
 
 \begin{longtable}[]{@{}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.1391}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.7594}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.0986}}@{}}
+  >{\centering\arraybackslash}p{(\columnwidth - 0\tabcolsep) * \real{1.0072}}@{}}
+\toprule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+\begin{minipage}[t]{\linewidth}\centering
+\begin{center}
+\includegraphics{images/InfraEstrutura/software/so.jpg}
+
+Windows Linux MacOS FreeBSD NetBSD OpenBSD
+\end{center}
+\end{minipage} \\
+\textbf{Sistemas Operacionais} são softwares fundamentais que gerenciam o hardware e os recursos do sistema. Exemplos de Sistemas Operacionais
+
+\textbf{Microsoft Windows}
+
+\textbf{Distribuições Linux}
+
+\textbf{Apple MacOS}
+
+\textbf{Unix FreeBSD}
+
+\textbf{Unix NetBSD}
+
+\textbf{Unix OpenBSD} \\
+\end{longtable}
+
+\subsubsection{Aplicações Empresariais}\label{aplicauxe7uxf5es-empresariais}
+
+\begin{longtable}[]{@{}
+  >{\centering\arraybackslash}p{(\columnwidth - 0\tabcolsep) * \real{1.0119}}@{}}
+\toprule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+\includegraphics{images/InfraEstrutura/software/erps.jpg} \\
+\textbf{Aplicações Empresariais} são softwares utilizados para as atividades de negócio
+
+(ex: ERP, CRM, sistemas de gestão de RH, sistemas de contabilidade).
+
+\textbf{ERP BLING}
+
+\textbf{ERP SAP}
+
+\textbf{ERP TOTVS}
+
+\textbf{ERP LINX} \\
+\end{longtable}
+
+\subsubsection{Softwares de Produtividade}\label{softwares-de-produtividade}
+
+\begin{longtable}[]{@{}
+  >{\centering\arraybackslash}p{(\columnwidth - 0\tabcolsep) * \real{1.0067}}@{}}
+\toprule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+\begin{minipage}[t]{\linewidth}\centering
+\begin{center}
+\includegraphics{images/InfraEstrutura/software/MS-Office.jpg}
+
+Microsoft Office - Word Excel Powerpoint Teams Visio Edge Forms Publisher Access
+\end{center}
+\end{minipage} \\
+\textbf{Software de Produtividade} são ferramentas para criação de documentos, planilhas, apresentações, e-mail (ex: Microsoft Office, Google Workspace). \\
+\end{longtable}
+
+\subsubsection{Softwares de Segurança}\label{softwares-de-seguranuxe7a}
+
+\begin{longtable}[]{@{}
+  >{\centering\arraybackslash}p{(\columnwidth - 0\tabcolsep) * \real{1.0046}}@{}}
+\toprule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+\begin{minipage}[t]{\linewidth}\centering
+\begin{center}
+\includegraphics{images/InfraEstrutura/software/seguranca.jpg}
+
+Karspersky Norton Suricata IPTables PF Nmap Wireshark
+\end{center}
+\end{minipage} \\
+\textbf{Software de Segurança} é uma categoria de software onde se enquadram os antivírus, anti-malware, sistemas de detecção de intrusão (IDS), sistemas de prevenção de intrusão (IPS). Exemplos de Softwares de Segurança
+
+\textbf{Karspersky (Anti-vírus)}
+
+\textbf{Norton (Anti-vírus)}
+
+\textbf{Suricata (IDS - detector de Intrusão)}
+
+\textbf{IPTables (Firewall nativo do Linux)}
+
+\textbf{PF (Firewall nativo do Unix FreeBSD)}
+
+\textbf{NMAP (Mapeador de portas TCP/IP)}
+
+\textbf{Wireshark (Farejador - sniffer - de pacotes de rede)} \\
+\end{longtable}
+
+\subsubsection{Softwares de Gerenciamento de Rede}\label{softwares-de-gerenciamento-de-rede}
+
+\begin{longtable}[]{@{}
+  >{\centering\arraybackslash}p{(\columnwidth - 0\tabcolsep) * \real{1.0082}}@{}}
+\toprule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+\begin{minipage}[t]{\linewidth}\centering
+\begin{center}
+\includegraphics{images/InfraEstrutura/software/monitoramento.jpg}
+
+SolarWinds Nagios Zabbix Cacti
+\end{center}
+\end{minipage} \\
+\textbf{Software de Gerenciamento de Rede} é uma categoria deferramentas para monitorar e gerenciar a infraestrutura de rede. \\
+\end{longtable}
+
+\subsubsection{Sistemas de Gerenciamento de Banco de Dados (SGBDs)}\label{sistemas-de-gerenciamento-de-banco-de-dados-sgbds}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 0\tabcolsep) * \real{1.0071}}@{}}
+\toprule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+\begin{minipage}[t]{\linewidth}\raggedright
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Bancos de Dados:} Sistemas para armazenar e gerenciar grandes volumes de dados de forma organizada (ex: SQL Server, Oracle, MySQL).
+\end{itemize}
+\end{minipage} \\
+\end{longtable}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.6667}}
+  >{\centering\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.3333}}@{}}
+\toprule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+\textbf{Paradigma relacional}
+
+\includegraphics[width=2.16667in,height=\textheight]{images/clipboard-3269919173.png} & Postgres
+
+Mysql
+
+Microsoft SQL Server
+
+IBM DB2
+
+Oracle \\
+\end{longtable}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.5417}}
+  >{\centering\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.4028}}@{}}
+\toprule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+\textbf{Paradigma não-relacional}
+
+\includegraphics{images/clipboard-1618144074.png} & Cassandra
+
+MongoDB \\
+\end{longtable}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.5417}}
+  >{\centering\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.4028}}@{}}
+\toprule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+\textbf{Paradigma Grafo}
+
+\includegraphics{images/clipboard-2057319963.png} & neo4J \\
+\end{longtable}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.6667}}
+  >{\centering\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.3333}}@{}}
+\toprule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+\textbf{Paradigma Hierárquico}
+
+\includegraphics[width=3.625in,height=\textheight]{images/clipboard-1964387230.png} & Active Directory
+
+OpenLDAP \\
+\end{longtable}
+
+\subsubsection{Middleware: Software que permite a comunicação e a troca de dados entre diferentes aplicações.}\label{middleware-software-que-permite-a-comunicauxe7uxe3o-e-a-troca-de-dados-entre-diferentes-aplicauxe7uxf5es.}
+
+\begin{longtable}[]{@{}
+  >{\centering\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.4861}}
+  >{\centering\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.4028}}@{}}
+\toprule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+\textbf{Tipo de MiddleWare} & \textbf{Exemplo de Middleware} \\
+Filas de Mensagens & Apache Kafka
+
+RabbitMQ \\
+\end{longtable}
+
+\begin{longtable}[]{@{}
+  >{\centering\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.4861}}
+  >{\centering\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.4167}}@{}}
+\toprule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+\textbf{Tipo de MiddleWare} & \textbf{Exemplo de Middleware} \\
+Enterprise Service BUS (ESB) & Apache Camel
+
+Mulesoft \\
+\end{longtable}
+
+\begin{longtable}[]{@{}
+  >{\centering\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.4861}}
+  >{\centering\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.4167}}@{}}
+\toprule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+\textbf{Tipo de MiddleWare} & \textbf{Exemplo de Middleware} \\
+APIs Gateways & KONG
+
+TYK \\
+\end{longtable}
+
+\begin{longtable}[]{@{}
+  >{\centering\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.5139}}
+  >{\centering\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.4167}}@{}}
+\toprule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+\textbf{Tipo de MiddleWare} & \textbf{Exemplo de Middleware} \\
+Middleware de Banco de Dados (ORM) & Hibernate (java)
+
+SQLAlchemy (python)
+
+soci (c++) \\
+\end{longtable}
+
+\begin{longtable}[]{@{}
+  >{\centering\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.4861}}
+  >{\centering\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.4306}}@{}}
+\toprule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+\textbf{Tipo de MiddleWare} & \textbf{Exemplo de Middleware} \\
+Computação Distribuida & CORBA
+
+JAVA RMI \\
+\end{longtable}
+
+\subsubsection{Softwares de Virtualização}\label{softwares-de-virtualizauxe7uxe3o}
+
+\begin{longtable}[]{@{}
+  >{\centering\arraybackslash}p{(\columnwidth - 0\tabcolsep) * \real{1.0081}}@{}}
+\toprule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+\textbf{Software de Virtualização:} Permite executar múltiplos sistemas operacionais e aplicações em um único servidor físico.
+
+\includegraphics{images/InfraEstrutura/virtualização/virtualizacao.jpg} \\
+Oracle Virtualbox (gratuito)
+
+Microsoft Hyper-V
+
+VMWARE Wokstation
+
+GNU QEMU (emulador)
+
+Linux KVM (Módulo do kernel) \\
+\end{longtable}
+
+\subsubsection{Softwares de Backup e Recuperação}\label{softwares-de-backup-e-recuperauxe7uxe3o}
+
+\begin{longtable}[]{@{}
+  >{\centering\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.7267}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.2733}}@{}}
+\toprule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+\textbf{Sistemas de Backup e Recuperação:} Software para automatizar e gerenciar os processos de backup e restauração de dados. & \includegraphics{images/InfraEstrutura/backup/backup.jpg} \\
+\end{longtable}
+
+\subsection{Serviços de TIC}\label{serviuxe7os-de-tic}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.1330}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.6491}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.2156}}@{}}
 \caption{Serviços de TIC}\tabularnewline
 \toprule\noalign{}
 \begin{minipage}[b]{\linewidth}\raggedright
@@ -1953,57 +2377,150 @@ Softwares servidores do serviço
 \endhead
 \bottomrule\noalign{}
 \endlastfoot
-Correio eletrônico - E-Mail & Método de comunicação digital que permite o envio e recebimento de mensagens através da internet; & \begin{minipage}[t]{\linewidth}\raggedright
-\begin{itemize}
-\item
-  Microsoft Exchage (windows)
-\item
-  Postfix (Linux)
-\item
-  Dovecot (Linux)
-\item
-  SMTPd (Linux)
-\end{itemize}
-\end{minipage} \\
-Compartilhamento de Arquivos & Permite aos usuários armazenar, acessar e distribuir arquivos digitais pela internet; & \begin{minipage}[t]{\linewidth}\raggedright
-\begin{itemize}
-\item
-  File Server (Windows)
-\item
-  SAMBA (Linux)
-\item
-  NFS (Linux)
-\end{itemize}
-\end{minipage} \\
-Compartilhamento de Impressoras & Permite que vários computadores em uma rede corporativa utilizem uma única impressora; & \begin{minipage}[t]{\linewidth}\raggedright
-\begin{itemize}
-\item
-  Spool Impressão (Windows)
-\item
-  CUPS (Linux)
-\end{itemize}
-\end{minipage} \\
-Serviço de Nomes de Domínio - DNS & É essencialmente a ``lista telefônica'' da internet. Ele traduz nomes de domínio amigáveis (como ``\href{https://www.google.com/search?q=google.com}{google.com}'') em endereços IP numéricos (como ``172.217.160.142''), que os computadores usam para se comunicar entre si. & \begin{minipage}[t]{\linewidth}\raggedright
-\begin{itemize}
-\item
-  Active Directory (Windows)
-\item
-  Bind (Linux)
-\end{itemize}
-\end{minipage} \\
-Gerenciamento de usuários da rede corporativa & Um serviço de gerenciamento de usuários de rede corporativa, também conhecido como domínio, é um sistema centralizado que permite aos administradores de TI controlar e gerenciar o acesso de usuários e recursos em uma rede corporativa; & \begin{minipage}[t]{\linewidth}\raggedright
-\begin{itemize}
-\item
-  Active Diretory (Windows)
-\item
-  LDAP (Linux)
-\end{itemize}
-\end{minipage} \\
+Correio eletrônico - E-Mail & Método de comunicação digital que permite o envio e recebimento de mensagens através da internet;
+
+Softwares que implantam o serviço eletrônico são o \textbf{postfix, microsoft exchange, dovecot e o smtpd}; & \includegraphics{images/InfraEstrutura/servicos/e-mail/e-mail.jpg} \\
+Compartilhamento de Arquivos & Permite aos usuários armazenar, acessar e distribuir arquivos digitais pela internet;
+
+Softwares que implantam o serviço eletrônico são o \textbf{File Server do Windows, Samba (Linux), NFS (Linux e Unix)}; & \includegraphics{images/InfraEstrutura/servicos/compartilhamento-arquivos/compartilhamento-arquivos.jpg} \\
+Compartilhamento de Impressoras & Permite que vários computadores em uma rede corporativa utilizem uma única impressora;
+
+Softwares que implantam o serviço de impressão na rede são \textbf{CUPS (linux) e o Spool de Impressão do Windows}; & \includegraphics{images/InfraEstrutura/servicos/compartilhamento-impressao/impressao.jpg} \\
+Serviço de Nomes de Domínio - DNS & É essencialmente a ``lista telefônica'' da internet. Ele traduz nomes de domínio amigáveis (como ``\href{https://www.google.com/search?q=google.com}{google.com}'') em endereços IP numéricos (como ``172.217.160.142''), que os computadores usam para se comunicar entre si.
+
+Softwares que implantam o serviço de nomes de domínio na rede são \textbf{Bind (Linux) e o Active Directory (Windows)}; & \includegraphics{images/InfraEstrutura/servicos/servicos-nomeacao-dominio/nomes.jpg} \\
+Gerenciamento de usuários da rede corporativa & Um serviço de gerenciamento de usuários de rede corporativa, também conhecido como domínio, é um sistema centralizado que permite aos administradores de TI controlar e gerenciar o acesso de usuários e recursos em uma rede corporativa;
+
+Softwares que implantam o serviço de nomes de domínio na rede são \textbf{OpenLdap (Linux) e o Active Directory (Windows)}; & \includegraphics{images/InfraEstrutura/servicos/gestao-usuarios/gestao-usuarios.jpg} \\
+Gerenciamento de páginas web e publicações corporativas & Um serviço de publicação de informações e documentos visando a propagação de informações internas e a colaboração entre equipes.
+
+Softwares que implantam o serviço de páginas web e publicações corporativas são o servidor web \textbf{Apache (Linux e Unix),} o servidor web \textbf{NGINX (Linux e Unix)}, o \textbf{IIS} \textbf{(Internet Information Service)} da Microsoft e, mais recentemente, o \textbf{seviço Sharepoint} da Microsoft; & \includegraphics{images/InfraEstrutura/servicos/web/web.jpg} \\
 \end{longtable}
 
-\subsubsection{Sistemas de Gerenciamento de Banco de Dados}\label{sistemas-de-gerenciamento-de-banco-de-dados}
+\section{Gestão do Departamento de TIC nas empresas}\label{gestuxe3o-do-departamento-de-tic-nas-empresas}
 
-\section{Segurança em Sistemas de Informação}\label{seguranuxe7a-em-sistemas-de-informauxe7uxe3o}
+\subsection{ITSM}\label{itsm}
+
+A Gestão de Serviços de Informática chamada (GSTI) ou, no inglês, ITSM (IT Service Management) tem por objetivo prover um serviço de TI com qualidade e alinhado às necessidades do negócio, buscando redução de custos a longo prazo.
+
+Nos últimos 40 anos, tem-se reunido boas práticas de Gestão de Serviços de Informática chamada ao ponto de criar ``bibliotecas'', ou seja, coleções de boas práticas. Vejamos as duas mais famosas:
+
+\subsubsection{ITIL (Information Technology Infrastructure Library)}\label{itil-information-technology-infrastructure-library}
+
+O ITIL (Information Technology Infrastructure Library) é um conjunto de melhores práticas para o gerenciamento de serviços de Tecnologia da Informação (TI). Ele fornece um framework abrangente e flexível que as organizações podem usar para alinhar seus serviços de TI com as necessidades de seus negócios. O ITIL ajuda as empresas a otimizar seus processos de TI, melhorar a qualidade dos serviços, reduzir custos e aumentar a satisfação do cliente.
+
+Atualmente, a AXELOS é a proprietária do ITIL e responsável por sua evolução e pelas certificações relacionadas.
+
+\includegraphics{images/InfraEstrutura/ITIL/Linha_do_Tempo.jpg}
+
+Para dar uma noção sobre melhores práticas de gestão de processos de TIC, utilizaremos o framework ITIL em sua versão 2 (2001), uma vez que o mesmo possui apenas 10 processos de Gestão de TIC divididos em dois grupos chamdos disciplinas ITIL.
+
+\paragraph{Processos ITIL Versão 2 (2001)}\label{processos-itil-versuxe3o-2-2001}
+
+\begin{longtable}[]{@{}
+  >{\centering\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.4828}}
+  >{\centering\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.5172}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\centering
+Grupo de Processos (Disciplina ITIL v2)
+\end{minipage} & \begin{minipage}[b]{\linewidth}\centering
+Processos
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+\textbf{``GRUPO'' SUPORTE A SERVIÇO} & 01- Gestão de Incidentes
+
+02- Gestão de Problemas
+
+03- Gestão de Mudanças
+
+04- Gestão de Liberação
+
+05- Gestão Configuração \\
+\textbf{``GRUPO'' ENTREGA DE SERVIÇO} & 06- Gestão de Nível de Serviço
+
+07- Gestão de Disponibilidade
+
+08- Gestão de Capacidade
+
+09- Gestão de Continuidade de Serviços TIC
+
+10- Gestão Financeira para Serviços de TIC \\
+\end{longtable}
+
+\paragraph{Processos do grupo SUPORTE A SERVIÇOS DE TIC}\label{processos-do-grupo-suporte-a-serviuxe7os-de-tic}
+
+O ITIL descreve melhores práticas para gestão de serviços de TIC. A Disciplina (agrupamento) de Suporte ao Serviço e a Disciplina (agrupamento) de Fornecimento de serviço combinadas oferecem o recurso de \textbf{Gerenciamento de Serviço de TIC} a uma organização. Inter-relacionamentos complexos entre todas as dez disciplinas do Gerenciamento de Serviços interagem para garantir que a infraestrutura de TI forneça um alto nível de serviço aos negócios.
+
+\subparagraph{01- Gestão de Incidentes}\label{gestuxe3o-de-incidentes}
+
+\includegraphics{images/InfraEstrutura/ITIL/01-Gerencia_de_Incidentes-01.jpg}
+
+\includegraphics{images/InfraEstrutura/ITIL/01-Gerencia_de_Incidentes-2.jpg}
+
+O processo ``\textbf{Service Desk e Gerenciamento de Incidentes}'' visa restaurar os Serviços de TI para seus Níveis de Serviço definidos o mais rápido possível O processo também é responsável por receber e processar Solicitações de Serviço, por auxiliar os usuários e por coordenar a Resolução de Incidentes com Grupos de Suporte Especializados. Ao longo do processo, os usuários são informados em intervalos regulares sobre o status de seus incidentes.
+
+\subparagraph{02- Gestão de Problemas}\label{gestuxe3o-de-problemas}
+
+\includegraphics{images/InfraEstrutura/ITIL/02-Gerencia_de_Problemas.jpg}
+
+O objetivo do \textbf{Processo de Gerenciamento de Problemas} é resolver a causa raiz dos Incidentes e evitar a recorrência de Incidentes relacionados a esses erros. Ele fornece Gerenciamento de Incidentes com Correções Temporárias (Soluções) e Soluções Permanentes para Erros Conhecidos. O Gerenciamento Proativo de Problemas identifica e resolve Problemas antes que os Incidentes ocorram, por exemplo, analisando tendências no Uso de Serviços de TI ou investigando Incidentes históricos.
+
+\subparagraph{03- Gestão de Mudanças}\label{gestuxe3o-de-mudanuxe7as}
+
+\includegraphics{images/InfraEstrutura/ITIL/03-Gerencia_de_Mudanças.jpg}
+
+No \textbf{Processo de Gerenciamento de Mudanças}, todas as alterações na infraestrutura de TI e seus componentes (Itens de Configuração) são autorizadas e documentadas, a fim de garantir que os efeitos de interrupção na operação em execução sejam reduzidos ao mínimo. As etapas de implementação são planejadas e comunicadas, a fim de reconhecer possíveis efeitos colaterais o mais cedo possível. O Gerente de Mudanças e (para Mudanças de maior alcance) o Conselho Consultivo de Mudanças (CAB) são responsáveis por isso. Existe um procedimento específico para emergências, lidando com Mudanças Urgentes.
+
+\subparagraph{04- Gestão de Liberação}\label{gestuxe3o-de-liberauxe7uxe3o}
+
+\includegraphics{images/InfraEstrutura/ITIL/04-gerencia_de_liberação-02.jpg}
+
+\includegraphics{images/InfraEstrutura/ITIL/04-Gerencia_de_Liberação-01.jpg}
+
+O \textbf{Processo de Liberação de Mudanças} é responsável pela implementação de mudanças aprovadas na Infraestrutura de TI, para que estas sejam realizadas de forma eficaz, segura e verificável. As tarefas deste processo incluem planejamento, monitoramento e implementação dos respectivos \emph{Rollouts} ou \emph{Rollins} em coordenação com o Gerenciamento de Mudanças anteriormente citada.
+
+\subparagraph{05- Gestão Configuração}\label{gestuxe3o-configurauxe7uxe3o}
+
+\includegraphics{images/InfraEstrutura/ITIL/05-Gerencia_de_configuração.jpg}
+
+As informações sobre Infraestrutura e Serviços necessárias para o Gerenciamento de Serviços de TI são disponibilizadas pelo Gerenciamento de Configuração. As alterações são documentadas e o status atualizado das informações é verificado regularmente. Com isso, informações atualizadas e históricas sobre os Itens de Configuração (CIs) estão continuamente disponíveis no Banco de Dados de Gerenciamento de Configuração (CMDB).
+
+\paragraph{Processos do grupo ENTREGA DE SERVIÇOS DE TIC}\label{processos-do-grupo-entrega-de-serviuxe7os-de-tic}
+
+\subparagraph{06- Gestão de Nível de Serviço}\label{gestuxe3o-de-nuxedvel-de-serviuxe7o}
+
+\includegraphics[width=4.01042in,height=\textheight]{images/InfraEstrutura/ITIL/06-Gerencia_de_Nivel_de_Serviço.jpg}
+
+O Gerenciamento de Nível de Serviço tem as tarefas de manter o Catálogo de Serviços da Organização de TI e alcançar acordos vinculativos para Desempenho de Serviços internos e externos. Na interface com o cliente, os Contratos de Nível de Serviço são acordados. O Gerente de Nível de Serviço é responsável pelo monitoramento dos parâmetros de qualidade acordados e, quando necessário, recorre a contramedidas. A prestação adequada de Serviços de TI internos é assegurada através de Acordos de Nível Operacional e Contratos de Apoio (OLAs/UCs).
+
+\subparagraph{07- Gestão de Disponibilidade}\label{gestuxe3o-de-disponibilidade}
+
+\includegraphics{images/InfraEstrutura/ITIL/07-gerenciamento_de_disponibilidade.jpg}
+
+O Gerenciamento de Disponibilidade permite que as Organizações de TI sustentem a disponibilidade da infraestrutura de TI para atender aos Níveis de Serviço acordados definidos nos SLAs. Ele monitora constantemente os níveis de disponibilidade alcançados e, quando necessário, realiza medidas corretivas.
+
+\subparagraph{08- Gestão de Capacidade}\label{gestuxe3o-de-capacidade}
+
+\includegraphics{images/InfraEstrutura/ITIL/08-Gestao_de_capacidade.jpg}
+
+O Gerenciamento de Capacidade suporta a provisão ideal e econômica de Serviços de TI, ajudando as Organizações de TI a combinar seus Recursos de TI (Software, Hardware, Recursos Humanos) com as necessidades de negócios. O processo envolve estimativas de demanda futura, que são a base para o planejamento de necessidades futuras de capacidade, resultando no Plano de Capacidade.
+
+\subparagraph{09- Gestão de Continuidade de Serviços TIC}\label{gestuxe3o-de-continuidade-de-serviuxe7os-tic}
+
+\includegraphics{images/InfraEstrutura/ITIL/09-Gestao_de_Continuidade_de_servicos_deTI.jpg}
+
+O Gerenciamento de Continuidade de Serviço de TI define e planeja todas as medidas e processos para eventos imprevistos de desastre. A análise regular de vulnerabilidades, ameaças e riscos representa uma base para precauções adequadas.
+
+\subparagraph{10- Gestão Financeira para Serviços de TI}\label{gestuxe3o-financeira-para-serviuxe7os-de-ti}
+
+\includegraphics{images/InfraEstrutura/ITIL/10-Gestao_Financeira_servicos_TI.jpg}
+
+O Gerenciamento Financeiro para Serviços de TI garante o uso mais econômico dos recursos financeiros de TI e cobra dos clientes pela prestação de Serviços de TI. Durante este período, deve ser alcançada uma relação equilibrada entre qualidade e custos, tendo simultaneamente em conta os requisitos do cliente. A realização do planeamento orçamental regular e o apuramento dos meios financeiros aprovados é também uma das tarefas da Gestão Financeira.
+
+\subsubsection{COBIT}\label{cobit}
 
 \section{Exercícios de Fixação}\label{exercuxedcios-de-fixauxe7uxe3o}
 
@@ -2016,13 +2533,13 @@ A empresa tem 9 departamentos: Presidência com 3 funcionários, diretoria com 9
 Baseado nestas informações, monte a distribuição de funcionários e equipamentos:
 
 \begin{longtable}[]{@{}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 12\tabcolsep) * \real{0.1429}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 12\tabcolsep) * \real{0.1429}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 12\tabcolsep) * \real{0.1429}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 12\tabcolsep) * \real{0.1429}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 12\tabcolsep) * \real{0.1429}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 12\tabcolsep) * \real{0.1429}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 12\tabcolsep) * \real{0.1429}}@{}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 12\tabcolsep) * \real{0.2742}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 12\tabcolsep) * \real{0.1210}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 12\tabcolsep) * \real{0.1694}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 12\tabcolsep) * \real{0.0726}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 12\tabcolsep) * \real{0.1210}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 12\tabcolsep) * \real{0.0887}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 12\tabcolsep) * \real{0.1129}}@{}}
 \caption{Tabela 1 - Funcionários e equipamentos por departamento}\tabularnewline
 \toprule\noalign{}
 \begin{minipage}[b]{\linewidth}\raggedright
@@ -2102,12 +2619,12 @@ Calcule:
 \end{enumerate}
 
 \begin{longtable}[]{@{}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 10\tabcolsep) * \real{0.1667}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 10\tabcolsep) * \real{0.1667}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 10\tabcolsep) * \real{0.1667}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 10\tabcolsep) * \real{0.1667}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 10\tabcolsep) * \real{0.1667}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 10\tabcolsep) * \real{0.1667}}@{}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 10\tabcolsep) * \real{0.2906}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 10\tabcolsep) * \real{0.1453}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 10\tabcolsep) * \real{0.1368}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 10\tabcolsep) * \real{0.1282}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 10\tabcolsep) * \real{0.1282}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 10\tabcolsep) * \real{0.1368}}@{}}
 \toprule\noalign{}
 \begin{minipage}[b]{\linewidth}\raggedright
 Departamento
@@ -2149,9 +2666,9 @@ TotalGeral & R\$ 218.739,00 & R\$ 21.146,00 & R\$ 9.750,00 & R\$ 1.225,50 & R\$ 
 \end{enumerate}
 
 \begin{longtable}[]{@{}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3333}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3333}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3333}}@{}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3274}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3451}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3186}}@{}}
 \toprule\noalign{}
 \begin{minipage}[b]{\linewidth}\raggedright
 Departamento
@@ -2176,19 +2693,589 @@ Loja Física & R\$ 0,00 & \\
 Departamento de Recursos Materiais & R\$ 27.603,85 & \\
 \end{longtable}
 
-\chapter{SISTEMAS DE INFORMAÇÃO E FUNCIONALIDADES}\label{sistemas-de-informauxe7uxe3o-e-funcionalidades}
+\section{REFERÊNCIAS BIBLIOGRÁFICAS}\label{referuxeancias-bibliogruxe1ficas}
 
-\section{Sistemas Integrados de Gestão}\label{sistemas-integrados-de-gestuxe3o}
+FUNDAMENTOS EM GERENCIAMENTO DE SERVIÇOS EM TI BASEADO NO ITIL - Flavio Pinheiro - 2006
 
-\section{Comércio Eletrônico}\label{comuxe9rcio-eletruxf4nico}
+\chapter{COBIT - Objetivos de controle para tecnologias de informação e relacionadas}\label{cobit---objetivos-de-controle-para-tecnologias-de-informauxe7uxe3o-e-relacionadas}
+
+\textbf{COBIT} (Control Objectives for Information and Related Technologies) é uma estrutura de \textbf{governança} e \textbf{gestão} de TIC. Ela foi desenvolvida pela ISACA (Information Systems Audit and Control Association) e é usada para orientar as empresas na implementação de TIC.
+
+O termo ``Objetivos de Controle'' remete a idéia de ``métricas'' para qualificar e dimensionar o uso da infraestrutura de TIC disponível. Então de alguma forma vamos ter que mensurar todos os processos como veremos mais adiante.
+
+\subsection{Governaça de TIC versus Gestão de TIC}\label{governauxe7a-de-tic-versus-gestuxe3o-de-tic}
+
+Muito se confunde governança de TIC com gestão de TIC. Vamos ver como o COBIT versão 5 diferencia esses dois termos:
+
+\includegraphics[width=7.80208in,height=\textheight]{images/cobit/01-02-governanca-vs-gestao.jpg}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.3333}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.6667}}@{}}
+\toprule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+\includegraphics[width=1.94792in,height=\textheight]{images/cobit/01-governanca-ti.jpg} & \textbf{GOVERNANÇA DE TIC:} Conjunto de \textbf{práticas e processos} que asseguram que a \textbf{TI apoia eficazmente os objetivos e as estratégias da organização}, gere valor a partir dos investimentos em TI, gerencie os riscos relacionados à TI e otimize a utilização dos recursos e capacidades de TI. \\
+\includegraphics{images/cobit/02-gestao-tic.jpg} & \textbf{GESTÃO DE TIC: uso ponderado de recursos (pessoas, processos, práticas, etc.)} para \textbf{atingir determinados objetivos relacionados à tecnologia da informação}, sendo responsável pela execução da orientação definida pelo órgão de governança. A gestão de TI diz respeito ao alinhamento das atividades de planejamento, desenvolvimento, organização e controle operacional com a orientação definida pelo órgão de governança, e à geração de relatórios sobre essas atividades. \\
+\end{longtable}
+
+Colocando de forma bem simplista, enquanto a Governança de TIC cria Processos e Políticas de TI alinhadas aos objetivos da empresa, a Gestão de TIC aplica os recursos disponíveis de TIC de forma inteligente.
+
+\subsection{Os 5 Princípios do COBIT}\label{os-5-princuxedpios-do-cobit}
+
+O modelo COBIT 5 é baseado em cinco princípios básicos para a governança e gestão de TI da organização. Estes princípios são:
+
+\subsubsection{1º Princípio: Atender às Necessidades das Partes Interessadas}\label{uxba-princuxedpio-atender-uxe0s-necessidades-das-partes-interessadas}
+
+\includegraphics[width=3.33333in,height=\textheight]{images/cobit/03-principio-01-cobit.jpg}
+
+As organizações existem para criar valor para suas Partes interessadas, mantendo o equilíbrio entre a realização de benefícios e a otimização do risco e uso dos recursos. O COBIT 5 fornece todos os processos necessários e demais habilitadores para apoiar a criação de valor para a organização com o uso de TI. Cada organização pode personalizar o COBIT 5 de acordo com seu contexto específico por meio da cascata de objetivos, traduzindo objetivos corporativos de alto nível em objetivos de TI específicos e gerenciáveis, que são então mapeados em práticas e processos específicos.
+
+\subsubsection{2º Princípio: Cobrir a Organização de Ponta a Ponta}\label{uxba-princuxedpio-cobrir-a-organizauxe7uxe3o-de-ponta-a-ponta}
+
+\includegraphics{images/cobit/04-principio-02-cobit.jpg}
+
+O COBIT 5 integra a governança corporativa de TI à governança corporativa:
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.3239}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.6761}}@{}}
+\toprule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+Processos de Negócio x Processos de TIC & Cobre todas as funções e processos corporativos, considerando a tecnologia da informação e tecnologias relacionadas como ativos que devem ser tratados como qualquer outro ativo por todos na organização \\
+Alinamento de Gestores e Fornecedores & Considera todos os habilitadores de governança e gestão de TI aplicáveis em toda a organização, de ponta a ponta, incluindo tudo e todos - interna e externamente - que forem considerados relevantes para a governança e gestão das informações e de TI da organização \\
+\end{longtable}
+
+\subsubsection{3º Princípio: Aplicar Um Modelo Único Integrado}\label{uxba-princuxedpio-aplicar-um-modelo-uxfanico-integrado}
+
+\includegraphics[width=4.47917in,height=\textheight]{images/cobit/05-principio-03-cobit.jpg}
+
+Existem muitas normas e boas práticas relacionadas a TI, cada qual fornecendo orientações para um conjunto específico de atividades de TI. O COBIT 5 se alinha a outros padrões e modelos importantes em um alto nível e, portanto, pode servir como um modelo unificado para a governança e gestão de TI da organização.
+
+\subsubsection{4º Princípio: Permitir uma Abordagem Holística}\label{uxba-princuxedpio-permitir-uma-abordagem-holuxedstica}
+
+Uma governança e gestão eficiente e eficaz de TI da organização requer uma abordagem holística, levando em conta seus diversos componentes interligados. O COBIT 5 define um conjunto de sete categorias de habilitadores para apoiar a implementação de um sistema abrangente de gestão e governança de TI da organização.
+
+\begin{longtable}[]{@{}ll@{}}
+\toprule\noalign{}
+Item & Princípios, Políticas e Modelos \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+01 & Processos \\
+02 & Estruturas Organizacionais \\
+03 & Cultura, Ética e Comportamento \\
+04 & Informação \\
+05 & Serviços, Infraestrutura e Aplicativos \\
+06 & Pessoas, Habilidades e Competências \\
+\end{longtable}
+
+\subsubsection{5º Princípio: Distinguir a Governança da Gestão}\label{uxba-princuxedpio-distinguir-a-governanuxe7a-da-gestuxe3o}
+
+\includegraphics[width=2.96875in,height=\textheight]{images/cobit/06-principio-05-cobit.jpg}
+
+O modelo do COBIT 5 faz uma clara distinção entre governança e gestão. Essas duas disciplinas compreendem diferentes tipos de atividades, exigem modelos organizacionais diferenciados e servem a propósitos diferentes. A governança garante que as necessidades, condições e opções das Partes Interessadas sejam avaliadas a fim de determinar objetivos corporativos acordados e equilibrados; definindo a direção através de priorizações e tomadas de decisão; e monitorando o desempenho e a conformidade com a direção e os objetivos estabelecidos.
+
+\section{Cobit Aferição de Performance}\label{cobit-aferiuxe7uxe3o-de-performance}
+
+\subsection{KPI - indicadores-chave de desempenho}\label{kpi---indicadores-chave-de-desempenho}
+
+\includegraphics[width=4.23958in,height=\textheight]{images/cobit/07-0-kpi.jpg}
+
+\textbf{KPI}s (Key Performance Indicator) ou \textbf{indicadores-chave de desempenho} são definidos como uma métrica quantificável usada para monitorar o progresso na realização dos objetivos comerciais. Mais especificamente, um KPI fornece informações sobre o desempenho do ativo mais importante de uma organização: \textbf{as pessoas}.
+
+\includegraphics{images/cobit/07-kpi.jpg}
+
+Os KPIs são considerados o molho secreto da estratégia empresarial moderna, e todos estão qualificados para utilizá-los. Indicadores-chave de desempenho eficazes permitem que as pessoas tomem decisões precisas e rápidas.
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 0\tabcolsep) * \real{1.0000}}@{}}
+\toprule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+KPIs bem projetados podem capacitar as equipes a resolver ineficiências, eliminar solicitações que consomem muito tempo e alinhar tarefas e projetos com metas de toda a empresa. \\
+As empresas devem se concentrar nas métricas que têm o maior impacto sobre sua sustentabilidade. Ao focar em projetos, ferramentas e sistemas que realmente fazem a diferença, as empresas constroem um roteiro para maximizar sua velocidade em direção ao crescimento da receita. \\
+É crucial identificar as métricas de negócios diretamente relacionadas às metas de negócios. Diferentes áreas terão diferentes KPIs (vendas, produtos, finanças). É importante entender o que cada área quer alcançar e seus critérios de sucesso. Um KPI que não contribui para uma meta de negócios deve ser descartado. \\
+Após identificar as métricas, elas devem ser organizadas em indicadores principais (de avanço) e indicadores secundários (de atraso). Os indicadores de avanço mostram se é necessário ajustar a estratégia para alcançar o resultado desejado, enquanto os indicadores de atraso determinam o desempenho dos processos em um período mais longo. \\
+Os KPIs devem ser claros e específicos e compreensíveis por toda a empresa. \\
+É recomendado colocar os KPIs em uma ferramenta remota para registrar e monitorar o progresso, pois relatórios em formatos tradicionais podem se tornar rapidamente desatualizados e menos acessíveis. O ClickUp é apresentado como uma ferramenta para essa finalidade, oferecendo dashboards personalizáveis. \\
+Monitorar KPIs como uma equipe ajuda a definir critérios claros e mensuráveis para o sucesso, permitindo que as equipes trabalhem para atingir metas específicas e medir continuamente seu progresso, o que pode levar a maior envolvimento e motivação. \\
+A seleção dos KPIs adequados dependerá do propósito, das metas e dos objetivos da equipe, bem como da análise do desempenho anterior e de fatores externos. \\
+Se uma equipe não estiver atingindo as metas de KPI, é importante identificar a causa raiz do problema e garantir que os KPIs sejam alcançáveis, relevantes e realistas. \\
+\end{longtable}
+
+\subsection{Exemplos de KPIs}\label{exemplos-de-kpis}
+
+\subsubsection{Performance de Vendas}\label{performance-de-vendas}
+
+Indicadores de performance para o departamento de vendas;
+
+\begin{longtable}[]{@{}
+  >{\centering\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.2917}}
+  >{\centering\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.7083}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\centering
+KPI
+\end{minipage} & \begin{minipage}[b]{\linewidth}\centering
+Descrição
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+Custo de aquisição de clientes & O custo total de aquisição de um cliente (inclui custos gastos no processo de vendas e por meio de esforços de marketing). \\
+Atividades de vendas por representante & O número total de tarefas concluídas em um determinado período de tempo. \\
+Taxa de conversão de leads em clientes & A porcentagem de leads convertidos em seu processo de vendas. \\
+Receita total de vendas & A receita total gerada por seus produtos em um período definido. \\
+\end{longtable}
+
+\subsubsection{Performance de Operações de um setor}\label{performance-de-operauxe7uxf5es-de-um-setor}
+
+Indicadores de performance para uma operação de um departamento ou setor;
+
+\begin{longtable}[]{@{}
+  >{\centering\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.2778}}
+  >{\centering\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.7222}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\centering
+KPI
+\end{minipage} & \begin{minipage}[b]{\linewidth}\centering
+Descrição
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+Duração do ciclo de vendas & O tempo médio que leva entre o contato inicial e o fechamento. \\
+Horas extras & O número de horas trabalhadas por um funcionário além de suas horas de trabalho normalmente programadas. \\
+Processos desenvolvidos & O número de melhorias feitas nas operações atuais. \\
+Custos de inventário & O valor total de todas as despesas relacionadas ao armazenamento de mercadorias não vendidas. \\
+Utilização do espaço de escritório & A porcentagem do espaço de escritório usado pelos funcionários. \\
+Uso de vantagens da empresa & A porcentagem de vantagens usadas pelos funcionários. \\
+\end{longtable}
+
+\subsubsection{Performance financeira da empresa}\label{performance-financeira-da-empresa}
+
+Indicadores de performance para setor financeiro da empresa;
+
+\begin{longtable}[]{@{}
+  >{\centering\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.2778}}
+  >{\centering\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.7222}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\centering
+KPI
+\end{minipage} & \begin{minipage}[b]{\linewidth}\centering
+Descrição
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+Retorno sobre o patrimônio líquido & A medida de desempenho financeiro com base no lucro líquido dividido pelo patrimônio líquido. \\
+Margem de lucro líquido & A quantidade de dinheiro que sua empresa tem após todas as despesas terem sido deduzidas da receita total. \\
+Custo dos produtos vendidos & O custo total de fabricação dos produtos que uma empresa vende (exclui despesas com vendas, administração e marketing). \\
+Índice de dívida para patrimônio líquido & A proporção do total de passivos da empresa em relação ao patrimônio líquido. \\
+Fluxo de caixa livre & A quantidade de dinheiro restante após as despesas de capital. \\
+\end{longtable}
+
+\subsubsection{Performance de um website}\label{performance-de-um-website}
+
+Indicadores de performance para interações em um website;
+
+\begin{longtable}[]{@{}
+  >{\centering\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.2361}}
+  >{\centering\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.7639}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\centering
+KPI
+\end{minipage} & \begin{minipage}[b]{\linewidth}\centering
+Descrição
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+Proporção de tráfego para MQL & A proporção entre a plataforma de tráfego total gerada e o número de leads qualificados para marketing provenientes desse tráfego. \\
+Erros de rastreamento & O número de URLs que são inacessíveis para o Googlebot quando ele examina suas páginas. \\
+Taxa de rejeição & O número de pessoas que saíram de seu site em apenas alguns segundos após a chegada. \\
+Usabilidade móvel & A velocidade e o desempenho da sua página de destino em telefones e guias. \\
+Tráfego de referência & O número de pessoas que visitam seu site a partir de suas mídias sociais. \\
+\end{longtable}
+
+\subsubsection{Performance de inicialização de clientes}\label{performance-de-inicializauxe7uxe3o-de-clientes}
+
+Indicadores de performance para início de relacionamento com clientes;
+
+\begin{longtable}[]{@{}
+  >{\centering\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.2778}}
+  >{\centering\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.7222}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\centering
+KPI
+\end{minipage} & \begin{minipage}[b]{\linewidth}\centering
+Descrição
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+Valor da vida útil do cliente & A receita que sua empresa pode esperar de contas de clientes individuais. \\
+Taxa de ativação & A porcentagem de usuários que concluem qualquer evento importante no processo de integração. \\
+Runway & O número de meses que a empresa pode operar antes de ficar sem dinheiro. \\
+Duração média do ciclo de vendas & O número de dias que leva para fechar um negócio, em média. \\
+Burn mensal & O montante de dinheiro gasto por mês. \\
+\end{longtable}
+
+\subsubsection{Performance de inicialização de clientes}\label{performance-de-inicializauxe7uxe3o-de-clientes-1}
+
+Indicadores de performance para início de relacionamento com clientes;
+
+\begin{longtable}[]{@{}
+  >{\centering\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.2778}}
+  >{\centering\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.7222}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\centering
+KPI
+\end{minipage} & \begin{minipage}[b]{\linewidth}\centering
+Descrição
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+Valor da vida útil do cliente & A receita que sua empresa pode esperar de contas de clientes individuais. \\
+Taxa de ativação & A porcentagem de usuários que concluem qualquer evento importante no processo de integração. \\
+Runway & O número de meses que a empresa pode operar antes de ficar sem dinheiro. \\
+Duração média do ciclo de vendas & O número de dias que leva para fechar um negócio, em média. \\
+Burn mensal & O montante de dinheiro gasto por mês. \\
+\end{longtable}
+
+\subsubsection{Performance de Produtos}\label{performance-de-produtos}
+
+Indicadores de performance para Produtos;
+
+\begin{longtable}[]{@{}
+  >{\centering\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.2639}}
+  >{\centering\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.7361}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\centering
+KPI
+\end{minipage} & \begin{minipage}[b]{\linewidth}\centering
+Descrição
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+Net Promoter Score (NPS) & O número que indica se seus usuários estão prontos para recomendar seu produto a amigos, colegas etc.. \\
+Escalonamentos de tíquetes de suporte & O número de tíquetes transferidos para um gerente de suporte ao cliente de nível superior para serem resolvidos. \\
+Índice de satisfação do cliente (CSAT) & A taxa de escala da experiência geral de um cliente com o produto, serviço ou funcionário de uma empresa. \\
+Velocidade & O número total de testes manuais e automatizados realizados. \\
+Daily Active User & O número de usuários ativos por dia. \\
+\end{longtable}
 
 \chapter{Tomada de Decisão de Gestão do Conhecimento: Business Inteligence}\label{tomada-de-decisuxe3o-de-gestuxe3o-do-conhecimento-business-inteligence}
 
-\section{Ferramentas de B.I. e conceito de DashBoard}\label{ferramentas-de-b.i.-e-conceito-de-dashboard}
+( Consultar livro LAUDON, Kenneth C.; LAUDON, Jane P. \emph{Sistemas de informação gerenciais}. 11. ed.~São Paulo: Pearson Education do Brasil, 2010. p.~180. )
 
-\subsection{PowerBI}\label{powerbi}
+\section{Bancos de Dados}\label{bancos-de-dados}
 
-\section{Bancos de Dados OLTP e OLAP}\label{bancos-de-dados-oltp-e-olap}
+\includegraphics[width=4.70833in,height=\textheight]{images/5-bi/01-banco-de-dados.jpg}
+
+\begin{quote}
+\textbf{Banco de Dados} é um conjunto de arquivos relacionados entre si com registros sobre algum assunto: pessoas, lugares ou coisas. \hyperref[laudon-kenneth-c.-laudon-jane-p.-sistemas-de-informauxe7uxe3o-gerenciais.-11.-ed.-suxe3o-paulo-pearson-education-do-brasil-2010.-p.-180.]{{[}1{]} - LAUDON, Kenneth C.; LAUDON, Jane P. *Sistemas de informação gerenciais*. 11. ed.~São Paulo: Pearson Education do Brasil, 2010. p.~180.}
+\end{quote}
+
+\includegraphics{images/5-bi/07-tabela_relacional.jpg}
+
+\begin{quote}
+\textbf{Banco de Dados Relacional} é um tipo comum de banco de dados que organiza os dados em tabelas (denominadas entidades) com colunas e linhas \hyperref[laudon-kenneth-c.-laudon-jane-p.-sistemas-de-informauxe7uxe3o-gerenciais.-11.-ed.-suxe3o-paulo-pearson-education-do-brasil-2010.-p.-180.]{{[}1{]} - LAUDON, Kenneth C.; LAUDON, Jane P. *Sistemas de informação gerenciais*. 11. ed.~São Paulo: Pearson Education do Brasil, 2010. p.~180.}
+\end{quote}
+
+O Banco de Dados Relacional organiza as informações em \textbf{tabelas bidiomensionais} constituídas de \textbf{linhas e colunas} chamadas e essas tabelas recebem o nome de \textbf{relações}. Cada \textbf{relação} possui um \textbf{campo-chave} que confere identificação exclusiva a cada registro da tabela.
+
+\subsection{Modelo Conceitual ``Entidade Relacionamento'' de Banco de Dados}\label{modelo-conceitual-entidade-relacionamento-de-banco-de-dados}
+
+O Modelo Entidade-Relacionamento (MER), proposto por Peter Chen em 1976, é uma ferramenta fundamental na modelagem de dados. É um modelo de dados de alto nível que descreve a estrutura conceitual de um banco de dados. O Modelo Entidade-Relacionamento (MER) é representado graficamente através de um DER (Diagrama Entidade-Relacionamento).
+
+É utilizado para projetar Bancos de Dados Relacionais a partir de entrevistas onde se descreve as informações que se deseja armazenar de forma consistente. Exemplo:
+
+``\emph{Desenhe um diagrama entidade-relacionamento DER contendo as entidades funcionarios e departamentos. A entidade ''funcionários'' possui os atributos ''nome'' e ''CPF''. A entidade ''Departamentos'' possui os atributos ''Nome'' e ''sigla''. O atributo ''CPF'' é chave primária da entidade ''Funcionários''. O atributo ''sigla'' é chave primária da entidade ''Departamentos''. As entidades ''Funcionários'' e ''Departamentos'' se relacionam através de um relacionamento chamado ''Pertence''}.''
+
+\includegraphics{images/5-bi/02-Modelo-Entidade-Relacionamento.jpg}
+
+Segundo Laudon
+
+\begin{quote}
+\textbf{Diagrama Entidade/Relacionamento (DER)} é uma representação esquemática utilizada para entender as relações entre as tabelas de um banco de dados relacional. \hyperref[laudon-kenneth-c.-laudon-jane-p.-sistemas-de-informauxe7uxe3o-gerenciais.-11.-ed.-suxe3o-paulo-pearson-education-do-brasil-2010.-p.-180.]{{[}1{]} - LAUDON, Kenneth C.; LAUDON, Jane P. *Sistemas de informação gerenciais*. 11. ed.~São Paulo: Pearson Education do Brasil, 2010. p.~180.}
+\end{quote}
+
+\subsection{Composição e Significado do Diagrama Entidade Relacionamento (DER)}\label{composiuxe7uxe3o-e-significado-do-diagrama-entidade-relacionamento-der}
+
+\begin{longtable}[]{@{}
+  >{\centering\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.1613}}
+  >{\centering\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3871}}
+  >{\centering\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.4409}}@{}}
+\toprule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+\textbf{Nome} & \textbf{Desenho} & \textbf{Significado} \\
+Entidade & \includegraphics{images/5-bi/03-retangulo.jpg} & Representa uma tabela e é identificada
+
+no texto por um \textbf{substantivo}. \\
+\end{longtable}
+
+\begin{longtable}[]{@{}
+  >{\centering\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.1128}}
+  >{\centering\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3459}}
+  >{\centering\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.5338}}@{}}
+\toprule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+\textbf{Nome} & \textbf{Desenho} & \textbf{Significado} \\
+Atributo & \includegraphics[width=1.89583in,height=\textheight]{images/5-bi/05-elipse.jpg} & Representa uma coluna e é identificada no texto por um \textbf{adjetivo}. \\
+\end{longtable}
+
+\begin{longtable}[]{@{}
+  >{\centering\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.1491}}
+  >{\centering\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.4123}}
+  >{\centering\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.4298}}@{}}
+\toprule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+\textbf{Nome} & \textbf{Desenho} & \textbf{Significado} \\
+Relacionamento & \includegraphics[width=1.92708in,height=\textheight]{images/5-bi/04-losango.jpg} & Representa uma \textbf{Referência} e é identificada
+
+no texto por um \textbf{Verbo}. \\
+\end{longtable}
+
+\subsection{Geração do modelo Físico para aplica-lo ao SGBD (Sistema de Gerenciamento de Banco de Dados):}\label{gerauxe7uxe3o-do-modelo-fuxedsico-para-aplica-lo-ao-sgbd-sistema-de-gerenciamento-de-banco-de-dados}
+
+Uma vez que o modelo conceitual seja gerado, o analista pode mapea-lo para um ``modelo físico'' onde se mapeiam chaves primárias e chaves forasteiras nas tabelas.
+
+Após a geração do modelo físico pode-se gerar o SQL que monta a estrutura do Banco de Dados.
+
+\includegraphics{images/5-bi/06-modelo_fisico.jpg}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\CommentTok{{-}{-} Exemplo testado e gerado no SGBD Postgres versão 15}
+
+\CommentTok{{-}{-} Tabela Funcionários}
+\KeywordTok{CREATE} \KeywordTok{TABLE} \ControlFlowTok{IF} \KeywordTok{NOT} \KeywordTok{EXISTS} \OtherTok{"public"}\NormalTok{.funcionarios}
+\NormalTok{(}
+\NormalTok{    cpf bigint }\KeywordTok{NOT} \KeywordTok{NULL}\NormalTok{,}
+\NormalTok{    nome }\DataTypeTok{varchar}\NormalTok{(}\DecValTok{200}\NormalTok{)}
+\NormalTok{);}
+
+\CommentTok{{-}{-} Tabela Departamentos}
+
+\KeywordTok{CREATE} \KeywordTok{TABLE} \ControlFlowTok{IF} \KeywordTok{NOT} \KeywordTok{EXISTS} \OtherTok{"public"}\NormalTok{.departamentos}
+\NormalTok{(}
+\NormalTok{    sigla }\DataTypeTok{integer} \KeywordTok{NOT} \KeywordTok{NULL}\NormalTok{,}
+\NormalTok{    nome }\DataTypeTok{varchar}\NormalTok{(}\DecValTok{200}\NormalTok{)}
+\NormalTok{);}
+
+\CommentTok{{-}{-} Definindo a coluna "cpf" da tabela "funcionários" como chave primária}
+\KeywordTok{alter} \KeywordTok{table} \OtherTok{"public"}\NormalTok{.funcionarios }\KeywordTok{add} \KeywordTok{constraint} \OtherTok{"chave\_primaria\_funcionarios"} \KeywordTok{primary} \KeywordTok{key}\NormalTok{ (cpf);}
+
+\CommentTok{{-}{-} Definindo a coluna "sigla"" da tabela "departamentos" como chave primária}
+\KeywordTok{alter} \KeywordTok{table} \OtherTok{"public"}\NormalTok{.departamentos }\KeywordTok{add} \KeywordTok{constraint} \OtherTok{"chave\_primaria\_departamentos"} \KeywordTok{primary} \KeywordTok{key}\NormalTok{ (sigla);}
+
+\CommentTok{{-}{-} Gerando a integridade referêncial }
+\CommentTok{{-}{-} Importando a chave primária da tabela "departamentos" como "chave estrangeira"}
+\CommentTok{{-}{-} na tabela "funcionários"}
+
+\CommentTok{{-}{-} primeiro adiciona{-}se a coluna estrageira "sigla" que é coluna originalmente }
+\CommentTok{{-}{-} pertencente a tabela departamentos}
+\KeywordTok{alter} \KeywordTok{table} \OtherTok{"public"}\NormalTok{.funcionarios }\KeywordTok{add} \KeywordTok{column}\NormalTok{ sigla }\DataTypeTok{integer}\NormalTok{;}
+
+\CommentTok{{-}{-} finalmente conecte a coluna sigla a chave primária da tabela "departamento"}
+\CommentTok{{-}{-} criando então uma chave estrageira na tabela "funcionários".}
+\KeywordTok{alter} \KeywordTok{table} \OtherTok{"public"}\NormalTok{.funcionarios }\KeywordTok{add} \KeywordTok{constraint} \OtherTok{"Chave\_estrangeira\_Departamento\_funcionarios"} \KeywordTok{foreign} \KeywordTok{key}\NormalTok{ (sigla) }\KeywordTok{references} \OtherTok{"public"}\NormalTok{.departamentos(sigla);}
+\end{Highlighting}
+\end{Shaded}
+
+\section{Normalização em Bancos de Dados Relaionais}\label{normalizauxe7uxe3o-em-bancos-de-dados-relaionais}
+
+\subsection{Tabela Desnormalizada}\label{tabela-desnormalizada}
+
+Considere a tabela Veículos abaixo:
+
+\begin{longtable}[]{@{}cc@{}}
+\toprule\noalign{}
+Modelo & Montadora \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+Strada & Fiat \\
+Mobi & Fiat \\
+Pulse & Fiat \\
+Onix & Chevrolet \\
+Tracker & Chevrolet \\
+Onix Plus & Chevrolet \\
+Polo & Volkswagen \\
+Nivus & Volkswagen \\
+T-Cross & Volkswagen \\
+HB20 & Hyundai \\
+Creta & Hyundai \\
+\end{longtable}
+
+Separamos o conjunto de elemntos \emph{Montadoras} e \emph{Modelos}.
+
+\begin{longtable}[]{@{}cc@{}}
+\toprule\noalign{}
+MontadoraID & Montadora \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+1 & Fiat \\
+2 & Chevrolet \\
+3 & Volkswagen \\
+4 & Hyundai \\
+\end{longtable}
+
+\begin{longtable}[]{@{}cc@{}}
+\toprule\noalign{}
+ModeloID & Modelo \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+101 & Strada \\
+102 & Mobi \\
+103 & Pulse \\
+201 & Onix \\
+202 & Tracker \\
+203 & Onix Plus \\
+301 & Polo \\
+302 & Nivus \\
+303 & T-Cross \\
+401 & HB20 \\
+402 & Creta \\
+\end{longtable}
+
+\begin{quote}
+O processo de fragmentar agrupamentos complexos de dados e simplifica-los a fim de minimizar redundâncias e economizar espaço no Banco de Dados Relacional é chamado de \textbf{NORMALIZAÇÃO.} \hyperref[laudon-kenneth-c.-laudon-jane-p.-sistemas-de-informauxe7uxe3o-gerenciais.-11.-ed.-suxe3o-paulo-pearson-education-do-brasil-2010.-p.-180.]{{[}1{]} - LAUDON, Kenneth C.; LAUDON, Jane P. *Sistemas de informação gerenciais*. 11. ed.~São Paulo: Pearson Education do Brasil, 2010. p.~180.}
+\end{quote}
+
+Mas Como indicar que cada elemento da tabela ``Modelo'' está associado a um elemento da tabela ``Montadora'' ?
+
+\subsection{Tabela Normalizada}\label{tabela-normalizada}
+
+Considere as tabelas abaixo:
+
+\begin{longtable}[]{@{}
+  >{\centering\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.3333}}
+  >{\centering\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.6528}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\centering
+MontadoraID
+\end{minipage} & \begin{minipage}[b]{\linewidth}\centering
+Montadora
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+1 & Fiat \\
+2 & Chevrolet \\
+3 & Volkswagen \\
+4 & Hyundai \\
+\end{longtable}
+
+\begin{longtable}[]{@{}ccc@{}}
+\toprule\noalign{}
+ModeloID & Modelo & MontadoraID \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+101 & Strada & 1 \\
+102 & Mobi & 1 \\
+103 & Pulse & 1 \\
+201 & Onix & 2 \\
+202 & Tracker & 2 \\
+203 & Onix Plus & 2 \\
+301 & Polo & 3 \\
+302 & Nivus & 3 \\
+303 & T-Cross & 3 \\
+401 & HB20 & 4 \\
+402 & Creta & 4 \\
+\end{longtable}
+
+Repare que:
+
+\begin{itemize}
+\item
+  É possível identificar que não existem montadoras repetidas na tabela ``Montadoras'';
+\item
+  É possível identificar que não existem modelos repetidos na tabela ``Montadoras'';
+\end{itemize}
+
+A coluna (atributo) \textbf{ModeloID} é a \textbf{chave primária} da tabela \textbf{Modelos.} A coluna (atributo) \textbf{MontadoraID} é a \textbf{chave primária} da tabela \textbf{Montadoras.}
+
+Na tabela \textbf{Modelos}, a coluna \textbf{MontadoraID}, acrescentada a tabela Modelos representa a ligação de cada elemento da tabela Modelos e Montadoras. Essa coluna ``importada'' da tabela Montadoras para a tabela Modelos se chama \textbf{chave estrangeira}.
+
+\section{Regimes de operação de um Banco de Dados Relacional}\label{regimes-de-operauxe7uxe3o-de-um-banco-de-dados-relacional}
+
+\subsection{Regime OLTP}\label{regime-oltp}
+
+\begin{quote}
+OLTP ou~\emph{Online Transaction Processing}~(\textbf{Processamento de Transações Online}, em português) serve para designar os sistemas operacionais com dados transacionais.~
+\end{quote}
+
+\includegraphics{images/5-bi/08-crud3.jpg}
+
+\subsection{Regime OLAP}\label{regime-olap}
+
+\begin{quote}
+Por outro lado, o OLAP ou Online Analytical Processing (\textbf{Processamento Analítico Online}), é uma habilidade para executar dentro do Data Warehouse e realizar análises dos grandes volumes de dados.
+\end{quote}
+
+\includegraphics{images/5-bi/09-cubo3.jpg}
+
+\section{Data Warehouse}\label{data-warehouse}
+
+\section{Cubos}\label{cubos}
+
+\begin{longtable}[]{@{}
+  >{\centering\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.1589}}
+  >{\centering\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.4019}}
+  >{\centering\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.4299}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\centering
+Característica
+\end{minipage} & \begin{minipage}[b]{\linewidth}\centering
+Data Warehouse (DW)
+\end{minipage} & \begin{minipage}[b]{\linewidth}\centering
+Cubo
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+Função & Repositório central, integração, storage & Estrutura otimizada para consulta e análise \\
+Escopo & Amplo, dados de toda a empresa & Focado em processos/áreas específicas \\
+Estrutura & Relacional (Star/Snowflake Schema) & Multidimensional \\
+Dados & Detalhados e históricos, integrados & Agregados, sumarizados, derivados do DW \\
+Otimização & Armazenamento, integração, consistência & Velocidade de consulta, análise interativa \\
+Relação & É a fonte de dados para o Cubo & É construído sobre (ou a partir) do DW \\
+\end{longtable}
+
+\section{Referências:}\label{referuxeancias}
+
+\paragraph{{[}1{]} - LAUDON, Kenneth C.; LAUDON, Jane P. *Sistemas de informação gerenciais*. 11. ed.~São Paulo: Pearson Education do Brasil, 2010. p.~180.}\label{laudon-kenneth-c.-laudon-jane-p.-sistemas-de-informauxe7uxe3o-gerenciais.-11.-ed.-suxe3o-paulo-pearson-education-do-brasil-2010.-p.-180.}
 
 \chapter{TECNOLOGIAS EMERGENTES E INOVAÇÃO EM TIC}\label{tecnologias-emergentes-e-inovauxe7uxe3o-em-tic}
 

@@ -125,6 +125,7 @@ gestão-financeira-para-serviços-de-ti
 cobit
 exercícios-de-fixação
 hardware---inventário
+referências-bibliográficas
 cobit---objetivos-de-controle-para-tecnologias-de-informação-e-relacionadas
 governaça-de-tic-versus-gestão-de-tic
 os-5-princípios-do-cobit
