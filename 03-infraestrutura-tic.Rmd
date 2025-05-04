@@ -2,6 +2,10 @@
 
 ## Introdução:
 
+No mundo da infraestrutura de TIC das empresas, diferentemente da área de desenvolvimento de software, é necessário conhecer e certificar-se em tecnologiasa e boas práticas de gestão departamental integrada ao negócio central (core business) da empresa.
+
+A seguir, iremos conhecer as tecnologias e serviços de TIC presentes nos departamentos de tecnologia da informação das organizações em 2025, bem como as boas prtaicas de gestão para administrar tais departamentos.
+
 ## Componentes da Infraestrutura de TIC
 
 Em uma empresa, a infraestrutura de TIC precisa de 3 elementos fundamentais para funcionar:
@@ -150,17 +154,17 @@ Fazem parte do cabedal de hadware das empresas:
 |                                                   | Oracle               |
 +---------------------------------------------------+----------------------+
 
-+--------------------------------------+:------------------:+
-| **Paradigma não-relacional**         | Cassandra          |
-|                                      |                    |
-| ![](images/clipboard-1618144074.png) | MongoDB            |
-+--------------------------------------+--------------------+
++--------------------------------------+:-----------------:+
+| **Paradigma não-relacional**         | Cassandra         |
+|                                      |                   |
+| ![](images/clipboard-1618144074.png) | MongoDB           |
++--------------------------------------+-------------------+
 
-+--------------------------------------+:------------------:+
-| **Paradigma Grafo**                  | neo4J              |
-|                                      |                    |
-| ![](images/clipboard-2057319963.png) |                    |
-+--------------------------------------+--------------------+
++--------------------------------------+:-----------------:+
+| **Paradigma Grafo**                  | neo4J             |
+|                                      |                   |
+| ![](images/clipboard-2057319963.png) |                   |
++--------------------------------------+-------------------+
 
 +---------------------------------------------------+:----------------:+
 | **Paradigma Hierárquico**                         | Active Directory |
@@ -170,13 +174,13 @@ Fazem parte do cabedal de hadware das empresas:
 
 #### Middleware: Software que permite a comunicação e a troca de dados entre diferentes aplicações.
 
-+:------------------------:+:-------------------------:+
-| **Tipo de MiddleWare**   | **Exemplo de Middleware** |
-+--------------------------+---------------------------+
-| Filas de Mensagens       | Apache Kafka              |
-|                          |                           |
-|                          | RabbitMQ                  |
-+--------------------------+---------------------------+
++:-----------------------:+:-------------------------:+
+| **Tipo de MiddleWare**  | **Exemplo de Middleware** |
++-------------------------+---------------------------+
+| Filas de Mensagens      | Apache Kafka              |
+|                         |                           |
+|                         | RabbitMQ                  |
++-------------------------+---------------------------+
 
 +:----------------------------:+:-------------------------:+
 | **Tipo de MiddleWare**       | **Exemplo de Middleware** |
@@ -186,13 +190,13 @@ Fazem parte do cabedal de hadware das empresas:
 |                              | Mulesoft                  |
 +------------------------------+---------------------------+
 
-+:------------------------:+:-------------------------:+
-| **Tipo de MiddleWare**   | **Exemplo de Middleware** |
-+--------------------------+---------------------------+
-| APIs Gateways            | KONG                      |
-|                          |                           |
-|                          | TYK                       |
-+--------------------------+---------------------------+
++:-----------------------:+:-------------------------:+
+| **Tipo de MiddleWare**  | **Exemplo de Middleware** |
++-------------------------+---------------------------+
+| APIs Gateways           | KONG                      |
+|                         |                           |
+|                         | TYK                       |
++-------------------------+---------------------------+
 
 +:----------------------------------:+:-------------------------:+
 | **Tipo de MiddleWare**             | **Exemplo de Middleware** |
@@ -204,13 +208,13 @@ Fazem parte do cabedal de hadware das empresas:
 |                                    | soci (c++)                |
 +------------------------------------+---------------------------+
 
-+:------------------------:+:-------------------------:+
-| **Tipo de MiddleWare**   | **Exemplo de Middleware** |
-+--------------------------+---------------------------+
-| Computação Distribuida   | CORBA                     |
-|                          |                           |
-|                          | JAVA RMI                  |
-+--------------------------+---------------------------+
++:-----------------------:+:-------------------------:+
+| **Tipo de MiddleWare**  | **Exemplo de Middleware** |
++-------------------------+---------------------------+
+| Computação Distribuida  | CORBA                     |
+|                         |                           |
+|                         | JAVA RMI                  |
++-------------------------+---------------------------+
 
 #### Softwares de Virtualização
 
@@ -381,6 +385,28 @@ O Gerenciamento de Continuidade de Serviço de TI define e planeja todas as medi
 ![](images/InfraEstrutura/ITIL/10-Gestao_Financeira_servicos_TI.jpg)
 
 O Gerenciamento Financeiro para Serviços de TI garante o uso mais econômico dos recursos financeiros de TI e cobra dos clientes pela prestação de Serviços de TI. Durante este período, deve ser alcançada uma relação equilibrada entre qualidade e custos, tendo simultaneamente em conta os requisitos do cliente. A realização do planeamento orçamental regular e o apuramento dos meios financeiros aprovados é também uma das tarefas da Gestão Financeira.
+
+## Principais Certificações de TIC para analistas de infraestrutura iniciando na área em 2025:
+
++--------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Característica                 | ITIL® 4 Foundation                                                                                                                                             | COBIT® 2019 Foundation                                                                                                                                           | Cisco Certified Network Associate (CCNA)                                                                                                                                    |
++================================+================================================================================================================================================================+==================================================================================================================================================================+=============================================================================================================================================================================+
+| Organização                    | PeopleCert (em nome da AXELOS)                                                                                                                                 | ISACA®                                                                                                                                                           | Cisco Systems, Inc.                                                                                                                                                         |
++--------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Área Principal                 | Gerenciamento de Serviços de TI (ITSM)                                                                                                                         | Governança e Gestão de TI (EGIT)                                                                                                                                 | Redes de Computadores                                                                                                                                                       |
++--------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Foco                           | Melhores práticas para entregar e suportar serviços de TIC de forma eficaz e eficiente. Foco no valor para o negócio.                                          | Framework para alinhar a TIC com os objetivos de negócio, gerenciando riscos e recursos de forma otimizada.                                                      | Instalação, configuração, operação e troubleshooting de redes (switches e roteadores). Fundamentos de segurança e automação de redes.                                       |
++--------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Público-Alvo                   | Profissionais de TI em geral (suporte, operações, desenvolvimento, gestão), gerentes de projeto, analistas de negócio.                                         | Auditores de TI, gerentes de TI, profissionais de risco, conformidade (compliance) e segurança da informação, consultores.                                       | Técnicos de rede, administradores de rede, engenheiros de rede juniores, técnicos de suporte com foco em infraestrutura.                                                    |
++--------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Nível                          | Fundamental / Iniciante                                                                                                                                        | Fundamental / Iniciante                                                                                                                                          | Associado / Iniciante-Intermediário (bastante técnico)                                                                                                                      |
++--------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Principais Conceitos Abordados | Sistema de Valor de Serviço (SVS), 4 Dimensões do Gerenciamento de Serviços, Princípios Orientadores, Cadeia de Valor de Serviço, Práticas ITIL (visão geral). | Princípios do Sistema de Governança, Princípios do Framework de Governança, Domínios (APO, BAI, DSS, MEA), Objetivos de Governança e Gestão, Fatores de Desenho. | Modelo OSI e TCP/IP, Endereçamento IP (IPv4/IPv6), Sub-redes, Switching (VLANs, STP), Roteamento (OSPF), WLANs, NAT, DHCP, DNS, Fundamentos de Segurança, Automação básica. |
++--------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Benefício para Iniciantes      | Fornece linguagem comum e compreensão dos processos de entrega de serviços, útil em quase qualquer função de TI. Ajuda a entender como a TI agrega valor.      | Oferece visão sobre como a TI se encaixa na estratégia e nos controles do negócio. Valioso para quem se interessa por auditoria, segurança ou gestão.            | Desenvolve habilidades práticas e conhecimento técnico profundo em redes, essencial para funções de infraestrutura. Altamente reconhecida no mercado de redes.              |
++--------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Versão Atual (Maio 2025)       | ITIL 4                                                                                                                                                         | COBIT 2019                                                                                                                                                       | CCNA (Exam 200-301 é o atual, mas o nome da certificação é CCNA)                                                                                                            |
++--------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 ## Exercícios de Fixação
 

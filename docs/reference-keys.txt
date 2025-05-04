@@ -122,6 +122,7 @@ gestão-de-disponibilidade
 gestão-de-capacidade
 gestão-de-continuidade-de-serviços-tic
 gestão-financeira-para-serviços-de-ti
+principais-certificações-de-tic-para-analistas-de-infraestrutura-iniciando-na-área-em-2025
 exercícios-de-fixação
 testes-de-múltipla-escolha
 resposta-dos-testes-de-multipla-escolha
