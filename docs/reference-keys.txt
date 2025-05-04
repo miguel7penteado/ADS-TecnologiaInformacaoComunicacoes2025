@@ -145,6 +145,9 @@ performance-de-um-website
 performance-de-inicialização-de-clientes
 performance-de-inicialização-de-clientes-1
 performance-de-produtos
+exercícios-de-fixação-1
+testes-de-múltipla-escolha-1
+resposta-dos-testes-de-multipla-escolha-1
 tomada-de-decisão-de-gestão-do-conhecimento-business-inteligence
 bancos-de-dados
 modelo-conceitual-entidade-relacionamento-de-banco-de-dados
