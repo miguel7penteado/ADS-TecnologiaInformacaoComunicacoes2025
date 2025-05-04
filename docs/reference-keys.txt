@@ -123,7 +123,8 @@ gestão-de-capacidade
 gestão-de-continuidade-de-serviços-tic
 gestão-financeira-para-serviços-de-ti
 exercícios-de-fixação
-testes-de-multipla-escolha
+testes-de-múltipla-escolha
+resposta-dos-testes-de-multipla-escolha
 hardware---inventário
 referências-bibliográficas
 cobit---objetivos-de-controle-para-tecnologias-de-informação-e-relacionadas
