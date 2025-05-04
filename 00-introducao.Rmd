@@ -1,4 +1,4 @@
-# INTRODUÇÃO DA DISCIPLINA {.unnumbered} 
+# INTRODUÇÃO DA DISCIPLINA {.unnumbered}
 
 coming soon
 
@@ -267,7 +267,4 @@ TURMA até NP1
 | 132 | VICTOR EDUARDO RADIS DE SOUZA  | R192BB-4 | TI1P40 |
 | 133 | VICTOR SANTOS DE OLIVEIRA MARQ | R858GG-0 | TI1P40 |
 
-
 ### Marquês de São Vicente
-
-
