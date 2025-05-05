@@ -3,9 +3,9 @@ DROP SCHEMA IF EXISTS "estagio";
 
 CREATE SCHEMA "estagio"  AUTHORIZATION "miguel";
 
-DROP TABLE IF EXISTS  estagio.st_cliente;
+DROP TABLE IF EXISTS  "estagio".st_cliente;
 
-create table estagio.st_cliente
+create table "estagio".st_cliente
 (
 	idcliente integer   default null,
 	nome varchar(100)   default null,
@@ -17,9 +17,9 @@ create table estagio.st_cliente
 	regiao varchar(20)  default null
 );
 
-DROP TABLE IF EXISTS  estagio.st_vendedor;
+DROP TABLE IF EXISTS  "estagio".st_vendedor;
 
-create table estagio.st_vendedor
+create table "estagio".st_vendedor
 (
 	idvendedor integer  default null,
 	nome varchar(50)    default null,
@@ -27,25 +27,25 @@ create table estagio.st_vendedor
 	idgerente integer   default null
 );
 
-DROP TABLE IF EXISTS  estagio.st_categoria;
+DROP TABLE IF EXISTS  "estagio".st_categoria;
 
-create table estagio.st_categoria
+create table "estagio".st_categoria
 (
 	idcategoria integer          default null,
 	nome varchar(50)             default null
 );
 
-DROP TABLE IF EXISTS  estagio.st_fornecedor;
+DROP TABLE IF EXISTS  "estagio".st_fornecedor;
 
-create table estagio.st_fornecedor
+create table "estagio".st_fornecedor
 (
 	idfornecedor integer         default null,
 	nome varchar(100)            default null
 );
 
-DROP TABLE IF EXISTS  estagio.st_produto;
+DROP TABLE IF EXISTS  "estagio".st_produto;
 
-create table estagio.st_produto
+create table "estagio".st_produto
 (
 	idproduto integer            default null,
 	nome varchar(50)             default null,
@@ -54,24 +54,24 @@ create table estagio.st_produto
 	id_categoria integer         default null
 );
 
-DROP TABLE IF EXISTS  estagio.st_nota;
+DROP TABLE IF EXISTS  "estagio".st_nota;
 
-create table estagio.st_nota(
+create table "estagio".st_nota(
 	idnota integer default null
 );
 
-DROP TABLE IF EXISTS  estagio.st_forma;
+DROP TABLE IF EXISTS  "estagio".st_forma;
 
-create table estagio.st_forma(
+create table "estagio".st_forma(
 	idforma integer default null,
 	forma varchar(30) default null
 );
 
 
-DROP TABLE IF EXISTS  estagio.st_fato;
+DROP TABLE IF EXISTS  "estagio".st_fato;
 
 
-create table estagio.st_fato(
+create table "estagio".st_fato(
 	idcliente integer default null,
 	idvendedor integer default null,
 	idproduto integer default null,

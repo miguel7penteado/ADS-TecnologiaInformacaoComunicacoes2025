@@ -1,13 +1,13 @@
 
 
-DROP SCHEMA IF EXISTS "comercio-olap";
+DROP SCHEMA IF EXISTS "comercio-olap" CASCADE;
 
 CREATE SCHEMA "comercio-olap"  AUTHORIZATION "miguel";
 
 drop table if exists "comercio-olap".dim_vendedor cascade ;
 
 create table "comercio-olap".dim_vendedor(
-	idsk integer primary key ,
+	idsk integer not null,
 	idvendedor integer,
 	inicio timestamp,
 	fim timestamp,
@@ -15,26 +15,29 @@ create table "comercio-olap".dim_vendedor(
 	sexo varchar(20),
 	idgerente integer
 );
+alter table "comercio-olap".dim_vendedor add constraint "chave_primaria_dim_vendedor" primary key (idsk);
 
 drop table if exists "comercio-olap".dim_nota cascade ;
 
 create table "comercio-olap".dim_nota(
-	idsk integer primary key ,
+	idsk integer,
 	idnota integer
 );
+alter table "comercio-olap".dim_nota add constraint "chave_primaria_dim_nota" primary key (idsk);
 
 drop table if exists "comercio-olap".dim_forma cascade ;
 
 create table "comercio-olap".dim_forma(
-	idsk integer primary key ,
+	idsk integer,
 	idforma integer,
 	forma varchar(30)
 );
+alter table "comercio-olap".dim_forma add constraint "chave_primaria_dim_forma" primary key (idsk);
 
 drop table if exists "comercio-olap".dim_cliente cascade ;
 
 create table "comercio-olap".dim_cliente(
-	idsk integer primary key ,
+	idsk integer,
 	idcliente integer,
 	inicio timestamp,
 	fim timestamp,
@@ -46,43 +49,48 @@ create table "comercio-olap".dim_cliente(
 	estado varchar(10),
 	regiao varchar(20)
 );
+alter table "comercio-olap".dim_cliente add constraint "chave_primaria_dim_cliente" primary key (idsk);
 
 drop table if exists "comercio-olap".categoria cascade ;
 
 create table "comercio-olap".categoria(
-	idcategoria integer primary key,
+	idcategoria integer,
 	nome varchar(50)
 );
+alter table "comercio-olap".categoria add constraint "chave_primaria_categoria" primary key (idcategoria);
 
 drop table if exists "comercio-olap".dim_produto cascade ;
 
 create table "comercio-olap".dim_produto(
-	idsk integer primary key ,
+	idsk integer,
 	idproduto integer,
 	inicio timestamp,
 	fim timestamp,
 	nome varchar(50),
 	valor_unitario numeric(10,2) default null,
-	custo_medio numeric(10,2) default null,
-	id_categoria integer,
-	foreign key(id_categoria) references
-	categoria(idcategoria)
+	custo_medio numeric(10,2) default null	
 );
+alter table "comercio-olap".dim_produto add column id_categoria integer unique;
+alter table "comercio-olap".dim_produto add constraint "chave_primaria_dim_produto" primary key (idsk);
+alter table "comercio-olap".dim_produto add constraint "chave_estrangeira_dim_produto_categoria" foreign key (id_categoria) references "comercio-olap".categoria (idcategoria) ;
+
+
 
 drop table if exists "comercio-olap".dim_fornecedor cascade ;
 
 create table "comercio-olap".dim_fornecedor(
-	idsk integer primary key ,
+	idsk integer,
 	idfornecedor integer,
 	inicio timestamp,
 	fim timestamp,
 	nome varchar(30)
 );
+alter table "comercio-olap".dim_fornecedor add constraint "chave_primaria_dim_fornecedor" primary key (idsk);
 
 drop table if exists "comercio-olap".dim_tempo cascade ;
 
 create table "comercio-olap".dim_tempo( 
-    idsk integer primary key , 
+    idsk integer, 
     data date, 
     dia char(2), 
     diasemana varchar(10), 
@@ -95,22 +103,26 @@ create table "comercio-olap".dim_tempo(
 	fimsemana char(3),
 	datacompleta varchar(10)
 );
+alter table "comercio-olap".dim_tempo add constraint "chave_primaria_dim_tempo" primary key (idsk);
+
+
 
 drop table if exists "comercio-olap".fato cascade ;
 
 create table "comercio-olap".fato(
-	idnota integer references dim_nota(idsk),
-	idcliente integer references dim_cliente(idsk),
-	idvendedor integer references dim_vendedor(idsk),
-	idforma integer references dim_forma(idsk),
-	idproduto integer references dim_produto(idsk),
-	idfornecedor integer references dim_fornecedor(idsk),
-	idtempo integer references dim_tempo(idsk),
-	quantidade integer,
-	total_item numeric(10,2),
-	custo_total numeric(10,2),
-	lucro_total numeric(10,2)
+	idnota       integer references "comercio-olap".dim_nota(idsk),
+	idcliente    integer references "comercio-olap".dim_cliente(idsk),
+	idvendedor   integer references "comercio-olap".dim_vendedor(idsk),
+	idforma      integer references "comercio-olap".dim_forma(idsk),
+	idproduto    integer references "comercio-olap".dim_produto(idsk),
+	idfornecedor integer references "comercio-olap".dim_fornecedor(idsk),
+	idtempo      integer references "comercio-olap".dim_tempo(idsk),
+	quantidade   integer,
+	total_item   numeric(10,2),
+	custo_total  numeric(10,2),
+	lucro_total  numeric(10,2)
 );
+
 
 
 
