@@ -2,7 +2,7 @@
 
 ( Consultar livro LAUDON, Kenneth C.; LAUDON, Jane P. *Sistemas de informação gerenciais*. 11. ed. São Paulo: Pearson Education do Brasil, 2010. p. 180. )
 
-## Bancos de Dados
+## Introdução: Visitando a teoria de Bancos de Dados
 
 ![](images/5-bi/01-banco-de-dados.jpg){width="452"}
 
@@ -38,11 +38,11 @@ Segundo Laudon
 |              |                                   | no texto por um **substantivo**.       |
 +--------------+-----------------------------------+----------------------------------------+
 
-+:------------:+:-------------------------------------------:+:--------------------------------------------------------------------:+
-| **Nome**     | **Desenho**                                 | **Significado**                                                      |
-+--------------+---------------------------------------------+----------------------------------------------------------------------+
-| Atributo     | ![](images/5-bi/05-elipse.jpg){width="182"} | Representa uma coluna e é identificada no texto por um **adjetivo**. |
-+--------------+---------------------------------------------+----------------------------------------------------------------------+
++:-----------:+:-------------------------------------------:+:--------------------------------------------------------------------:+
+| **Nome**    | **Desenho**                                 | **Significado**                                                      |
++-------------+---------------------------------------------+----------------------------------------------------------------------+
+| Atributo    | ![](images/5-bi/05-elipse.jpg){width="182"} | Representa uma coluna e é identificada no texto por um **adjetivo**. |
++-------------+---------------------------------------------+----------------------------------------------------------------------+
 
 +:--------------:+:--------------------------------------------:+:----------------------------------------------:+
 | **Nome**       | **Desenho**                                  | **Significado**                                |
@@ -148,17 +148,17 @@ Mas Como indicar que cada elemento da tabela "Modelo" está associado a um eleme
 
 Considere as tabelas abaixo:
 
-+-----------------------+----------------------------------------------+
-| MontadoraID           | Montadora                                    |
-+:=====================:+:============================================:+
-| 1                     | Fiat                                         |
-+-----------------------+----------------------------------------------+
-| 2                     | Chevrolet                                    |
-+-----------------------+----------------------------------------------+
-| 3                     | Volkswagen                                   |
-+-----------------------+----------------------------------------------+
-| 4                     | Hyundai                                      |
-+-----------------------+----------------------------------------------+
++--------------------+-------------------------------------------+
+| MontadoraID        | Montadora                                 |
++:==================:+:=========================================:+
+| 1                  | Fiat                                      |
++--------------------+-------------------------------------------+
+| 2                  | Chevrolet                                 |
++--------------------+-------------------------------------------+
+| 3                  | Volkswagen                                |
++--------------------+-------------------------------------------+
+| 4                  | Hyundai                                   |
++--------------------+-------------------------------------------+
 
 | ModeloID |  Modelo   | MontadoraID |
 |:--------:|:---------:|:-----------:|
@@ -184,11 +184,17 @@ A coluna (atributo) **ModeloID** é a **chave primária** da tabela **Modelos.**
 
 Na tabela **Modelos**, a coluna **MontadoraID**, acrescentada a tabela Modelos representa a ligação de cada elemento da tabela Modelos e Montadoras. Essa coluna "importada" da tabela Montadoras para a tabela Modelos se chama **chave estrangeira**.
 
-
-
 ## Regimes de operação de um Banco de Dados Relacional
 
+Os Sistemas de Gerenciamento de Bancos de Dados Relacionais podem operar dentro de dois regimes de uso:
+
+-   OLTP
+
+-   OLAP
+
 ### Regime OLTP
+
+O regime de trabalho OLTP é voltado a **transações**, ou seja, os dados estão frequentemente sendo **lidos e escritos** e a **quantidade de dados trafegada é pequena**.
 
 > OLTP ou *Online Transaction Processing* (**Processamento de Transações Online**, em português) serve para designar os sistemas operacionais com dados transacionais. 
 
@@ -196,13 +202,136 @@ Na tabela **Modelos**, a coluna **MontadoraID**, acrescentada a tabela Modelos r
 
 ### Regime OLAP
 
+O regime de trabalho OLAP é voltado a **análises**, ou seja, os dados estão sendo **lidos esporadicamente** e a **quantidade de dados trafegada a cada leitura é grande**!
+
 > Por outro lado, o OLAP ou Online Analytical Processing (**Processamento Analítico Online**), é uma habilidade para executar dentro do Data Warehouse e realizar análises dos grandes volumes de dados.
 
 ![](images/5-bi/09-cubo3.jpg)
 
 ## Data Warehouse
 
+Para que um banco de dados relacional opere corretamente em regime de **análise** (OLAP, de onde vem o termo *analytics*), é necessário uma organização de tabelas voltada a esse propósito.
+
+Esse banco de dados organizado voltado a análise é o **Data Warehouse**.
+
+> Data Warehouse (DW) não é simplesmente um repositório de dados, mas sim um sistema complexo cujo principal objetivo é apoiar a tomada de decisão gerencial - Ralph Kimball - Datawarehouse Toolkit (2013)
+
+## Por que construir um Data Warehouse ?
+
+Frequentemente em um banco de dados relacional **operando em regime transacional** (OLTP), as tabelas são normalizadas.
+
+O Banco de Dados Transacional abaixo possui as seguintes tabelas:
+
+| CADASTROS            |
+|----------------------|
+| Produtos             |
+| Fornecedores         |
+| Categorias           |
+| Notas Fiscais        |
+| Endereço de Clientes |
+| Clientes             |
+| Formas de Pagamentos |
+| vendedores           |
+
+![](images/5-bi/11-Modelo-Fisico-OLTP.jpg)
+
+Verifique se os dados das tabelas abaixo conseguem resolver o caso do cliente abaixo:
+
+*Hoje vendemos muito, temos lucro, mas não sei qual categoria, fornecedor ou produto me dá mais lucro. Não estou interessado em quantidade. Preciso de analises sumarizadas. Hoje não me interessa saber quantas vendas tem um vendedor e sim o total vendido, pois os mesmos podem recomendar produtos para os nossos clientes. Também gostaria de sabe meus custos por sazonalidade. Preciso saber em que época do ano gasto mais para controlar meus investimentos em estoque ou contratações. Saber qual cliente compra mais comigo em termos totais também seria uma boa ideia. Outra necessidade é um relatório com os dados dos meus clientes, pois a enviar mala direta vai ser uma prática da empresa. Não estou seguro se uma análise por categoria ou fornecedor seria útil. A sua equipe também pode disponibilizar o que achar relevante para o negócio.*
+
+-   Quem são os melhores clientes?
+
+-   Quem são os melhores vendedores?
+
+-   Qual categoria rende mais?
+
+-   Qual a minha relação com os fornecedores?
+
+-   Qual meu pior e melhor produto?
+
+-   Em qual região eu vendo mais?
+
+### RESOLVENDO ANTES DE USAR BI: RELATÓRIOS:
+
+Se pensarmos na teoria dos conjuntos temos 7 deles: Produtos, Fornecedores, Categorias, Notas Fiscais, Endereço de Clientes, Clientes, Formas de Pagamentos, vendedores.
+
+Podemos pensar em um relatório de Vendas como sendo uma espécie produtos carteziano entre os conjuntos
+
+( **nota_fiscal** x **item_nota** x **cliente** x **vendedor** x **produto** x **forma_pagamento** x **fornecedor** )
+
+desde que os elementos de cada conjunto fossem todos "pareados" entre sí.
+
+O resultado seria:
+
+![](images/5-bi/10-Relatório.jpg){width="681" height="222"}
+
+Quem é o melhor Cliente ? **Cliente 633**
+
+Quem é o melhor Vendedor ? Empate entre o **vendedor** **24** e o **vendedor** **5**
+
+Qual categoria vende mais ? Produto da **categoria 427 e categoria 416**
+
+O problema: Gerar Relatórios consome recursos de memória e processamento no Banco.
+
+A solução: Criar um banco separado com os relatórios feitos: o **Data WareHouse**.
+
+## Anatomia de um Data Warehouse: o modelo Estrela (STAR)
+
+Um Banco de dados em disposição Data Warehouse é composto por dois tipos de tabelas principais que vão gerar os relatórios:
+
+TABELA FATO;
+
+TABELAS DE DIMENSÕES:
+
+### Tabela Fato
+
+A tabela fato é o coração do Modelo de banco de Dados Data WareHouse. Segundo Ralph Kimball
+
+> **A tabela fato armazena Métricas/Fatos, ou seja** armazena os dados quantitativos e numéricos que se deseja analisar. Estes são os *"fatos" do processo de negócio*, como `Valor_Venda`, `Quantidade_Itens`, `Custo_Produto`, `Numero_Chamadas`, `Duracao_Sessao.`
+
+A tabela Fato possui um conjunto de colunas que são **chaves estrangeiras (foreign keys)**. Cada uma dessas chaves aponta para a chave primária de uma das tabelas de dimensão associadas. É através dessas chaves que a tabela fato se conecta às tabelas de dimensão que fornecem o contexto descritivo para os fatos.
+
+### Tabelas Dimensões
+
+As tabelas Dimensões são as fiéis companheiras de uma Tabela Fato no modelo de banco de Dados Data WareHouse. Segundo Ralph Kimball
+
+**As tabelas Dimensões contém atributos descritivos, ou seja** armazena os atributos textuais e categóricos que descrevem os aspectos do negócio. São eles que respondem às perguntas "quem, o quê, onde, quando, como, por quê" sobre os fatos. Exemplos incluem `Nome_Cliente`, `Cidade_Cliente`, `Nome_Produto`, `Categoria_Produto`, `Marca`, `Nome_Loja`, `Data_Completa`, `Dia_Semana`, `Mes`, `Ano`, etc.
+
+Considere o **Data WareHouse** abaixo:
+
+| Tabela Fato: | Tabelas de Dimensões: |
+|----|----|
+| fato | dim_cliente, dim_forma, dim_fornecedor, dim_nota, dim_produto, dim_tempo, dim_vendedor |
+
+![](images/5-bi/12-Modelo-Fisico-OLAP.jpg)
+
+## Quais as etapas para construir um Data WareHouse
+
+### 1 - Modelar um SGBD o mais desnormalizado possível
+
+As tabelas do Bando de dados Relacional devem estar o mais normalizadas possível para que se possa gerar relatórios com SQL.
+
+### 2 - Criar um Banco de dados ou esquema de Estágio
+
+A Área de Estágio deve ser uma cópia das tabelas Fatos e Dimensões do **Data WareHouse** **sem regras de integridade**;
+
+O processo de se Transferir dados das tabelas **OLTP** para **Área de Estágio** e, em seguida, para o **Data WareHouse** é chamado de **ETL** ( Extração, Transformação e Carga);
+
+### 3 - Modelar um Data WareHouse criando sua tabela Fato e suas Tabelas Dimensões
+
+A **tabela Fato** deve ser modelada enquadrando os eventos em janelas de tempo (meses, semanas, dias, anos); Exempo: **Vendas x Dia , Vendas x Semana, Vendas x Mês , Vendas x Ano.**
+
+As **tabelas de Dimensões** são praticamente cópias das tabelas de cadastros; Podem ter algum grau de Desnormalização (ex Tabela Cliente e Tabela endereço podem ser fundidas em uma tabela única denominada dim_Clientes);
+
+![](images/5-bi/13-SGBD-Relacional.jpg){width="350"}
+
+Nota: Verificar scripts SQL na pasta "**exercicios**\\**BusinessInteligence\\01**"
+
 ## Cubos
+
+São porções das tabelas do Data WareHouse que são carregadas em memória.
+
+![](images/5-bi/09-cubo.jpg){width="196"}
 
 +----------------+------------------------------------------+---------------------------------------------+
 | Característica | Data Warehouse (DW)                      | Cubo                                        |
@@ -222,4 +351,6 @@ Na tabela **Modelos**, a coluna **MontadoraID**, acrescentada a tabela Modelos r
 
 ## Referências:
 
-##### [1] - LAUDON, Kenneth C.; LAUDON, Jane P. \*Sistemas de informação gerenciais\*. 11. ed. São Paulo: Pearson Education do Brasil, 2010. p. 180.
+**[1] - LAUDON, Kenneth C.; LAUDON, Jane P. \*Sistemas de informação gerenciais\*. 11. ed. São Paulo: Pearson Education do Brasil, 2010. p. 180.**
+
+**[2] - KIMBALL, Ralph; ROSS, Margy. The Data Warehouse Toolkit: The Definitive Guide to Dimensional Modeling. 3. ed. Hoboken, NJ: John Wiley & Sons, 2013.**

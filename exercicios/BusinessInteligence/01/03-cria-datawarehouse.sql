@@ -7,7 +7,7 @@ CREATE SCHEMA "comercio-olap"  AUTHORIZATION "miguel";
 drop table if exists "comercio-olap".dim_vendedor cascade ;
 
 create table "comercio-olap".dim_vendedor(
-	idsk integer not null,
+	idsk integer GENERATED ALWAYS AS IDENTITY,
 	idvendedor integer,
 	inicio timestamp,
 	fim timestamp,
@@ -20,7 +20,7 @@ alter table "comercio-olap".dim_vendedor add constraint "chave_primaria_dim_vend
 drop table if exists "comercio-olap".dim_nota cascade ;
 
 create table "comercio-olap".dim_nota(
-	idsk integer,
+	idsk integer GENERATED ALWAYS AS IDENTITY,
 	idnota integer
 );
 alter table "comercio-olap".dim_nota add constraint "chave_primaria_dim_nota" primary key (idsk);
@@ -28,7 +28,7 @@ alter table "comercio-olap".dim_nota add constraint "chave_primaria_dim_nota" pr
 drop table if exists "comercio-olap".dim_forma cascade ;
 
 create table "comercio-olap".dim_forma(
-	idsk integer,
+	idsk integer GENERATED ALWAYS AS IDENTITY,
 	idforma integer,
 	forma varchar(30)
 );
@@ -37,7 +37,7 @@ alter table "comercio-olap".dim_forma add constraint "chave_primaria_dim_forma" 
 drop table if exists "comercio-olap".dim_cliente cascade ;
 
 create table "comercio-olap".dim_cliente(
-	idsk integer,
+	idsk integer GENERATED ALWAYS AS IDENTITY,
 	idcliente integer,
 	inicio timestamp,
 	fim timestamp,
@@ -62,7 +62,7 @@ alter table "comercio-olap".categoria add constraint "chave_primaria_categoria" 
 drop table if exists "comercio-olap".dim_produto cascade ;
 
 create table "comercio-olap".dim_produto(
-	idsk integer,
+	idsk integer GENERATED ALWAYS AS IDENTITY,
 	idproduto integer,
 	inicio timestamp,
 	fim timestamp,
@@ -70,7 +70,7 @@ create table "comercio-olap".dim_produto(
 	valor_unitario numeric(10,2) default null,
 	custo_medio numeric(10,2) default null	
 );
-alter table "comercio-olap".dim_produto add column id_categoria integer unique;
+alter table "comercio-olap".dim_produto add column id_categoria integer;
 alter table "comercio-olap".dim_produto add constraint "chave_primaria_dim_produto" primary key (idsk);
 alter table "comercio-olap".dim_produto add constraint "chave_estrangeira_dim_produto_categoria" foreign key (id_categoria) references "comercio-olap".categoria (idcategoria) ;
 
@@ -79,7 +79,7 @@ alter table "comercio-olap".dim_produto add constraint "chave_estrangeira_dim_pr
 drop table if exists "comercio-olap".dim_fornecedor cascade ;
 
 create table "comercio-olap".dim_fornecedor(
-	idsk integer,
+	idsk integer GENERATED ALWAYS AS IDENTITY,
 	idfornecedor integer,
 	inicio timestamp,
 	fim timestamp,
@@ -90,7 +90,7 @@ alter table "comercio-olap".dim_fornecedor add constraint "chave_primaria_dim_fo
 drop table if exists "comercio-olap".dim_tempo cascade ;
 
 create table "comercio-olap".dim_tempo( 
-    idsk integer, 
+    idsk integer GENERATED ALWAYS AS IDENTITY, 
     data date, 
     dia char(2), 
     diasemana varchar(10), 

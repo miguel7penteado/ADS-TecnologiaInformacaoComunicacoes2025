@@ -52,7 +52,7 @@ create table "comercio-oltp".vendedor(
 	email varchar(30) not null
 );
 
-alter table "comercio-oltp".vendedor add column id_gerente integer unique;
+alter table "comercio-oltp".vendedor add column id_gerente integer;
 alter table "comercio-oltp".vendedor add constraint "chave_primaria_vendedor" primary key (idvendedor);
 alter table "comercio-oltp".vendedor add constraint "chave_estrangeira_vendedor_gerente" foreign key (id_gerente) references "comercio-oltp".gerente (idgerente) ;
  
@@ -79,7 +79,7 @@ drop table if exists "comercio-oltp".produto cascade;
 
 create table "comercio-oltp".produto(
 	idproduto int generated always as identity,
-	protudo varchar(100) not null,
+	produto varchar(100) not null,
 	valor numeric(10,2) not null,
 	custo_medio numeric(10,2)
 );
@@ -119,9 +119,9 @@ create table "comercio-oltp".item_nota(
 	total numeric(10,2)
 );
 
-alter table "comercio-oltp".item_nota add column id_produto     integer unique;
-alter table "comercio-oltp".item_nota add column id_nota_fiscal integer unique;
-alter table "comercio-oltp".item_nota add constraint "chave_primaria_item_nota" primary key (iditemnota);
+alter table "comercio-oltp".item_nota add column id_produto     integer;
+alter table "comercio-oltp".item_nota add column id_nota_fiscal integer;
+alter table "comercio-oltp".item_nota add constraint "chave_primaria_item_nota" primary key (id_produto,id_nota_fiscal);
 alter table "comercio-oltp".item_nota add constraint "chave_estrangeira_item_nota_produto"    foreign key (id_produto)     references "comercio-oltp".produto  (idproduto);
 alter table "comercio-oltp".item_nota add constraint "chave_estrangeira_item_nota_nota_fiscal" foreign key (id_nota_fiscal) references "comercio-oltp".nota_fiscal (idnota);
 
