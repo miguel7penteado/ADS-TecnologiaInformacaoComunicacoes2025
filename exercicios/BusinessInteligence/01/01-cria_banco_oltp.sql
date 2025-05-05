@@ -37,9 +37,9 @@ drop table if exists "comercio-oltp".gerente cascade;
 
 create table "comercio-oltp".gerente(
 	idgerente int generated always as identity,
-	nome varchar(30) not null,
+	nome varchar(200) not null,
 	sexo char(1) not null,
-	email varchar(30) not null
+	email varchar(200) not null
 );
 alter table "comercio-oltp".gerente add constraint "chave_primaria_gerente" primary key (idgerente);
 

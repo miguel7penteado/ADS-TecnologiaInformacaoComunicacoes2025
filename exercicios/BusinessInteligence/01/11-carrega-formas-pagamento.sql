@@ -1,0 +1,28 @@
+delete from "comercio-oltp".forma_pagamento;
+
+insert into  "comercio-oltp".forma_pagamento( forma) values('tranferência - vista');
+insert into  "comercio-oltp".forma_pagamento( forma) values('depósito - vista');
+insert into  "comercio-oltp".forma_pagamento( forma) values('boleto - vista');
+insert into  "comercio-oltp".forma_pagamento( forma) values('cartão master - vencimento');
+insert into  "comercio-oltp".forma_pagamento( forma) values('cartão master 2 vezes');
+insert into  "comercio-oltp".forma_pagamento( forma) values('cartão master 3 vezes');
+insert into  "comercio-oltp".forma_pagamento( forma) values('cartão master 4 vezes');
+insert into  "comercio-oltp".forma_pagamento( forma) values('cartão master 5 vezes');
+insert into  "comercio-oltp".forma_pagamento( forma) values('cartão master 10 vezes');
+insert into  "comercio-oltp".forma_pagamento( forma) values('cartão visa - vencimento');
+insert into  "comercio-oltp".forma_pagamento( forma) values('cartão visa 2 vezes');
+insert into  "comercio-oltp".forma_pagamento( forma) values('cartão visa 3 vezes');
+insert into  "comercio-oltp".forma_pagamento( forma) values('cartão visa 4 vezes');
+insert into  "comercio-oltp".forma_pagamento( forma) values('cartão visa 5 vezes');
+insert into  "comercio-oltp".forma_pagamento( forma) values('cartão visa 10 vezes');
+insert into  "comercio-oltp".forma_pagamento( forma) values('cartão american - vencimento');
+insert into  "comercio-oltp".forma_pagamento( forma) values('cartão american 5 vezes');
+insert into  "comercio-oltp".forma_pagamento( forma) values('cartão american 10 vezes');
+insert into  "comercio-oltp".forma_pagamento( forma) values('cartão american 12 vezes');
+insert into  "comercio-oltp".forma_pagamento( forma) values('pay pall - vista');
+insert into  "comercio-oltp".forma_pagamento( forma) values('cartão visa 2 vezes');
+insert into  "comercio-oltp".forma_pagamento( forma) values('cartão visa 3 vezes');
+insert into  "comercio-oltp".forma_pagamento( forma) values('cartão visa 4 vezes');
+insert into  "comercio-oltp".forma_pagamento( forma) values('pay pall - 5 vezes');
+insert into  "comercio-oltp".forma_pagamento( forma) values('pay pall - 12 vezes');
+insert into  "comercio-oltp".forma_pagamento( forma) values('pagamento seguro web - vista');
