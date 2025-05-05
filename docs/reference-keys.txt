@@ -150,7 +150,7 @@ exercícios-de-fixação-1
 testes-de-múltipla-escolha-1
 resposta-dos-testes-de-multipla-escolha-1
 tomada-de-decisão-de-gestão-do-conhecimento-business-inteligence
-bancos-de-dados
+introdução-visitando-a-teoria-de-bancos-de-dados
 modelo-conceitual-entidade-relacionamento-de-banco-de-dados
 composição-e-significado-do-diagrama-entidade-relacionamento-der
 geração-do-modelo-físico-para-aplica-lo-ao-sgbd-sistema-de-gerenciamento-de-banco-de-dados
@@ -161,9 +161,17 @@ regimes-de-operação-de-um-banco-de-dados-relacional
 regime-oltp
 regime-olap
 data-warehouse
+por-que-construir-um-data-warehouse
+resolvendo-antes-de-usar-bi-relatórios
+anatomia-de-um-data-warehouse-o-modelo-estrela-star
+tabela-fato
+tabelas-dimensões
+quais-as-etapas-para-construir-um-data-warehouse
+modelar-um-sgbd-o-mais-desnormalizado-possível
+criar-um-banco-de-dados-ou-esquema-de-estágio
+modelar-um-data-warehouse-criando-sua-tabela-fato-e-suas-tabelas-dimensões
 cubos
 referências
-laudon-kenneth-c.-laudon-jane-p.-sistemas-de-informação-gerenciais.-11.-ed.-são-paulo-pearson-education-do-brasil-2010.-p.-180.
 tecnologias-emergentes-e-inovação-em-tic
 virtualização-e-continentização
 big-data
