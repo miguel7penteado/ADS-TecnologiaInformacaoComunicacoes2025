@@ -2,6 +2,10 @@
 
 ( Consultar livro LAUDON, Kenneth C.; LAUDON, Jane P. *Sistemas de informação gerenciais*. 11. ed. São Paulo: Pearson Education do Brasil, 2010. p. 180. )
 
+O que é Business Inteligente (Inteligência Empresaria) ?
+
+> Business Intelligence (BI) refere-se à **infraestrutura para coletar, armazenar, analisar e fornecer dados que podem ajudar os gerentes a tomar melhores decisões**. Essencialmente, BI transforma dados brutos em informações úteis e insights para apoiar a tomada de decisão organizacional. **[2] Ralph Kimball - Datawarehouse Toolkit (2013)**
+
 ## Introdução: Visitando a teoria de Bancos de Dados
 
 ![](images/5-bi/01-banco-de-dados.jpg){width="452"}
@@ -148,17 +152,17 @@ Mas Como indicar que cada elemento da tabela "Modelo" está associado a um eleme
 
 Considere as tabelas abaixo:
 
-+--------------------+-------------------------------------------+
-| MontadoraID        | Montadora                                 |
-+:==================:+:=========================================:+
-| 1                  | Fiat                                      |
-+--------------------+-------------------------------------------+
-| 2                  | Chevrolet                                 |
-+--------------------+-------------------------------------------+
-| 3                  | Volkswagen                                |
-+--------------------+-------------------------------------------+
-| 4                  | Hyundai                                   |
-+--------------------+-------------------------------------------+
++-------------------+------------------------------------------+
+| MontadoraID       | Montadora                                |
++:=================:+:========================================:+
+| 1                 | Fiat                                     |
++-------------------+------------------------------------------+
+| 2                 | Chevrolet                                |
++-------------------+------------------------------------------+
+| 3                 | Volkswagen                               |
++-------------------+------------------------------------------+
+| 4                 | Hyundai                                  |
++-------------------+------------------------------------------+
 
 | ModeloID |  Modelo   | MontadoraID |
 |:--------:|:---------:|:-----------:|
@@ -214,7 +218,7 @@ Para que um banco de dados relacional opere corretamente em regime de **análise
 
 Esse banco de dados organizado voltado a análise é o **Data Warehouse**.
 
-> Data Warehouse (DW) não é simplesmente um repositório de dados, mas sim um sistema complexo cujo principal objetivo é apoiar a tomada de decisão gerencial - Ralph Kimball - Datawarehouse Toolkit (2013)
+> Data Warehouse (DW) não é simplesmente um repositório de dados, mas sim um sistema complexo cujo principal objetivo é apoiar a tomada de decisão gerencial - **[2] Ralph Kimball - Datawarehouse Toolkit (2013)**
 
 ## Por que construir um Data Warehouse ?
 
@@ -299,9 +303,11 @@ As tabelas Dimensões são as fiéis companheiras de uma Tabela Fato no modelo d
 
 Considere o **Data WareHouse** abaixo:
 
-| Tabela Fato: | Tabelas de Dimensões: |
-|----|----|
-| fato | dim_cliente, dim_forma, dim_fornecedor, dim_nota, dim_produto, dim_tempo, dim_vendedor |
++----------------------------------+----------------------------------------------------------------------------------------+
+| Tabela Fato:                     | Tabelas de Dimensões:                                                                  |
++==================================+========================================================================================+
+| fato                             | dim_cliente, dim_forma, dim_fornecedor, dim_nota, dim_produto, dim_tempo, dim_vendedor |
++----------------------------------+----------------------------------------------------------------------------------------+
 
 ![](images/5-bi/12-Modelo-Fisico-OLAP.jpg)
 
